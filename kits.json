@@ -1,0 +1,991 @@
+{
+  "version": 1,
+  "last_updated": "2026-04-22",
+  "leagues": {
+    "argentine_primera": {
+      "id": "argentine_primera",
+      "name": "Argentine Primera Division",
+      "logo": "https://r2.thesportsdb.com/images/media/league/badge/rk9xhx1768238251.png"
+    },
+    "brasileirao": {
+      "id": "brasileirao",
+      "name": "Brasileirao",
+      "logo": "https://r2.thesportsdb.com/images/media/league/badge/lywv7t1766787179.png"
+    },
+    "bundesliga": {
+      "id": "bundesliga",
+      "name": "Bundesliga",
+      "logo": "https://r2.thesportsdb.com/images/media/league/badge/teqh1b1679952008.png",
+      "is_popular": true
+    },
+    "eredivisie": {
+      "id": "eredivisie",
+      "name": "Dutch Eredivisie",
+      "logo": "https://r2.thesportsdb.com/images/media/league/badge/5cdsu21725984946.png"
+    },
+    "international": {
+      "id": "international",
+      "name": "International",
+      "logo": "https://r2.thesportsdb.com/images/media/league/badge/e7er5g1696521789.png",
+      "is_popular": true
+    },
+    "la_liga": {
+      "id": "la_liga",
+      "name": "La Liga",
+      "logo": "https://r2.thesportsdb.com/images/media/league/badge/ja4it51687628717.png",
+      "is_popular": true
+    },
+    "liga_1_peru": {
+      "id": "liga_1_peru",
+      "name": "Liga 1 Peru",
+      "logo": "https://r2.thesportsdb.com/images/media/league/badge/1ujpwc1580040216.png"
+    },
+    "mls": {
+      "id": "mls",
+      "name": "Major League Soccer",
+      "logo": "https://r2.thesportsdb.com/images/media/league/badge/dqo6r91549878326.png",
+      "is_popular": true
+    },
+    "premier_league": {
+      "id": "premier_league",
+      "name": "Premier League",
+      "logo": "https://r2.thesportsdb.com/images/media/league/badge/gasy9d1737743125.png",
+      "is_popular": true
+    },
+    "saudi_pro_league": {
+      "id": "saudi_pro_league",
+      "name": "Saudi-Arabian Pro League",
+      "logo": "https://r2.thesportsdb.com/images/media/league/badge/w67i621701772123.png",
+      "is_popular": true
+    },
+    "serie_a": {
+      "id": "serie_a",
+      "name": "Serie A",
+      "logo": "https://r2.thesportsdb.com/images/media/league/badge/67q3q21679951383.png",
+      "is_popular": true
+    },
+    "super_lig": {
+      "id": "super_lig",
+      "name": "Turkish Super Lig",
+      "logo": "https://r2.thesportsdb.com/images/media/league/badge/h7xx231601671132.png",
+      "is_popular": true
+    },
+    "ligue_1": {
+      "id": "ligue_1",
+      "name": "Ligue 1",
+      "logo": "https://r2.thesportsdb.com/images/media/league/badge/9f7z9d1742983155.png",
+      "is_popular": true
+    }
+  },
+  "teams": {
+    "ac_milan": {
+      "name": "AC Milan",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/wvspur1448806617.png",
+      "league": "serie_a",
+      "is_popular": true,
+      "seasons": {
+        "2023-24": {
+          "away": "https://kitdls.net/wp-content/uploads/2023/12/Kit-AC-Milan-Away-2023-2024-DLS-24.png",
+          "gk_home": "https://kitdls.net/wp-content/uploads/2023/12/Kit-AC-Milan-GK-2023-2024-DLS-24.png",
+          "home": "https://kitdls.net/wp-content/uploads/2023/12/Kit-AC-Milan-Home-2023-2024-DLS-24.png",
+          "third": "https://kitdls.net/wp-content/uploads/2023/12/Kit-AC-Milan-Third-2023-2024-DLS-24.png"
+        },
+        "2024-25": {
+          "away": "https://kitdls.net/wp-content/uploads/2024/05/AC-Milan-Away-Kit-2024-2025-DLS-24.png",
+          "gk_home": "https://kitdls.net/wp-content/uploads/2024/05/AC-Milan-GK-Kit-2024-2025-DLS-24.png",
+          "home": "https://kitdls.net/wp-content/uploads/2024/03/AC-Milan-Home-Kit-2024-2025-DLS-24.png",
+          "third": "https://kitdls.net/wp-content/uploads/2024/03/AC-Milan-Third-Kit-2024-2025-DLS-24.png"
+        },
+        "2025-26": {
+          "away": "https://kitdls.net/wp-content/uploads/2025/03/AC-Milan-Away-Kit-25-26-DLS-25.png",
+          "home": "https://kitdls.net/wp-content/uploads/2025/03/AC-Milan-Home-Kit-25-26-DLS-25.png",
+          "third": "https://kitdls.net/wp-content/uploads/2025/03/AC-Milan-Third-Kit-25-26-DLS-25.png",
+          "unknown": "https://i.imgur.com/kute7Yr.png"
+        }
+      }
+    },
+    "ajax": {
+      "name": "Ajax",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/zg9tii1755495289.png",
+      "league": "eredivisie",
+      "seasons": {
+        "2025-26": {
+          "unknown": "https://i.imgur.com/RX6HWmA.png"
+        }
+      }
+    },
+    "al_nassr": {
+      "name": "Al-Nassr",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/84yvqi1748524565.png",
+      "league": "saudi_pro_league",
+      "is_popular": true,
+      "seasons": {
+        "2023-24": {
+          "away": "https://kitdls.net/wp-content/uploads/2023/12/Kit-AL-Nassr-Away-2023-2024-DLS-24.png",
+          "gk_home": "https://kitdls.net/wp-content/uploads/2023/12/Kit-AL-Nassr-GK-2023-2024-DLS-24.png",
+          "home": "https://kitdls.net/wp-content/uploads/2023/12/Kit-AL-Nassr-Home-2023-2024-DLS-24-1.png"
+        },
+        "2024-25": {
+          "away": "https://ftsdlskits.com/wp-content/uploads/2024/08/Al-Nassr-FC-kit-dls-2025-away-300x300.png",
+          "gk_away": "https://ftsdlskits.com/wp-content/uploads/2024/08/Al-Nassr-FC-kit-dls-2025-gk-away-100x100.png",
+          "gk_home": "https://ftsdlskits.com/wp-content/uploads/2024/08/Al-Nassr-FC-kit-dls-2025-gk-home-300x300.png",
+          "gk_third": "https://ftsdlskits.com/wp-content/uploads/2024/08/Al-Nassr-FC-kit-dls-2025-gk-third-300x300.png",
+          "home": "https://ftsdlskits.com/wp-content/uploads/2024/08/Al-Nassr-FC-kit-dls-2025-home.png",
+          "third": "https://kitdls.net/wp-content/uploads/2024/03/Al-Nassr-Third-Kit-2024-2025-DLS-24.png",
+          "unknown": "https://i.imgur.com/ycE5NQl.png"
+        },
+        "2025-26": {
+          "away": "https://ftsdlskits.com/wp-content/uploads/2025/09/Al-Nassr-kit-dls-2026-away-300x300.png",
+          "gk_away": "https://ftsdlskits.com/wp-content/uploads/2025/09/Al-Nassr-kit-dls-2026-gk-away-300x300.png",
+          "gk_home": "https://ftsdlskits.com/wp-content/uploads/2025/09/Al-Nassr-kit-dls-2026-gk-home-300x300.png",
+          "gk_third": "https://ftsdlskits.com/wp-content/uploads/2025/09/Al-Nassr-kit-dls-2026-gk-third-300x300.png",
+          "home": "https://ftsdlskits.com/wp-content/uploads/2025/05/Colon-FL-Kit-2024-Home-100x100.png",
+          "third": "https://ftsdlskits.com/wp-content/uploads/2025/01/Al-Nassr-F.C-kit-dls-2025-third-temp-300x300.png",
+          "unknown": "https://i.imgur.com/7DmdPV5.png"
+        },
+        "2026-27": {
+          "unknown": "https://i.imgur.com/66VAJVf.png"
+        }
+      }
+    },
+    "argentina": {
+      "name": "Argentina",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/1c8m0g1687707876.png",
+      "league": "international",
+      "is_popular": true,
+      "seasons": {
+        "2023-24": {
+          "away": "https://kitdls.net/wp-content/uploads/2023/12/Kit-Argentina-Away-2023-2024-DLS-24.png",
+          "gk_away": "https://kitdls.net/wp-content/uploads/2023/12/Kit-Argentina-GK-Away-2023-2024-DLS-24.png",
+          "gk_home": "https://kitdls.net/wp-content/uploads/2023/12/Kit-Argentina-GK-Home-2023-2024-DLS-24.png",
+          "gk_third": "https://kitdls.net/wp-content/uploads/2023/12/Kit-Argentina-GK-Third-2023-2024-DLS-24.png",
+          "home": "https://kitdls.net/wp-content/uploads/2023/12/Kit-Argentina-Home-2023-2024-DLS-24.png"
+        },
+        "2024-25": {
+          "away": "https://kitdls.net/wp-content/uploads/2024/08/Argentina-Away-Kit-Messi-2024-2025-DLS-24.png",
+          "home": "https://kitdls.net/wp-content/uploads/2024/03/Argentina-Home-Kit-Messi-2024-2025-DLS-24.png"
+        },
+        "2025-26": {
+          "home": "https://kitdls.net/wp-content/uploads/2025/03/Argentina-Home-Kit-2026-DLS.png"
+        },
+        "2026-27": {
+          "away": "https://kitdls.net/wp-content/uploads/2026/01/Argentina-Away-Kit-2026-DLS.png",
+          "gk_home": "https://kitdls.net/wp-content/uploads/2026/01/Argentina-GK-Kit-2026-DLS.png",
+          "home": "https://kitdls.net/wp-content/uploads/2026/01/Argentina-Home-Kit-2026-DLS-2.png"
+        }
+      }
+    },
+    "arsenal": {
+      "name": "Arsenal",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/uyhbfe1612467038.png",
+      "league": "premier_league",
+      "is_popular": true,
+      "seasons": {
+        "2023-24": {
+          "away": "https://kitdls.net/wp-content/uploads/2023/12/kit-arsenal-2023-2024-away-dls2024.png",
+          "gk_home": "https://kitdls.net/wp-content/uploads/2023/12/kit-arsenal-2023-2024-gk2-dls2024.png",
+          "home": "https://kitdls.net/wp-content/uploads/2023/12/kit-arsenal-2023-2024-home-dls2024.png",
+          "third": "https://kitdls.net/wp-content/uploads/2023/12/kit-arsenal-2023-2024-third-dls2024.png",
+          "unknown": "https://kitdls.net/wp-content/uploads/2023/12/kit-arsenal-2023-2024-gk3-dls2024-300x300.png"
+        },
+        "2024-25": {
+          "away": "https://ftsdlskits.com/wp-content/uploads/2024/07/Arsenal-FC-kit-dls-2025-away-300x300.png",
+          "gk_away": "https://ftsdlskits.com/wp-content/uploads/2024/07/Arsenal-FC-kit-dls-2025-gk-away-300x300.png",
+          "gk_home": "https://ftsdlskits.com/wp-content/uploads/2024/07/Arsenal-FC-kit-dls-2025-gk-home-1-300x300.png",
+          "gk_third": "https://ftsdlskits.com/wp-content/uploads/2024/07/Arsenal-FC-kit-dls-2025-gk-third-300x300.png",
+          "home": "https://ftsdlskits.com/wp-content/uploads/2024/07/Arsenal-FC-kit-dls-2025-home.png",
+          "third": "https://ftsdlskits.com/wp-content/uploads/2024/05/Arsenal-F.C-kit-dls-2025-third-temp-300x300.png"
+        },
+        "2025-26": {
+          "away": "https://ftsdlskits.com/wp-content/uploads/2025/08/Arsenal-kit-dls-2026-away-leaked-300x300.png",
+          "gk_away": "https://ftsdlskits.com/wp-content/uploads/2025/07/Arsenal-kit-dls-2026-gk-away-300x300.png",
+          "gk_home": "https://ftsdlskits.com/wp-content/uploads/2025/07/Arsenal-kit-dls-2026-gk-home-300x300.png",
+          "gk_third": "https://ftsdlskits.com/wp-content/uploads/2025/07/Arsenal-kit-dls-2026-gk-third-300x300.png",
+          "home": "https://ftsdlskits.com/wp-content/uploads/2025/07/Arsenal-kit-dls-2026-home.png",
+          "third": "https://ftsdlskits.com/wp-content/uploads/2025/08/Arsenal-kit-dls-2026-third-leaked-300x300.png",
+          "unknown": "https://i.imgur.com/S5dk5H9.png"
+        },
+        "2026-27": {
+          "unknown": "https://i.imgur.com/X0phG6e.png"
+        }
+      }
+    },
+    "atletico_madrid": {
+      "name": "Atlético Madrid",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/0ulh3q1719984315.png",
+      "league": "la_liga",
+      "is_popular": true,
+      "seasons": {
+        "2025-26": {
+          "unknown": "https://i.imgur.com/y0X28e9.png"
+        }
+      }
+    },
+    "atletico_tucuman": {
+      "name": "Atlético Tucumán",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/m5i2q21775755577.png",
+      "league": "argentine_primera",
+      "seasons": {
+        "2025-26": {
+          "away": "https://ftsdlskits.com/wp-content/uploads/2025/05/Atletico-Tucuman-FL-Kit-2024-Away-200x300.png",
+          "gk_away": "https://ftsdlskits.com/wp-content/uploads/2025/05/Atletico-Tucuman-FL-Kit-2024-GK-Away-200x300.png",
+          "gk_home": "https://ftsdlskits.com/wp-content/uploads/2025/05/Atletico-Tucuman-FL-Kit-2024-GK-Home-200x300.png",
+          "home": "https://ftsdlskits.com/wp-content/uploads/2025/05/Atletico-Tucuman-FL-Kit-2024-Home.png",
+          "unknown": "https://i.imgur.com/F9Kwmfc.png"
+        }
+      }
+    },
+    "banfield": {
+      "name": "Banfield",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/c2ea011775756104.png",
+      "league": "argentine_primera",
+      "seasons": {
+        "2025-26": {
+          "away": "https://ftsdlskits.com/wp-content/uploads/2025/05/CA-Banfield-FL-Kit-2024-Away-200x300.png",
+          "gk_away": "https://ftsdlskits.com/wp-content/uploads/2025/05/CA-Banfield-FL-Kit-2024-GK-Away-200x300.png",
+          "gk_home": "https://ftsdlskits.com/wp-content/uploads/2025/05/CA-Banfield-FL-Kit-2024-GK-Home-200x300.png",
+          "home": "https://ftsdlskits.com/wp-content/uploads/2025/05/CA-Banfield-FL-Kit-2024-Home.png",
+          "unknown": "https://i.imgur.com/NhoHNw7.png"
+        }
+      }
+    },
+    "barcelona": {
+      "name": "Barcelona",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/wq9sir1639406443.png",
+      "league": "la_liga",
+      "is_popular": true,
+      "seasons": {
+        "2023-24": {
+          "away": "https://kitdls.net/wp-content/uploads/2023/12/kit-barcelona-away-2023-2024-dls-2024.png",
+          "gk_home": "https://kitdls.net/wp-content/uploads/2023/12/kit-barcelona-gk1-2023-2024-dls-2024.png",
+          "home": "https://kitdls.net/wp-content/uploads/2023/12/kit-barcelona-home-2023-2024-dls-2024.png",
+          "third": "https://kitdls.net/wp-content/uploads/2023/12/kit-barcelona-third-2023-2024-dls-2024.png",
+          "unknown": "https://kitdls.net/wp-content/uploads/2023/12/kit-barcelona-gk2-2023-2024-dls-2024-300x300.png"
+        },
+        "2024-25": {
+          "away": "https://ftsdlskits.com/wp-content/uploads/2024/04/fc-barcelona-kit-dls-2025-away-temp-300x300.png",
+          "gk_away": "https://ftsdlskits.com/wp-content/uploads/2024/07/fc-barcelona-kit-dls-2025-gk-away-300x300.png",
+          "gk_home": "https://ftsdlskits.com/wp-content/uploads/2024/07/fc-barcelona-dls-kit-2025-gk-home-300x300.png",
+          "gk_third": "https://ftsdlskits.com/wp-content/uploads/2024/07/fc-barcelona-kit-dls-2025-gk-third-300x300.png",
+          "home": "https://ftsdlskits.com/wp-content/uploads/2024/07/fc-barcelona-kit-dls-2025-home.png",
+          "third": "https://ftsdlskits.com/wp-content/uploads/2024/04/fc-barcelona-dls-kit-2025-third-temp-300x300.png",
+          "unknown": "https://i.imgur.com/pXtoT00.png"
+        },
+        "2025-26": {
+          "away": "https://ftsdlskits.com/wp-content/uploads/2025/08/Barcelona-kit-dls-2026-away-150x150.png",
+          "gk_away": "https://ftsdlskits.com/wp-content/uploads/2025/07/Barcelona-kit-dls-2026-gk-away-300x300.png",
+          "gk_home": "https://ftsdlskits.com/wp-content/uploads/2025/07/Barcelona-kit-dls-2026-gk-home-300x300.png",
+          "gk_third": "https://ftsdlskits.com/wp-content/uploads/2025/07/Barcelona-kit-dls-2026-gk-third-300x300.png",
+          "home": "https://ftsdlskits.com/wp-content/uploads/2025/07/Barcelona-kit-dls-2026-home.png",
+          "third": "https://ftsdlskits.com/wp-content/uploads/2025/06/Barcelona-kit-dls-2026-third-leaked-300x300.png",
+          "unknown": "https://i.imgur.com/Wbbtsm4.png"
+        },
+        "2026-27": {
+          "unknown": "https://i.imgur.com/aGRv2yd.png"
+        }
+      }
+    },
+    "bayern_munich": {
+      "name": "Bayern Munich",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/01ogkh1716960412.png",
+      "league": "bundesliga",
+      "is_popular": true,
+      "seasons": {
+        "2023-24": {
+          "away": "https://kitdls.net/wp-content/uploads/2023/12/kit-bayern-munich-away-2023-2024-dls-2024.png",
+          "gk_home": "https://kitdls.net/wp-content/uploads/2023/12/kit-bayern-munich-gk2-2023-2024-dls-2024.png",
+          "home": "https://kitdls.net/wp-content/uploads/2023/12/kit-bayern-munich-home-2023-2024-dls-2024.png",
+          "third": "https://kitdls.net/wp-content/uploads/2023/12/kit-bayern-munich-third-2023-2024-dls-2024.png",
+          "unknown": "https://kitdls.net/wp-content/uploads/2023/12/kit-bayern-munich-gk1-2023-2024-dls-2024-150x150.png"
+        },
+        "2024-25": {
+          "away": "https://ftsdlskits.com/wp-content/uploads/2024/08/Bayern-Munich-kit-dls-2025-away-300x300.png",
+          "gk_away": "https://ftsdlskits.com/wp-content/uploads/2024/08/Bayern-Munich-kit-dls-2025-gk-away-300x300.png",
+          "gk_home": "https://ftsdlskits.com/wp-content/uploads/2024/08/Bayern-Munich-kit-dls-2025-gk-home-300x300.png",
+          "gk_third": "https://ftsdlskits.com/wp-content/uploads/2024/08/Bayern-Munich-kit-dls-2025-gk-third-300x300.png",
+          "home": "https://ftsdlskits.com/wp-content/uploads/2024/08/Bayern-Munich-kit-dls-2025-home.png",
+          "third": "https://ftsdlskits.com/wp-content/uploads/2024/08/Bayern-Munich-kit-dls-2025-third-300x300.png"
+        },
+        "2025-26": {
+          "away": "https://ftsdlskits.com/wp-content/uploads/2025/07/Bayern-Munich-PLS-Kit-2026-away-leaked-300x300.png",
+          "gk_away": "https://ftsdlskits.com/wp-content/uploads/2025/07/Bayern-Munich-kit-dls-2026-gk-away-150x150.png",
+          "gk_home": "https://ftsdlskits.com/wp-content/uploads/2025/07/Bayern-Munich-PLS-Kit-2026-gk-home-leaked-300x300.png",
+          "gk_third": "https://ftsdlskits.com/wp-content/uploads/2025/10/Bayern-Munich-kit-dls-26-gk-third-300x300.png",
+          "home": "https://ftsdlskits.com/wp-content/uploads/2025/07/Bayern-Munich-PLS-Kit-2026-home-leaked.png",
+          "third": "https://ftsdlskits.com/wp-content/uploads/2025/07/Bayern-Munich-PLS-Kit-2026-third-leaked-150x150.png",
+          "unknown": "https://i.imgur.com/q1icKra.png"
+        },
+        "2026-27": {
+          "unknown": "https://i.imgur.com/B84uwXu.png"
+        }
+      }
+    },
+    "boca_juniors": {
+      "name": "Boca Juniors",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/bm7krb1775741582.png",
+      "league": "argentine_primera",
+      "is_popular": true,
+      "seasons": {
+        "2025-26": {
+          "away": "https://ftsdlskits.com/wp-content/uploads/2025/05/Boca-Juniors-FL-Kit-2024-Away-200x300.png",
+          "gk_away": "https://ftsdlskits.com/wp-content/uploads/2025/05/Boca-Juniors-FL-Kit-2024-GK-Away-200x300.png",
+          "gk_home": "https://ftsdlskits.com/wp-content/uploads/2025/05/Boca-Juniors-FL-Kit-2024-GK-Home-200x300.png",
+          "home": "https://ftsdlskits.com/wp-content/uploads/2025/05/Boca-Juniors-FL-Kit-2024-Home.png",
+          "third": "https://ftsdlskits.com/wp-content/uploads/2025/05/Boca-Juniors-FL-Kit-2024-Third-200x300.png",
+          "unknown": "https://i.imgur.com/rzKvwjE.png"
+        }
+      }
+    },
+    "borussia_dortmund": {
+      "name": "Borussia Dortmund",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/tqo8ge1716960353.png",
+      "league": "bundesliga",
+      "is_popular": true,
+      "seasons": {
+        "2023-24": {
+          "away": "https://kitdls.net/wp-content/uploads/2023/12/Kit-Borussia-Dortmund-Away-2023-2024-DLS-24.png",
+          "gk_home": "https://kitdls.net/wp-content/uploads/2023/12/Kit-Borussia-Dortmund-GK1-2023-2024-DLS-24.png",
+          "home": "https://kitdls.net/wp-content/uploads/2023/12/Kit-Borussia-Dortmund-Home-2023-2024-DLS-24.png",
+          "third": "https://kitdls.net/wp-content/uploads/2023/12/Kit-Borussia-Dortmund-Third-2023-2024-DLS-24.png",
+          "unknown": "https://kitdls.net/wp-content/uploads/2023/12/Kit-Borussia-Dortmund-GK1-2023-2024-DLS-24-150x150.png"
+        },
+        "2024-25": {
+          "away": "https://ftsdlskits.com/wp-content/uploads/2024/08/Borussia-Dortmund-kit-dls-2025-away1-300x300.png",
+          "gk_away": "https://ftsdlskits.com/wp-content/uploads/2024/08/Borussia-Dortmund-kit-dls-2025-gk-away-300x300.png",
+          "gk_home": "https://ftsdlskits.com/wp-content/uploads/2024/08/Borussia-Dortmund-kit-dls-2025-gk-home-300x300.png",
+          "gk_third": "https://ftsdlskits.com/wp-content/uploads/2024/04/Borussia-Dortmund-dls-kit-2025-gk-third-temp-300x300.png",
+          "home": "https://ftsdlskits.com/wp-content/uploads/2024/08/Borussia-Dortmund-kit-dls-2025-home.png",
+          "third": "https://ftsdlskits.com/wp-content/uploads/2024/08/Borussia-Dortmund-kit-dls-2025-third-300x300.png"
+        },
+        "2025-26": {
+          "away": "https://ftsdlskits.com/wp-content/uploads/2025/07/Borussia-Dortmund-PLS-Kit-26-away-leaked-300x300.png",
+          "gk_away": "https://ftsdlskits.com/wp-content/uploads/2024/11/Borussia-Dortmund-PLS-Kit-2025-GK-Away-300x300.png",
+          "gk_home": "https://ftsdlskits.com/wp-content/uploads/2025/07/Borussia-Dortmund-PLS-Kit-2026-gk-home-leaked-300x300.png",
+          "gk_third": "https://ftsdlskits.com/wp-content/uploads/2025/10/Borussia-Dortmund-kit-dls-2026-gk-third-300x300.png",
+          "home": "https://ftsdlskits.com/wp-content/uploads/2025/07/Borussia-Dortmund-PLS-Kit-26-home-leaked.png",
+          "third": "https://ftsdlskits.com/wp-content/uploads/2025/07/Borussia-Dortmund-PLS-Kit-2026-third-leaked-300x300.png",
+          "unknown": "https://ftsdlskits.com/wp-content/uploads/2025/06/Borussia-Dortmund-PLS-Cup-Kit-leaked-300x300.png"
+        },
+        "2026-27": {
+          "unknown": "https://i.imgur.com/UKu6Lfl.png"
+        }
+      }
+    },
+    "brazil": {
+      "name": "Brazil",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/rbdwne1678526703.png",
+      "league": "international",
+      "is_popular": true,
+      "seasons": {
+        "2023-24": {
+          "away": "https://kitdls.net/wp-content/uploads/2023/12/Kit-Brazil-Away-2023-2024-DLS-24.png",
+          "gk_away": "https://kitdls.net/wp-content/uploads/2023/12/Kit-Brazil-GK-Away-2023-2024-DLS-24.png",
+          "gk_home": "https://kitdls.net/wp-content/uploads/2023/12/Kit-Brazil-GK-Home-2023-2024-DLS-24.png",
+          "gk_third": "https://kitdls.net/wp-content/uploads/2023/12/Kit-Brazil-GK-Third-2023-2024-DLS-24.png",
+          "home": "https://kitdls.net/wp-content/uploads/2023/12/Kit-Brazil-Home-2023-2024-DLS-24.png"
+        },
+        "2025-26": {
+          "away": "https://kitdls.net/wp-content/uploads/2025/02/Brazil-Away-Kit-2026-World-Cup-DLS.png",
+          "gk_home": "https://kitdls.net/wp-content/uploads/2025/02/Brazil-GK-Kit-2026-World-Cup-DLS.png",
+          "home": "https://kitdls.net/wp-content/uploads/2025/02/Brazil-Home-Kit-2026-World-Cup-DLS.png"
+        }
+      }
+    },
+    "brentford": {
+      "name": "Brentford",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/grv1aw1546453779.png",
+      "league": "premier_league",
+      "is_popular": true,
+      "seasons": {
+        "2025-26": {
+          "unknown": "https://i.imgur.com/bkJEMYC.png"
+        }
+      }
+    },
+    "chelsea": {
+      "name": "Chelsea",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/yvwvtu1448813215.png",
+      "league": "premier_league",
+      "is_popular": true,
+      "seasons": {
+        "2023-24": {
+          "away": "https://kitdls.net/wp-content/uploads/2024/03/Kit-Chelsea-Away-2023-2024-DLS-24.png",
+          "gk_home": "https://kitdls.net/wp-content/uploads/2024/03/Kit-Chelsea-GK1-2023-2024-DLS-24.png",
+          "home": "https://kitdls.net/wp-content/uploads/2024/03/Kit-Chelsea-Home-2023-2024-DLS-24.png",
+          "third": "https://kitdls.net/wp-content/uploads/2024/03/Kit-Chelsea-Third-2023-2024-DLS-24.png",
+          "unknown": "https://kitdls.net/wp-content/uploads/2024/03/Kit-Chelsea-GK2-2023-2024-DLS-24-150x150.png"
+        },
+        "2024-25": {
+          "away": "https://ftsdlskits.com/wp-content/uploads/2024/07/Chelsea-FC-kit-dls-2025-away-300x300.png",
+          "gk_away": "https://ftsdlskits.com/wp-content/uploads/2024/07/Chelsea-FC-kit-dls-2025-gk-away-temp-300x300.png",
+          "gk_home": "https://ftsdlskits.com/wp-content/uploads/2024/07/Chelsea-FC-kit-dls-2025-gk-home-300x300.png",
+          "gk_third": "https://ftsdlskits.com/wp-content/uploads/2024/07/Chelsea-FC-kit-dls-2025-gk-third-temp-300x300.png",
+          "home": "https://ftsdlskits.com/wp-content/uploads/2024/07/Chelsea-FC-kit-dls-2025-home.png",
+          "third": "https://ftsdlskits.com/wp-content/uploads/2024/04/Chelsea-FC-kit-dls-2025-third-temp-300x300.png",
+          "unknown": "https://kitdls.net/wp-content/uploads/2025/02/Chelsea-Kit-GK1-2024-2025-DLS25-300x300.png"
+        },
+        "2025-26": {
+          "away": "https://ftsdlskits.com/wp-content/uploads/2025/06/Chelsea-PLS-Kit-2026-away-leaked-300x300.png",
+          "gk_away": "https://ftsdlskits.com/wp-content/uploads/2025/07/Chelsea-kit-dls-2026-gk-away-300x300.png",
+          "gk_home": "https://ftsdlskits.com/wp-content/uploads/2025/06/Chelsea-PLS-Kit-2026-gk-home-leaked-300x300.png",
+          "gk_third": "https://ftsdlskits.com/wp-content/uploads/2025/07/Chelsea-kit-dls-2026-gk-third-300x300.png",
+          "home": "https://ftsdlskits.com/wp-content/uploads/2025/06/Chelsea-PLS-Kit-2026-home-leaked.png",
+          "third": "https://ftsdlskits.com/wp-content/uploads/2025/06/Chelsea-PLS-Kit-2026-third-leaked-300x300.png",
+          "unknown": "https://i.imgur.com/xtjL4KA.png"
+        },
+        "2026-27": {
+          "unknown": "https://i.imgur.com/W1du6GJ.png"
+        }
+      }
+    },
+    "colombia": {
+      "name": "Colombia",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/4ymyku1691180081.png",
+      "league": "international",
+      "is_popular": true,
+      "seasons": {
+        "2024-25": {
+          "away": "https://kitdls.net/wp-content/uploads/2024/10/Colombia-Away-Kit-2024-2025-DLS-24.png",
+          "home": "https://kitdls.net/wp-content/uploads/2024/01/Colombia-Home-Kit-2026-DLS-26.png",
+          "unknown": "https://kitdls.net/wp-content/uploads/2024/01/Colombia-GK2-Kit-2026-DLS-26.png"
+        }
+      }
+    },
+    "colon": {
+      "name": "Colón",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/l72gz21712750680.png",
+      "league": "argentine_primera",
+      "seasons": {
+        "2025-26": {
+          "away": "https://ftsdlskits.com/wp-content/uploads/2025/05/Colon-FL-Kit-2024-Away-200x300.png",
+          "gk_away": "https://ftsdlskits.com/wp-content/uploads/2025/05/Colon-FL-Kit-2024-GK-Away-200x300.png",
+          "gk_home": "https://ftsdlskits.com/wp-content/uploads/2025/05/Colon-FL-Kit-2024-GK-Home-200x300.png",
+          "gk_third": "https://ftsdlskits.com/wp-content/uploads/2025/05/Colon-FL-Kit-2024-GK-Third-200x300.png",
+          "home": "https://ftsdlskits.com/wp-content/uploads/2025/05/Colon-FL-Kit-2024-Home.png",
+          "third": "https://ftsdlskits.com/wp-content/uploads/2025/05/Colon-FL-Kit-2024-Third-200x300.png",
+          "unknown": "https://i.imgur.com/W9hG9wG.png"
+        }
+      }
+    },
+    "crystal_palace": {
+      "name": "Crystal Palace",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/ia6i3m1656014992.png",
+      "league": "premier_league",
+      "is_popular": true,
+      "seasons": {
+        "2025-26": {
+          "unknown": "https://i.imgur.com/m2lZtkl.png"
+        }
+      }
+    },
+    "england": {
+      "name": "England",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/i3w3521687708223.png",
+      "league": "international",
+      "is_popular": true,
+      "seasons": {
+        "2024-25": {
+          "away": "https://kitdls.net/wp-content/uploads/2024/03/Kit-Anh-England-Away-Euro-2024-DLS-24.png",
+          "home": "https://kitdls.net/wp-content/uploads/2024/10/England-Home-Kit-2026-DLS.png"
+        },
+        "2026-27": {
+          "away": "https://kitdls.net/wp-content/uploads/2026/02/England-Away-Kit-2026-DLS.png",
+          "gk_home": "https://kitdls.net/wp-content/uploads/2026/02/England-GK-Kit-2026-DLS.png",
+          "home": "https://kitdls.net/wp-content/uploads/2026/02/England-Home-1-Kit-2026-DLS.png"
+        }
+      }
+    },
+    "france": {
+      "name": "France",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/6n9jin1687707835.png",
+      "league": "international",
+      "is_popular": true,
+      "seasons": {
+        "2023-24": {
+          "away": "https://kitdls.net/wp-content/uploads/2023/12/Kit-Phap-France-Home-Away-2024-DLS-24.png",
+          "home": "https://kitdls.net/wp-content/uploads/2023/12/Kit-Phap-France-Home-Euro-2024-DLS-24.png"
+        },
+        "2024-25": {
+          "gk_home": "https://kitdls.net/wp-content/uploads/2024/05/France-GK-Kit-2024-2025-DLS-24.png"
+        },
+        "2025-26": {
+          "gk_home": "https://kitdls.net/wp-content/uploads/2025/02/France-GK-Kit-2026-DLS-150x150.png",
+          "home": "https://kitdls.net/wp-content/uploads/2025/02/France-Home-Kit-2026-DLS.png"
+        }
+      }
+    },
+    "galatasaray": {
+      "name": "Galatasaray",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/io7jk21767941298.png",
+      "league": "super_lig",
+      "is_popular": true,
+      "seasons": {
+        "2024-25": {
+          "away": "https://kitdls.net/wp-content/uploads/2025/02/Galatasaray-Away-Kit-24-25-DLS-25.png",
+          "home": "https://kitdls.net/wp-content/uploads/2025/02/Galatasaray-Home-Kit-24-25-DLS-25.png",
+          "third": "https://kitdls.net/wp-content/uploads/2025/02/Galatasaray-Third-Kit-24-25-DLS-25.png",
+          "unknown": "https://kitdls.net/wp-content/uploads/2025/02/Galatasaray-GK3-Kits-25-26-DLS.png"
+        },
+        "2025-26": {
+          "away": "https://kitdls.net/wp-content/uploads/2025/02/Galatasaray-Away-Kits-25-26-DLS.png",
+          "home": "https://kitdls.net/wp-content/uploads/2025/02/Galatasaray-Home-Kits-25-26-DLS.png",
+          "third": "https://kitdls.net/wp-content/uploads/2025/02/Galatasaray-Third-Kits-25-26-DLS.png",
+          "unknown": "https://kitdls.net/wp-content/uploads/2025/02/Galatasaray-GK1-Kits-25-26-DLS.png"
+        }
+      }
+    },
+    "germany": {
+      "name": "Germany",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/2m9p8n1687707806.png",
+      "league": "international",
+      "is_popular": true,
+      "seasons": {
+        "2024-25": {
+          "away": "https://kitdls.net/wp-content/uploads/2024/03/Gemany-Away-Kit-2024-2025-DLS-24.png",
+          "gk_home": "https://kitdls.net/wp-content/uploads/2024/10/Germany-GK-Kit-2026-DLS-26.png",
+          "home": "https://kitdls.net/wp-content/uploads/2024/10/Germany-Home-Kit-2026-DLS-26.png"
+        }
+      }
+    },
+    "indonesia": {
+      "name": "Indonesia",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/hkg0st1656933330.png",
+      "league": "international",
+      "is_popular": true,
+      "seasons": {
+        "2024-25": {
+          "away": "https://kitdls.net/wp-content/uploads/2023/12/Indonesia-Away-Kit-2024-2025-DLS-24.png",
+          "gk_home": "https://kitdls.net/wp-content/uploads/2023/12/Indonesia-GK-Kit-2024-2025-DLS-24.png",
+          "home": "https://kitdls.net/wp-content/uploads/2023/12/Indonesia-Home-Kit-2024-2025-DLS-24.png"
+        },
+        "2025-26": {
+          "away": "https://kitdls.net/wp-content/uploads/2024/10/Indonesia-Away-Kit-2025-2026-DLS-25.png",
+          "gk_home": "https://kitdls.net/wp-content/uploads/2024/10/Indonesia-GK2-Kit-2025-2026-DLS-25.png",
+          "home": "https://kitdls.net/wp-content/uploads/2024/10/Indonesia-Home2-Kit-2025-2026-DLS-25.png",
+          "unknown": "https://kitdls.net/wp-content/uploads/2024/10/Indonesia-GK2-Kit-2025-2026-DLS-25-300x300.png"
+        },
+        "2026-27": {
+          "away": "https://kitdls.net/wp-content/uploads/2026/01/Indonesia-Away-1-Kit-2026-27-DLS.png",
+          "home": "https://kitdls.net/wp-content/uploads/2026/01/Indonesia-Home-1-Kit-2026-27-DLS.png",
+          "unknown": "https://kitdls.net/wp-content/uploads/2026/01/Indonesia-GK1-Kit-2026-27-DLS.png"
+        }
+      }
+    },
+    "inter_miami": {
+      "name": "Inter Miami",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/m4it3e1602103647.png",
+      "league": "mls",
+      "is_popular": true,
+      "seasons": {
+        "2024-25": {
+          "away": "https://ftsdlskits.com/wp-content/uploads/2024/03/inter-miami-kit-dls-2024-away-temp-300x300.png",
+          "gk_away": "https://ftsdlskits.com/wp-content/uploads/2024/03/Inter-Miami-kit-dls-2024-gk-away-temp-300x300.png",
+          "gk_home": "https://ftsdlskits.com/wp-content/uploads/2024/03/Inter-Miami-kit-dls-2024-gk-home-temp-300x300.png",
+          "home": "https://ftsdlskits.com/wp-content/uploads/2024/03/inter-miami-kit-dls-2024-home-temp.png",
+          "third": "https://ftsdlskits.com/wp-content/uploads/2024/04/inter-miami-kit-dls-2024-third-temp-300x300.png",
+          "unknown": "https://i.imgur.com/EUo8EXA.png"
+        },
+        "2025-26": {
+          "away": "https://ftsdlskits.com/wp-content/uploads/2025/01/inter-miami-dls-kit-2025-away-temp-300x300.png",
+          "gk_away": "https://ftsdlskits.com/wp-content/uploads/2025/01/inter-miami-dls-kit-2025-gk-away-temp-300x300.png",
+          "gk_home": "https://ftsdlskits.com/wp-content/uploads/2025/01/inter-miami-dls-kit-2025-gk-home-temp-300x300.png",
+          "gk_third": "https://ftsdlskits.com/wp-content/uploads/2025/01/inter-miami-dls-kit-2025-gk-third-temp-300x300.png",
+          "home": "https://ftsdlskits.com/wp-content/uploads/2025/01/inter-miami-dls-kit-2025-home-temp.png",
+          "unknown": "https://i.imgur.com/aY6FZYL.png"
+        }
+      }
+    },
+    "inter_milan": {
+      "name": "Inter Milan",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/ryhu6d1617113103.png",
+      "league": "serie_a",
+      "is_popular": true,
+      "seasons": {
+        "2025-26": {
+          "unknown": "https://i.imgur.com/eZgzzhX.png"
+        }
+      }
+    },
+    "japan": {
+      "name": "Japan",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/ffsyxz1591989843.png",
+      "league": "international",
+      "is_popular": true,
+      "seasons": {
+        "2023-24": {
+          "away": "https://kitdls.net/wp-content/uploads/2023/12/Japan-Away-Kit-2024-DLS-24.png",
+          "home": "https://kitdls.net/wp-content/uploads/2023/12/Japan-Home-Kit-2024-DLS-24-300x300.png"
+        },
+        "2024-25": {
+          "away": "https://kitdls.net/wp-content/uploads/2024/10/Japan-Away-Kit-2026-DLS.png",
+          "gk_home": "https://kitdls.net/wp-content/uploads/2024/10/Japan-GK-Kit-2026-DLS.png",
+          "home": "https://kitdls.net/wp-content/uploads/2024/10/Japan-Home-Kit-2026-DLS.png"
+        }
+      }
+    },
+    "juventus": {
+      "name": "Juventus",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/uxf0gr1742983727.png",
+      "league": "serie_a",
+      "is_popular": true,
+      "seasons": {
+        "2023-24": {
+          "away": "https://kitdls.net/wp-content/uploads/2023/12/Kit-Juventus-Away-2023-2024-DLS-24.png",
+          "gk_home": "https://kitdls.net/wp-content/uploads/2023/12/Kit-Juventus-GK2-2023-2024-DLS-24.png",
+          "home": "https://kitdls.net/wp-content/uploads/2023/12/Kit-Juventus-Home-1-2023-2024-DLS-24.png",
+          "third": "https://kitdls.net/wp-content/uploads/2023/12/Kit-Juventus-Third-2023-2024-DLS-24.png",
+          "unknown": "https://kitdls.net/wp-content/uploads/2023/12/Kit-Juventus-GK2-2023-2024-DLS-24-300x300.png"
+        },
+        "2024-25": {
+          "away": "https://ftsdlskits.com/wp-content/uploads/2024/07/Juventus-FC-kit-dls-2025-away-300x300.png",
+          "gk_away": "https://ftsdlskits.com/wp-content/uploads/2024/07/Juventus-FC-kit-dls-2025-gk-away-300x300.png",
+          "gk_home": "https://ftsdlskits.com/wp-content/uploads/2024/07/Juventus-FC-kit-dls-2025-gk-home-300x300.png",
+          "gk_third": "https://ftsdlskits.com/wp-content/uploads/2024/07/Juventus-FC-kit-dls-2025-gk-third-300x300.png",
+          "home": "https://ftsdlskits.com/wp-content/uploads/2024/07/Juventus-FC-kit-dls-2025-home.png",
+          "third": "https://ftsdlskits.com/wp-content/uploads/2024/07/Juventus-FC-kit-dls-2025-third-300x300.png",
+          "unknown": "https://i.imgur.com/iHKS59s.png"
+        },
+        "2025-26": {
+          "away": "https://ftsdlskits.com/wp-content/uploads/2025/07/Juventus-kit-dls-2026-away-300x300.png",
+          "gk_away": "https://ftsdlskits.com/wp-content/uploads/2025/07/Juventus-kit-dls-2026-gk-away-300x300.png",
+          "gk_home": "https://ftsdlskits.com/wp-content/uploads/2025/07/Juventus-kit-dls-2026-gk-home-300x300.png",
+          "gk_third": "https://ftsdlskits.com/wp-content/uploads/2025/07/Juventus-kit-dls-2026-gk-third-150x150.png",
+          "home": "https://ftsdlskits.com/wp-content/uploads/2025/07/Juventus-kit-dls-2026-home.png",
+          "third": "https://ftsdlskits.com/wp-content/uploads/2025/06/Juventus-kit-dls-2026-third-with-sponsor-leaked-300x300.png",
+          "unknown": "https://i.imgur.com/vrTkYWk.png"
+        },
+        "2026-27": {
+          "unknown": "https://i.imgur.com/SRAVaOc.png"
+        }
+      }
+    },
+    "leeds_united": {
+      "name": "Leeds United",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/jcgrml1756649030.png",
+      "league": "premier_league",
+      "is_popular": true,
+      "seasons": {
+        "2025-26": {
+          "unknown": "https://i.imgur.com/y2mTWuQ.png"
+        }
+      }
+    },
+    "liverpool": {
+      "name": "Liverpool",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/kfaher1737969724.png",
+      "league": "premier_league",
+      "is_popular": true,
+      "seasons": {
+        "2023-24": {
+          "away": "https://kitdls.net/wp-content/uploads/2023/12/Kit-Livepool-Away-2023-2024-DLS-24.png",
+          "gk_home": "https://kitdls.net/wp-content/uploads/2023/12/Kit-Livepool-GK2-2023-2024-DLS-24.png",
+          "home": "https://kitdls.net/wp-content/uploads/2023/12/Kit-Livepool-Home-2023-2024-DLS-24.png",
+          "third": "https://kitdls.net/wp-content/uploads/2023/12/Kit-Livepool-Third-2023-2024-DLS-24.png",
+          "unknown": "https://kitdls.net/wp-content/uploads/2023/12/Kit-Livepool-GK1-2023-2024-DLS-24-300x300.png"
+        },
+        "2024-25": {
+          "away": "https://ftsdlskits.com/wp-content/uploads/2024/09/Liverpool-FC-kit-dls-2025-away-300x300.png",
+          "gk_away": "https://ftsdlskits.com/wp-content/uploads/2024/09/Liverpool-FC-kit-dls-2025-gk-away-300x300.png",
+          "gk_home": "https://ftsdlskits.com/wp-content/uploads/2024/09/Liverpool-FC-kit-dls-2025-gk-home-300x300.png",
+          "gk_third": "https://ftsdlskits.com/wp-content/uploads/2024/04/Liverpool-FC-dls-kit-2025-gk-third-temp-300x300.png",
+          "home": "https://ftsdlskits.com/wp-content/uploads/2024/09/Liverpool-FC-kit-dls-2025-home.png",
+          "third": "https://ftsdlskits.com/wp-content/uploads/2024/04/Liverpool-F.C.-kit-dls-2025-third-temp-300x300.png",
+          "unknown": "https://i.imgur.com/FcDUbd4.png"
+        },
+        "2025-26": {
+          "away": "https://ftsdlskits.com/wp-content/uploads/2025/06/Liverpool-kit-dls-2026-away-leaked-300x300.png",
+          "gk_away": "https://ftsdlskits.com/wp-content/uploads/2025/07/Liverpool-kit-dls-2026-gk-away-300x300.png",
+          "gk_home": "https://ftsdlskits.com/wp-content/uploads/2025/07/Liverpool-kit-dls-2026-gk-home-300x300.png",
+          "gk_third": "https://ftsdlskits.com/wp-content/uploads/2025/07/Liverpool-kit-dls-2026-gk-third-300x300.png",
+          "home": "https://ftsdlskits.com/wp-content/uploads/2025/07/Liverpool-kit-dls-2026-home.png",
+          "third": "https://ftsdlskits.com/wp-content/uploads/2025/06/Liverpool-kit-dls-2026-third-leaked-300x300.png",
+          "unknown": "https://i.imgur.com/OLtgdbp.png"
+        },
+        "2026-27": {
+          "unknown": "https://i.imgur.com/l8052wj.png"
+        }
+      }
+    },
+    "manchester_city": {
+      "name": "Manchester City",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/vwpvry1467462651.png",
+      "league": "premier_league",
+      "is_popular": true,
+      "seasons": {
+        "2023-24": {
+          "away": "https://kitdls.net/wp-content/uploads/2023/12/kit-manchester-city-away-2023-2024-dls-2024.png",
+          "gk_home": "https://kitdls.net/wp-content/uploads/2023/12/kit-manchester-city-gk1-2023-2024-dls-2024.png",
+          "home": "https://kitdls.net/wp-content/uploads/2023/12/kit-manchester-city-home-2023-2024-dls-2024.png",
+          "third": "https://kitdls.net/wp-content/uploads/2023/12/kit-manchester-city-third-2023-2024-dls-2024.png",
+          "unknown": "https://kitdls.net/wp-content/uploads/2023/12/kit-manchester-city-gk1-2023-2024-dls-2024-300x300.png"
+        },
+        "2024-25": {
+          "away": "https://ftsdlskits.com/wp-content/uploads/2024/07/Manchester-City-FC-kit-dls-2025-away-300x300.png",
+          "gk_away": "https://ftsdlskits.com/wp-content/uploads/2024/07/Manchester-City-FC-kit-dls-2025-gk-away-300x300.png",
+          "gk_home": "https://ftsdlskits.com/wp-content/uploads/2024/07/Manchester-City-FC-kit-dls-2025-gk-home-300x300.png",
+          "gk_third": "https://ftsdlskits.com/wp-content/uploads/2024/07/Manchester-City-FC-kit-dls-2025-gk-third-300x300.png",
+          "home": "https://ftsdlskits.com/wp-content/uploads/2024/07/Manchester-City-FC-kit-dls-2025-home.png",
+          "third": "https://ftsdlskits.com/wp-content/uploads/2024/07/Manchester-City-FC-kit-dls-2025-third-300x300.png",
+          "unknown": "https://i.imgur.com/GIQcx8p.png"
+        },
+        "2025-26": {
+          "away": "https://ftsdlskits.com/wp-content/uploads/2025/08/Manchester-City-kit-dls-2026-away-leaked-300x300.png",
+          "gk_away": "https://ftsdlskits.com/wp-content/uploads/2025/07/Manchester-City-kit-dls-2026-gk-away-300x300.png",
+          "gk_home": "https://ftsdlskits.com/wp-content/uploads/2025/07/Manchester-City-kit-dls-2026-gk-home-300x300.png",
+          "gk_third": "https://ftsdlskits.com/wp-content/uploads/2025/07/Manchester-City-kit-dls-2026-gk-third-300x300.png",
+          "home": "https://ftsdlskits.com/wp-content/uploads/2025/07/Manchester-City-kit-dls-2026-home.png",
+          "third": "https://ftsdlskits.com/wp-content/uploads/2025/08/Manchester-City-kit-dls-2026-third-leaked-300x300.png",
+          "unknown": "https://i.imgur.com/biiWcFw.png"
+        },
+        "2026-27": {
+          "unknown": "https://i.imgur.com/P15s9UH.png"
+        }
+      }
+    },
+    "manchester_united": {
+      "name": "Manchester United",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/xzqdr11517660252.png",
+      "league": "premier_league",
+      "is_popular": true,
+      "seasons": {
+        "2007-08": {
+          "away": "https://kitdls.net/wp-content/uploads/2024/05/MU-Away-Kit-2007-2008-DLS-24.png",
+          "gk_home": "https://kitdls.net/wp-content/uploads/2024/05/MU-GK-Kit-2007-2008-DLS-24.png",
+          "home": "https://kitdls.net/wp-content/uploads/2024/05/MU-Home-Kit-2007-2008-DLS-24.png"
+        },
+        "2023-24": {
+          "away": "https://kitdls.net/wp-content/uploads/2023/12/Kit-Manchester-United-Away-2023-2024-DLS-2024.png",
+          "gk_home": "https://kitdls.net/wp-content/uploads/2023/12/Kit-Manchester-United-GK1-2023-2024-DLS-2024.png",
+          "home": "https://kitdls.net/wp-content/uploads/2023/12/Kit-Manchester-United-Home-2023-2024-DLS-2024-0.png",
+          "third": "https://kitdls.net/wp-content/uploads/2023/12/Kit-Manchester-United-Third-2023-2024-DLS-2024.png",
+          "unknown": "https://kitdls.net/wp-content/uploads/2023/12/Kit-Manchester-United-GK1-2023-2024-DLS-2024-300x300.png"
+        },
+        "2024-25": {
+          "away": "https://ftsdlskits.com/wp-content/uploads/2024/07/Manchester-United-fc-kit-dls-2025-away-100x100.png",
+          "gk_away": "https://ftsdlskits.com/wp-content/uploads/2024/07/Manchester-United-fc-kit-dls-2025-gk-away-temp-300x300.png",
+          "gk_home": "https://ftsdlskits.com/wp-content/uploads/2024/07/Manchester-United-fc-kit-dls-2025-gk-home-temp-150x150.png",
+          "gk_third": "https://ftsdlskits.com/wp-content/uploads/2024/04/Manchester-United-fc-dls-kit-2025-gk-third-temp-300x300.png",
+          "home": "https://ftsdlskits.com/wp-content/uploads/2024/07/Manchester-United-fc-kit-dls-2025-home.png",
+          "third": "https://ftsdlskits.com/wp-content/uploads/2024/07/Manchester-United-f.c-kit-dls-2025-third-temp-300x300.png",
+          "unknown": "https://i.imgur.com/8BHaFAN.png"
+        },
+        "2025-26": {
+          "away": "https://ftsdlskits.com/wp-content/uploads/2025/08/Manchester-United-kit-dls-2026-away-leaked-100x100.png",
+          "gk_away": "https://ftsdlskits.com/wp-content/uploads/2025/07/Manchester-United-kit-dls-2026-gk-away-300x300.png",
+          "gk_home": "https://ftsdlskits.com/wp-content/uploads/2025/07/Manchester-United-kit-dls-2026-gk-home-150x150.png",
+          "gk_third": "https://ftsdlskits.com/wp-content/uploads/2025/07/Manchester-United-kit-dls-2026-gk-third-300x300.png",
+          "home": "https://ftsdlskits.com/wp-content/uploads/2025/07/Manchester-United-kit-dls-2026-home.png",
+          "third": "https://ftsdlskits.com/wp-content/uploads/2025/08/Manchester-United-kit-dls-2026-third-leaked-300x300.png",
+          "unknown": "https://i.imgur.com/aAo9om5.png"
+        },
+        "2026-27": {
+          "unknown": "https://i.imgur.com/hbIGyM2.png"
+        }
+      }
+    },
+    "mexico": {
+      "name": "Mexico",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/3rmosi1748525208.png",
+      "league": "international",
+      "is_popular": true,
+      "seasons": {
+        "2024-25": {
+          "away": "https://kitdls.net/wp-content/uploads/2024/10/Mexico-Away-Kit-2024-2025-DLS-24.png",
+          "gk_home": "https://kitdls.net/wp-content/uploads/2024/10/Mexico-GK-Kit-25-DLS-25.png",
+          "home": "https://kitdls.net/wp-content/uploads/2024/10/Mexico-Home-Kit-25-DLS-25.png",
+          "third": "https://kitdls.net/wp-content/uploads/2024/10/Mexico-Third-Kit-2024-2025-DLS-24.png"
+        },
+        "2025-26": {
+          "away": "https://kitdls.net/wp-content/uploads/2025/03/Mexico-Away-Kit-25-DLS-25.png",
+          "gk_home": "https://kitdls.net/wp-content/uploads/2025/03/Mexico-GK-Kit-2026-DLS.png",
+          "home": "https://kitdls.net/wp-content/uploads/2025/03/Mexico-Home-Kit-2026-DLS.png",
+          "unknown": "https://kitdls.net/wp-content/uploads/2025/03/Mexico-GK2-Kit-25-DLS-25.png"
+        },
+        "2026-27": {
+          "away": "https://kitdls.net/wp-content/uploads/2026/02/Mexico-Away-Kit-2026-DLS.png",
+          "third": "https://kitdls.net/wp-content/uploads/2026/02/Mexico-Third-Kit-2026-DLS.png"
+        }
+      }
+    },
+    "paris_saint_germain": {
+      "name": "Paris Saint-Germain",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/rwqrrq1473504808.png",
+      "league": "ligue_1",
+      "is_popular": true,
+      "seasons": {
+        "2024-25": {
+          "away": "https://ftsdlskits.com/wp-content/uploads/2024/08/Paris-Saint-Germain-FC-kit-dls-2025-away-300x300.png",
+          "gk_away": "https://ftsdlskits.com/wp-content/uploads/2024/08/Paris-Saint-Germain-FC-kit-dls-2025-gk-away-300x300.png",
+          "gk_home": "https://ftsdlskits.com/wp-content/uploads/2024/08/Paris-Saint-Germain-FC-kit-dls-2025-gk-home-300x300.png",
+          "gk_third": "https://ftsdlskits.com/wp-content/uploads/2024/04/Paris-Saint-Germain-FC-dls-kit-2025-gk-third-temp-300x300.png",
+          "home": "https://ftsdlskits.com/wp-content/uploads/2024/08/Paris-Saint-Germain-FC-kit-dls-2025-home.png",
+          "third": "https://ftsdlskits.com/wp-content/uploads/2024/04/Paris-Saint-Germain-F.C-kit-dls-2025-third-temp-300x300.png",
+          "unknown": "https://ftsdlskits.com/wp-content/uploads/2024/05/Paris-Saint-Germain-FC-kit-dls-2025-fourth-temp-150x150.png"
+        },
+        "2025-26": {
+          "away": "https://ftsdlskits.com/wp-content/uploads/2025/07/Paris-Saint-Germain-kit-dls-2026-away-300x300.png",
+          "gk_away": "https://ftsdlskits.com/wp-content/uploads/2025/07/Paris-Saint-Germain-kit-dls-2026-gk-away-300x300.png",
+          "gk_home": "https://ftsdlskits.com/wp-content/uploads/2025/07/Paris-Saint-Germain-kit-dls-2026-gk-home-300x300.png",
+          "gk_third": "https://ftsdlskits.com/wp-content/uploads/2025/07/Paris-Saint-Germain-kit-dls-2026-gk-third-300x300.png",
+          "home": "https://ftsdlskits.com/wp-content/uploads/2025/07/Paris-Saint-Germain-kit-dls-2026-home.png",
+          "third": "https://ftsdlskits.com/wp-content/uploads/2025/10/Paris-Saint-Germain-kit-dls-2026-third-300x300.png",
+          "unknown": "https://i.imgur.com/vJGFh7a.png"
+        },
+        "2026-27": {
+          "unknown": "https://i.imgur.com/m3b5tfW.png"
+        }
+      }
+    },
+    "portugal": {
+      "name": "Portugal",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/8p7h461687707841.png",
+      "league": "international",
+      "is_popular": true,
+      "seasons": {
+        "2023-24": {
+          "away": "https://kitdls.net/wp-content/uploads/2023/12/Kit-Bo-Dao-Nha-Portugal-Away-Euro-2024-DLS-24.png",
+          "home": "https://kitdls.net/wp-content/uploads/2023/12/Kit-Bo-Dao-Nha-Portugal-Home-Euro-2024-DLS-24.png"
+        },
+        "2024-25": {
+          "gk_away": "https://kitdls.net/wp-content/uploads/2024/08/Portugal-GK-Away-Kit-2024-2025-DLS-24.png",
+          "gk_home": "https://kitdls.net/wp-content/uploads/2024/08/Portugal-GK-Home-Kit-2024-2025-DLS-24.png",
+          "gk_third": "https://kitdls.net/wp-content/uploads/2024/08/Portugal-GK-Third-Kit-2024-2025-DLS-24.png",
+          "unknown": "https://kitdls.net/wp-content/uploads/2024/08/Kit-Portugal-Ronaldo-CR7-900-Goals-2.png"
+        },
+        "2025-26": {
+          "away": "https://kitdls.net/wp-content/uploads/2025/02/Portugal-Away-Kit-25-26-DLS-25.png",
+          "home": "https://kitdls.net/wp-content/uploads/2025/03/Portugal-Home-Kits-2026-DLS.png",
+          "third": "https://kitdls.net/wp-content/uploads/2025/03/Portugal-Third-Kits-2026-DLS.png",
+          "unknown": "https://kitdls.net/wp-content/uploads/2025/03/Portugal-GK1-Kits-2026-DLS.png"
+        }
+      }
+    },
+    "real_madrid": {
+      "name": "Real Madrid",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/vwvwrw1473502969.png",
+      "league": "la_liga",
+      "is_popular": true,
+      "seasons": {
+        "2023-24": {
+          "away": "https://kitdls.net/wp-content/uploads/2023/12/kit-real-madrid-away-2023-2024-dls-2024.png",
+          "gk_home": "https://kitdls.net/wp-content/uploads/2023/12/kit-real-madrid-gk3-2023-2024-dls-2024.png",
+          "home": "https://kitdls.net/wp-content/uploads/2023/12/kit-real-madrid-home-2023-2024-dls-2024.png",
+          "third": "https://kitdls.net/wp-content/uploads/2023/12/kit-real-madrid-third-2023-2024-dls-2024.png",
+          "unknown": "https://kitdls.net/wp-content/uploads/2023/12/kit-real-madrid-gk1-2023-2024-dls-2024-300x300.png"
+        },
+        "2024-25": {
+          "away": "https://ftsdlskits.com/wp-content/uploads/2024/07/real-madrid-cf-kit-dls-2025-away-150x150.png",
+          "gk_away": "https://ftsdlskits.com/wp-content/uploads/2024/08/real-madrid-cf-dls-kit-2025-gk-away-300x300.png",
+          "gk_home": "https://ftsdlskits.com/wp-content/uploads/2024/07/real-madrid-cf-kit-dls-2025-gk-home-150x150.png",
+          "gk_third": "https://ftsdlskits.com/wp-content/uploads/2024/07/real-madrid-cf-dls-kit-2025-gk-third-300x300.png",
+          "home": "https://ftsdlskits.com/wp-content/uploads/2024/07/real-madrid-cf-kit-dls-2025-home.png",
+          "third": "https://ftsdlskits.com/wp-content/uploads/2024/04/real-madrid-cf-kit-dls-2025-third1-temp-300x300.png",
+          "unknown": "https://i.imgur.com/F3mcR26.png"
+        },
+        "2025-26": {
+          "away": "https://ftsdlskits.com/wp-content/uploads/2025/08/Real-Madrid-kit-dls-26-away-300x300.png",
+          "gk_away": "https://ftsdlskits.com/wp-content/uploads/2025/07/Real-Madrid-kit-dls-2026-gk-away-300x300.png",
+          "gk_home": "https://ftsdlskits.com/wp-content/uploads/2025/07/Real-Madrid-kit-dls-2026-gk-home-300x300.png",
+          "gk_third": "https://ftsdlskits.com/wp-content/uploads/2025/08/Real-Madrid-kit-dls-26-gk-third-150x150.png",
+          "home": "https://ftsdlskits.com/wp-content/uploads/2025/08/Real-Madrid-kit-dls-26-home.png",
+          "third": "https://ftsdlskits.com/wp-content/uploads/2025/08/Real-Madrid-kit-dls-2026-third-300x300.png",
+          "unknown": "https://i.imgur.com/qaQc3Mu.png"
+        },
+        "2026-27": {
+          "unknown": "https://i.imgur.com/fyxz6PG.png"
+        }
+      }
+    },
+    "santos": {
+      "name": "Santos",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/j8xk9g1679447486.png",
+      "league": "brasileirao",
+      "seasons": {
+        "2024-25": {
+          "away": "https://kitdls.net/wp-content/uploads/2025/03/Santos-FC-Away-Kits-24-25-DLS-25.png",
+          "home": "https://kitdls.net/wp-content/uploads/2025/03/Santos-FC-Home-Kits-24-25-DLS-25.png"
+        },
+        "2025-26": {
+          "away": "https://kitdls.net/wp-content/uploads/2025/03/Santos-FC-Away-Kit-2025-26-DLS-25.png",
+          "gk_home": "https://kitdls.net/wp-content/uploads/2025/03/Santos-FC-GK-Kit-2025-26-DLS-25.png",
+          "home": "https://kitdls.net/wp-content/uploads/2025/03/Santos-FC-Home-Kit-2025-26-DLS-25.png"
+        }
+      }
+    },
+    "spain": {
+      "name": "Spain",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/ja4it51687628717.png",
+      "league": "international",
+      "is_popular": true,
+      "seasons": {
+        "2023-24": {
+          "away": "https://kitdls.net/wp-content/uploads/2023/12/Kit-Tay-Ban-Nha-Spain-Away-Euro-2024-DLS-24.png",
+          "home": "https://kitdls.net/wp-content/uploads/2023/12/Kit-Tay-Ban-Nha-Spain-Home-Euro-2024-DLS-24.png"
+        },
+        "2024-25": {
+          "away": "https://kitdls.net/wp-content/uploads/2024/10/Spain-Away-Kit-2026-DLS.png",
+          "gk_home": "https://kitdls.net/wp-content/uploads/2024/10/Spain-GK-Kit-2026-DLS.png",
+          "home": "https://kitdls.net/wp-content/uploads/2024/10/Spain-Home-Kit-2026-DLS.png"
+        }
+      }
+    },
+    "sporting_cristal": {
+      "name": "Sporting Cristal",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/ive4ya1766423194.png",
+      "league": "liga_1_peru",
+      "seasons": {
+        "2025-26": {
+          "unknown": "https://i.imgur.com/Y0Ftf05.png"
+        }
+      }
+    },
+    "talleres_de_cordoba": {
+      "name": "Talleres de Córdoba",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/7hum2t1769310938.png",
+      "league": "argentine_primera",
+      "seasons": {
+        "2025-26": {
+          "away": "https://ftsdlskits.com/wp-content/uploads/2025/05/CA-Talleres-FL-Kit-2024-Away-200x300.png",
+          "gk_away": "https://ftsdlskits.com/wp-content/uploads/2025/05/CA-Talleres-FL-Kit-2024-GK-Away-200x300.png",
+          "gk_home": "https://ftsdlskits.com/wp-content/uploads/2025/05/CA-Talleres-FL-Kit-2024-GK-Home-200x300.png",
+          "home": "https://ftsdlskits.com/wp-content/uploads/2025/05/CA-Talleres-FL-Kit-2024-Home.png",
+          "unknown": "https://i.imgur.com/gysC0cc.png"
+        }
+      }
+    },
+    "tottenham_hotspur": {
+      "name": "Tottenham Hotspur",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/dfyfhl1604094109.png",
+      "league": "premier_league",
+      "is_popular": true,
+      "seasons": {
+        "2025-26": {
+          "unknown": "https://i.imgur.com/V5RftGB.png"
+        }
+      }
+    },
+    "vietnam": {
+      "name": "Vietnam",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/i18iu41597944056.png",
+      "league": "international",
+      "is_popular": true,
+      "seasons": {
+        "2023-24": {
+          "away": "https://kitdls.net/wp-content/uploads/2023/12/kit-viet-nam-2024-san-khach-01.png",
+          "gk_home": "https://kitdls.net/wp-content/uploads/2023/12/kit-viet-nam-2024-thu-mon.png",
+          "home": "https://kitdls.net/wp-content/uploads/2023/12/kit-viet-nam-2024-san-nha-01.png",
+          "unknown": "https://kitdls.net/wp-content/uploads/2023/12/kit-viet-nam-2024-tap-luyen.png"
+        },
+        "2024-25": {
+          "away": "https://kitdls.net/wp-content/uploads/2024/12/Viet-Nam-Away-Kit-2025-DLS-25.png",
+          "gk_home": "https://kitdls.net/wp-content/uploads/2024/12/Viet-Nam-GK-Kit-2025-DLS-25.png",
+          "home": "https://kitdls.net/wp-content/uploads/2024/12/Viet-Nam-Home-Kit-2025-DLS-25.png"
+        },
+        "2026-27": {
+          "away": "https://kitdls.net/wp-content/uploads/2026/01/Viet-nam-away-kit-tet-2026-dls-2.png",
+          "home": "https://kitdls.net/wp-content/uploads/2026/01/Viet-nam-home-kit-tet-2026-dls.png"
+        }
+      }
+    }
+  }
+}

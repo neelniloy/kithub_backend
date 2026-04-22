@@ -1,0 +1,170 @@
+{
+  "version": 1,
+  "last_updated": "2026-04-22",
+  "leagues": {
+    "argentine_primera": {
+      "id": "argentine_primera",
+      "external_id": "4406",
+      "name": "Argentine Primera Division",
+      "logo": "https://r2.thesportsdb.com/images/media/league/badge/rk9xhx1768238251.png",
+      "aliases": [
+        "Argentinian Primera Division",
+        "Argentine Primera Division",
+        "Liga Profesional de Fútbol"
+      ],
+      "source": "thesportsdb"
+    },
+    "brasileirao": {
+      "id": "brasileirao",
+      "external_id": "4351",
+      "name": "Brasileirao",
+      "logo": "https://r2.thesportsdb.com/images/media/league/badge/lywv7t1766787179.png",
+      "aliases": [
+        "Brazilian Serie A",
+        "Brasileirão",
+        "Brazil Brasileirão Série A Brasileiro"
+      ],
+      "source": "thesportsdb"
+    },
+    "bundesliga": {
+      "id": "bundesliga",
+      "external_id": "4331",
+      "name": "Bundesliga",
+      "logo": "https://r2.thesportsdb.com/images/media/league/badge/teqh1b1679952008.png",
+      "is_popular": true,
+      "aliases": [
+        "German Bundesliga",
+        "Germany Bundesliga",
+        "Fußball-Bundesliga"
+      ],
+      "source": "thesportsdb"
+    },
+    "eredivisie": {
+      "id": "eredivisie",
+      "external_id": "4337",
+      "name": "Dutch Eredivisie",
+      "logo": "https://r2.thesportsdb.com/images/media/league/badge/5cdsu21725984946.png",
+      "aliases": [
+        "Dutch Eredivisie",
+        "Eredivisie"
+      ],
+      "source": "thesportsdb"
+    },
+    "international": {
+      "id": "international",
+      "external_id": "4429",
+      "name": "International",
+      "logo": "https://r2.thesportsdb.com/images/media/league/badge/e7er5g1696521789.png",
+      "is_popular": true,
+      "aliases": [
+        "FIFA World Cup",
+        "International"
+      ],
+      "source": "manual"
+    },
+    "la_liga": {
+      "id": "la_liga",
+      "external_id": "4335",
+      "name": "La Liga",
+      "logo": "https://r2.thesportsdb.com/images/media/league/badge/ja4it51687628717.png",
+      "is_popular": true,
+      "aliases": [
+        "Spanish La Liga",
+        "LaLiga",
+        "LaLiga Santander",
+        "La Liga"
+      ],
+      "source": "thesportsdb"
+    },
+    "liga_1_peru": {
+      "id": "liga_1_peru",
+      "external_id": "4688",
+      "name": "Liga 1 Peru",
+      "logo": "https://r2.thesportsdb.com/images/media/league/badge/1ujpwc1580040216.png",
+      "aliases": [
+        "Peruvian Primera Division",
+        "Liga 1 Peru",
+        "Torneo Descentralizado de Fútbol Profesional",
+        "Liga 1",
+        "Copa Movistar"
+      ],
+      "source": "thesportsdb"
+    },
+    "ligue_1": {
+      "id": "ligue_1",
+      "external_id": "4334",
+      "name": "Ligue 1",
+      "logo": "https://r2.thesportsdb.com/images/media/league/badge/9f7z9d1742983155.png",
+      "is_popular": true,
+      "aliases": [
+        "French Ligue 1",
+        "Ligue 1 Conforama France"
+      ],
+      "source": "thesportsdb"
+    },
+    "mls": {
+      "id": "mls",
+      "external_id": "4346",
+      "name": "Major League Soccer",
+      "logo": "https://r2.thesportsdb.com/images/media/league/badge/dqo6r91549878326.png",
+      "is_popular": true,
+      "aliases": [
+        "Major League Soccer",
+        "MLS"
+      ],
+      "source": "thesportsdb"
+    },
+    "premier_league": {
+      "id": "premier_league",
+      "external_id": "4328",
+      "name": "Premier League",
+      "logo": "https://r2.thesportsdb.com/images/media/league/badge/gasy9d1737743125.png",
+      "is_popular": true,
+      "aliases": [
+        "EPL",
+        "English Premier League",
+        "Premier League",
+        "England"
+      ],
+      "source": "thesportsdb"
+    },
+    "saudi_pro_league": {
+      "id": "saudi_pro_league",
+      "external_id": "4668",
+      "name": "Saudi-Arabian Pro League",
+      "logo": "https://r2.thesportsdb.com/images/media/league/badge/w67i621701772123.png",
+      "is_popular": true,
+      "aliases": [
+        "Saudi Pro League",
+        "Saudi-Arabian Pro League",
+        "Saudi Professional League"
+      ],
+      "source": "thesportsdb"
+    },
+    "serie_a": {
+      "id": "serie_a",
+      "external_id": "4332",
+      "name": "Serie A",
+      "logo": "https://r2.thesportsdb.com/images/media/league/badge/67q3q21679951383.png",
+      "is_popular": true,
+      "aliases": [
+        "Italian Serie A",
+        "Italy Serie A"
+      ],
+      "source": "thesportsdb"
+    },
+    "super_lig": {
+      "id": "super_lig",
+      "external_id": "4339",
+      "name": "Turkish Super Lig",
+      "logo": "https://r2.thesportsdb.com/images/media/league/badge/h7xx231601671132.png",
+      "is_popular": true,
+      "aliases": [
+        "Turkish Super Lig",
+        "Süper Lig",
+        "Turkey Super Lig"
+      ],
+      "source": "thesportsdb"
+    }
+  }
+}

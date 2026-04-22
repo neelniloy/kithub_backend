@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "last_updated": "2026-04-22",
+  "teams": {
+    "colon": {
+      "id": "colon",
+      "external_id": "135157",
+      "name": "Colón",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/l72gz21712750680.png",
+      "league": "argentine_primera",
+      "aliases": [
+        "Colon",
+        "Colón",
+        "Club Atletico Colon",
+        "Club Atlético Colón"
+      ],
+      "source": "community"
+    }
+  }
+}
