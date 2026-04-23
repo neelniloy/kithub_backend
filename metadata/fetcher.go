@@ -44,24 +44,47 @@ type sportsDBTeam struct {
 	Logo      string `json:"strLogo"`
 }
 
+type sportsDBAllLeaguesResponse struct {
+	Leagues []struct {
+		ID    string `json:"idLeague"`
+		Name  string `json:"strLeague"`
+		Sport string `json:"strSport"`
+	} `json:"leagues"`
+}
+
 func (f *Fetcher) Fetch(ctx context.Context) (Store, error) {
 	store := Store{
 		Leagues: make(map[string]League),
 		Teams:   make(map[string]Team),
 	}
 
-	var fetchErr error
+	// 1. Fetch all leagues and filter for Soccer
+	var allLeagues sportsDBAllLeaguesResponse
+	if err := f.getJSON(ctx, fmt.Sprintf("%s/all_leagues.php", sportsDBBaseURL), &allLeagues); err != nil {
+		return store, fmt.Errorf("fetch all leagues: %w", err)
+	}
+
+	soccerLeagues := make(map[string]string) // ExternalID -> Name
+	for _, l := range allLeagues.Leagues {
+		if l.Sport == "Soccer" {
+			soccerLeagues[l.ID] = l.Name
+		}
+	}
+
+	// 2. Process our "SourceLeagues" first
+	processedExternalIDs := make(map[string]bool)
 	for _, source := range SourceLeagues {
 		league, err := f.fetchLeague(ctx, source)
 		if err != nil {
-			fetchErr = err
+			fmt.Printf("Warning: failed to fetch league %s: %v\n", source.ID, err)
 			continue
 		}
 		store.Leagues[league.ID] = league
+		processedExternalIDs[league.ExternalID] = true
 
 		teams, err := f.fetchTeams(ctx, source, league.ID)
 		if err != nil {
-			fetchErr = err
+			fmt.Printf("Warning: failed to fetch teams for %s: %v\n", league.ID, err)
 			continue
 		}
 		for _, team := range teams {
@@ -69,12 +92,48 @@ func (f *Fetcher) Fetch(ctx context.Context) (Store, error) {
 		}
 	}
 
+	// 3. Process remaining soccer leagues
+	for extID, name := range soccerLeagues {
+		if processedExternalIDs[extID] {
+			continue
+		}
+
+		leagueID := Slug(cleanLeagueName(name))
+		// Avoid duplicate IDs
+		if _, exists := store.Leagues[leagueID]; exists {
+			leagueID = leagueID + "_" + extID
+		}
+
+		source := SourceLeague{
+			ID:         leagueID,
+			ExternalID: extID,
+			SearchName: name,
+		}
+
+		league, err := f.fetchLeague(ctx, source)
+		if err != nil {
+			fmt.Printf("Warning: failed to fetch discovered league %s (%s): %v\n", name, extID, err)
+			continue
+		}
+		store.Leagues[league.ID] = league
+
+		teams, err := f.fetchTeams(ctx, source, league.ID)
+		if err != nil {
+			fmt.Printf("Warning: failed to fetch teams for discovered league %s: %v\n", name, err)
+			continue
+		}
+		for _, team := range teams {
+			store.Teams[team.ID] = team
+		}
+	}
+
+	// 4. Add International/Manual teams
 	store.Leagues[internationalLeague.ID] = internationalLeague
 	for _, team := range nationalTeams {
 		store.Teams[team.ID] = team
 	}
 
-	return store, fetchErr
+	return store, nil
 }
 
 func (f *Fetcher) fetchLeague(ctx context.Context, source SourceLeague) (League, error) {

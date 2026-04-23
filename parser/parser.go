@@ -3,6 +3,7 @@ package parser
 import (
 	"net/url"
 	"regexp"
+	"strconv"
 	"strings"
 
 	"github.com/PuerkitoBio/goquery"
@@ -26,38 +27,43 @@ func ParseArticle(page scraper.ArticlePage, matcher *metadata.Matcher) ([]models
 		title = strings.TrimSpace(doc.Find("title").First().Text())
 	}
 
-	bodyText := strings.Join([]string{title, doc.Find("article").First().Text(), doc.Find("body").Text()}, " ")
-	match, ok := matcher.MatchTeam(title)
-	if !ok {
-		match, ok = matcher.FallbackTeam(title)
-	}
-	if !ok {
-		return nil, nil
+	// 1. Identify the "Primary Team" for this page (from the title)
+	primaryMatch, hasPrimary := matcher.MatchTeam(title)
+	if !hasPrimary {
+		primaryMatch, hasPrimary = matcher.FallbackTeam(title)
 	}
 
 	articleSeason := utils.ExtractSeason(title)
 	if articleSeason == "" {
-		articleSeason = utils.ExtractSeason(bodyText)
-	}
-	if articleSeason == "" {
-		return nil, nil
+		articleSeason = utils.ExtractSeason(page.HTML)
 	}
 
-	league := modelLeague(match.League)
 	found := make(map[string]bool)
 	foundLogos := make(map[string]bool)
 	var records []models.KitRecord
 	var logos []models.LogoRecord
 
-	appendURL := func(rawURL, contextText string) {
+	// Helper to process a URL with a matched team
+	processURL := func(rawURL, contextText string, specificTeam *metadata.Match) {
 		kitURL, ok := normalizePNGURL(page.URL, rawURL)
 		if !ok || found[kitURL] {
 			return
 		}
+
+		// Use specific team if found, otherwise use page primary team
+		match := primaryMatch
+		if specificTeam != nil {
+			match = *specificTeam
+		}
+
+		// If we still have no team, we can't save it
+		if match.Team.ID == "" {
+			return
+		}
+
+		league := modelLeague(match.League)
+
 		if looksLikeLogoAsset(kitURL, contextText) {
-			if !logoBelongsToTeam(kitURL, match.Team.ID, match.Team.Name) {
-				return
-			}
 			if foundLogos[kitURL] {
 				return
 			}
@@ -73,14 +79,22 @@ func ParseArticle(page scraper.ArticlePage, matcher *metadata.Matcher) ([]models
 			})
 			return
 		}
+
 		season := utils.ExtractSeason(kitURL + " " + contextText)
 		if season == "" {
 			season = articleSeason
 		}
+
+		// Filter: Skip kits older than 3 seasons (pre-2021)
+		if isOldSeason(season, 2021) {
+			return
+		}
+		
 		kitType := utils.DetectKitType(kitURL)
 		if kitType == "unknown" {
 			kitType = utils.DetectKitType(contextText)
 		}
+
 		found[kitURL] = true
 		records = append(records, models.KitRecord{
 			TeamID:      match.Team.ID,
@@ -96,17 +110,33 @@ func ParseArticle(page scraper.ArticlePage, matcher *metadata.Matcher) ([]models
 		})
 	}
 
+	// 2. Scan structured tags (images and links)
 	doc.Find("img[src], img[data-src], img[data-lazy-src], a[href]").Each(func(_ int, s *goquery.Selection) {
 		contextText := surroundingText(s)
+		
+		// Try to find a specific team in the surrounding text (for league posts)
+		var specificMatch *metadata.Match
+		if m, ok := matcher.MatchTeam(contextText); ok {
+			specificMatch = &m
+		} else if m, ok := matcher.FallbackTeam(contextText); ok {
+			// Create a dynamic team from the context if not in master list
+			specificMatch = &m
+		}
+
+		rawURL := ""
 		for _, attr := range []string{"src", "data-src", "data-lazy-src", "href"} {
-			if value, ok := s.Attr(attr); ok {
-				appendURL(value, contextText)
+			if val, exists := s.Attr(attr); exists {
+				rawURL = val
+				break
 			}
 		}
+
+		processURL(rawURL, contextText, specificMatch)
 	})
 
-	for _, match := range rawPNGLinkRE.FindAllString(page.HTML, -1) {
-		appendURL(match, title)
+	// 3. Scan raw HTML for any missed links (fallback to primary team)
+	for _, rawURL := range rawPNGLinkRE.FindAllString(page.HTML, -1) {
+		processURL(rawURL, title, nil)
 	}
 
 	return records, logos
@@ -160,6 +190,23 @@ func surroundingText(s *goquery.Selection) string {
 		s.Parent().Next().Text(),
 	}
 	return strings.Join(parts, " ")
+}
+
+func isOldSeason(season string, minYear int) bool {
+	if season == "" {
+		return false // Assume current if unknown
+	}
+	// Extract the first 4-digit year found in the season string
+	re := regexp.MustCompile(`\d{4}`)
+	match := re.FindString(season)
+	if match == "" {
+		return false
+	}
+	year, err := strconv.Atoi(match)
+	if err != nil {
+		return false
+	}
+	return year < minYear
 }
 
 func looksLikeLogoAsset(kitURL, _ string) bool {

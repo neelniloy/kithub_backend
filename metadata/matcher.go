@@ -44,7 +44,13 @@ func NewMatcher(store Store) *Matcher {
 }
 
 func (m *Matcher) MatchTeam(text string) (Match, bool) {
+	if text == "" {
+		return Match{}, false
+	}
 	normalized := NormalizeAlias(text)
+	textSlug := Slug(text)
+
+	// 1. Direct Alias Match (Highest Priority)
 	for _, entry := range m.lookup {
 		if containsAlias(normalized, entry.alias) {
 			team := m.store.Teams[entry.teamID]
@@ -52,6 +58,29 @@ func (m *Matcher) MatchTeam(text string) (Match, bool) {
 			return Match{Team: team, League: league}, true
 		}
 	}
+
+	// 2. Slug-based Fuzzy Match (Secondary Priority)
+	for _, team := range m.store.Teams {
+		teamSlug := Slug(team.Name)
+		if strings.Contains(textSlug, teamSlug) || strings.Contains(teamSlug, textSlug) {
+			if len(teamSlug) > 3 { // Avoid matching very short names like "AFC" too aggressively
+				league := m.store.Leagues[team.League]
+				return Match{Team: team, League: league}, true
+			}
+		}
+		
+		// Check aliases slugs too
+		for _, alias := range team.Aliases {
+			aliasSlug := Slug(alias)
+			if aliasSlug != "" && (strings.Contains(textSlug, aliasSlug) || strings.Contains(aliasSlug, textSlug)) {
+				if len(aliasSlug) > 3 {
+					league := m.store.Leagues[team.League]
+					return Match{Team: team, League: league}, true
+				}
+			}
+		}
+	}
+
 	return Match{}, false
 }
 

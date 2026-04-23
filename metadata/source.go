@@ -9,18 +9,38 @@ type SourceLeague struct {
 }
 
 var SourceLeagues = []SourceLeague{
-	{ID: "premier_league", ExternalID: "4328", SearchName: "English Premier League", IsPopular: true, Aliases: []string{"EPL", "English Premier League"}},
-	{ID: "la_liga", ExternalID: "4335", SearchName: "Spanish La Liga", IsPopular: true, Aliases: []string{"Spanish La Liga", "LaLiga"}},
-	{ID: "bundesliga", ExternalID: "4331", SearchName: "German Bundesliga", IsPopular: true, Aliases: []string{"German Bundesliga"}},
-	{ID: "serie_a", ExternalID: "4332", SearchName: "Italian Serie A", IsPopular: true, Aliases: []string{"Italian Serie A"}},
-	{ID: "ligue_1", ExternalID: "4334", SearchName: "French Ligue 1", IsPopular: true, Aliases: []string{"French Ligue 1"}},
-	{ID: "mls", ExternalID: "4346", SearchName: "American Major League Soccer", IsPopular: true, Aliases: []string{"Major League Soccer"}},
-	{ID: "eredivisie", ExternalID: "4337", SearchName: "Dutch Eredivisie", Aliases: []string{"Dutch Eredivisie"}},
-	{ID: "saudi_pro_league", ExternalID: "4668", SearchName: "Saudi-Arabian Pro League", IsPopular: true, Aliases: []string{"Saudi Pro League", "Saudi-Arabian Pro League"}},
-	{ID: "super_lig", ExternalID: "4339", SearchName: "Turkish Super Lig", IsPopular: true, Aliases: []string{"Turkish Super Lig", "Süper Lig"}},
+	// Europe
+	{ID: "premier_league", ExternalID: "4328", SearchName: "English Premier League", IsPopular: true},
+	{ID: "la_liga", ExternalID: "4335", SearchName: "Spanish La Liga", IsPopular: true},
+	{ID: "bundesliga", ExternalID: "4331", SearchName: "German Bundesliga", IsPopular: true},
+	{ID: "serie_a", ExternalID: "4332", SearchName: "Italian Serie A", IsPopular: true},
+	{ID: "ligue_1", ExternalID: "4334", SearchName: "French Ligue 1", IsPopular: true},
+	{ID: "eredivisie", ExternalID: "4337", SearchName: "Dutch Eredivisie"},
+	{ID: "primeira_liga", ExternalID: "4344", SearchName: "Portuguese Primeira Liga"},
+	{ID: "championship", ExternalID: "4329", SearchName: "English League Championship"},
+	{ID: "scottish_premiership", ExternalID: "4330", SearchName: "Scottish Premiership"},
+	{ID: "belgian_pro_league", ExternalID: "4338", SearchName: "Belgian First Division A"},
+	{ID: "super_lig", ExternalID: "4339", SearchName: "Turkish Super Lig", IsPopular: true},
+	{ID: "greek_super_league", ExternalID: "4336", SearchName: "Greek Superleague Greece"},
+	{ID: "russian_premier_league", ExternalID: "4355", SearchName: "Russian Premier League"},
+	{ID: "austrian_bundesliga", ExternalID: "4345", SearchName: "Austrian Football Bundesliga"},
+	{ID: "danish_superliga", ExternalID: "4340", SearchName: "Danish Superliga"},
+	{ID: "swiss_super_league", ExternalID: "4341", SearchName: "Swiss Super League"},
+
+	// Americas
+	{ID: "mls", ExternalID: "4346", SearchName: "American Major League Soccer", IsPopular: true},
 	{ID: "brasileirao", ExternalID: "4351", SearchName: "Brazilian Serie A", Aliases: []string{"Brazilian Serie A", "Brasileirão"}},
 	{ID: "argentine_primera", ExternalID: "4406", SearchName: "Argentinian Primera Division", Aliases: []string{"Argentinian Primera Division", "Argentine Primera Division"}},
+	{ID: "liga_mx", ExternalID: "4350", SearchName: "Mexican Liga MX", Aliases: []string{"Liga MX", "Primera División de México"}},
+	{ID: "colombian_primera_a", ExternalID: "4403", SearchName: "Colombian Primera A"},
 	{ID: "liga_1_peru", ExternalID: "4688", SearchName: "Peruvian Primera Division", Aliases: []string{"Peruvian Primera Division", "Liga 1 Peru"}},
+
+	// Asia & Others
+	{ID: "saudi_pro_league", ExternalID: "4668", SearchName: "Saudi-Arabian Pro League", IsPopular: true, Aliases: []string{"Saudi Pro League", "Saudi-Arabian Pro League"}},
+	{ID: "j1_league", ExternalID: "4400", SearchName: "Japanese J1 League", Aliases: []string{"J1 League"}},
+	{ID: "k_league_1", ExternalID: "4401", SearchName: "South Korean K League 1"},
+	{ID: "chinese_super_league", ExternalID: "4356", SearchName: "Chinese Super League"},
+	{ID: "australian_a_league", ExternalID: "4347", SearchName: "Australian A-League"},
 }
 
 var internationalLeague = League{
