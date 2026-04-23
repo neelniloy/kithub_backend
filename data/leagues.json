@@ -1,170 +1,164 @@
 {
   "version": 1,
-  "last_updated": "2026-04-22",
+  "last_updated": "2026-04-23",
   "leagues": {
-    "argentine_primera": {
-      "id": "argentine_primera",
-      "external_id": "4406",
-      "name": "Argentine Primera Division",
-      "logo": "https://r2.thesportsdb.com/images/media/league/badge/rk9xhx1768238251.png",
-      "aliases": [
-        "Argentinian Primera Division",
-        "Argentine Primera Division",
-        "Liga Profesional de Fútbol"
-      ],
-      "source": "thesportsdb"
+    "argentine_primera_division": {
+      "id": "argentine_primera_division",
+      "name": "Argentine Primera Division"
+    },
+    "belgian_pro_league": {
+      "id": "belgian_pro_league",
+      "name": "Belgian Pro League",
+      "logo": "https://r2.thesportsdb.com/images/media/league/badge/mjit7n1593634474.png"
+    },
+    "botola_pro_1": {
+      "id": "botola_pro_1",
+      "name": "Botola Pro 1"
     },
     "brasileirao": {
       "id": "brasileirao",
-      "external_id": "4351",
-      "name": "Brasileirao",
-      "logo": "https://r2.thesportsdb.com/images/media/league/badge/lywv7t1766787179.png",
-      "aliases": [
-        "Brazilian Serie A",
-        "Brasileirão",
-        "Brazil Brasileirão Série A Brasileiro"
-      ],
-      "source": "thesportsdb"
+      "name": "Brasileirao"
+    },
+    "bundes_league": {
+      "id": "bundes_league",
+      "name": "Bundes League"
     },
     "bundesliga": {
       "id": "bundesliga",
-      "external_id": "4331",
       "name": "Bundesliga",
       "logo": "https://r2.thesportsdb.com/images/media/league/badge/teqh1b1679952008.png",
-      "is_popular": true,
-      "aliases": [
-        "German Bundesliga",
-        "Germany Bundesliga",
-        "Fußball-Bundesliga"
-      ],
-      "source": "thesportsdb"
+      "is_popular": true
+    },
+    "caf": {
+      "id": "caf",
+      "name": "CAF"
+    },
+    "championship": {
+      "id": "championship",
+      "name": "English League Championship",
+      "logo": "https://r2.thesportsdb.com/images/media/league/badge/ty5a681688770169.png"
+    },
+    "csf": {
+      "id": "csf",
+      "name": "CSF"
+    },
+    "danish_superliga": {
+      "id": "danish_superliga",
+      "name": "Danish Superliga",
+      "logo": "https://r2.thesportsdb.com/images/media/league/badge/28uq381687624585.png"
+    },
+    "dstv_premiership": {
+      "id": "dstv_premiership",
+      "name": "DStv Premiership"
+    },
+    "egyptian_premier_league": {
+      "id": "egyptian_premier_league",
+      "name": "Egyptian Premier League"
     },
     "eredivisie": {
       "id": "eredivisie",
-      "external_id": "4337",
       "name": "Dutch Eredivisie",
-      "logo": "https://r2.thesportsdb.com/images/media/league/badge/5cdsu21725984946.png",
-      "aliases": [
-        "Dutch Eredivisie",
-        "Eredivisie"
-      ],
-      "source": "thesportsdb"
+      "logo": "https://r2.thesportsdb.com/images/media/league/badge/5cdsu21725984946.png"
+    },
+    "greek_super_league": {
+      "id": "greek_super_league",
+      "name": "Greek Superleague Greece",
+      "logo": "https://r2.thesportsdb.com/images/media/league/badge/jm7ky01602788843.png"
+    },
+    "indian_super_league": {
+      "id": "indian_super_league",
+      "name": "Indian Super League"
     },
     "international": {
       "id": "international",
-      "external_id": "4429",
       "name": "International",
       "logo": "https://r2.thesportsdb.com/images/media/league/badge/e7er5g1696521789.png",
-      "is_popular": true,
-      "aliases": [
-        "FIFA World Cup",
-        "International"
-      ],
-      "source": "manual"
+      "is_popular": true
+    },
+    "japan_league": {
+      "id": "japan_league",
+      "name": "Japan League"
     },
     "la_liga": {
       "id": "la_liga",
-      "external_id": "4335",
       "name": "La Liga",
       "logo": "https://r2.thesportsdb.com/images/media/league/badge/ja4it51687628717.png",
-      "is_popular": true,
-      "aliases": [
-        "Spanish La Liga",
-        "LaLiga",
-        "LaLiga Santander",
-        "La Liga"
-      ],
-      "source": "thesportsdb"
+      "is_popular": true
     },
-    "liga_1_peru": {
-      "id": "liga_1_peru",
-      "external_id": "4688",
-      "name": "Liga 1 Peru",
-      "logo": "https://r2.thesportsdb.com/images/media/league/badge/1ujpwc1580040216.png",
-      "aliases": [
-        "Peruvian Primera Division",
-        "Liga 1 Peru",
-        "Torneo Descentralizado de Fútbol Profesional",
-        "Liga 1",
-        "Copa Movistar"
-      ],
-      "source": "thesportsdb"
+    "league_1_france": {
+      "id": "league_1_france",
+      "name": "League 1 France"
+    },
+    "liga_1_indonesia": {
+      "id": "liga_1_indonesia",
+      "name": "Liga 1 (Indonesia)"
+    },
+    "liga_mx": {
+      "id": "liga_mx",
+      "name": "Liga MX"
     },
     "ligue_1": {
       "id": "ligue_1",
-      "external_id": "4334",
       "name": "Ligue 1",
       "logo": "https://r2.thesportsdb.com/images/media/league/badge/9f7z9d1742983155.png",
-      "is_popular": true,
-      "aliases": [
-        "French Ligue 1",
-        "Ligue 1 Conforama France"
-      ],
-      "source": "thesportsdb"
+      "is_popular": true
     },
-    "mls": {
-      "id": "mls",
-      "external_id": "4346",
-      "name": "Major League Soccer",
-      "logo": "https://r2.thesportsdb.com/images/media/league/badge/dqo6r91549878326.png",
-      "is_popular": true,
-      "aliases": [
-        "Major League Soccer",
-        "MLS"
-      ],
-      "source": "thesportsdb"
+    "major_league_soccer": {
+      "id": "major_league_soccer",
+      "name": "Major League Soccer"
+    },
+    "national_team": {
+      "id": "national_team",
+      "name": "National Team"
+    },
+    "others": {
+      "id": "others",
+      "name": "Others"
     },
     "premier_league": {
       "id": "premier_league",
-      "external_id": "4328",
       "name": "Premier League",
       "logo": "https://r2.thesportsdb.com/images/media/league/badge/gasy9d1737743125.png",
-      "is_popular": true,
-      "aliases": [
-        "EPL",
-        "English Premier League",
-        "Premier League",
-        "England"
-      ],
-      "source": "thesportsdb"
+      "is_popular": true
+    },
+    "primeira_liga": {
+      "id": "primeira_liga",
+      "name": "Portuguese Primeira Liga",
+      "logo": "https://r2.thesportsdb.com/images/media/league/badge/lkfko71751917970.png"
+    },
+    "russian_premier_league": {
+      "id": "russian_premier_league",
+      "name": "Russian Football Premier League",
+      "logo": "https://r2.thesportsdb.com/images/media/league/badge/d4yp7g1690178551.png"
     },
     "saudi_pro_league": {
       "id": "saudi_pro_league",
-      "external_id": "4668",
-      "name": "Saudi-Arabian Pro League",
-      "logo": "https://r2.thesportsdb.com/images/media/league/badge/w67i621701772123.png",
-      "is_popular": true,
-      "aliases": [
-        "Saudi Pro League",
-        "Saudi-Arabian Pro League",
-        "Saudi Professional League"
-      ],
-      "source": "thesportsdb"
+      "name": "Saudi Pro League"
+    },
+    "scottish_premiership": {
+      "id": "scottish_premiership",
+      "name": "Scottish Premier League",
+      "logo": "https://r2.thesportsdb.com/images/media/league/badge/72d3zc1688333496.png"
     },
     "serie_a": {
       "id": "serie_a",
-      "external_id": "4332",
       "name": "Serie A",
       "logo": "https://r2.thesportsdb.com/images/media/league/badge/67q3q21679951383.png",
-      "is_popular": true,
-      "aliases": [
-        "Italian Serie A",
-        "Italy Serie A"
-      ],
-      "source": "thesportsdb"
+      "is_popular": true
     },
     "super_lig": {
       "id": "super_lig",
-      "external_id": "4339",
       "name": "Turkish Super Lig",
       "logo": "https://r2.thesportsdb.com/images/media/league/badge/h7xx231601671132.png",
-      "is_popular": true,
-      "aliases": [
-        "Turkish Super Lig",
-        "Süper Lig",
-        "Turkey Super Lig"
-      ],
-      "source": "thesportsdb"
+      "is_popular": true
+    },
+    "turkey_super_lig": {
+      "id": "turkey_super_lig",
+      "name": "Turkey Super Lig"
+    },
+    "unknown": {
+      "id": "unknown",
+      "name": "Unknown"
     }
   }
 }

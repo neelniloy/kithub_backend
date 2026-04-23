@@ -1,2533 +1,2233 @@
 {
   "version": 1,
-  "last_updated": "2026-04-22",
+  "last_updated": "2026-04-23",
   "teams": {
     "ac_milan": {
       "id": "ac_milan",
-      "external_id": "133667",
       "name": "AC Milan",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/wvspur1448806617.png",
       "league": "serie_a",
-      "is_popular": true,
-      "aliases": [
-        "MIL"
-      ],
-      "source": "thesportsdb"
+      "is_popular": true
     },
-    "adt": {
-      "id": "adt",
-      "external_id": "144717",
-      "name": "ADT",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/gliwig1768234286.png",
-      "league": "liga_1_peru",
-      "aliases": [
-        "ADT"
-      ],
-      "source": "thesportsdb"
+    "adidas_al_nassr_fc": {
+      "id": "adidas_al_nassr_fc",
+      "name": "Adidas AL Nassr FC",
+      "logo": "https://dlskits.com/wp-content/uploads/2025/10/dlskits.com-icon-showing-dream-league-soccer-kits-of-football-clubs-150x150.png",
+      "league": "unknown"
+    },
+    "aek_athens": {
+      "id": "aek_athens",
+      "name": "AEK Athens",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/4nogst1602773624.png",
+      "league": "greek_super_league"
+    },
+    "ael": {
+      "id": "ael",
+      "name": "AEL",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/3gbfyf1755610003.png",
+      "league": "greek_super_league"
+    },
+    "agf_aarhus": {
+      "id": "agf_aarhus",
+      "name": "AGF Aarhus",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/vxuuts1473535487.png",
+      "league": "danish_superliga"
+    },
+    "ahly": {
+      "id": "ahly",
+      "name": "Ahly",
+      "logo": "https://i.imgur.com/6cbcrBM.png",
+      "league": "caf"
     },
     "ajax": {
       "id": "ajax",
-      "external_id": "133772",
       "name": "Ajax",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/zg9tii1755495289.png",
-      "league": "eredivisie",
-      "aliases": [
-        "AJA"
-      ],
-      "source": "thesportsdb"
+      "league": "eredivisie"
     },
-    "al_ahli": {
-      "id": "al_ahli",
-      "external_id": "137721",
-      "name": "Al-Ahli",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/1bbtgb1755192301.png",
-      "league": "saudi_pro_league",
-      "source": "thesportsdb"
-    },
-    "al_ettifaq": {
-      "id": "al_ettifaq",
-      "external_id": "136017",
-      "name": "Al-Ettifaq",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/m272h51694761970.png",
-      "league": "saudi_pro_league",
-      "source": "thesportsdb"
-    },
-    "al_fateh": {
-      "id": "al_fateh",
-      "external_id": "136011",
-      "name": "Al-Fateh",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/a5cjf41662659789.png",
-      "league": "saudi_pro_league",
-      "source": "thesportsdb"
-    },
-    "al_fayha": {
-      "id": "al_fayha",
-      "external_id": "136014",
-      "name": "Al-Fayha",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/jl3spp1677530565.png",
-      "league": "saudi_pro_league",
-      "source": "thesportsdb"
-    },
-    "al_hazem": {
-      "id": "al_hazem",
-      "external_id": "136200",
-      "name": "Al-Hazem",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/3uy27p1635871755.png",
-      "league": "saudi_pro_league",
-      "source": "thesportsdb"
+    "al_ahli_saudi_fc": {
+      "id": "al_ahli_saudi_fc",
+      "name": "Al-Ahli Saudi FC",
+      "logo": "https://i.imgur.com/8zaxfn6.png",
+      "league": "saudi_pro_league"
     },
     "al_hilal": {
       "id": "al_hilal",
-      "external_id": "136013",
-      "name": "Al-Hilal",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/w0b80d1661656916.png",
-      "league": "saudi_pro_league",
-      "source": "thesportsdb"
+      "name": "AL Hilal",
+      "league": "unknown"
+    },
+    "al_hilal_sfc": {
+      "id": "al_hilal_sfc",
+      "name": "Al Hilal SFC",
+      "logo": "https://i.imgur.com/NN02zAQ.png",
+      "league": "saudi_pro_league"
     },
     "al_ittihad": {
       "id": "al_ittihad",
-      "external_id": "136018",
-      "name": "Al-Ittihad",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/8n1t1j1755192418.png",
-      "league": "saudi_pro_league",
-      "source": "thesportsdb"
+      "name": "AL Ittihad",
+      "league": "unknown"
     },
-    "al_khaleej": {
-      "id": "al_khaleej",
-      "external_id": "139080",
-      "name": "Al-Khaleej",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/mvf6ga1755192630.png",
-      "league": "saudi_pro_league",
-      "source": "thesportsdb"
-    },
-    "al_kholood": {
-      "id": "al_kholood",
-      "external_id": "149112",
-      "name": "Al-Kholood",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/vv44v01755192851.png",
-      "league": "saudi_pro_league",
-      "source": "thesportsdb"
-    },
-    "al_najma_unaizah": {
-      "id": "al_najma_unaizah",
-      "external_id": "150638",
-      "name": "Al-Najma Unaizah",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/o65fn01737686968.png",
-      "league": "saudi_pro_league",
-      "source": "thesportsdb"
+    "al_ittihad_club": {
+      "id": "al_ittihad_club",
+      "name": "Al Ittihad Club",
+      "logo": "https://i.imgur.com/9CwSC0l.png",
+      "league": "saudi_pro_league"
     },
     "al_nassr": {
       "id": "al_nassr",
-      "external_id": "136022",
-      "name": "Al-Nassr",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/84yvqi1748524565.png",
-      "league": "saudi_pro_league",
-      "is_popular": true,
-      "source": "thesportsdb"
+      "name": "AL Nassr",
+      "logo": "https://kitdls.net/wp-content/uploads/2023/09/Logo-KitDLS-Net.png",
+      "league": "unknown",
+      "is_popular": true
     },
-    "al_okhdood": {
-      "id": "al_okhdood",
-      "external_id": "147444",
-      "name": "Al-Okhdood",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/ub1l7h1755193155.png",
-      "league": "saudi_pro_league",
-      "source": "thesportsdb"
+    "al_nassr_fc": {
+      "id": "al_nassr_fc",
+      "name": "AL Nassr FC",
+      "logo": "https://ftsdlskits.com/wp-content/uploads/al_opt_content/IMAGE/ftsdlskits.com/wp-content/uploads/2022/02/Al-Nassr-FC-logo-300x300.png?bv_host=ftsdlskits.com\u0026amp;bv-resized-infos=bv_resized_mobile%3A300%2A300%3Bbv_resized_ipad%3A300%2A300%3Bbv_resized_desktop%3A300%2A300",
+      "league": "unknown"
     },
-    "al_qadsiah": {
-      "id": "al_qadsiah",
-      "external_id": "136015",
-      "name": "Al-Qadsiah",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/ok63wb1719134839.png",
-      "league": "saudi_pro_league",
-      "source": "thesportsdb"
+    "al_shabab_fc": {
+      "id": "al_shabab_fc",
+      "name": "Al Shabab FC",
+      "logo": "https://i.imgur.com/Wk4VIWr.png",
+      "league": "saudi_pro_league"
     },
-    "al_riyadh": {
-      "id": "al_riyadh",
-      "external_id": "147445",
-      "name": "Al-Riyadh",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/i4o0zy1755193321.png",
-      "league": "saudi_pro_league",
-      "source": "thesportsdb"
-    },
-    "al_shabab": {
-      "id": "al_shabab",
-      "external_id": "136020",
-      "name": "Al-Shabab",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/zbums21755192520.png",
-      "league": "saudi_pro_league",
-      "source": "thesportsdb"
-    },
-    "al_taawoun": {
-      "id": "al_taawoun",
-      "external_id": "136012",
-      "name": "Al-Taawoun",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/rlsmp91646835052.png",
-      "league": "saudi_pro_league",
-      "source": "thesportsdb"
+    "al_taawoun_fc": {
+      "id": "al_taawoun_fc",
+      "name": "Al Taawoun FC",
+      "logo": "https://i.imgur.com/y7dXqs3.png",
+      "league": "saudi_pro_league"
     },
     "alanyaspor": {
       "id": "alanyaspor",
-      "external_id": "135676",
       "name": "Alanyaspor",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/9fr3071601667898.png",
-      "league": "super_lig",
-      "source": "thesportsdb"
+      "league": "super_lig"
     },
-    "aldosivi": {
-      "id": "aldosivi",
-      "external_id": "135150",
-      "name": "Aldosivi",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/nqrjqb1517767667.png",
-      "league": "argentine_primera",
-      "source": "thesportsdb"
+    "all_about": {
+      "id": "all_about",
+      "name": "All About",
+      "league": "unknown"
     },
-    "alianza_atletico": {
-      "id": "alianza_atletico",
-      "external_id": "140803",
-      "name": "Alianza Atlético",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/wu4g171615130421.png",
-      "league": "liga_1_peru",
-      "source": "thesportsdb"
+    "alverca": {
+      "id": "alverca",
+      "name": "Alverca",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/6ljryf1691990098.png",
+      "league": "primeira_liga"
     },
-    "alianza_lima": {
-      "id": "alianza_lima",
-      "external_id": "138311",
-      "name": "Alianza Lima",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/y5wov41580040189.png",
-      "league": "liga_1_peru",
-      "source": "thesportsdb"
+    "america_mineiro": {
+      "id": "america_mineiro",
+      "name": "América Mineiro",
+      "logo": "https://i.imgur.com/MUtlN3i.png",
+      "league": "brasileirao"
+    },
+    "american": {
+      "id": "american",
+      "name": "American",
+      "league": "unknown"
     },
     "angers": {
       "id": "angers",
-      "external_id": "134709",
       "name": "Angers",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/ix6q4w1678808069.png",
-      "league": "ligue_1",
-      "source": "thesportsdb"
+      "league": "ligue_1"
     },
     "antalyaspor": {
       "id": "antalyaspor",
-      "external_id": "133799",
       "name": "Antalyaspor",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/vqoral1601669436.png",
-      "league": "super_lig",
-      "source": "thesportsdb"
+      "league": "super_lig"
+    },
+    "apk": {
+      "id": "apk",
+      "name": "Apk",
+      "league": "unknown"
     },
     "argentina": {
       "id": "argentina",
       "name": "Argentina",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/1c8m0g1687707876.png",
       "league": "international",
-      "is_popular": true,
-      "aliases": [
-        "Argentina"
-      ],
-      "source": "manual"
+      "is_popular": true
     },
-    "argentinos_juniors": {
-      "id": "argentinos_juniors",
-      "external_id": "135151",
-      "name": "Argentinos Juniors",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/uqfjuo1769234850.png",
-      "league": "argentine_primera",
-      "source": "thesportsdb"
+    "aris": {
+      "id": "aris",
+      "name": "Aris",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/2d1zih1602773641.png",
+      "league": "greek_super_league"
+    },
+    "arouca": {
+      "id": "arouca",
+      "name": "Arouca",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/vgbzjq1628853833.png",
+      "league": "primeira_liga"
     },
     "arsenal": {
       "id": "arsenal",
-      "external_id": "133604",
       "name": "Arsenal",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/uyhbfe1612467038.png",
       "league": "premier_league",
-      "is_popular": true,
-      "aliases": [
-        "ARS"
-      ],
-      "source": "thesportsdb"
+      "is_popular": true
+    },
+    "asian_team": {
+      "id": "asian_team",
+      "name": "Asian Team",
+      "league": "unknown"
+    },
+    "asteras_tripolis": {
+      "id": "asteras_tripolis",
+      "name": "Asteras Tripolis",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/u2c3sg1728396949.png",
+      "league": "greek_super_league"
     },
     "aston_villa": {
       "id": "aston_villa",
-      "external_id": "133601",
       "name": "Aston Villa",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/jykrpv1717309891.png",
-      "league": "premier_league",
-      "aliases": [
-        "AVL"
-      ],
-      "source": "thesportsdb"
+      "league": "premier_league"
     },
     "atalanta": {
       "id": "atalanta",
-      "external_id": "134782",
       "name": "Atalanta",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/lrvxg71534873930.png",
-      "league": "serie_a",
-      "source": "thesportsdb"
+      "league": "serie_a"
     },
     "athletic_bilbao": {
       "id": "athletic_bilbao",
-      "external_id": "133727",
       "name": "Athletic Bilbao",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/68w7fe1639408210.png",
-      "league": "la_liga",
-      "aliases": [
-        "ATH"
-      ],
-      "source": "thesportsdb"
+      "league": "la_liga"
     },
-    "athletico_paranaense": {
-      "id": "athletico_paranaense",
-      "external_id": "134297",
-      "name": "Athletico Paranaense",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/irzu1u1554237406.png",
-      "league": "brasileirao",
-      "aliases": [
-        "CAP"
-      ],
-      "source": "thesportsdb"
+    "athletic_club": {
+      "id": "athletic_club",
+      "name": "Athletic Club",
+      "league": "unknown"
     },
-    "atlanta_united": {
-      "id": "atlanta_united",
-      "external_id": "135851",
-      "name": "Atlanta United",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/ej091x1602103070.png",
-      "league": "mls",
-      "aliases": [
-        "ATL"
-      ],
-      "source": "thesportsdb"
+    "athletico_mineiro": {
+      "id": "athletico_mineiro",
+      "name": "Athletico Mineiro",
+      "logo": "https://i.imgur.com/5HAHYbu.png",
+      "league": "brasileirao"
     },
-    "atletico_grau": {
-      "id": "atletico_grau",
-      "external_id": "138313",
-      "name": "Atlético Grau",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/ksemw91678411736.png",
-      "league": "liga_1_peru",
-      "source": "thesportsdb"
+    "atletico_de_madrid": {
+      "id": "atletico_de_madrid",
+      "name": "Atletico DE Madrid",
+      "logo": "https://dlskits.com/wp-content/uploads/2022/01/DLS-Kits-New-Logo-200x80-1.png",
+      "league": "unknown"
     },
     "atletico_madrid": {
       "id": "atletico_madrid",
-      "external_id": "133729",
       "name": "Atlético Madrid",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/0ulh3q1719984315.png",
-      "league": "la_liga",
-      "aliases": [
-        "ATM",
-        "Atletico Madrid",
-        "Atletico de Madrid",
-        "Atlético de Madrid"
-      ],
-      "source": "thesportsdb"
-    },
-    "atletico_mineiro": {
-      "id": "atletico_mineiro",
-      "external_id": "134299",
-      "name": "Atlético Mineiro",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/x5lixs1743742872.png",
-      "league": "brasileirao",
-      "aliases": [
-        "CAM"
-      ],
-      "source": "thesportsdb"
+      "league": "la_liga"
     },
     "atletico_tucuman": {
       "id": "atletico_tucuman",
-      "external_id": "135681",
       "name": "Atlético Tucumán",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/m5i2q21775755577.png",
-      "league": "argentine_primera",
-      "aliases": [
-        "Atlético Tucumán",
-        "Atletico Tucuman"
-      ],
-      "source": "thesportsdb"
+      "logo": "https://i.imgur.com/bWROuob.png",
+      "league": "argentine_primera_division"
     },
-    "austin_fc": {
-      "id": "austin_fc",
-      "external_id": "140079",
-      "name": "Austin FC",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/a3dlg61595434277.png",
-      "league": "mls",
-      "aliases": [
-        "ATX"
-      ],
-      "source": "thesportsdb"
+    "atromitos": {
+      "id": "atromitos",
+      "name": "Atromitos",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/adh2j01602774237.png",
+      "league": "greek_super_league"
+    },
+    "australia": {
+      "id": "australia",
+      "name": "Australia",
+      "logo": "https://i.imgur.com/Nmav43G.png",
+      "league": "national_team"
     },
     "auxerre": {
       "id": "auxerre",
-      "external_id": "134788",
       "name": "Auxerre",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/lzdtbf1658753355.png",
-      "league": "ligue_1",
-      "source": "thesportsdb"
+      "league": "ligue_1"
+    },
+    "avs": {
+      "id": "avs",
+      "name": "AVS",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/xp8oqb1688676544.png",
+      "league": "primeira_liga"
     },
     "az_alkmaar": {
       "id": "az_alkmaar",
-      "external_id": "133767",
       "name": "AZ Alkmaar",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/wtqwvv1473534757.png",
-      "league": "eredivisie",
-      "source": "thesportsdb"
+      "league": "eredivisie"
     },
     "bahia": {
       "id": "bahia",
-      "external_id": "134293",
       "name": "Bahia",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/xuvtsv1473539308.png",
-      "league": "brasileirao",
-      "aliases": [
-        "BAH"
-      ],
-      "source": "thesportsdb"
+      "logo": "https://i.imgur.com/QkX2bqA.png",
+      "league": "brasileirao"
     },
-    "banfield": {
-      "id": "banfield",
-      "external_id": "135154",
-      "name": "Banfield",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/c2ea011775756104.png",
-      "league": "argentine_primera",
-      "source": "thesportsdb"
+    "bali_united": {
+      "id": "bali_united",
+      "name": "Bali United",
+      "logo": "https://i.imgur.com/1k1WBgE.png",
+      "league": "liga_1_indonesia"
     },
     "barcelona": {
       "id": "barcelona",
-      "external_id": "133739",
       "name": "Barcelona",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/wq9sir1639406443.png",
-      "league": "la_liga",
-      "aliases": [
-        "FCB",
-        "FC Barcelona",
-        "Barca",
-        "F.C. Barcelona"
-      ],
-      "source": "thesportsdb"
+      "league": "la_liga"
     },
-    "barracas_central": {
-      "id": "barracas_central",
-      "external_id": "137771",
-      "name": "Barracas Central",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/rbkjba1707458543.png",
-      "league": "argentine_primera",
-      "source": "thesportsdb"
+    "baseball": {
+      "id": "baseball",
+      "name": "Baseball",
+      "league": "unknown"
+    },
+    "basketball": {
+      "id": "basketball",
+      "name": "Basketball",
+      "league": "unknown"
     },
     "bayer_leverkusen": {
       "id": "bayer_leverkusen",
-      "external_id": "133666",
       "name": "Bayer Leverkusen",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/3x9k851726760113.png",
-      "league": "bundesliga",
-      "aliases": [
-        "B04"
-      ],
-      "source": "thesportsdb"
+      "league": "bundesliga"
     },
     "bayern_munich": {
       "id": "bayern_munich",
-      "external_id": "133664",
       "name": "Bayern Munich",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/01ogkh1716960412.png",
       "league": "bundesliga",
-      "is_popular": true,
-      "aliases": [
-        "BAY"
-      ],
-      "source": "thesportsdb"
+      "is_popular": true
     },
-    "belgrano": {
-      "id": "belgrano",
-      "external_id": "135155",
-      "name": "Belgrano",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/0twgzi1517768087.png",
-      "league": "argentine_primera",
-      "source": "thesportsdb"
+    "belgium": {
+      "id": "belgium",
+      "name": "Belgium",
+      "logo": "https://i.imgur.com/fGaBdjt.png",
+      "league": "national_team"
+    },
+    "benfica": {
+      "id": "benfica",
+      "name": "Benfica",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/0pywy21662316682.png",
+      "league": "primeira_liga"
     },
     "besiktas": {
       "id": "besiktas",
-      "external_id": "133794",
       "name": "Beşiktaş",
       "logo": "https://www.thesportsdb.com/images/media/team/badge/svo05k1776827439.png",
-      "league": "super_lig",
-      "source": "thesportsdb"
+      "league": "super_lig"
+    },
+    "birmingham_city": {
+      "id": "birmingham_city",
+      "name": "Birmingham City",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/wufs551672950865.png",
+      "league": "championship"
+    },
+    "blackburn_rovers": {
+      "id": "blackburn_rovers",
+      "name": "Blackburn Rovers",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/rvryut1448810814.png",
+      "league": "championship"
     },
     "boca_juniors": {
       "id": "boca_juniors",
-      "external_id": "135156",
       "name": "Boca Juniors",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/bm7krb1775741582.png",
-      "league": "argentine_primera",
-      "is_popular": true,
-      "source": "thesportsdb"
+      "logo": "https://i.imgur.com/51K8rjm.png",
+      "league": "csf"
     },
     "bologna": {
       "id": "bologna",
-      "external_id": "134781",
       "name": "Bologna",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/2qi1u31655592366.png",
-      "league": "serie_a",
-      "source": "thesportsdb"
+      "league": "serie_a"
+    },
+    "borneo": {
+      "id": "borneo",
+      "name": "Borneo",
+      "logo": "https://i.imgur.com/y6Gu3Mh.png",
+      "league": "liga_1_indonesia"
     },
     "borussia_dortmund": {
       "id": "borussia_dortmund",
-      "external_id": "133650",
       "name": "Borussia Dortmund",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/tqo8ge1716960353.png",
       "league": "bundesliga",
-      "is_popular": true,
-      "aliases": [
-        "DOR"
-      ],
-      "source": "thesportsdb"
+      "is_popular": true
     },
     "borussia_monchengladbach": {
       "id": "borussia_monchengladbach",
-      "external_id": "134779",
       "name": "Borussia Mönchengladbach",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/sysurw1473453380.png",
-      "league": "bundesliga",
-      "source": "thesportsdb"
+      "league": "bundesliga"
     },
     "botafogo": {
       "id": "botafogo",
-      "external_id": "134285",
       "name": "Botafogo",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/bs5mbw1733004596.png",
-      "league": "brasileirao",
-      "aliases": [
-        "BOT"
-      ],
-      "source": "thesportsdb"
+      "logo": "https://i.imgur.com/ux6eIxo.png",
+      "league": "brasileirao"
     },
     "bournemouth": {
       "id": "bournemouth",
-      "external_id": "134301",
       "name": "Bournemouth",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/y08nak1534071116.png",
-      "league": "premier_league",
-      "aliases": [
-        "BOU"
-      ],
-      "source": "thesportsdb"
+      "league": "premier_league"
     },
-    "bragantino": {
-      "id": "bragantino",
-      "external_id": "134736",
-      "name": "Bragantino",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/2p7tl41701423595.png",
-      "league": "brasileirao",
-      "aliases": [
-        "BRA"
-      ],
-      "source": "thesportsdb"
+    "br_ndby": {
+      "id": "br_ndby",
+      "name": "Brøndby",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/ywswyw1473535498.png",
+      "league": "danish_superliga"
+    },
+    "braga": {
+      "id": "braga",
+      "name": "Braga",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/8g4aod1678717261.png",
+      "league": "primeira_liga"
     },
     "brazil": {
       "id": "brazil",
       "name": "Brazil",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/rbdwne1678526703.png",
       "league": "international",
-      "is_popular": true,
-      "aliases": [
-        "Brazil",
-        "Brasil"
-      ],
-      "source": "manual"
+      "is_popular": true
     },
     "brentford": {
       "id": "brentford",
-      "external_id": "134355",
       "name": "Brentford",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/grv1aw1546453779.png",
-      "league": "premier_league",
-      "aliases": [
-        "BRE"
-      ],
-      "source": "thesportsdb"
+      "league": "premier_league"
     },
     "brest": {
       "id": "brest",
-      "external_id": "133704",
       "name": "Brest",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/z69be41598797026.png",
-      "league": "ligue_1",
-      "aliases": [
-        "BRS"
-      ],
-      "source": "thesportsdb"
+      "league": "ligue_1"
     },
     "brighton_and_hove_albion": {
       "id": "brighton_and_hove_albion",
-      "external_id": "133619",
       "name": "Brighton and Hove Albion",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/ywypts1448810904.png",
-      "league": "premier_league",
-      "aliases": [
-        "BRI"
-      ],
-      "source": "thesportsdb"
+      "league": "premier_league"
+    },
+    "bristol_city": {
+      "id": "bristol_city",
+      "name": "Bristol City",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/0ejxwz1601721013.png",
+      "league": "championship"
+    },
+    "bundesliga": {
+      "id": "bundesliga",
+      "name": "Bundesliga",
+      "logo": "https://kitdls.net/wp-content/uploads/2023/09/Logo-KitDLS-Net.png",
+      "league": "unknown"
     },
     "burnley": {
       "id": "burnley",
-      "external_id": "133623",
       "name": "Burnley",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/ql7nl31686893820.png",
-      "league": "premier_league",
-      "aliases": [
-        "BUR"
-      ],
-      "source": "thesportsdb"
+      "league": "premier_league"
+    },
+    "ca_paranaense": {
+      "id": "ca_paranaense",
+      "name": "CA Paranaense",
+      "logo": "https://i.imgur.com/8z3YSFL.png",
+      "league": "brasileirao"
+    },
+    "caf_champions": {
+      "id": "caf_champions",
+      "name": "Caf Champions",
+      "league": "unknown"
     },
     "cagliari": {
       "id": "cagliari",
-      "external_id": "134783",
       "name": "Cagliari",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/wvsvxt1447534471.png",
-      "league": "serie_a",
-      "source": "thesportsdb"
+      "league": "serie_a"
     },
-    "cajamarca": {
-      "id": "cajamarca",
-      "external_id": "150363",
-      "name": "Cajamarca",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/fl9mlx1768236425.png",
-      "league": "liga_1_peru",
-      "source": "thesportsdb"
+    "cameroon": {
+      "id": "cameroon",
+      "name": "Cameroon",
+      "logo": "https://i.imgur.com/nI0JA6K.png",
+      "league": "national_team"
+    },
+    "canada": {
+      "id": "canada",
+      "name": "Canada",
+      "logo": "https://i.imgur.com/Wd3d7GG.png",
+      "league": "national_team"
+    },
+    "casa_pia": {
+      "id": "casa_pia",
+      "name": "Casa Pia",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/d8ugsc1678717133.png",
+      "league": "primeira_liga"
+    },
+    "ceara": {
+      "id": "ceara",
+      "name": "Ceara",
+      "logo": "https://i.imgur.com/QKKuvcK.png",
+      "league": "brasileirao"
     },
     "celta_vigo": {
       "id": "celta_vigo",
-      "external_id": "133937",
       "name": "Celta Vigo",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/xfjtku1690436219.png",
-      "league": "la_liga",
-      "aliases": [
-        "VIG"
-      ],
-      "source": "thesportsdb"
+      "league": "la_liga"
     },
-    "central_cordoba_de_santiago_del_estero": {
-      "id": "central_cordoba_de_santiago_del_estero",
-      "external_id": "137603",
-      "name": "Central Córdoba de Santiago del Estero",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/d62xkc1576101576.png",
-      "league": "argentine_primera",
-      "source": "thesportsdb"
-    },
-    "cf_montreal": {
-      "id": "cf_montreal",
-      "external_id": "134150",
-      "name": "CF Montréal",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/livdl31679344925.png",
-      "league": "mls",
-      "aliases": [
-        "MTL"
-      ],
-      "source": "thesportsdb"
+    "cerezo": {
+      "id": "cerezo",
+      "name": "Cerezo",
+      "logo": "https://i.imgur.com/xyB2LNX.png",
+      "league": "japan_league"
     },
     "chapecoense": {
       "id": "chapecoense",
-      "external_id": "134464",
       "name": "Chapecoense",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/wy0e1i1765900601.png",
-      "league": "brasileirao",
-      "source": "thesportsdb"
+      "logo": "https://i.imgur.com/3JUjibM.png",
+      "league": "brasileirao"
     },
-    "charlotte_fc": {
-      "id": "charlotte_fc",
-      "external_id": "140078",
-      "name": "Charlotte FC",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/b6p4uz1595434047.png",
-      "league": "mls",
-      "aliases": [
-        "CLT"
-      ],
-      "source": "thesportsdb"
+    "charlton_athletic": {
+      "id": "charlton_athletic",
+      "name": "Charlton Athletic",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/o08wvi1635872307.png",
+      "league": "championship"
     },
     "chelsea": {
       "id": "chelsea",
-      "external_id": "133610",
       "name": "Chelsea",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/yvwvtu1448813215.png",
       "league": "premier_league",
-      "is_popular": true,
-      "aliases": [
-        "CHE"
-      ],
-      "source": "thesportsdb"
+      "is_popular": true
     },
-    "chicago_fire": {
-      "id": "chicago_fire",
-      "external_id": "134154",
-      "name": "Chicago Fire",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/8xuc781639493166.png",
-      "league": "mls",
-      "aliases": [
-        "CHI"
-      ],
-      "source": "thesportsdb"
-    },
-    "cienciano": {
-      "id": "cienciano",
-      "external_id": "138319",
-      "name": "Cienciano",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/yla9k51734242161.png",
-      "league": "liga_1_peru",
-      "source": "thesportsdb"
+    "club_america": {
+      "id": "club_america",
+      "name": "Club América",
+      "logo": "https://i.imgur.com/ErnH3k8.png",
+      "league": "liga_mx"
     },
     "colombia": {
       "id": "colombia",
-      "external_id": "134501",
       "name": "Colombia",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/4ymyku1691180081.png",
       "league": "international",
-      "is_popular": true,
-      "aliases": [
-        "Colombia"
-      ],
-      "source": "thesportsdb"
-    },
-    "colorado_rapids": {
-      "id": "colorado_rapids",
-      "external_id": "134794",
-      "name": "Colorado Rapids",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/uppupv1473536412.png",
-      "league": "mls",
-      "aliases": [
-        "COL"
-      ],
-      "source": "thesportsdb"
-    },
-    "columbus_crew": {
-      "id": "columbus_crew",
-      "external_id": "134152",
-      "name": "Columbus Crew",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/dzs8cp1629059854.png",
-      "league": "mls",
-      "aliases": [
-        "CLB"
-      ],
-      "source": "thesportsdb"
-    },
-    "comerciantes_unidos": {
-      "id": "comerciantes_unidos",
-      "external_id": "141812",
-      "name": "Comerciantes Unidos",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/umrof11768234590.png",
-      "league": "liga_1_peru",
-      "source": "thesportsdb"
+      "is_popular": true
     },
     "como": {
       "id": "como",
-      "external_id": "134243",
       "name": "Como",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/02x81t1627405841.png",
-      "league": "serie_a",
-      "aliases": [
-        "COM"
-      ],
-      "source": "thesportsdb"
+      "league": "serie_a"
     },
-    "corinthians": {
-      "id": "corinthians",
-      "external_id": "134284",
-      "name": "Corinthians",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/vvuvps1473538042.png",
-      "league": "brasileirao",
-      "aliases": [
-        "COR"
-      ],
-      "source": "thesportsdb"
+    "cookie_policy": {
+      "id": "cookie_policy",
+      "name": "Cookie Policy",
+      "league": "unknown"
     },
-    "coritiba": {
-      "id": "coritiba",
-      "external_id": "134298",
-      "name": "Coritiba",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/ywwsyu1473538050.png",
-      "league": "brasileirao",
-      "aliases": [
-        "CFC"
-      ],
-      "source": "thesportsdb"
+    "costa_rica": {
+      "id": "costa_rica",
+      "name": "Costa Rica",
+      "logo": "https://i.imgur.com/BdVdKDy.png",
+      "league": "national_team"
+    },
+    "coventry_city": {
+      "id": "coventry_city",
+      "name": "Coventry City",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/uxyqys1424033798.png",
+      "league": "championship"
     },
     "cremonese": {
       "id": "cremonese",
-      "external_id": "134224",
       "name": "Cremonese",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/6ng2vy1579708291.png",
-      "league": "serie_a",
-      "source": "thesportsdb"
+      "league": "serie_a"
+    },
+    "croatia": {
+      "id": "croatia",
+      "name": "Croatia",
+      "logo": "https://i.imgur.com/UBi3uNH.png",
+      "league": "national_team"
     },
     "cruzeiro": {
       "id": "cruzeiro",
-      "external_id": "134294",
       "name": "Cruzeiro",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/upsvvu1473538059.png",
-      "league": "brasileirao",
-      "aliases": [
-        "CRU"
-      ],
-      "source": "thesportsdb"
+      "logo": "https://i.imgur.com/AnWKChF.png",
+      "league": "brasileirao"
     },
     "crystal_palace": {
       "id": "crystal_palace",
-      "external_id": "133632",
       "name": "Crystal Palace",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/ia6i3m1656014992.png",
-      "league": "premier_league",
-      "aliases": [
-        "CRY"
-      ],
-      "source": "thesportsdb"
+      "league": "premier_league"
     },
-    "cusco": {
-      "id": "cusco",
-      "external_id": "138320",
-      "name": "Cusco",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/2rxjt61603137804.png",
-      "league": "liga_1_peru",
-      "source": "thesportsdb"
+    "currie": {
+      "id": "currie",
+      "name": "Currie",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/e07kf41641776919.png",
+      "league": "scottish_premiership"
     },
-    "damac": {
-      "id": "damac",
-      "external_id": "137852",
-      "name": "Damac",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/z2l4w31677530963.png",
-      "league": "saudi_pro_league",
-      "source": "thesportsdb"
+    "damac_fc": {
+      "id": "damac_fc",
+      "name": "Damac FC",
+      "logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhcKto_lf0pel80-ybyPWbm8x61bSYdh98YYnyNHehhUkX7AW2RqRrYquV-ENV9IgvcHp9BdOpXMWL7HJGFErWLl9A4YNQ_dPSStuUAYK_4owBy_2N-Cp1rIC3AMvsxiFjGXRih5SMGkCDlXE8FmrTabX9hkBVp4r0Y-z_YHXhkWuY7I9k9Zgg-9Ll1O3w/s320/Damac%20FC.png",
+      "league": "saudi_pro_league"
     },
-    "dc_united": {
-      "id": "dc_united",
-      "external_id": "134145",
-      "name": "DC United",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/uwvsyt1467462609.png",
-      "league": "mls",
-      "aliases": [
-        "DC"
-      ],
-      "source": "thesportsdb"
-    },
-    "defensa_y_justicia": {
-      "id": "defensa_y_justicia",
-      "external_id": "135159",
-      "name": "Defensa y Justicia",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/3guvlh1775778978.png",
-      "league": "argentine_primera",
-      "source": "thesportsdb"
+    "denmark": {
+      "id": "denmark",
+      "name": "Denmark",
+      "logo": "https://i.imgur.com/O8uyaf6.png",
+      "league": "national_team"
     },
     "deportivo_alaves": {
       "id": "deportivo_alaves",
-      "external_id": "134221",
       "name": "Deportivo Alavés",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/mfn99h1734673842.png",
-      "league": "la_liga",
-      "aliases": [
-        "ALA"
-      ],
-      "source": "thesportsdb"
+      "league": "la_liga"
     },
-    "deportivo_garcilaso": {
-      "id": "deportivo_garcilaso",
-      "external_id": "147636",
-      "name": "Deportivo Garcilaso",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/me11g41690449129.png",
-      "league": "liga_1_peru",
-      "source": "thesportsdb"
+    "derby_county": {
+      "id": "derby_county",
+      "name": "Derby County",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/jioo4z1557155744.png",
+      "league": "championship"
     },
-    "deportivo_moquegua": {
-      "id": "deportivo_moquegua",
-      "external_id": "149507",
-      "name": "Deportivo Moquegua",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/et9aaf1768236511.png",
-      "league": "liga_1_peru",
-      "source": "thesportsdb"
+    "dortmand": {
+      "id": "dortmand",
+      "name": "Dortmand",
+      "logo": "https://i.imgur.com/MyyAgmt.png",
+      "league": "bundes_league"
     },
-    "deportivo_riestra": {
-      "id": "deportivo_riestra",
-      "external_id": "137782",
-      "name": "Deportivo Riestra",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/332h0l1578824392.png",
-      "league": "argentine_primera",
-      "source": "thesportsdb"
+    "ecuador": {
+      "id": "ecuador",
+      "name": "Ecuador",
+      "logo": "https://i.imgur.com/lBO6cLY.png",
+      "league": "national_team"
+    },
+    "edinburgh_academicals": {
+      "id": "edinburgh_academicals",
+      "name": "Edinburgh Academicals",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/sap1k41641776924.png",
+      "league": "scottish_premiership"
     },
     "eintracht_frankfurt": {
       "id": "eintracht_frankfurt",
-      "external_id": "133814",
       "name": "Eintracht Frankfurt",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/rurwpy1473453269.png",
-      "league": "bundesliga",
-      "aliases": [
-        "SGE"
-      ],
-      "source": "thesportsdb"
+      "league": "bundesliga"
     },
     "elche": {
       "id": "elche",
-      "external_id": "134384",
       "name": "Elche",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/e4vaw51655594332.png",
-      "league": "la_liga",
-      "source": "thesportsdb"
+      "league": "la_liga"
     },
     "england": {
       "id": "england",
       "name": "England",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/i3w3521687708223.png",
       "league": "international",
-      "is_popular": true,
-      "aliases": [
-        "England"
-      ],
-      "source": "manual"
+      "is_popular": true
     },
     "espanyol": {
       "id": "espanyol",
-      "external_id": "133734",
       "name": "Espanyol",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/867nzz1681703222.png",
-      "league": "la_liga",
-      "source": "thesportsdb"
+      "league": "la_liga"
     },
-    "estudiantes_de_la_plata": {
-      "id": "estudiantes_de_la_plata",
-      "external_id": "135160",
-      "name": "Estudiantes de La Plata",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/pf08dq1760634366.png",
-      "league": "argentine_primera",
-      "source": "thesportsdb"
+    "estoril_praia": {
+      "id": "estoril_praia",
+      "name": "Estoril Praia",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/lq9h8m1628854051.png",
+      "league": "primeira_liga"
     },
-    "estudiantes_de_rio_cuarto": {
-      "id": "estudiantes_de_rio_cuarto",
-      "external_id": "137773",
-      "name": "Estudiantes de Río Cuarto",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/391thp1775793121.png",
-      "league": "argentine_primera",
-      "source": "thesportsdb"
+    "estrela_amadora": {
+      "id": "estrela_amadora",
+      "name": "Estrela Amadora",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/2tx5621626095555.png",
+      "league": "primeira_liga"
     },
     "everton": {
       "id": "everton",
-      "external_id": "133615",
       "name": "Everton",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/eqayrf1523184794.png",
-      "league": "premier_league",
-      "aliases": [
-        "EVE"
-      ],
-      "source": "thesportsdb"
+      "league": "premier_league"
     },
     "excelsior": {
       "id": "excelsior",
-      "external_id": "133757",
       "name": "Excelsior",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/bmbn9v1625172555.png",
-      "league": "eredivisie",
-      "source": "thesportsdb"
+      "league": "eredivisie"
     },
     "eyupspor": {
       "id": "eyupspor",
-      "external_id": "138977",
       "name": "Eyüpspor",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/7fb0ub1626445710.png",
-      "league": "super_lig",
-      "source": "thesportsdb"
+      "league": "super_lig"
+    },
+    "famalicao": {
+      "id": "famalicao",
+      "name": "Famalicao",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/a3f4er1563653256.png",
+      "league": "primeira_liga"
     },
     "fatih_karagumruk": {
       "id": "fatih_karagumruk",
-      "external_id": "138983",
       "name": "Fatih Karagümrük",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/bfb84y1580847945.png",
-      "league": "super_lig",
-      "source": "thesportsdb"
+      "league": "super_lig"
     },
     "fc_augsburg": {
       "id": "fc_augsburg",
-      "external_id": "133652",
       "name": "FC Augsburg",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/xqyyvq1473453233.png",
-      "league": "bundesliga",
-      "source": "thesportsdb"
+      "league": "bundesliga"
     },
     "fc_cincinnati": {
       "id": "fc_cincinnati",
-      "external_id": "136688",
       "name": "FC Cincinnati",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/vvhsqc1707631046.png",
-      "league": "mls",
-      "aliases": [
-        "CIN"
-      ],
-      "source": "thesportsdb"
+      "logo": "https://i.imgur.com/TdD4AgT.png",
+      "league": "major_league_soccer"
     },
-    "fc_dallas": {
-      "id": "fc_dallas",
-      "external_id": "134146",
-      "name": "FC Dallas",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/vxy8xy1602103187.png",
-      "league": "mls",
-      "aliases": [
-        "DAL"
-      ],
-      "source": "thesportsdb"
+    "fc_copenhagen": {
+      "id": "fc_copenhagen",
+      "name": "FC Copenhagen",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/styqtr1473535513.png",
+      "league": "danish_superliga"
     },
     "fc_heidenheim": {
       "id": "fc_heidenheim",
-      "external_id": "134696",
       "name": "FC Heidenheim",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/lbj7g01608236988.png",
-      "league": "bundesliga",
-      "source": "thesportsdb"
+      "league": "bundesliga"
     },
     "fc_koln": {
       "id": "fc_koln",
-      "external_id": "133654",
       "name": "FC Köln",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/2j1sc91566049407.png",
-      "league": "bundesliga",
-      "source": "thesportsdb"
+      "league": "bundesliga"
+    },
+    "fc_midtjylland": {
+      "id": "fc_midtjylland",
+      "name": "FC Midtjylland",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/s5bpcr1755712262.png",
+      "league": "danish_superliga"
+    },
+    "fc_nordsj_lland": {
+      "id": "fc_nordsj_lland",
+      "name": "FC Nordsjælland",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/p2hof41579460164.png",
+      "league": "danish_superliga"
+    },
+    "fc_porto": {
+      "id": "fc_porto",
+      "name": "FC Porto",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/xu47rb1628855600.png",
+      "league": "primeira_liga"
     },
     "fc_volendam": {
       "id": "fc_volendam",
-      "external_id": "133867",
       "name": "FC Volendam",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/rdouic1625167940.png",
-      "league": "eredivisie",
-      "source": "thesportsdb"
+      "league": "eredivisie"
     },
     "fenerbahce": {
       "id": "fenerbahce",
-      "external_id": "133807",
       "name": "Fenerbahçe",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/twxxvs1448199691.png",
-      "league": "super_lig",
-      "source": "thesportsdb"
+      "league": "super_lig"
     },
     "feyenoord": {
       "id": "feyenoord",
-      "external_id": "133758",
       "name": "Feyenoord",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/uturtx1473534803.png",
-      "league": "eredivisie",
-      "aliases": [
-        "FEY"
-      ],
-      "source": "thesportsdb"
+      "league": "eredivisie"
+    },
+    "fifa": {
+      "id": "fifa",
+      "name": "Fifa",
+      "league": "unknown"
     },
     "fiorentina": {
       "id": "fiorentina",
-      "external_id": "133674",
       "name": "Fiorentina",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/hc8nhu1656098030.png",
-      "league": "serie_a",
-      "source": "thesportsdb"
+      "league": "serie_a"
     },
     "flamengo": {
       "id": "flamengo",
-      "external_id": "134287",
       "name": "Flamengo",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/syptwx1473538074.png",
-      "league": "brasileirao",
-      "aliases": [
-        "FLA"
-      ],
-      "source": "thesportsdb"
+      "logo": "https://i.imgur.com/qEZSsUi.png",
+      "league": "brasileirao"
     },
     "fluminense": {
       "id": "fluminense",
-      "external_id": "134296",
       "name": "Fluminense",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/stvvwp1473538082.png",
-      "league": "brasileirao",
-      "aliases": [
-        "FLU"
-      ],
-      "source": "thesportsdb"
+      "logo": "https://i.imgur.com/t3Lj8wz.png",
+      "league": "brasileirao"
+    },
+    "fortaleza_ec": {
+      "id": "fortaleza_ec",
+      "name": "Fortaleza EC",
+      "logo": "https://i.imgur.com/VGPeCJx.png",
+      "league": "brasileirao"
     },
     "fortuna_sittard": {
       "id": "fortuna_sittard",
-      "external_id": "134264",
       "name": "Fortuna Sittard",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/aqr7it1685596947.png",
-      "league": "eredivisie",
-      "source": "thesportsdb"
+      "league": "eredivisie"
     },
     "france": {
       "id": "france",
       "name": "France",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/6n9jin1687707835.png",
       "league": "international",
-      "is_popular": true,
-      "aliases": [
-        "France"
-      ],
-      "source": "manual"
+      "is_popular": true
+    },
+    "fredericia": {
+      "id": "fredericia",
+      "name": "Fredericia",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/q2qi7p1580134434.png",
+      "league": "danish_superliga"
     },
     "freiburg": {
       "id": "freiburg",
-      "external_id": "133653",
       "name": "Freiburg",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/urwtup1473453288.png",
-      "league": "bundesliga",
-      "source": "thesportsdb"
+      "league": "bundesliga"
     },
     "fulham": {
       "id": "fulham",
-      "external_id": "133600",
       "name": "Fulham",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/xwwvyt1448811086.png",
-      "league": "premier_league",
-      "aliases": [
-        "FUL"
-      ],
-      "source": "thesportsdb"
+      "league": "premier_league"
     },
     "galatasaray": {
       "id": "galatasaray",
-      "external_id": "133804",
       "name": "Galatasaray",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/io7jk21767941298.png",
       "league": "super_lig",
-      "is_popular": true,
-      "aliases": [
-        "GAL"
-      ],
-      "source": "thesportsdb"
+      "is_popular": true
+    },
+    "galaxy": {
+      "id": "galaxy",
+      "name": "Galaxy",
+      "logo": "https://i.imgur.com/b5gpl35.png",
+      "league": "csf"
     },
     "gaziantep": {
       "id": "gaziantep",
-      "external_id": "138092",
       "name": "Gaziantep",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/54j6ik1579458093.png",
-      "league": "super_lig",
-      "source": "thesportsdb"
+      "league": "super_lig"
     },
     "genclerbirligi": {
       "id": "genclerbirligi",
-      "external_id": "133798",
       "name": "Gençlerbirliği",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/5hnd1c1639569938.png",
-      "league": "super_lig",
-      "source": "thesportsdb"
+      "league": "super_lig"
     },
     "genoa": {
       "id": "genoa",
-      "external_id": "133675",
       "name": "Genoa",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/52s8dn1655553600.png",
-      "league": "serie_a",
-      "source": "thesportsdb"
+      "league": "serie_a"
     },
     "germany": {
       "id": "germany",
       "name": "Germany",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/2m9p8n1687707806.png",
       "league": "international",
-      "is_popular": true,
-      "aliases": [
-        "Germany"
-      ],
-      "source": "manual"
+      "is_popular": true
+    },
+    "get_it_on_google": {
+      "id": "get_it_on_google",
+      "name": "Get IT ON Google",
+      "league": "unknown"
     },
     "getafe": {
       "id": "getafe",
-      "external_id": "133731",
       "name": "Getafe",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/eyh2891655594452.png",
-      "league": "la_liga",
-      "aliases": [
-        "GET"
-      ],
-      "source": "thesportsdb"
+      "league": "la_liga"
     },
-    "gimnasia_y_esgrima_de_la_plata": {
-      "id": "gimnasia_y_esgrima_de_la_plata",
-      "external_id": "135161",
-      "name": "Gimnasia y Esgrima de La Plata",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/dtqto61775838814.png",
-      "league": "argentine_primera",
-      "source": "thesportsdb"
+    "ghana": {
+      "id": "ghana",
+      "name": "Ghana",
+      "logo": "https://i.imgur.com/m7JEWH1.png",
+      "league": "national_team"
     },
-    "gimnasia_y_esgrima_de_mendoza": {
-      "id": "gimnasia_y_esgrima_de_mendoza",
-      "external_id": "137778",
-      "name": "Gimnasia y Esgrima de Mendoza",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/h11mlf1677636958.png",
-      "league": "argentine_primera",
-      "source": "thesportsdb"
+    "gil_vicente": {
+      "id": "gil_vicente",
+      "name": "Gil Vicente",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/88bsg41626201503.png",
+      "league": "primeira_liga"
+    },
+    "gimnasia": {
+      "id": "gimnasia",
+      "name": "Gimnasia",
+      "logo": "https://i.imgur.com/0zmjMnf.png",
+      "league": "argentine_primera_division"
     },
     "girona": {
       "id": "girona",
-      "external_id": "134700",
       "name": "Girona",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/kfu7zu1659897499.png",
-      "league": "la_liga",
-      "aliases": [
-        "GIR"
-      ],
-      "source": "thesportsdb"
+      "league": "la_liga"
+    },
+    "glasgow_hawks": {
+      "id": "glasgow_hawks",
+      "name": "Glasgow Hawks",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/twimek1641776928.png",
+      "league": "scottish_premiership"
+    },
+    "glasgow_hutchesons_aloysians": {
+      "id": "glasgow_hutchesons_aloysians",
+      "name": "Glasgow Hutchesons Aloysians",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/7fuwye1641776933.png",
+      "league": "scottish_premiership"
     },
     "go_ahead_eagles": {
       "id": "go_ahead_eagles",
-      "external_id": "134304",
       "name": "Go Ahead Eagles",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/3hq2cy1685597026.png",
-      "league": "eredivisie",
-      "source": "thesportsdb"
+      "league": "eredivisie"
     },
     "goztepe": {
       "id": "goztepe",
-      "external_id": "135891",
       "name": "Göztepe",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/9jwk7o1513952059.png",
-      "league": "super_lig",
-      "source": "thesportsdb"
+      "league": "super_lig"
     },
     "gremio": {
       "id": "gremio",
-      "external_id": "134288",
-      "name": "Grêmio",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/uvpwyt1473538089.png",
-      "league": "brasileirao",
-      "aliases": [
-        "GRE"
-      ],
-      "source": "thesportsdb"
+      "name": "Gremio",
+      "logo": "https://i.imgur.com/B2CoqMd.png",
+      "league": "brasileirao"
     },
     "groningen": {
       "id": "groningen",
-      "external_id": "133762",
       "name": "Groningen",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/f36qnp1666107447.png",
-      "league": "eredivisie",
-      "source": "thesportsdb"
+      "league": "eredivisie"
     },
     "hamburg": {
       "id": "hamburg",
-      "external_id": "133651",
       "name": "Hamburg",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/tvtppt1473453296.png",
-      "league": "bundesliga",
-      "source": "thesportsdb"
+      "league": "bundesliga"
+    },
+    "hawick": {
+      "id": "hawick",
+      "name": "Hawick",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/4rqdwa1641776938.png",
+      "league": "scottish_premiership"
     },
     "heerenveen": {
       "id": "heerenveen",
-      "external_id": "133759",
       "name": "Heerenveen",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/surtsx1473534841.png",
-      "league": "eredivisie",
-      "source": "thesportsdb"
+      "league": "eredivisie"
     },
     "hellas_verona": {
       "id": "hellas_verona",
-      "external_id": "134784",
       "name": "Hellas Verona",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/p6camf1593457737.png",
-      "league": "serie_a",
-      "source": "thesportsdb"
+      "league": "serie_a"
     },
     "heracles_almelo": {
       "id": "heracles_almelo",
-      "external_id": "133766",
       "name": "Heracles Almelo",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/vyyvss1473534851.png",
-      "league": "eredivisie",
-      "source": "thesportsdb"
+      "league": "eredivisie"
+    },
+    "heriots_rugby_club": {
+      "id": "heriots_rugby_club",
+      "name": "Heriots Rugby Club",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/cwnb7a1646333500.png",
+      "league": "scottish_premiership"
+    },
+    "hockey": {
+      "id": "hockey",
+      "name": "Hockey",
+      "league": "unknown"
     },
     "hoffenheim": {
       "id": "hoffenheim",
-      "external_id": "133657",
       "name": "Hoffenheim",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/9hwvb21621593919.png",
-      "league": "bundesliga",
-      "source": "thesportsdb"
+      "league": "bundesliga"
     },
-    "houston_dynamo": {
-      "id": "houston_dynamo",
-      "external_id": "134144",
-      "name": "Houston Dynamo",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/yvz9dq1707631352.png",
-      "league": "mls",
-      "aliases": [
-        "HOU"
-      ],
-      "source": "thesportsdb"
+    "how_to_import": {
+      "id": "how_to_import",
+      "name": "How TO Import",
+      "league": "unknown"
+    },
+    "how_to_your_own": {
+      "id": "how_to_your_own",
+      "name": "How TO Your Own",
+      "league": "unknown"
+    },
+    "hull_city": {
+      "id": "hull_city",
+      "name": "Hull City",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/fbqqda1601726113.png",
+      "league": "championship"
     },
     "huracan": {
       "id": "huracan",
-      "external_id": "135163",
       "name": "Huracán",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/kppi2b1775776550.png",
-      "league": "argentine_primera",
-      "source": "thesportsdb"
+      "logo": "https://i.imgur.com/pUZCW4x.png",
+      "league": "argentine_primera_division"
     },
-    "independiente": {
-      "id": "independiente",
-      "external_id": "135164",
-      "name": "Independiente",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/eki4nd1580842605.png",
-      "league": "argentine_primera",
-      "source": "thesportsdb"
+    "hyderabad": {
+      "id": "hyderabad",
+      "name": "Hyderabad",
+      "logo": "https://i.imgur.com/KU6MFgV.png",
+      "league": "indian_super_league"
     },
-    "independiente_rivadavia": {
-      "id": "independiente_rivadavia",
-      "external_id": "137777",
-      "name": "Independiente Rivadavia",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/qgzi2b1769406125.png",
-      "league": "argentine_primera",
-      "source": "thesportsdb"
+    "india": {
+      "id": "india",
+      "name": "India",
+      "league": "unknown"
     },
     "indonesia": {
       "id": "indonesia",
-      "external_id": "140164",
       "name": "Indonesia",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/hkg0st1656933330.png",
-      "league": "international",
-      "aliases": [
-        "Indonesia"
-      ],
-      "source": "thesportsdb"
+      "league": "international"
     },
-    "instituto": {
-      "id": "instituto",
-      "external_id": "137786",
-      "name": "Instituto",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/jup59w1578825794.png",
-      "league": "argentine_primera",
-      "source": "thesportsdb"
+    "inter": {
+      "id": "inter",
+      "name": "Inter",
+      "league": "unknown"
     },
     "inter_miami": {
       "id": "inter_miami",
-      "external_id": "137699",
       "name": "Inter Miami",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/m4it3e1602103647.png",
-      "league": "mls",
-      "is_popular": true,
-      "aliases": [
-        "MIA"
-      ],
-      "source": "thesportsdb"
+      "logo": "https://kitdls.net/wp-content/uploads/2023/09/Logo-KitDLS-Net.png",
+      "league": "unknown",
+      "is_popular": true
+    },
+    "inter_miami_cf": {
+      "id": "inter_miami_cf",
+      "name": "Inter Miami CF",
+      "logo": "https://ftsdlskits.com/wp-content/uploads/al_opt_content/IMAGE/ftsdlskits.com/wp-content/uploads/2023/02/Inter-Miami-CF-Logo.png?bv_host=ftsdlskits.com\u0026amp;bv-resized-infos=bv_resized_mobile%3A224%2A225%3Bbv_resized_ipad%3A224%2A225%3Bbv_resized_desktop%3A224%2A225",
+      "league": "unknown"
     },
     "inter_milan": {
       "id": "inter_milan",
-      "external_id": "133681",
       "name": "Inter Milan",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/ryhu6d1617113103.png",
-      "league": "serie_a",
-      "aliases": [
-        "INT",
-        "Inter Milan",
-        "Internazionale"
-      ],
-      "source": "thesportsdb"
+      "league": "serie_a"
     },
-    "internacional": {
-      "id": "internacional",
-      "external_id": "134281",
-      "name": "Internacional",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/yprvxx1473538097.png",
-      "league": "brasileirao",
-      "aliases": [
-        "INT"
-      ],
-      "source": "thesportsdb"
+    "ipswich_town": {
+      "id": "ipswich_town",
+      "name": "Ipswich Town",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/mdj1ey1634670785.png",
+      "league": "championship"
+    },
+    "ir_iran": {
+      "id": "ir_iran",
+      "name": "IR Iran",
+      "logo": "https://i.imgur.com/G0z7u22.png",
+      "league": "national_team"
+    },
+    "istanbul": {
+      "id": "istanbul",
+      "name": "İstanbul",
+      "logo": "https://i.imgur.com/HHX2Q3s.png",
+      "league": "turkey_super_lig"
     },
     "istanbul_basaksehir": {
       "id": "istanbul_basaksehir",
-      "external_id": "134589",
       "name": "İstanbul Başakşehir",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/895mqt1685993958.png",
-      "league": "super_lig",
-      "source": "thesportsdb"
+      "league": "super_lig"
+    },
+    "ittihad_tanger": {
+      "id": "ittihad_tanger",
+      "name": "Ittihad Tanger",
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCfNp4CxObfK1Ojsb4eNGkLxiW3E-qgbSnBw\u0026s",
+      "league": "botola_pro_1"
+    },
+    "jamshedpur": {
+      "id": "jamshedpur",
+      "name": "Jamshedpur",
+      "logo": "https://i.imgur.com/ijyoNY0.png",
+      "league": "indian_super_league"
     },
     "japan": {
       "id": "japan",
-      "external_id": "134503",
       "name": "Japan",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/ffsyxz1591989843.png",
-      "league": "international",
-      "aliases": [
-        "Japan"
-      ],
-      "source": "thesportsdb"
+      "league": "international"
     },
-    "juan_pablo_ii_college": {
-      "id": "juan_pablo_ii_college",
-      "external_id": "149506",
-      "name": "Juan Pablo II College",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/zj9efi1730672606.png",
-      "league": "liga_1_peru",
-      "source": "thesportsdb"
+    "jed_forest": {
+      "id": "jed_forest",
+      "name": "Jed-Forest",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/iotztf1641776943.png",
+      "league": "scottish_premiership"
     },
     "juventus": {
       "id": "juventus",
-      "external_id": "133676",
       "name": "Juventus",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/uxf0gr1742983727.png",
       "league": "serie_a",
-      "is_popular": true,
-      "aliases": [
-        "JUV"
-      ],
-      "source": "thesportsdb"
+      "is_popular": true
+    },
+    "kaizer_chiefs": {
+      "id": "kaizer_chiefs",
+      "name": "Kaizer Chiefs",
+      "logo": "https://i.imgur.com/rffktKB.png",
+      "league": "dstv_premiership"
+    },
+    "kashima_antlers": {
+      "id": "kashima_antlers",
+      "name": "Kashima Antlers",
+      "logo": "https://i.imgur.com/3MxlFqS.png",
+      "league": "japan_league"
     },
     "kasimpasa": {
       "id": "kasimpasa",
-      "external_id": "133834",
       "name": "Kasımpaşa",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/uryxtp1448203236.png",
-      "league": "super_lig",
-      "source": "thesportsdb"
+      "league": "super_lig"
+    },
+    "kawasaki_frontale": {
+      "id": "kawasaki_frontale",
+      "name": "Kawasaki Frontale",
+      "logo": "https://i.imgur.com/h50mFzt.png",
+      "league": "japan_league"
     },
     "kayserispor": {
       "id": "kayserispor",
-      "external_id": "133802",
       "name": "Kayserispor",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/bvskgi1601668985.png",
-      "league": "super_lig",
-      "source": "thesportsdb"
+      "league": "super_lig"
+    },
+    "kerala_blasters": {
+      "id": "kerala_blasters",
+      "name": "Kerala Blasters",
+      "league": "unknown"
+    },
+    "kifisia": {
+      "id": "kifisia",
+      "name": "Kifisia",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/d64tyn1727198332.png",
+      "league": "greek_super_league"
     },
     "kocaelispor": {
       "id": "kocaelispor",
-      "external_id": "133870",
       "name": "Kocaelispor",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/f6erki1626445224.png",
-      "league": "super_lig",
-      "source": "thesportsdb"
+      "league": "super_lig"
     },
     "konyaspor": {
       "id": "konyaspor",
-      "external_id": "133835",
       "name": "Konyaspor",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/rxwptr1448203413.png",
-      "league": "super_lig",
-      "source": "thesportsdb"
+      "league": "super_lig"
     },
-    "la_galaxy": {
-      "id": "la_galaxy",
-      "external_id": "134153",
-      "name": "LA Galaxy",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/ysyysr1420227188.png",
-      "league": "mls",
-      "aliases": [
-        "LA"
-      ],
-      "source": "thesportsdb"
+    "korea_republic": {
+      "id": "korea_republic",
+      "name": "Korea Republic",
+      "logo": "https://i.imgur.com/O5u4Pff.png",
+      "league": "national_team"
     },
-    "lanus": {
-      "id": "lanus",
-      "external_id": "135165",
-      "name": "Lanús",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/ddty0w1769146364.png",
-      "league": "argentine_primera",
-      "source": "thesportsdb"
+    "la_liga": {
+      "id": "la_liga",
+      "name": "LA Liga",
+      "logo": "https://dlskits.com/wp-content/uploads/2025/10/dlskits.com-icon-showing-dream-league-soccer-kits-of-football-clubs-150x150.png",
+      "league": "unknown"
     },
     "lazio": {
       "id": "lazio",
-      "external_id": "133668",
       "name": "Lazio",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/rwqyvs1448806608.png",
-      "league": "serie_a",
-      "aliases": [
-        "LAZ"
-      ],
-      "source": "thesportsdb"
+      "league": "serie_a"
     },
     "le_havre": {
       "id": "le_havre",
-      "external_id": "133862",
       "name": "Le Havre",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/aikowk1546475003.png",
-      "league": "ligue_1",
-      "aliases": [
-        "HAC"
-      ],
-      "source": "thesportsdb"
+      "league": "ligue_1"
     },
     "lecce": {
       "id": "lecce",
-      "external_id": "133678",
       "name": "Lecce",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/j4vznr1567365249.png",
-      "league": "serie_a",
-      "source": "thesportsdb"
+      "league": "serie_a"
     },
     "leeds_united": {
       "id": "leeds_united",
-      "external_id": "133635",
       "name": "Leeds United",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/jcgrml1756649030.png",
-      "league": "premier_league",
-      "aliases": [
-        "LEE"
-      ],
-      "source": "thesportsdb"
+      "league": "premier_league"
+    },
+    "legends_classic": {
+      "id": "legends_classic",
+      "name": "Legends Classic",
+      "league": "unknown"
+    },
+    "leicester_city": {
+      "id": "leicester_city",
+      "name": "Leicester City",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/xtxwtu1448813356.png",
+      "league": "championship"
     },
     "lens": {
       "id": "lens",
-      "external_id": "133822",
       "name": "Lens",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/3pxoum1598797195.png",
-      "league": "ligue_1",
-      "aliases": [
-        "LNS"
-      ],
-      "source": "thesportsdb"
+      "league": "ligue_1"
+    },
+    "levadiakos": {
+      "id": "levadiakos",
+      "name": "Levadiakos",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/csu6c61659016057.png",
+      "league": "greek_super_league"
     },
     "levante": {
       "id": "levante",
-      "external_id": "133732",
       "name": "Levante",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/xwtxsx1473503739.png",
-      "league": "la_liga",
-      "source": "thesportsdb"
+      "league": "la_liga"
+    },
+    "liga_mx": {
+      "id": "liga_mx",
+      "name": "Liga MX",
+      "league": "unknown"
     },
     "lille": {
       "id": "lille",
-      "external_id": "133711",
       "name": "Lille",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/2giize1534005340.png",
-      "league": "ligue_1",
-      "aliases": [
-        "LIL"
-      ],
-      "source": "thesportsdb"
+      "league": "ligue_1"
     },
     "liverpool": {
       "id": "liverpool",
-      "external_id": "133602",
       "name": "Liverpool",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/kfaher1737969724.png",
       "league": "premier_league",
-      "is_popular": true,
-      "aliases": [
-        "LIV"
-      ],
-      "source": "thesportsdb"
+      "is_popular": true
     },
     "lorient": {
       "id": "lorient",
-      "external_id": "133715",
       "name": "Lorient",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/sxsttw1473504748.png",
-      "league": "ligue_1",
-      "aliases": [
-        "LOR"
-      ],
-      "source": "thesportsdb"
-    },
-    "los_angeles_fc": {
-      "id": "los_angeles_fc",
-      "external_id": "136050",
-      "name": "Los Angeles FC",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/7nbj2a1602103638.png",
-      "league": "mls",
-      "source": "thesportsdb"
-    },
-    "los_chankas": {
-      "id": "los_chankas",
-      "external_id": "141813",
-      "name": "Los Chankas",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/rc0rvv1706347088.png",
-      "league": "liga_1_peru",
-      "source": "thesportsdb"
+      "league": "ligue_1"
     },
     "lyon": {
       "id": "lyon",
-      "external_id": "133713",
       "name": "Lyon",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/blk9771656932845.png",
-      "league": "ligue_1",
-      "aliases": [
-        "LYO"
-      ],
-      "source": "thesportsdb"
+      "league": "ligue_1"
+    },
+    "madura_united": {
+      "id": "madura_united",
+      "name": "Madura United",
+      "logo": "https://i.imgur.com/8arqOhw.png",
+      "league": "liga_1_indonesia"
     },
     "mainz": {
       "id": "mainz",
-      "external_id": "133665",
       "name": "Mainz",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/fhm9v51552134916.png",
-      "league": "bundesliga",
-      "source": "thesportsdb"
+      "league": "bundesliga"
+    },
+    "major_soccer": {
+      "id": "major_soccer",
+      "name": "Major Soccer",
+      "league": "unknown"
+    },
+    "mali": {
+      "id": "mali",
+      "name": "Mali",
+      "logo": "https://1.bp.blogspot.com/-804qYl7-WEA/XRIRnZHRigI/AAAAAAAAEmg/Nlhame06YnAzSuHTF7DbpKCtHovqM3K3wCLcBGAs/s320/mali_logo.png",
+      "league": "national_team"
     },
     "mallorca": {
       "id": "mallorca",
-      "external_id": "133733",
       "name": "Mallorca",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/ssptsx1473503730.png",
-      "league": "la_liga",
-      "aliases": [
-        "MLA"
-      ],
-      "source": "thesportsdb"
+      "league": "la_liga"
+    },
+    "mamelodi_sundowns": {
+      "id": "mamelodi_sundowns",
+      "name": "Mamelodi Sundowns",
+      "logo": "https://i.imgur.com/wSi3BOm.png",
+      "league": "dstv_premiership"
     },
     "manchester_city": {
       "id": "manchester_city",
-      "external_id": "133613",
       "name": "Manchester City",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/vwpvry1467462651.png",
       "league": "premier_league",
-      "is_popular": true,
-      "aliases": [
-        "MCI",
-        "Man City"
-      ],
-      "source": "thesportsdb"
+      "is_popular": true
     },
     "manchester_united": {
       "id": "manchester_united",
-      "external_id": "133612",
       "name": "Manchester United",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/xzqdr11517660252.png",
       "league": "premier_league",
-      "is_popular": true,
-      "aliases": [
-        "MUN",
-        "Man United",
-        "Man Utd"
-      ],
-      "source": "thesportsdb"
+      "is_popular": true
+    },
+    "marr": {
+      "id": "marr",
+      "name": "Marr",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/01aywk1641776947.png",
+      "league": "scottish_premiership"
     },
     "marseille": {
       "id": "marseille",
-      "external_id": "133707",
       "name": "Marseille",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/uutsyt1473504764.png",
-      "league": "ligue_1",
-      "aliases": [
-        "OLM"
-      ],
-      "source": "thesportsdb"
-    },
-    "melgar": {
-      "id": "melgar",
-      "external_id": "138323",
-      "name": "Melgar",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/0puqm41765861529.png",
-      "league": "liga_1_peru",
-      "source": "thesportsdb"
+      "league": "ligue_1"
     },
     "metz": {
       "id": "metz",
-      "external_id": "133883",
       "name": "Metz",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/1iuew61688452857.png",
-      "league": "ligue_1",
-      "aliases": [
-        "MTZ"
-      ],
-      "source": "thesportsdb"
+      "league": "ligue_1"
     },
     "mexico": {
       "id": "mexico",
-      "external_id": "134497",
       "name": "Mexico",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/3rmosi1748525208.png",
       "league": "international",
-      "is_popular": true,
-      "aliases": [
-        "Mexico"
-      ],
-      "source": "thesportsdb"
+      "is_popular": true
     },
-    "minnesota_united": {
-      "id": "minnesota_united",
-      "external_id": "135852",
-      "name": "Minnesota United",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/vl67t41492453433.png",
-      "league": "mls",
-      "aliases": [
-        "MIN"
-      ],
-      "source": "thesportsdb"
+    "middlesbrough": {
+      "id": "middlesbrough",
+      "name": "Middlesbrough",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/9xcx0p1770828600.png",
+      "league": "championship"
     },
-    "mirassol": {
-      "id": "mirassol",
-      "external_id": "141181",
-      "name": "Mirassol",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/pw8uo11765900737.png",
-      "league": "brasileirao",
-      "source": "thesportsdb"
+    "milan": {
+      "id": "milan",
+      "name": "Milan",
+      "logo": "https://i.imgur.com/q9yp4KB.png",
+      "league": "serie_a"
+    },
+    "millwall": {
+      "id": "millwall",
+      "name": "Millwall",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/5p1z5k1537208888.png",
+      "league": "championship"
+    },
+    "mod_apk_android": {
+      "id": "mod_apk_android",
+      "name": "Mod Apk Android",
+      "league": "unknown"
+    },
+    "mohun_bagan": {
+      "id": "mohun_bagan",
+      "name": "Mohun Bagan",
+      "logo": "https://i.imgur.com/MVuikX2.png",
+      "league": "indian_super_league"
     },
     "monaco": {
       "id": "monaco",
-      "external_id": "133823",
       "name": "Monaco",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/exjf5l1678808044.png",
-      "league": "ligue_1",
-      "aliases": [
-        "MON"
-      ],
-      "source": "thesportsdb"
+      "league": "ligue_1"
+    },
+    "monterrey": {
+      "id": "monterrey",
+      "name": "Monterrey",
+      "logo": "https://i.imgur.com/KpyJWG7.png",
+      "league": "liga_mx"
+    },
+    "montreal": {
+      "id": "montreal",
+      "name": "Montréal",
+      "logo": "https://i.imgur.com/4ZJp4IP.png",
+      "league": "major_league_soccer"
+    },
+    "moreirense": {
+      "id": "moreirense",
+      "name": "Moreirense",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/yrquxu1471878153.png",
+      "league": "primeira_liga"
+    },
+    "morocco": {
+      "id": "morocco",
+      "name": "Morocco",
+      "logo": "https://i.imgur.com/CALpZ28.png",
+      "league": "national_team"
+    },
+    "mumbai_city": {
+      "id": "mumbai_city",
+      "name": "Mumbai City",
+      "logo": "https://i.imgur.com/uKtSEOb.png",
+      "league": "indian_super_league"
+    },
+    "musselburgh": {
+      "id": "musselburgh",
+      "name": "Musselburgh",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/zilrnz1641776952.png",
+      "league": "scottish_premiership"
     },
     "nac_breda": {
       "id": "nac_breda",
-      "external_id": "133773",
       "name": "NAC Breda",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/ute4en1544965805.png",
-      "league": "eredivisie",
-      "source": "thesportsdb"
+      "league": "eredivisie"
+    },
+    "nacional_de_madeira": {
+      "id": "nacional_de_madeira",
+      "name": "Nacional de Madeira",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/1ln5fe1628850538.png",
+      "league": "primeira_liga"
     },
     "nantes": {
       "id": "nantes",
-      "external_id": "133861",
       "name": "Nantes",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/mla9x61678808018.png",
-      "league": "ligue_1",
-      "aliases": [
-        "NAN"
-      ],
-      "source": "thesportsdb"
+      "league": "ligue_1"
     },
     "napoli": {
       "id": "napoli",
-      "external_id": "133670",
       "name": "Napoli",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/l8qyxv1742982541.png",
-      "league": "serie_a",
-      "aliases": [
-        "NAP"
-      ],
-      "source": "thesportsdb"
+      "league": "serie_a"
     },
-    "nashville_sc": {
-      "id": "nashville_sc",
-      "external_id": "137700",
-      "name": "Nashville SC",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/znrwt71602103062.png",
-      "league": "mls",
-      "aliases": [
-        "NSH"
-      ],
-      "source": "thesportsdb"
+    "nashville": {
+      "id": "nashville",
+      "name": "Nashville",
+      "logo": "https://i.imgur.com/v0ju9gB.png",
+      "league": "major_league_soccer"
+    },
+    "national_team": {
+      "id": "national_team",
+      "name": "National Team",
+      "league": "unknown"
+    },
+    "nba_2k26_arena_courts": {
+      "id": "nba_2k26_arena_courts",
+      "name": "Nba 2k26 Arena Courts",
+      "league": "unknown"
+    },
+    "nba_2k26_cyberfaces": {
+      "id": "nba_2k26_cyberfaces",
+      "name": "Nba 2k26 Cyberfaces",
+      "league": "unknown"
+    },
+    "nba_2k26_jerseys": {
+      "id": "nba_2k26_jerseys",
+      "name": "Nba 2k26 Jerseys",
+      "league": "unknown"
+    },
+    "nba_2k26_shoes": {
+      "id": "nba_2k26_shoes",
+      "name": "Nba 2k26 Shoes",
+      "league": "unknown"
+    },
+    "ncaa": {
+      "id": "ncaa",
+      "name": "Ncaa",
+      "league": "unknown"
     },
     "nec_nijmegen": {
       "id": "nec_nijmegen",
-      "external_id": "133760",
       "name": "NEC Nijmegen",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/t5qjle1701019868.png",
-      "league": "eredivisie",
-      "source": "thesportsdb"
-    },
-    "neom": {
-      "id": "neom",
-      "external_id": "150637",
-      "name": "Neom",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/4luwe11737685220.png",
-      "league": "saudi_pro_league",
-      "source": "thesportsdb"
+      "league": "eredivisie"
     },
     "netherlands": {
       "id": "netherlands",
-      "external_id": "133905",
       "name": "Netherlands",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/1p0hr41593787110.png",
-      "league": "international",
-      "aliases": [
-        "Netherlands",
-        "Holland"
-      ],
-      "source": "thesportsdb"
+      "league": "international"
     },
     "new_england_revolution": {
       "id": "new_england_revolution",
-      "external_id": "134159",
       "name": "New England Revolution",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/1ula2l1639493143.png",
-      "league": "mls",
-      "aliases": [
-        "NE"
-      ],
-      "source": "thesportsdb"
+      "logo": "https://i.imgur.com/0TVdN6a.png",
+      "league": "major_league_soccer"
     },
-    "new_york_city_fc": {
-      "id": "new_york_city_fc",
-      "external_id": "134630",
-      "name": "New York City FC",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/m9vis71735140655.png",
-      "league": "mls",
-      "aliases": [
-        "NYC"
-      ],
-      "source": "thesportsdb"
-    },
-    "new_york_red_bulls": {
-      "id": "new_york_red_bulls",
-      "external_id": "134156",
-      "name": "New York Red Bulls",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/suytvy1473536462.png",
-      "league": "mls",
-      "aliases": [
-        "NY"
-      ],
-      "source": "thesportsdb"
+    "new_york_city": {
+      "id": "new_york_city",
+      "name": "New York City",
+      "logo": "https://i.imgur.com/7ITH7jR.png",
+      "league": "major_league_soccer"
     },
     "newcastle_united": {
       "id": "newcastle_united",
-      "external_id": "134777",
       "name": "Newcastle United",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/lhwuiz1621593302.png",
-      "league": "premier_league",
-      "aliases": [
-        "NEW"
-      ],
-      "source": "thesportsdb"
-    },
-    "newell_s_old_boys": {
-      "id": "newell_s_old_boys",
-      "external_id": "135166",
-      "name": "Newell's Old Boys",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/23aftf1580842633.png",
-      "league": "argentine_primera",
-      "source": "thesportsdb"
+      "league": "premier_league"
     },
     "nice": {
       "id": "nice",
-      "external_id": "133712",
       "name": "Nice",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/msy7ly1621593859.png",
-      "league": "ligue_1",
-      "aliases": [
-        "NIC"
-      ],
-      "source": "thesportsdb"
+      "league": "ligue_1"
+    },
+    "norwich_city": {
+      "id": "norwich_city",
+      "name": "Norwich City",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/pabczm1679951464.png",
+      "league": "championship"
     },
     "nottingham_forest": {
       "id": "nottingham_forest",
-      "external_id": "133720",
       "name": "Nottingham Forest",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/bk4qjs1546440351.png",
-      "league": "premier_league",
-      "aliases": [
-        "NOT"
-      ],
-      "source": "thesportsdb"
+      "league": "premier_league"
     },
-    "orlando_city": {
-      "id": "orlando_city",
-      "external_id": "135292",
-      "name": "Orlando City",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/qyppxw1423832326.png",
-      "league": "mls",
-      "aliases": [
-        "ORL"
-      ],
-      "source": "thesportsdb"
+    "odense_bk": {
+      "id": "odense_bk",
+      "name": "Odense BK",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/syyxwq1473535545.png",
+      "league": "danish_superliga"
+    },
+    "ofi": {
+      "id": "ofi",
+      "name": "OFI",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/02xrl91602773672.png",
+      "league": "greek_super_league"
+    },
+    "olympiacos": {
+      "id": "olympiacos",
+      "name": "Olympiacos",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/xckasq1721291508.png",
+      "league": "greek_super_league"
+    },
+    "orlando": {
+      "id": "orlando",
+      "name": "Orlando",
+      "logo": "https://i.imgur.com/4aBpqCV.png",
+      "league": "major_league_soccer"
+    },
+    "orlando_pirates_fc": {
+      "id": "orlando_pirates_fc",
+      "name": "Orlando Pirates FC",
+      "logo": "https://i.imgur.com/1oGu0Tq.png",
+      "league": "dstv_premiership"
     },
     "osasuna": {
       "id": "osasuna",
-      "external_id": "133730",
       "name": "Osasuna",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/rvspvt1473502960.png",
-      "league": "la_liga",
-      "aliases": [
-        "OSA"
-      ],
-      "source": "thesportsdb"
+      "league": "la_liga"
     },
-    "palmeiras": {
-      "id": "palmeiras",
-      "external_id": "134465",
-      "name": "Palmeiras",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/vsqwqp1473538105.png",
-      "league": "brasileirao",
-      "aliases": [
-        "PAL"
-      ],
-      "source": "thesportsdb"
+    "oxford_united": {
+      "id": "oxford_united",
+      "name": "Oxford United",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/la34wg1601726102.png",
+      "league": "championship"
+    },
+    "pachuca": {
+      "id": "pachuca",
+      "name": "Pachuca",
+      "logo": "https://i.imgur.com/TtsPn0O.png",
+      "league": "liga_mx"
+    },
+    "palmeras": {
+      "id": "palmeras",
+      "name": "Palmeras",
+      "logo": "https://i.imgur.com/pTn7gJI.png",
+      "league": "brasileirao"
+    },
+    "panathinaikos": {
+      "id": "panathinaikos",
+      "name": "Panathinaikos",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/vtpwwt1448208397.png",
+      "league": "greek_super_league"
+    },
+    "panetolikos": {
+      "id": "panetolikos",
+      "name": "Panetolikos",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/3qtv8s1602773680.png",
+      "league": "greek_super_league"
+    },
+    "panserraikos": {
+      "id": "panserraikos",
+      "name": "Panserraikos",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/uz7slk1689689598.png",
+      "league": "greek_super_league"
+    },
+    "paok": {
+      "id": "paok",
+      "name": "PAOK",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/m15zsh1602774126.png",
+      "league": "greek_super_league"
     },
     "paris_fc": {
       "id": "paris_fc",
-      "external_id": "135465",
       "name": "Paris FC",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/yuvtsy1447594254.png",
-      "league": "ligue_1",
-      "source": "thesportsdb"
+      "league": "ligue_1"
     },
     "paris_saint_germain": {
       "id": "paris_saint_germain",
-      "external_id": "133714",
-      "name": "Paris Saint-Germain",
+      "name": "Paris SG",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/rwqrrq1473504808.png",
-      "league": "ligue_1",
-      "aliases": [
-        "PSG",
-        "Paris SG",
-        "Paris Saint Germain"
-      ],
-      "source": "thesportsdb"
+      "league": "ligue_1"
     },
     "parma": {
       "id": "parma",
-      "external_id": "135728",
       "name": "Parma",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/6yiaxs1627406063.png",
-      "league": "serie_a",
-      "source": "thesportsdb"
+      "league": "serie_a"
     },
     "pec_zwolle": {
       "id": "pec_zwolle",
-      "external_id": "133936",
       "name": "PEC Zwolle",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/qpvqwy1473534822.png",
-      "league": "eredivisie",
-      "source": "thesportsdb"
+      "league": "eredivisie"
     },
-    "philadelphia_union": {
-      "id": "philadelphia_union",
-      "external_id": "134142",
-      "name": "Philadelphia Union",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/gyznyo1602103682.png",
-      "league": "mls",
-      "aliases": [
-        "PHI"
-      ],
-      "source": "thesportsdb"
+    "persija": {
+      "id": "persija",
+      "name": "Persija ",
+      "logo": "https://i.imgur.com/UxoYJvO.png",
+      "league": "liga_1_indonesia"
+    },
+    "philadelphia": {
+      "id": "philadelphia",
+      "name": "Philadelphia",
+      "logo": "https://i.imgur.com/C3HRe4O.png",
+      "league": "major_league_soccer"
     },
     "pisa": {
       "id": "pisa",
-      "external_id": "133859",
       "name": "Pisa",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/2eso9w1579708309.png",
-      "league": "serie_a",
-      "source": "thesportsdb"
+      "league": "serie_a"
     },
-    "platense": {
-      "id": "platense",
-      "external_id": "137775",
-      "name": "Platense",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/lbs14n1769317149.png",
-      "league": "argentine_primera",
-      "source": "thesportsdb"
+    "poland": {
+      "id": "poland",
+      "name": "Poland",
+      "logo": "https://i.imgur.com/KHfw6nR.png",
+      "league": "national_team"
     },
-    "portland_timbers": {
-      "id": "portland_timbers",
-      "external_id": "134155",
-      "name": "Portland Timbers",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/skm30j1557953559.png",
-      "league": "mls",
-      "aliases": [
-        "POR"
-      ],
-      "source": "thesportsdb"
+    "porto": {
+      "id": "porto",
+      "name": "Porto",
+      "logo": "https://i.imgur.com/iIh4BUo.png",
+      "league": "others"
+    },
+    "portsmouth": {
+      "id": "portsmouth",
+      "name": "Portsmouth",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/j13pfe1601726274.png",
+      "league": "championship"
     },
     "portugal": {
       "id": "portugal",
       "name": "Portugal",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/8p7h461687707841.png",
       "league": "international",
-      "is_popular": true,
-      "aliases": [
-        "Portugal"
-      ],
-      "source": "manual"
+      "is_popular": true
+    },
+    "premier": {
+      "id": "premier",
+      "name": "Premier",
+      "logo": "https://dlskits.com/wp-content/uploads/2025/10/dlskits.com-icon-showing-dream-league-soccer-kits-of-football-clubs-150x150.png",
+      "league": "unknown"
+    },
+    "preston_north_end": {
+      "id": "preston_north_end",
+      "name": "Preston North End",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/wqtwvw1448811512.png",
+      "league": "championship"
+    },
+    "psg": {
+      "id": "psg",
+      "name": "Psg",
+      "league": "unknown"
+    },
+    "psm": {
+      "id": "psm",
+      "name": "PSM",
+      "logo": "https://i.imgur.com/eX2gslM.png",
+      "league": "liga_1_indonesia"
     },
     "psv_eindhoven": {
       "id": "psv_eindhoven",
-      "external_id": "133768",
       "name": "PSV Eindhoven",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/xfsz6i1721297428.png",
-      "league": "eredivisie",
-      "aliases": [
-        "PSV"
-      ],
-      "source": "thesportsdb"
+      "league": "eredivisie"
+    },
+    "pyramids": {
+      "id": "pyramids",
+      "name": "Pyramids",
+      "logo": "https://i.imgur.com/G3JvlfE.png",
+      "league": "egyptian_premier_league"
+    },
+    "qatar": {
+      "id": "qatar",
+      "name": "Qatar",
+      "logo": "https://i.imgur.com/mHQnhSX.png",
+      "league": "national_team"
+    },
+    "qualifiers": {
+      "id": "qualifiers",
+      "name": "Qualifiers",
+      "league": "unknown"
+    },
+    "queens_park_rangers": {
+      "id": "queens_park_rangers",
+      "name": "Queens Park Rangers",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/l4qscx1601721022.png",
+      "league": "championship"
     },
     "racing_club": {
       "id": "racing_club",
-      "external_id": "135170",
       "name": "Racing Club",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/vi4mu41695734959.png",
-      "league": "argentine_primera",
-      "aliases": [
-        "RAC"
-      ],
-      "source": "thesportsdb"
+      "logo": "https://i.imgur.com/CDBovfn.png",
+      "league": "argentine_primera_division"
+    },
+    "raja": {
+      "id": "raja",
+      "name": "Raja",
+      "logo": "https://i.imgur.com/BglEXYJ.png",
+      "league": "caf"
+    },
+    "randers_fc": {
+      "id": "randers_fc",
+      "name": "Randers FC",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/w0kmhn1690407779.png",
+      "league": "danish_superliga"
     },
     "rayo_vallecano": {
       "id": "rayo_vallecano",
-      "external_id": "133728",
       "name": "Rayo Vallecano",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/nzhu941655595465.png",
-      "league": "la_liga",
-      "aliases": [
-        "RAY"
-      ],
-      "source": "thesportsdb"
+      "league": "la_liga"
     },
     "rb_leipzig": {
       "id": "rb_leipzig",
-      "external_id": "134695",
       "name": "RB Leipzig",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/zjgapo1594244951.png",
-      "league": "bundesliga",
-      "aliases": [
-        "RBL"
-      ],
-      "source": "thesportsdb"
+      "league": "bundesliga"
     },
     "real_betis": {
       "id": "real_betis",
-      "external_id": "133722",
       "name": "Real Betis",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/2oqulv1663245386.png",
-      "league": "la_liga",
-      "aliases": [
-        "BET"
-      ],
-      "source": "thesportsdb"
+      "league": "la_liga"
+    },
+    "real_madird": {
+      "id": "real_madird",
+      "name": "Real Madird",
+      "logo": "https://kitdls.net/wp-content/uploads/2023/09/Logo-KitDLS-Net.png",
+      "league": "unknown"
     },
     "real_madrid": {
       "id": "real_madrid",
-      "external_id": "133738",
       "name": "Real Madrid",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/vwvwrw1473502969.png",
       "league": "la_liga",
-      "is_popular": true,
-      "aliases": [
-        "MAD",
-        "Real Madird",
-        "R Madrid"
-      ],
-      "source": "thesportsdb"
+      "is_popular": true
     },
     "real_oviedo": {
       "id": "real_oviedo",
-      "external_id": "135455",
       "name": "Real Oviedo",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/yuwqus1447590681.png",
-      "league": "la_liga",
-      "source": "thesportsdb"
-    },
-    "real_salt_lake": {
-      "id": "real_salt_lake",
-      "external_id": "134158",
-      "name": "Real Salt Lake",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/kkjlfa1556488022.png",
-      "league": "mls",
-      "aliases": [
-        "RSL"
-      ],
-      "source": "thesportsdb"
+      "league": "la_liga"
     },
     "real_sociedad": {
       "id": "real_sociedad",
-      "external_id": "133724",
       "name": "Real Sociedad",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/vptvpr1473502986.png",
-      "league": "la_liga",
-      "aliases": [
-        "SOC"
-      ],
-      "source": "thesportsdb"
+      "league": "la_liga"
     },
-    "remo": {
-      "id": "remo",
-      "external_id": "137818",
-      "name": "Remo",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/u36jfy1579341655.png",
-      "league": "brasileirao",
-      "source": "thesportsdb"
+    "red_bulls": {
+      "id": "red_bulls",
+      "name": "Red Bulls",
+      "logo": "https://i.imgur.com/JulFbvC.png",
+      "league": "major_league_soccer"
+    },
+    "rematch": {
+      "id": "rematch",
+      "name": "Rematch",
+      "league": "unknown"
+    },
+    "rematch_players": {
+      "id": "rematch_players",
+      "name": "Rematch Players",
+      "league": "unknown"
     },
     "rennes": {
       "id": "rennes",
-      "external_id": "133719",
       "name": "Rennes",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/ypturx1473504818.png",
-      "league": "ligue_1",
-      "aliases": [
-        "REN"
-      ],
-      "source": "thesportsdb"
+      "league": "ligue_1"
     },
-    "river_plate": {
-      "id": "river_plate",
-      "external_id": "135171",
-      "name": "River Plate",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/03dmi31645539717.png",
-      "league": "argentine_primera",
-      "source": "thesportsdb"
+    "rest_of_europe": {
+      "id": "rest_of_europe",
+      "name": "Rest OF Europe",
+      "league": "unknown"
+    },
+    "rio_ave": {
+      "id": "rio_ave",
+      "name": "Rio Ave",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/ngbklq1628851239.png",
+      "league": "primeira_liga"
+    },
+    "river": {
+      "id": "river",
+      "name": "River",
+      "logo": "https://i.imgur.com/AyVNdej.png",
+      "league": "csf"
     },
     "rizespor": {
       "id": "rizespor",
-      "external_id": "133885",
       "name": "Rizespor",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/t7senr1657195719.png",
-      "league": "super_lig",
-      "source": "thesportsdb"
+      "league": "super_lig"
     },
     "roma": {
       "id": "roma",
-      "external_id": "133682",
       "name": "Roma",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/jwro2s1760820674.png",
-      "league": "serie_a",
-      "aliases": [
-        "ROM"
-      ],
-      "source": "thesportsdb"
+      "league": "serie_a"
     },
-    "rosario_central": {
-      "id": "rosario_central",
-      "external_id": "135172",
-      "name": "Rosario Central",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/y6q1ds1769660256.png",
-      "league": "argentine_primera",
-      "source": "thesportsdb"
+    "s_nderjyske": {
+      "id": "s_nderjyske",
+      "name": "Sønderjyske",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/04mzis1677238771.png",
+      "league": "danish_superliga"
     },
     "samsunspor": {
       "id": "samsunspor",
-      "external_id": "133797",
       "name": "Samsunspor",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/vz05y71679456608.png",
-      "league": "super_lig",
-      "source": "thesportsdb"
+      "league": "super_lig"
     },
-    "san_diego_fc": {
-      "id": "san_diego_fc",
-      "external_id": "150261",
-      "name": "San Diego FC",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/7ka2xd1734621068.png",
-      "league": "mls",
-      "aliases": [
-        "SD"
-      ],
-      "source": "thesportsdb"
+    "sanfrecce": {
+      "id": "sanfrecce",
+      "name": "Sanfrecce",
+      "logo": "https://i.imgur.com/ELwWGiH.png",
+      "league": "japan_league"
     },
-    "san_jose_earthquakes": {
-      "id": "san_jose_earthquakes",
-      "external_id": "134157",
-      "name": "San Jose Earthquakes",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/xyrqqt1420781048.png",
-      "league": "mls",
-      "aliases": [
-        "SJ"
-      ],
-      "source": "thesportsdb"
-    },
-    "san_lorenzo": {
-      "id": "san_lorenzo",
-      "external_id": "135173",
-      "name": "San Lorenzo",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/37wke41775741605.png",
-      "league": "argentine_primera",
-      "source": "thesportsdb"
+    "santa_clara": {
+      "id": "santa_clara",
+      "name": "Santa Clara",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/7337a61724860742.png",
+      "league": "primeira_liga"
     },
     "santos": {
       "id": "santos",
-      "external_id": "134286",
       "name": "Santos",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/j8xk9g1679447486.png",
-      "league": "brasileirao",
-      "aliases": [
-        "SAN",
-        "Santos FC"
-      ],
-      "source": "thesportsdb"
+      "logo": "https://i.imgur.com/02jLl6X.png",
+      "league": "brasileirao"
+    },
+    "santos_fc": {
+      "id": "santos_fc",
+      "name": "Santos FC",
+      "logo": "https://kitdls.net/wp-content/uploads/2023/09/Logo-KitDLS-Net.png",
+      "league": "unknown"
+    },
+    "santos_laguna": {
+      "id": "santos_laguna",
+      "name": "Santos Laguna ",
+      "logo": "https://i.imgur.com/wJ257Eo.png",
+      "league": "liga_mx"
+    },
+    "santoscsf": {
+      "id": "santoscsf",
+      "name": "Santoscsf",
+      "logo": "https://i.imgur.com/02jLl6X.png",
+      "league": "csf"
     },
     "sao_paulo": {
       "id": "sao_paulo",
-      "external_id": "134291",
-      "name": "São Paulo",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/sxpupx1473538135.png",
-      "league": "brasileirao",
-      "aliases": [
-        "SAO"
-      ],
-      "source": "thesportsdb"
-    },
-    "sarmiento": {
-      "id": "sarmiento",
-      "external_id": "135175",
-      "name": "Sarmiento",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/xxofu71677634191.png",
-      "league": "argentine_primera",
-      "source": "thesportsdb"
+      "name": "Sao Paulo",
+      "logo": "https://i.imgur.com/GiXDKrp.png",
+      "league": "brasileirao"
     },
     "sassuolo": {
       "id": "sassuolo",
-      "external_id": "133701",
       "name": "Sassuolo",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/xystvp1448806138.png",
-      "league": "serie_a",
-      "source": "thesportsdb"
+      "league": "serie_a"
+    },
+    "saudi_arabia": {
+      "id": "saudi_arabia",
+      "name": "Saudi Arabia",
+      "logo": "https://i.imgur.com/zKnMsaC.png",
+      "league": "national_team"
+    },
+    "sc_internacional": {
+      "id": "sc_internacional",
+      "name": "SC Internacional",
+      "logo": "https://i.imgur.com/RVjVmZ0.png",
+      "league": "brasileirao"
     },
     "sc_telstar": {
       "id": "sc_telstar",
-      "external_id": "138004",
       "name": "SC Telstar",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/xg1ss31579463659.png",
-      "league": "eredivisie",
-      "source": "thesportsdb"
+      "league": "eredivisie"
     },
-    "seattle_sounders": {
-      "id": "seattle_sounders",
-      "external_id": "134149",
-      "name": "Seattle Sounders",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/2dy5cx1706711036.png",
-      "league": "mls",
-      "aliases": [
-        "SEA"
-      ],
-      "source": "thesportsdb"
+    "schalke": {
+      "id": "schalke",
+      "name": "Schalke",
+      "logo": "https://imgur.com/biOvQcg.png",
+      "league": "bundes_league"
+    },
+    "selkirk": {
+      "id": "selkirk",
+      "name": "Selkirk",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/uc4hka1641776959.png",
+      "league": "scottish_premiership"
+    },
+    "senegal": {
+      "id": "senegal",
+      "name": "Senegal",
+      "logo": "https://i.imgur.com/Rqns5Mi.png",
+      "league": "national_team"
+    },
+    "serbia": {
+      "id": "serbia",
+      "name": "Serbia",
+      "logo": "https://i.imgur.com/HLXOTgz.png",
+      "league": "national_team"
     },
     "sevilla": {
       "id": "sevilla",
-      "external_id": "133735",
       "name": "Sevilla",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/vpsqqx1473502977.png",
-      "league": "la_liga",
-      "aliases": [
-        "SEV"
-      ],
-      "source": "thesportsdb"
+      "league": "la_liga"
+    },
+    "sheffield_united": {
+      "id": "sheffield_united",
+      "name": "Sheffield United",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/w7f8pj1672950689.png",
+      "league": "championship"
+    },
+    "sheffield_wednesday": {
+      "id": "sheffield_wednesday",
+      "name": "Sheffield Wednesday",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/lonnw91601721029.png",
+      "league": "championship"
+    },
+    "silkeborg_if": {
+      "id": "silkeborg_if",
+      "name": "Silkeborg IF",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/tpxvvp1473535560.png",
+      "league": "danish_superliga"
+    },
+    "southampton": {
+      "id": "southampton",
+      "name": "Southampton",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/ggqtd01621593274.png",
+      "league": "championship"
     },
     "spain": {
       "id": "spain",
       "name": "Spain",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/ja4it51687628717.png",
       "league": "international",
-      "is_popular": true,
-      "aliases": [
-        "Spain"
-      ],
-      "source": "manual"
+      "is_popular": true
     },
     "sparta_rotterdam": {
       "id": "sparta_rotterdam",
-      "external_id": "133866",
       "name": "Sparta Rotterdam",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/upluv31586362224.png",
-      "league": "eredivisie",
-      "source": "thesportsdb"
+      "league": "eredivisie"
     },
-    "sport_boys": {
-      "id": "sport_boys",
-      "external_id": "138324",
-      "name": "Sport Boys",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/uybvv01580040173.png",
-      "league": "liga_1_peru",
-      "aliases": [
-        "SBA"
-      ],
-      "source": "thesportsdb"
+    "spongebob_squarepants": {
+      "id": "spongebob_squarepants",
+      "name": "Spongebob Squarepants",
+      "league": "unknown"
     },
-    "sport_huancayo": {
-      "id": "sport_huancayo",
-      "external_id": "138325",
-      "name": "Sport Huancayo",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/p8bcb51675841290.png",
-      "league": "liga_1_peru",
-      "source": "thesportsdb"
+    "sport": {
+      "id": "sport",
+      "name": "Sport",
+      "logo": "https://i.imgur.com/gsDL2nW.png",
+      "league": "brasileirao"
+    },
+    "sporting_cp": {
+      "id": "sporting_cp",
+      "name": "Sporting CP",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/ohj6ih1628855978.png",
+      "league": "primeira_liga"
     },
     "sporting_cristal": {
       "id": "sporting_cristal",
-      "external_id": "138326",
       "name": "Sporting Cristal",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/ive4ya1766423194.png",
-      "league": "liga_1_peru",
-      "source": "thesportsdb"
-    },
-    "sporting_kansas_city": {
-      "id": "sporting_kansas_city",
-      "external_id": "134143",
-      "name": "Sporting Kansas City",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/tqupxw1473536504.png",
-      "league": "mls",
-      "aliases": [
-        "SKC"
-      ],
-      "source": "thesportsdb"
-    },
-    "st_louis_city_sc": {
-      "id": "st_louis_city_sc",
-      "external_id": "147062",
-      "name": "St. Louis City SC",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/22wanp1674118724.png",
-      "league": "mls",
-      "aliases": [
-        "STL"
-      ],
-      "source": "thesportsdb"
+      "logo": "https://dlskits.com/wp-content/uploads/2025/10/dlskits.com-icon-showing-dream-league-soccer-kits-of-football-clubs-150x150.png",
+      "league": "unknown"
     },
     "st_pauli": {
       "id": "st_pauli",
-      "external_id": "133813",
       "name": "St Pauli",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/5qupxa1608237013.png",
-      "league": "bundesliga",
-      "aliases": [
-        "FCP"
-      ],
-      "source": "thesportsdb"
+      "league": "bundesliga"
+    },
+    "stoke_city": {
+      "id": "stoke_city",
+      "name": "Stoke City",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/d16frn1678807158.png",
+      "league": "championship"
     },
     "strasbourg": {
       "id": "strasbourg",
-      "external_id": "133882",
       "name": "Strasbourg",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/b8k77w1766625501.png",
-      "league": "ligue_1",
-      "aliases": [
-        "STR"
-      ],
-      "source": "thesportsdb"
+      "league": "ligue_1"
     },
     "stuttgart": {
       "id": "stuttgart",
-      "external_id": "133660",
       "name": "Stuttgart",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/yppyux1473454085.png",
-      "league": "bundesliga",
-      "source": "thesportsdb"
+      "league": "bundesliga"
     },
     "sunderland": {
       "id": "sunderland",
-      "external_id": "133603",
       "name": "Sunderland",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/tprtus1448813498.png",
-      "league": "premier_league",
-      "aliases": [
-        "SUN"
-      ],
-      "source": "thesportsdb"
+      "league": "premier_league"
     },
-    "talleres_de_cordoba": {
-      "id": "talleres_de_cordoba",
-      "external_id": "136674",
-      "name": "Talleres de Córdoba",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/7hum2t1769310938.png",
-      "league": "argentine_primera",
-      "aliases": [
-        "Talleres",
-        "CA Talleres"
-      ],
-      "source": "thesportsdb"
+    "super_hero": {
+      "id": "super_hero",
+      "name": "Super Hero",
+      "league": "unknown"
     },
-    "tigre": {
-      "id": "tigre",
-      "external_id": "135177",
-      "name": "Tigre",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/krryg71765858882.png",
-      "league": "argentine_primera",
-      "source": "thesportsdb"
+    "super_hero_logos": {
+      "id": "super_hero_logos",
+      "name": "Super Hero Logos",
+      "league": "unknown"
+    },
+    "swansea_city": {
+      "id": "swansea_city",
+      "name": "Swansea City",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/474rco1686920744.png",
+      "league": "championship"
+    },
+    "switzerland": {
+      "id": "switzerland",
+      "name": "Switzerland",
+      "logo": "https://i.imgur.com/BciH821.png",
+      "league": "national_team"
+    },
+    "taraji": {
+      "id": "taraji",
+      "name": "Taraji",
+      "logo": "https://i.imgur.com/ElymM2W.png",
+      "league": "caf"
+    },
+    "tigres_uanl": {
+      "id": "tigres_uanl",
+      "name": "Tigres UANL",
+      "logo": "https://i.imgur.com/0USYmuh.png",
+      "league": "liga_mx"
+    },
+    "tondela": {
+      "id": "tondela",
+      "name": "Tondela",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/o7nqff1628856081.png",
+      "league": "primeira_liga"
+    },
+    "top_mobile_games_android": {
+      "id": "top_mobile_games_android",
+      "name": "Top Mobile Games Android",
+      "league": "unknown"
     },
     "torino": {
       "id": "torino",
-      "external_id": "133687",
       "name": "Torino",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/xxprty1448806802.png",
-      "league": "serie_a",
-      "source": "thesportsdb"
+      "league": "serie_a"
     },
-    "toronto_fc": {
-      "id": "toronto_fc",
-      "external_id": "134148",
-      "name": "Toronto FC",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/rsxyrr1473536512.png",
-      "league": "mls",
-      "aliases": [
-        "TOR"
-      ],
-      "source": "thesportsdb"
+    "tottenham": {
+      "id": "tottenham",
+      "name": "Tottenham",
+      "logo": "https://i.imgur.com/V8Np2oV.png",
+      "league": "premier_league"
     },
     "tottenham_hotspur": {
       "id": "tottenham_hotspur",
-      "external_id": "133616",
       "name": "Tottenham Hotspur",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/dfyfhl1604094109.png",
-      "league": "premier_league",
-      "aliases": [
-        "TOT",
-        "Tottenham",
-        "Tottenham Premier"
-      ],
-      "source": "thesportsdb"
+      "league": "premier_league"
+    },
+    "tottenham_premier": {
+      "id": "tottenham_premier",
+      "name": "Tottenham Premier",
+      "logo": "https://dlskits.com/wp-content/uploads/2022/01/DLS-Kits-New-Logo-200x80-1.png",
+      "league": "unknown"
     },
     "toulouse": {
       "id": "toulouse",
-      "external_id": "133703",
       "name": "Toulouse",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/17eqox1688449282.png",
-      "league": "ligue_1",
-      "aliases": [
-        "TOU"
-      ],
-      "source": "thesportsdb"
+      "league": "ligue_1"
     },
     "trabzonspor": {
       "id": "trabzonspor",
-      "external_id": "133796",
       "name": "Trabzonspor",
       "logo": "https://www.thesportsdb.com/images/media/team/badge/96s34o1776827629.png",
-      "league": "super_lig",
-      "source": "thesportsdb"
+      "league": "super_lig"
+    },
+    "tunisia": {
+      "id": "tunisia",
+      "name": "Tunisia",
+      "logo": "https://i.imgur.com/aFdc4HC.png",
+      "league": "national_team"
     },
     "twente": {
       "id": "twente",
-      "external_id": "133774",
       "name": "Twente",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/rsrxrt1473534783.png",
-      "league": "eredivisie",
-      "source": "thesportsdb"
+      "league": "eredivisie"
     },
     "udinese": {
       "id": "udinese",
-      "external_id": "133679",
       "name": "Udinese",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/vwvstr1448806811.png",
-      "league": "serie_a",
-      "source": "thesportsdb"
+      "league": "serie_a"
     },
-    "union": {
-      "id": "union",
-      "external_id": "135178",
-      "name": "Unión",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/btnx6q1734587495.png",
-      "league": "argentine_primera",
-      "source": "thesportsdb"
+    "uncategorized": {
+      "id": "uncategorized",
+      "name": "Uncategorized",
+      "league": "unknown"
     },
     "union_berlin": {
       "id": "union_berlin",
-      "external_id": "134690",
       "name": "Union Berlin",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/q0o5001599679795.png",
-      "league": "bundesliga",
-      "aliases": [
-        "FCU"
-      ],
-      "source": "thesportsdb"
+      "league": "bundesliga"
     },
-    "universidad_tecnica_de_cajamarca": {
-      "id": "universidad_tecnica_de_cajamarca",
-      "external_id": "138330",
-      "name": "Universidad Técnica de Cajamarca",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/ea4ez01580040095.png",
-      "league": "liga_1_peru",
-      "source": "thesportsdb"
+    "uruguay": {
+      "id": "uruguay",
+      "name": "Uruguay",
+      "logo": "https://1.bp.blogspot.com/-eAnY8UBKhgg/YOO7gPzL7NI/AAAAAAAAvGg/wEAfEL5TxK82TRySU6FSy1fBgyV6gxI4wCLcBGAsYHQ/s512/escudo1.png",
+      "league": "national_team"
     },
-    "universitario": {
-      "id": "universitario",
-      "external_id": "138329",
-      "name": "Universitario",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/xt290m1603137966.png",
-      "league": "liga_1_peru",
-      "source": "thesportsdb"
+    "usa": {
+      "id": "usa",
+      "name": "USA",
+      "logo": "https://i.imgur.com/ojadk2S.png",
+      "league": "national_team"
     },
     "utrecht": {
       "id": "utrecht",
-      "external_id": "133764",
       "name": "Utrecht",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/yuhha71625167104.png",
-      "league": "eredivisie",
-      "source": "thesportsdb"
+      "league": "eredivisie"
     },
     "valencia": {
       "id": "valencia",
-      "external_id": "133725",
       "name": "Valencia",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/dm8l6o1655594864.png",
-      "league": "la_liga",
-      "aliases": [
-        "VAL"
-      ],
-      "source": "thesportsdb"
+      "league": "la_liga"
     },
-    "vancouver_whitecaps": {
-      "id": "vancouver_whitecaps",
-      "external_id": "134147",
-      "name": "Vancouver Whitecaps",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/tpwxpy1473536521.png",
-      "league": "mls",
-      "aliases": [
-        "VAN"
-      ],
-      "source": "thesportsdb"
+    "vasco": {
+      "id": "vasco",
+      "name": "Vasco",
+      "logo": "https://i.imgur.com/Exevrdf.png",
+      "league": "others"
     },
-    "vasco_da_gama": {
-      "id": "vasco_da_gama",
-      "external_id": "134282",
-      "name": "Vasco da Gama",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/ynqlxo1630521109.png",
-      "league": "brasileirao",
-      "aliases": [
-        "VAS"
-      ],
-      "source": "thesportsdb"
+    "vejle": {
+      "id": "vejle",
+      "name": "Vejle",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/fhlqev1532855346.png",
+      "league": "danish_superliga"
     },
-    "velez_sarsfield": {
-      "id": "velez_sarsfield",
-      "external_id": "135179",
-      "name": "Vélez Sarsfield",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/jo98m71517769587.png",
-      "league": "argentine_primera",
-      "aliases": [
-        "VEL"
-      ],
-      "source": "thesportsdb"
+    "vi_t_nam": {
+      "id": "vi_t_nam",
+      "name": "Việt Nam",
+      "logo": "https://kitdls.net/wp-content/uploads/2023/09/Logo-KitDLS-Net.png",
+      "league": "unknown"
+    },
+    "viborg": {
+      "id": "viborg",
+      "name": "Viborg",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/uvrpsp1447539333.png",
+      "league": "danish_superliga"
     },
     "vietnam": {
       "id": "vietnam",
-      "external_id": "140161",
       "name": "Vietnam",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/i18iu41597944056.png",
-      "league": "international",
-      "aliases": [
-        "Vietnam",
-        "Viet Nam",
-        "Việt Nam"
-      ],
-      "source": "thesportsdb"
+      "league": "international"
     },
     "villarreal": {
       "id": "villarreal",
-      "external_id": "133740",
       "name": "Villarreal",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/vrypqy1473503073.png",
-      "league": "la_liga",
-      "aliases": [
-        "VLR"
-      ],
-      "source": "thesportsdb"
+      "league": "la_liga"
     },
     "vitoria": {
       "id": "vitoria",
-      "external_id": "134280",
-      "name": "Vitória",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/tysrrx1473538156.png",
-      "league": "brasileirao",
-      "source": "thesportsdb"
+      "name": "Vitoria",
+      "logo": "https://i.imgur.com/pGU6PKZ.png",
+      "league": "brasileirao"
+    },
+    "vitoria_de_guimaraes": {
+      "id": "vitoria_de_guimaraes",
+      "name": "Vitória de Guimarães",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/af52z61628855707.png",
+      "league": "primeira_liga"
+    },
+    "volos": {
+      "id": "volos",
+      "name": "Volos",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/d73m0n1602773666.png",
+      "league": "greek_super_league"
+    },
+    "wales": {
+      "id": "wales",
+      "name": "Wales",
+      "logo": "https://i.imgur.com/cWswAnb.png",
+      "league": "national_team"
+    },
+    "watford": {
+      "id": "watford",
+      "name": "Watford",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/rsuswy1448813519.png",
+      "league": "championship"
     },
     "werder_bremen": {
       "id": "werder_bremen",
-      "external_id": "133662",
       "name": "Werder Bremen",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/tkvqan1716960454.png",
-      "league": "bundesliga",
-      "source": "thesportsdb"
+      "league": "bundesliga"
+    },
+    "west_bromwich_albion": {
+      "id": "west_bromwich_albion",
+      "name": "West Bromwich Albion",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/rsvuxw1448813527.png",
+      "league": "championship"
     },
     "west_ham_united": {
       "id": "west_ham_united",
-      "external_id": "133636",
       "name": "West Ham United",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/yutyxs1467459956.png",
-      "league": "premier_league",
-      "aliases": [
-        "WHU"
-      ],
-      "source": "thesportsdb"
+      "league": "premier_league"
     },
     "wolfsburg": {
       "id": "wolfsburg",
-      "external_id": "133655",
       "name": "Wolfsburg",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/07kp421599680274.png",
-      "league": "bundesliga",
-      "source": "thesportsdb"
+      "league": "bundesliga"
     },
     "wolves": {
       "id": "wolves",
-      "external_id": "133599",
       "name": "Wolverhampton Wanderers",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/u9qr031621593327.png",
-      "league": "premier_league",
-      "aliases": [
-        "WOL"
-      ],
-      "source": "thesportsdb"
+      "league": "premier_league"
+    },
+    "wrexham": {
+      "id": "wrexham",
+      "name": "Wrexham",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/ezpymt1675092551.png",
+      "league": "championship"
+    },
+    "yokohama": {
+      "id": "yokohama",
+      "name": "Yokohama",
+      "logo": "https://i.imgur.com/pgrnPip.png",
+      "league": "japan_league"
+    },
+    "zamalek": {
+      "id": "zamalek",
+      "name": "Zamalek",
+      "logo": "https://i.imgur.com/DgpGz4h.png",
+      "league": "egyptian_premier_league"
     }
   }
 }
