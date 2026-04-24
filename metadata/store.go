@@ -61,6 +61,9 @@ func (s *Store) MergeFirestore(path string) error {
 		}
 
 		teamID := Slug(ft.Name)
+		if teamID == "" {
+			continue
+		}
 		leagueID := Slug(ft.League)
 
 		if _, exists := s.Leagues[leagueID]; !exists && ft.League != "" {
@@ -100,10 +103,21 @@ func Load(dir string) (Store, error) {
 	}
 
 	for id, league := range leagueFile.Leagues {
-		store.Leagues[id] = league
+		normID := Slug(id)
+		if normID == "" {
+			continue
+		}
+		league.ID = normID
+		store.Leagues[normID] = league
 	}
 	for id, team := range teamFile.Teams {
-		store.Teams[id] = team
+		normID := Slug(id)
+		if normID == "" {
+			continue
+		}
+		team.ID = normID
+		team.League = Slug(team.League)
+		store.Teams[normID] = team
 	}
 
 	return store, nil

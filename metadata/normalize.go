@@ -14,7 +14,46 @@ func Slug(value string) string {
 	value = nonWordRE.ReplaceAllString(value, "_")
 	value = strings.Trim(value, "_")
 	value = regexp.MustCompile(`_+`).ReplaceAllString(value, "_")
-	return value
+
+	return CanonicalID(value)
+}
+
+var canonicalTeams = map[string]string{
+	"adidas_al_nassr_fc": "al_nassr",
+	"al_nassr_fc":        "al_nassr",
+	"paris_saint_germain": "psg",
+	"milan":              "ac_milan",
+	"man_utd":            "manchester_united",
+	"man_united":         "manchester_united",
+	"real_madird":        "real_madrid",
+	"tottenham_premier":  "tottenham",
+	"vi_t_nam":           "vietnam",
+	"santos_fc":          "santos",
+	"santoscsf":          "santos",
+	"al_hilal_sfc":       "al_hilal",
+}
+
+var blockedIDs = map[string]bool{
+	"apk":                                true,
+	"apk_mod":                            true,
+	"mod_apk":                            true,
+	"linguagem_english_espanol_francais": true,
+	"portugues":                          true,
+	"how_to_your_own":                    true,
+	"rematch":                            true,
+	"found_nothing":                      true,
+	"basketball":                         true,
+	"nba_2k26_jerseys":                   true,
+}
+
+func CanonicalID(id string) string {
+	if blockedIDs[id] {
+		return ""
+	}
+	if canonical, ok := canonicalTeams[id]; ok {
+		return canonical
+	}
+	return id
 }
 
 func NormalizeAlias(value string) string {

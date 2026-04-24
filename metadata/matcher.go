@@ -95,6 +95,9 @@ func (m *Matcher) FallbackTeam(text string) (Match, bool) {
 	}
 
 	id := Slug(cleaned)
+	if id == "" {
+		return Match{}, false
+	}
 	team := Team{ID: id, Name: titleCase(cleaned), League: "unknown", Source: "scraped_fallback"}
 	league := League{ID: "unknown", Name: "Unknown", Source: "scraped_fallback"}
 	return Match{Team: team, League: league}, true
