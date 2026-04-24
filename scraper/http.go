@@ -73,7 +73,7 @@ func (h *HTTPClient) ValidPNG(ctx context.Context, rawURL string) bool {
 		return false
 	}
 	req.Header.Set("User-Agent", userAgent)
-	req.Header.Set("Accept", "image/png,*/*;q=0.8")
+	req.Header.Set("Accept", "image/png,image/webp,image/apng,*/*;q=0.8")
 
 	resp, err := h.client.Do(req)
 	if err == nil {
@@ -91,7 +91,7 @@ func (h *HTTPClient) ValidPNG(ctx context.Context, rawURL string) bool {
 		return false
 	}
 	getReq.Header.Set("User-Agent", userAgent)
-	getReq.Header.Set("Accept", "image/png,*/*;q=0.8")
+	getReq.Header.Set("Accept", "image/png,image/webp,image/apng,*/*;q=0.8")
 
 	getResp, err := h.client.Do(getReq)
 	if err != nil {
@@ -107,5 +107,6 @@ func (h *HTTPClient) ValidPNG(ctx context.Context, rawURL string) bool {
 	if contentType == "" {
 		return true
 	}
-	return strings.Contains(contentType, "image/png") || strings.Contains(contentType, "application/octet-stream")
+	// Allow PNG, octet-stream (often used for downloads), and generic image types
+	return strings.Contains(contentType, "image/") || strings.Contains(contentType, "application/octet-stream")
 }
