@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_updated": "2026-04-24T12:08:13Z",
+  "last_updated": "2026-04-24T17:16:46Z",
   "teams": {
     "ac_milan": {
       "id": "ac_milan",
@@ -8,12 +8,6 @@
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/wvspur1448806617.png",
       "league": "serie_a",
       "is_popular": true
-    },
-    "adidas_al_nassr_fc": {
-      "id": "adidas_al_nassr_fc",
-      "name": "Adidas AL Nassr FC",
-      "logo": "https://dlskits.com/wp-content/uploads/2025/10/dlskits.com-icon-showing-dream-league-soccer-kits-of-football-clubs-150x150.png",
-      "league": "unknown"
     },
     "aek_athens": {
       "id": "aek_athens",
@@ -45,45 +39,28 @@
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/zg9tii1755495289.png",
       "league": "eredivisie"
     },
-    "al_ahli_saudi_fc": {
-      "id": "al_ahli_saudi_fc",
+    "al_ahli": {
+      "id": "al_ahli",
       "name": "Al-Ahli Saudi FC",
       "logo": "https://i.imgur.com/8zaxfn6.png",
       "league": "saudi_pro_league"
     },
     "al_hilal": {
       "id": "al_hilal",
-      "name": "AL Hilal",
-      "league": "unknown"
-    },
-    "al_hilal_sfc": {
-      "id": "al_hilal_sfc",
       "name": "Al Hilal SFC",
       "logo": "https://i.imgur.com/NN02zAQ.png",
       "league": "saudi_pro_league"
     },
     "al_ittihad": {
       "id": "al_ittihad",
-      "name": "AL Ittihad",
-      "league": "unknown"
-    },
-    "al_ittihad_club": {
-      "id": "al_ittihad_club",
       "name": "Al Ittihad Club",
       "logo": "https://i.imgur.com/9CwSC0l.png",
       "league": "saudi_pro_league"
     },
     "al_nassr": {
       "id": "al_nassr",
-      "name": "AL Nassr",
-      "logo": "https://kitdls.net/wp-content/uploads/2023/09/Logo-KitDLS-Net.png",
-      "league": "unknown",
-      "is_popular": true
-    },
-    "al_nassr_fc": {
-      "id": "al_nassr_fc",
-      "name": "AL Nassr FC",
-      "logo": "https://ftsdlskits.com/wp-content/uploads/al_opt_content/IMAGE/ftsdlskits.com/wp-content/uploads/2022/02/Al-Nassr-FC-logo-300x300.png?bv_host=ftsdlskits.com\u0026amp;bv-resized-infos=bv_resized_mobile%3A300%2A300%3Bbv_resized_ipad%3A300%2A300%3Bbv_resized_desktop%3A300%2A300",
+      "name": "Adidas AL Nassr FC",
+      "logo": "https://dlskits.com/wp-content/uploads/2025/10/dlskits.com-icon-showing-dream-league-soccer-kits-of-football-clubs-150x150.png",
       "league": "unknown"
     },
     "al_shabab_fc": {
@@ -104,11 +81,6 @@
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/9fr3071601667898.png",
       "league": "super_lig"
     },
-    "all_about": {
-      "id": "all_about",
-      "name": "All About",
-      "league": "unknown"
-    },
     "alverca": {
       "id": "alverca",
       "name": "Alverca",
@@ -121,11 +93,6 @@
       "logo": "https://i.imgur.com/MUtlN3i.png",
       "league": "brasileirao"
     },
-    "american": {
-      "id": "american",
-      "name": "American",
-      "league": "unknown"
-    },
     "angers": {
       "id": "angers",
       "name": "Angers",
@@ -137,11 +104,6 @@
       "name": "Antalyaspor",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/vqoral1601669436.png",
       "league": "super_lig"
-    },
-    "apk": {
-      "id": "apk",
-      "name": "Apk",
-      "league": "unknown"
     },
     "argentina": {
       "id": "argentina",
@@ -169,11 +131,6 @@
       "league": "premier_league",
       "is_popular": true
     },
-    "asian_team": {
-      "id": "asian_team",
-      "name": "Asian Team",
-      "league": "unknown"
-    },
     "asteras_tripolis": {
       "id": "asteras_tripolis",
       "name": "Asteras Tripolis",
@@ -197,11 +154,6 @@
       "name": "Athletic Bilbao",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/68w7fe1639408210.png",
       "league": "la_liga"
-    },
-    "athletic_club": {
-      "id": "athletic_club",
-      "name": "Athletic Club",
-      "league": "unknown"
     },
     "athletico_mineiro": {
       "id": "athletico_mineiro",
@@ -274,16 +226,6 @@
       "name": "Barcelona",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/wq9sir1639406443.png",
       "league": "la_liga"
-    },
-    "baseball": {
-      "id": "baseball",
-      "name": "Baseball",
-      "league": "unknown"
-    },
-    "basketball": {
-      "id": "basketball",
-      "name": "Basketball",
-      "league": "unknown"
     },
     "bayer_leverkusen": {
       "id": "bayer_leverkusen",
@@ -432,11 +374,6 @@
       "logo": "https://i.imgur.com/8z3YSFL.png",
       "league": "brasileirao"
     },
-    "caf_champions": {
-      "id": "caf_champions",
-      "name": "Caf Champions",
-      "league": "unknown"
-    },
     "cagliari": {
       "id": "cagliari",
       "name": "Cagliari",
@@ -516,11 +453,6 @@
       "name": "Como",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/02x81t1627405841.png",
       "league": "serie_a"
-    },
-    "cookie_policy": {
-      "id": "cookie_policy",
-      "name": "Cookie Policy",
-      "league": "unknown"
     },
     "costa_rica": {
       "id": "costa_rica",
@@ -739,11 +671,6 @@
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/uturtx1473534803.png",
       "league": "eredivisie"
     },
-    "fifa": {
-      "id": "fifa",
-      "name": "Fifa",
-      "league": "unknown"
-    },
     "fiorentina": {
       "id": "fiorentina",
       "name": "Fiorentina",
@@ -960,11 +887,6 @@
       "name": "How TO Import",
       "league": "unknown"
     },
-    "how_to_your_own": {
-      "id": "how_to_your_own",
-      "name": "How TO Your Own",
-      "league": "unknown"
-    },
     "hull_city": {
       "id": "hull_city",
       "name": "Hull City",
@@ -1005,12 +927,6 @@
       "logo": "https://kitdls.net/wp-content/uploads/2023/09/Logo-KitDLS-Net.png",
       "league": "unknown",
       "is_popular": true
-    },
-    "inter_miami_cf": {
-      "id": "inter_miami_cf",
-      "name": "Inter Miami CF",
-      "logo": "https://ftsdlskits.com/wp-content/uploads/al_opt_content/IMAGE/ftsdlskits.com/wp-content/uploads/2023/02/Inter-Miami-CF-Logo.png?bv_host=ftsdlskits.com\u0026amp;bv-resized-infos=bv_resized_mobile%3A224%2A225%3Bbv_resized_ipad%3A224%2A225%3Bbv_resized_desktop%3A224%2A225",
-      "league": "unknown"
     },
     "inter_milan": {
       "id": "inter_milan",
@@ -1301,12 +1217,6 @@
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/9xcx0p1770828600.png",
       "league": "championship"
     },
-    "milan": {
-      "id": "milan",
-      "name": "Milan",
-      "logo": "https://i.imgur.com/q9yp4KB.png",
-      "league": "serie_a"
-    },
     "millwall": {
       "id": "millwall",
       "name": "Millwall",
@@ -1409,11 +1319,6 @@
     "nba_2k26_cyberfaces": {
       "id": "nba_2k26_cyberfaces",
       "name": "Nba 2k26 Cyberfaces",
-      "league": "unknown"
-    },
-    "nba_2k26_jerseys": {
-      "id": "nba_2k26_jerseys",
-      "name": "Nba 2k26 Jerseys",
       "league": "unknown"
     },
     "nba_2k26_shoes": {
@@ -1556,12 +1461,6 @@
       "id": "paris_fc",
       "name": "Paris FC",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/yuvtsy1447594254.png",
-      "league": "ligue_1"
-    },
-    "paris_saint_germain": {
-      "id": "paris_saint_germain",
-      "name": "Paris SG",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/rwqrrq1473504808.png",
       "league": "ligue_1"
     },
     "parma": {
@@ -1707,12 +1606,6 @@
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/2oqulv1663245386.png",
       "league": "la_liga"
     },
-    "real_madird": {
-      "id": "real_madird",
-      "name": "Real Madird",
-      "logo": "https://kitdls.net/wp-content/uploads/2023/09/Logo-KitDLS-Net.png",
-      "league": "unknown"
-    },
     "real_madrid": {
       "id": "real_madrid",
       "name": "Real Madrid",
@@ -1737,11 +1630,6 @@
       "name": "Red Bulls",
       "logo": "https://i.imgur.com/JulFbvC.png",
       "league": "major_league_soccer"
-    },
-    "rematch": {
-      "id": "rematch",
-      "name": "Rematch",
-      "league": "unknown"
     },
     "rematch_players": {
       "id": "rematch_players",
@@ -1809,12 +1697,6 @@
     },
     "santos": {
       "id": "santos",
-      "name": "Santos",
-      "logo": "https://i.imgur.com/02jLl6X.png",
-      "league": "brasileirao"
-    },
-    "santos_fc": {
-      "id": "santos_fc",
       "name": "Santos FC",
       "logo": "https://kitdls.net/wp-content/uploads/2023/09/Logo-KitDLS-Net.png",
       "league": "unknown"
@@ -1824,12 +1706,6 @@
       "name": "Santos Laguna ",
       "logo": "https://i.imgur.com/wJ257Eo.png",
       "league": "liga_mx"
-    },
-    "santoscsf": {
-      "id": "santoscsf",
-      "name": "Santoscsf",
-      "logo": "https://i.imgur.com/02jLl6X.png",
-      "league": "csf"
     },
     "sao_paulo": {
       "id": "sao_paulo",
@@ -2044,12 +1920,6 @@
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/dfyfhl1604094109.png",
       "league": "premier_league"
     },
-    "tottenham_premier": {
-      "id": "tottenham_premier",
-      "name": "Tottenham Premier",
-      "logo": "https://dlskits.com/wp-content/uploads/2022/01/DLS-Kits-New-Logo-200x80-1.png",
-      "league": "unknown"
-    },
     "toulouse": {
       "id": "toulouse",
       "name": "Toulouse",
@@ -2127,12 +1997,6 @@
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/fhlqev1532855346.png",
       "league": "danish_superliga"
     },
-    "vi_t_nam": {
-      "id": "vi_t_nam",
-      "name": "Việt Nam",
-      "logo": "https://kitdls.net/wp-content/uploads/2023/09/Logo-KitDLS-Net.png",
-      "league": "unknown"
-    },
     "viborg": {
       "id": "viborg",
       "name": "Viborg",
@@ -2141,9 +2005,9 @@
     },
     "vietnam": {
       "id": "vietnam",
-      "name": "Vietnam",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/i18iu41597944056.png",
-      "league": "international"
+      "name": "Việt Nam",
+      "logo": "https://kitdls.net/wp-content/uploads/2023/09/Logo-KitDLS-Net.png",
+      "league": "unknown"
     },
     "villarreal": {
       "id": "villarreal",
