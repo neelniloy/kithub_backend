@@ -21,6 +21,7 @@ func Slug(value string) string {
 var canonicalTeams = map[string]string{
 	"adidas_al_nassr_fc": "al_nassr",
 	"al_nassr_fc":        "al_nassr",
+	"al_ittihad_club":    "al_ittihad",
 	"paris_saint_germain": "psg",
 	"milan":              "ac_milan",
 	"man_utd":            "manchester_united",
@@ -38,6 +39,7 @@ var canonicalTeams = map[string]string{
 	"liverpool_fc":       "liverpool",
 	"barcelona_fc":       "barcelona",
 	"fc_barcelona":       "barcelona",
+	"athletic_club":      "athletic_bilbao",
 }
 
 var blockedIDs = map[string]bool{
@@ -50,7 +52,14 @@ var blockedIDs = map[string]bool{
 	"rematch":                            true,
 	"found_nothing":                      true,
 	"basketball":                         true,
+	"baseball":                           true,
 	"nba_2k26_jerseys":                   true,
+	"cookie_policy":                      true,
+	"fifa":                               true,
+	"all_about":                          true,
+	"american":                           true,
+	"asian_team":                         true,
+	"caf_champions":                      true,
 }
 
 func CanonicalID(id string) string {
