@@ -1,6 +1,7 @@
 package main
 
 import (
+	"compress/gzip"
 	"context"
 	"encoding/json"
 	"errors"
@@ -207,18 +208,11 @@ func scrape(ctx context.Context, deepSearch bool) error {
 	}
 	utils.ApplyTeamLogos(&catalog, logoMap)
 
-	out, err := json.MarshalIndent(catalog, "", "  ")
-	if err != nil {
-		return fmt.Errorf("marshal catalog: %w", err)
-	}
-
-	if err := os.WriteFile("kits.json", out, 0644); err != nil {
-		return fmt.Errorf("write kits.json: %w", err)
-	}
-
 	kitCount := 0
 	teamsWithKits := 0
-	for _, t := range catalog.Teams {
+	searchIndex := make(map[string]any)
+
+	for id, t := range catalog.Teams {
 		hasKits := false
 		for _, s := range t.Seasons {
 			if len(s) > 0 {
@@ -228,8 +222,29 @@ func scrape(ctx context.Context, deepSearch bool) error {
 		}
 		if hasKits {
 			teamsWithKits++
+			searchIndex[id] = map[string]any{
+				"name":       t.Name,
+				"logo":       t.Logo,
+				"league":     t.League,
+				"is_popular": t.IsPopular,
+			}
 		}
 	}
+
+	// 1. SAVE RAW JSON
+	out, _ := json.MarshalIndent(catalog, "", "  ")
+	os.WriteFile("kits.json", out, 0644)
+
+	// 2. SAVE SEARCH INDEX
+	indexOut, _ := json.MarshalIndent(searchIndex, "", "  ")
+	os.WriteFile("index.json", indexOut, 0644)
+
+	// 3. SAVE GZIPPED CATALOG (for mobile performance)
+	gzFile, _ := os.Create("kits.json.gz")
+	gzWriter := gzip.NewWriter(gzFile)
+	gzWriter.Write(out)
+	gzWriter.Close()
+	gzFile.Close()
 
 	// Save back to metadata files to make discovered teams permanent
 	log.Printf("saving discovered metadata to data/...")
@@ -256,6 +271,10 @@ func scrape(ctx context.Context, deepSearch bool) error {
 	}
 	// Use store.Teams as base to preserve all teams
 	for id, t := range store.Teams {
+		// DYNAMIC CLEANUP: Only preserve teams that are NOT in the blocked list
+		if metadata.CanonicalID(id) == "" {
+			continue
+		}
 		newTeamsFile.Teams[id] = metadata.Team{
 			ID:        id,
 			Name:      t.Name,
@@ -267,8 +286,8 @@ func scrape(ctx context.Context, deepSearch bool) error {
 	teamsData, _ := json.MarshalIndent(newTeamsFile, "", "  ")
 	os.WriteFile(filepath.Join("data", "teams.json"), teamsData, 0644)
 
-	fmt.Printf("Generated kits.json with %d leagues, %d teams with kits, %d kit URLs\n", len(catalog.Leagues), teamsWithKits, kitCount)
-	fmt.Printf("Coverage: %d/%d teams in master list have kit data (%.1f%%)\n", teamsWithKits, len(store.Teams), float64(teamsWithKits)/float64(len(store.Teams))*100)
+	fmt.Printf("Generated kits.json, kits.json.gz and index.json\n")
+	fmt.Printf("Coverage: %d/%d teams have kits (%.1f%%)\n", teamsWithKits, len(store.Teams), float64(teamsWithKits)/float64(len(store.Teams))*100)
 	return nil
 }
 

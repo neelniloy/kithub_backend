@@ -61,6 +61,12 @@ func ParseArticle(page scraper.ArticlePage, matcher *metadata.Matcher) ([]models
 		}
 
 		league := modelLeague(match.League)
+		if league.ID == "unknown" {
+			if discovered := discoverLeague(title + " " + contextText); discovered != "" {
+				league.ID = discovered
+				league.Name = strings.ReplaceAll(strings.Title(strings.ReplaceAll(discovered, "_", " ")), "Mls", "MLS")
+			}
+		}
 
 		if looksLikeLogoAsset(kitURL, contextText) {
 			if foundLogos[kitURL] {
@@ -138,6 +144,36 @@ func ParseArticle(page scraper.ArticlePage, matcher *metadata.Matcher) ([]models
 	}
 
 	return records, logos
+}
+
+var leagueKeywords = map[string]string{
+	"premier league":      "premier_league",
+	"epl":                 "premier_league",
+	"la liga":             "la_liga",
+	"laliga":              "la_liga",
+	"serie a":             "serie_a",
+	"bundesliga":          "bundesliga",
+	"ligue 1":             "ligue_1",
+	"major league soccer": "major_league_soccer",
+	"mls":                 "major_league_soccer",
+	"saudi pro league":    "saudi_pro_league",
+	"brasileirao":         "brasileirao",
+	"eredivisie":          "eredivisie",
+	"super lig":           "super_lig",
+	"national team":       "national_team",
+	"world cup":           "national_team",
+	"copa america":        "national_team",
+	"euro 202":            "national_team",
+}
+
+func discoverLeague(text string) string {
+	text = strings.ToLower(text)
+	for keyword, id := range leagueKeywords {
+		if strings.Contains(text, keyword) {
+			return id
+		}
+	}
+	return ""
 }
 
 func modelLeague(league metadata.League) models.League {
