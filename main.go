@@ -87,12 +87,14 @@ func scrape(ctx context.Context, deepSearch bool) error {
 
 	matcher := metadata.NewMatcher(store)
 
-	sources := []scraper.Source{
-		{Name: "dlskits.com", BaseURL: "https://dlskits.com/"},
-		{Name: "dlskiturl.com", BaseURL: "https://dlskiturl.com/"},
-		{Name: "kitdls.net", BaseURL: "https://kitdls.net/"},
-		{Name: "ftsdlskits.com", BaseURL: "https://ftsdlskits.com/"},
-		{Name: "dlskitsurl.com", BaseURL: "https://dlskitsurl.com/"},
+	discoverySources := []scraper.Source{
+		{Name: "DLSKits", BaseURL: "https://dlskits.com/"},
+		{Name: "DLSKits-2026", BaseURL: "https://dlskits.com/category/dls-26-kits/"},
+		{Name: "KitDLS", BaseURL: "https://kitdls.net/"},
+		{Name: "FTSDLSKits", BaseURL: "https://ftsdlskits.com/"},
+		{Name: "FTSDLSKits-2026", BaseURL: "https://ftsdlskits.com/category/dream-league-soccer-kits-2026/"},
+		{Name: "DreamKits", BaseURL: "https://img.dreamkitsapp.com/"},
+		{Name: "DLSKitsURL", BaseURL: "https://dlskitsurl.com/"},
 		{Name: "dreamleaguesoccerkits.com", BaseURL: "https://www.dreamleaguesoccerkits.com/"},
 		{Name: "dreamkitsapp.com", BaseURL: "https://dreamkitsapp.com/"},
 		{Name: "sakibpro.com", BaseURL: "https://sakibpro.com/"},
@@ -111,7 +113,7 @@ func scrape(ctx context.Context, deepSearch bool) error {
 	var pages []scraper.ArticlePage
 	// HYBRID MODE: Always do general discovery AND targeted search for best results
 	log.Printf("starting general discovery (latest posts)...")
-	generalPages, genErr := collector.Collect(ctx, sources)
+	generalPages, genErr := collector.Collect(ctx, discoverySources)
 	if genErr != nil {
 		log.Printf("general discovery partial error: %v", genErr)
 	}
@@ -122,7 +124,7 @@ func scrape(ctx context.Context, deepSearch bool) error {
 	for _, t := range store.Teams {
 		teamNames = append(teamNames, t.Name)
 	}
-	searchPages, searchErr := collector.Search(ctx, sources, teamNames)
+	searchPages, searchErr := collector.Search(ctx, discoverySources, teamNames)
 	if searchErr != nil {
 		log.Printf("targeted search partial error: %v", searchErr)
 	}
