@@ -31,6 +31,13 @@ var canonicalTeams = map[string]string{
 	"santos_fc":          "santos",
 	"santoscsf":          "santos",
 	"al_hilal_sfc":       "al_hilal",
+	"al_ahli_saudi_fc":   "al_ahli",
+	"inter_miami_cf":     "inter_miami",
+	"arsenal_fc":         "arsenal",
+	"chelsea_fc":         "chelsea",
+	"liverpool_fc":       "liverpool",
+	"barcelona_fc":       "barcelona",
+	"fc_barcelona":       "barcelona",
 }
 
 var blockedIDs = map[string]bool{
