@@ -164,1898 +164,2349 @@
       "name": "Unknown"
     }
   },
-  "seasons": {
-    "2024": {
-      "teams": {
-        "ahly": {
-          "name": "Ahly",
-          "league": "caf",
-          "kits": {
-            "away": "https://i.imgur.com/0A24e6p.png",
-            "gk_away": "https://i.imgur.com/NNgX4RT.png",
-            "gk_home": "https://i.imgur.com/BGYAm1R.png",
-            "gk_third": "https://i.imgur.com/MtgBydX.png",
-            "home": "https://i.imgur.com/A359qmo.png",
-            "third": "https://i.imgur.com/Xs6FQjS.png"
-          }
-        },
-        "ajax": {
-          "name": "Ajax",
-          "logo": "https://dlskits.com/wp-content/uploads/2022/01/DLS-Kits-New-Logo-200x80-1.png",
-          "league": "others",
-          "kits": {
-            "away": "https://i.imgur.com/cglFnTu.png",
-            "gk_away": "https://i.imgur.com/j7M7g77.png",
-            "gk_home": "https://i.imgur.com/hX6hXZb.png",
-            "gk_third": "https://i.imgur.com/mpAgXIM.png",
-            "home": "https://i.imgur.com/cXS3zFK.png",
-            "third": "https://i.imgur.com/ykrNbgx.png"
-          }
-        },
-        "al_ahli_saudi_fc": {
-          "name": "Al-Ahli Saudi FC",
-          "league": "saudi_pro_league",
-          "is_popular": true,
-          "kits": {
-            "away": "https://i.imgur.com/1Ao1T4r.png",
-            "gk_away": "https://i.imgur.com/TOOXEyf.png",
-            "gk_home": "https://i.imgur.com/mYHDfBJ.png",
-            "home": "https://i.imgur.com/XnMvhFp.png"
-          }
-        },
-        "al_hilal_sfc": {
-          "name": "Al Hilal SFC",
-          "league": "saudi_pro_league",
-          "is_popular": true,
-          "kits": {
-            "away": "https://imdk.top/VvTTpzT.png",
-            "gk_away": "https://imdk.top/BGTMC8t.png",
-            "gk_home": "https://imdk.top/lTE98tt.png",
-            "gk_third": "https://i.imgur.com/Edylwh6.png",
-            "home": "https://imdk.top/qHswVcf.png",
-            "third": "https://i.imgur.com/7PsxrNj.png"
-          }
-        },
-        "al_ittihad_club": {
-          "name": "Al Ittihad Club",
-          "league": "saudi_pro_league",
-          "is_popular": true,
-          "kits": {
-            "away": "https://i.imgur.com/6RWENJ6.png",
-            "gk_away": "https://i.imgur.com/TOdhwjh.png",
-            "gk_home": "https://i.imgur.com/csVoC3U.png",
-            "home": "https://i.imgur.com/AI37y9g.png",
-            "third": "https://i.imgur.com/Gum8LsD.png"
-          }
-        },
-        "al_nassr_fc": {
-          "name": "Al Nassr FC",
-          "league": "saudi_pro_league",
-          "is_popular": true,
-          "kits": {
-            "away": "https://i.imgur.com/KhLQFaX.png",
-            "gk_away": "https://i.imgur.com/cHKai4i.png",
-            "gk_home": "https://i.imgur.com/nhehFf8.png",
-            "gk_third": "https://i.imgur.com/zXztbJ6.png",
-            "home": "https://i.imgur.com/rj0QXv7.png",
-            "third": "https://i.imgur.com/Wn1IN1O.png"
-          }
-        },
-        "al_shabab_fc": {
-          "name": "Al Shabab FC",
-          "league": "saudi_pro_league",
-          "is_popular": true,
-          "kits": {
-            "away": "https://i.imgur.com/2eMBqwi.png",
-            "gk_away": "https://i.imgur.com/J4PcMSY.png",
-            "gk_home": "https://i.imgur.com/2wauru0.png",
-            "home": "https://i.imgur.com/AOf5dBz.png"
-          }
-        },
-        "al_taawoun_fc": {
-          "name": "Al Taawoun FC",
-          "league": "saudi_pro_league",
-          "is_popular": true,
-          "kits": {
-            "away": "https://i.imgur.com/A5IgpzE.png",
-            "gk_away": "https://i.imgur.com/uA8wKPw.png",
-            "gk_home": "https://i.imgur.com/gsljviY.png",
-            "home": "https://i.imgur.com/JoYOLAz.png"
-          }
-        },
-        "america_mineiro": {
-          "name": "América Mineiro",
-          "league": "brasileirao",
-          "kits": {
-            "away": "https://i.imgur.com/nEs3LAB.png",
-            "gk_away": "https://i.imgur.com/b0Fb9RC.png",
-            "gk_home": "https://i.imgur.com/ZHbrktF.png",
-            "gk_third": "https://i.imgur.com/oDydEg6.png",
-            "home": "https://i.imgur.com/pHRWFk4.png",
-            "third": "https://i.imgur.com/I8USd76.png"
-          }
-        },
-        "argentina": {
-          "name": "Argentina",
-          "logo": "https://kitdls.net/wp-content/uploads/2023/09/Logo-KitDLS-Net.png",
-          "league": "national_team",
-          "is_popular": true,
-          "kits": {
-            "away": "https://i.imgur.com/VsFW3Sx.png",
-            "gk_away": "https://i.imgur.com/CY9H02V.png",
-            "gk_home": "https://i.imgur.com/90wb1Ce.png",
-            "gk_third": "https://i.imgur.com/05SNbHX.png",
-            "home": "https://i.imgur.com/GPRTcD9.png",
-            "third": "https://i.ibb.co/D1Hczgc/argentina-adidas-world-cup-2022-third.png"
-          }
-        },
-        "arsenal": {
-          "name": "Arsenal",
-          "logo": "https://kitdls.net/wp-content/uploads/2023/09/Logo-KitDLS-Net.png",
-          "league": "premier_league",
-          "is_popular": true,
-          "kits": {
-            "away": "https://i.imgur.com/zCNOpvS.png",
-            "gk_away": "https://i.imgur.com/aLzdrtG.png",
-            "gk_home": "https://i.imgur.com/NIjeT5u.png",
-            "gk_third": "https://i.imgur.com/YscZc1F.png",
-            "home": "https://i.imgur.com/SXXo1bC.png",
-            "third": "https://i.imgur.com/ZrpkWQC.png"
-          }
-        },
-        "athletico_mineiro": {
-          "name": "Athletico Mineiro",
-          "league": "brasileirao",
-          "kits": {
-            "away": "https://i.imgur.com/h7RpbVB.png",
-            "gk_away": "https://i.imgur.com/4GLJgF4.png",
-            "gk_home": "https://i.imgur.com/2BRs0Wl.png",
-            "gk_third": "https://i.imgur.com/TL5e8E6.png",
-            "home": "https://i.imgur.com/w3Xbp2O.png",
-            "third": "https://i.imgur.com/RASABq1.png"
-          }
-        },
-        "atletico_madrid": {
-          "name": "Atletico Madrid",
-          "logo": "https://dlskits.com/wp-content/uploads/2025/10/dlskits.com-icon-showing-dream-league-soccer-kits-of-football-clubs-150x150.png",
-          "league": "la_liga",
-          "is_popular": true,
-          "kits": {
-            "away": "https://i.imgur.com/PeZU8dB.png",
-            "gk_away": "https://i.imgur.com/1tABBRY.png",
-            "gk_home": "https://i.imgur.com/Xqa4adv.png",
-            "gk_third": "https://i.imgur.com/YC3AjtU.png",
-            "home": "https://i.imgur.com/R5KZjYk.png"
-          }
-        },
-        "atletico_tucuman": {
-          "name": "Atlético Tucumán",
-          "league": "argentine_primera_division",
-          "kits": {
-            "away": "https://i.imgur.com/XtRrp8b.png",
-            "gk_away": "https://i.imgur.com/YppZp4i.png",
-            "gk_home": "https://i.imgur.com/Y8Rawe6.png",
-            "home": "https://i.imgur.com/MNGIiJX.png",
-            "third": "https://i.imgur.com/2WtWZDH.png"
-          }
-        },
-        "australia": {
-          "name": "Australia",
-          "league": "national_team",
-          "kits": {
-            "away": "https://i.imgur.com/FdyxwQa.png",
-            "gk_away": "https://i.imgur.com/8G0mzuj.png",
-            "gk_home": "https://i.imgur.com/vu8aYKq.png",
-            "gk_third": "https://i.imgur.com/hxioFC1.png",
-            "home": "https://i.imgur.com/2tdFBT3.png",
-            "third": "https://i.imgur.com/TQxH2HQ.png"
-          }
-        },
-        "bahia": {
-          "name": "Bahia",
-          "league": "brasileirao",
-          "kits": {
-            "away": "https://i.imgur.com/AnWU5aN.png",
-            "gk_away": "https://i.imgur.com/CFemNE8.png",
-            "gk_home": "https://i.imgur.com/uERSRsy.png",
-            "gk_third": "https://i.imgur.com/4GPuqnU.png",
-            "home": "https://i.imgur.com/I1ORcSj.png",
-            "third": "https://i.imgur.com/QL4U0MM.png"
-          }
-        },
-        "bali_united": {
-          "name": "Bali United",
-          "league": "liga_1_indonesia",
-          "kits": {
-            "away": "https://i.imgur.com/d9rxLK4.png",
-            "gk_away": "https://i.imgur.com/LOjQAv8.png",
-            "gk_home": "https://i.imgur.com/YdATtKE.png",
-            "home": "https://i.imgur.com/PUw69f4.png",
-            "third": "https://i.imgur.com/VlYXZd2.png"
-          }
-        },
-        "barcelona": {
-          "name": "Barcelona",
-          "logo": "https://dlskits.com/wp-content/uploads/2025/10/dlskits.com-icon-showing-dream-league-soccer-kits-of-football-clubs-150x150.png",
-          "league": "la_liga",
-          "is_popular": true,
-          "kits": {
-            "away": "https://i.imgur.com/InA5Xjo.png",
-            "gk_away": "https://i.imgur.com/KotODTI.png",
-            "gk_home": "https://i.imgur.com/ZAosYIJ.png",
-            "gk_third": "https://i.imgur.com/uNF0m7M.png",
-            "home": "https://i.imgur.com/VWoWKvv.png",
-            "third": "https://i.imgur.com/bA5fsTD.png",
-            "unknown": "https://i.imgur.com/ft8Jh4o.png"
-          }
-        },
-        "bayern_munich": {
-          "name": "Bayern Munich",
-          "logo": "https://dlskits.com/wp-content/uploads/2022/01/DLS-Kits-New-Logo-200x80-1.png",
-          "league": "bundes_league",
-          "is_popular": true,
-          "kits": {
-            "away": "https://i.imgur.com/jWn15eY.png",
-            "gk_away": "https://i.imgur.com/a87Ve5v.png",
-            "gk_home": "https://i.imgur.com/PyhVeym.png",
-            "gk_third": "https://i.imgur.com/SaBG8Wl.png",
-            "home": "https://i.imgur.com/YOStiAD.png",
-            "third": "https://i.imgur.com/B0892pB.png"
-          }
-        },
-        "belgium": {
-          "name": "Belgium",
-          "league": "national_team",
-          "kits": {
-            "away": "https://i.imgur.com/z67Qqp5.png",
-            "gk_away": "https://i.imgur.com/IDBtUQ4.png",
-            "gk_home": "https://i.imgur.com/QIVJaHz.png",
-            "gk_third": "https://i.imgur.com/kUoplPb.png",
-            "home": "https://i.imgur.com/pqgg54C.png",
-            "third": "https://i.imgur.com/V4SmB4o.png"
-          }
-        },
-        "besiktas": {
-          "name": "Beşiktaş",
-          "league": "turkey_super_lig",
-          "kits": {
-            "away": "https://i.imgur.com/j7DpT2A.png",
-            "gk_away": "https://i.imgur.com/1PKDOGL.png",
-            "gk_home": "https://i.imgur.com/VqNcuQx.png",
-            "gk_third": "https://i.imgur.com/iD8qeja.png",
-            "home": "https://i.imgur.com/i478Y1Z.png",
-            "third": "https://i.imgur.com/EyViZb0.png"
-          }
-        },
-        "boca_juniors": {
-          "name": "Boca Juniors",
-          "league": "csf",
-          "is_popular": true,
-          "kits": {
-            "away": "https://i.imgur.com/LXNUWGB.png",
-            "gk_away": "https://i.imgur.com/gXwgZ65.png",
-            "gk_home": "https://i.imgur.com/GnAgUEh.png",
-            "gk_third": "https://i.imgur.com/Sh41mvn.png",
-            "home": "https://i.imgur.com/jIddy6l.png",
-            "third": "https://i.imgur.com/Osbm5Jb.png"
-          }
-        },
-        "borneo": {
-          "name": "Borneo",
-          "league": "liga_1_indonesia",
-          "kits": {
-            "away": "https://i.imgur.com/Cxxku5o.png",
-            "gk_away": "https://i.imgur.com/KCh06br.png",
-            "gk_home": "https://i.imgur.com/efCD5kr.png",
-            "home": "https://i.imgur.com/jZn2Bxd.png"
-          }
-        },
-        "botafogo": {
-          "name": "Botafogo",
-          "league": "brasileirao",
-          "kits": {
-            "away": "https://i.imgur.com/sOa5ymR.png",
-            "gk_away": "https://i.imgur.com/CE9fyJt.png",
-            "gk_home": "https://i.imgur.com/fwHAENf.png",
-            "gk_third": "https://i.imgur.com/mFf7Sp7.png",
-            "home": "https://i.imgur.com/WKKqrBe.png",
-            "third": "https://i.imgur.com/am9muZV.png"
-          }
-        },
-        "brazil": {
-          "name": "Brazil",
-          "logo": "https://kitdls.net/wp-content/uploads/2023/09/Logo-KitDLS-Net.png",
-          "league": "national_team",
-          "is_popular": true,
-          "kits": {
-            "away": "https://i.imgur.com/rgUnoQy.png",
-            "gk_away": "https://i.imgur.com/2PvH2uK.png",
-            "gk_home": "https://i.imgur.com/M2DrmEF.png",
-            "gk_third": "https://i.imgur.com/bzDKhh4.png",
-            "home": "https://i.imgur.com/XuEf40y.png",
-            "third": "https://i.imgur.com/zr6YSDM.png"
-          }
-        },
-        "ca_paranaense": {
-          "name": "CA Paranaense",
-          "league": "brasileirao",
-          "kits": {
-            "away": "https://i.imgur.com/9OH7fNS.png",
-            "gk_away": "https://i.imgur.com/cIp7mPW.png",
-            "gk_home": "https://i.imgur.com/Hdt5rLa.png",
-            "gk_third": "https://i.imgur.com/XUDoAit.png",
-            "home": "https://i.imgur.com/gG2ITc9.png",
-            "third": "https://i.imgur.com/ywWZHWb.png"
-          }
-        },
-        "cameroon": {
-          "name": "Cameroon",
-          "league": "national_team",
-          "kits": {
-            "away": "https://i.imgur.com/bSNmlD1.png",
-            "gk_away": "https://i.imgur.com/hX2MRmj.png",
-            "gk_home": "https://i.imgur.com/guVbCXM.png",
-            "gk_third": "https://i.imgur.com/soIHasg.png",
-            "home": "https://i.imgur.com/VDepohD.png",
-            "third": "https://i.imgur.com/UeSlk1Z.png"
-          }
-        },
-        "canada": {
-          "name": "Canada",
-          "league": "national_team",
-          "kits": {
-            "away": "https://ia.imgur.com/RxSarvd.png",
-            "gk_away": "https://i.imgur.com/IfkoLv2.png",
-            "gk_home": "https://i.imgur.com/4vfOInD.png",
-            "gk_third": "https://i.imgur.com/SUcKOj2.png",
-            "home": "https://i.imgur.com/acBcj3E.png",
-            "third": "https://i.imgur.com/AIba6uc.png"
-          }
-        },
-        "ceara": {
-          "name": "Ceara",
-          "league": "brasileirao",
-          "kits": {
-            "away": "https://i.imgur.com/j8RXOGY.png",
-            "gk_away": "https://i.imgur.com/zVeEVRh.png",
-            "gk_home": "https://i.imgur.com/p6VyVoX.png",
-            "gk_third": "https://i.imgur.com/GU5oden.png",
-            "home": "https://i.imgur.com/ITYkxHE.png",
-            "third": "https://i.imgur.com/jTzclig.png"
-          }
-        },
-        "cerezo": {
-          "name": "Cerezo",
-          "league": "japan_league",
-          "kits": {
-            "away": "https://i.imgur.com/TgjS9Pc.png",
-            "gk_away": "https://i.imgur.com/t9LbtjW.png",
-            "gk_home": "https://i.imgur.com/5QHGwRG.png",
-            "home": "https://i.imgur.com/XGt9Uqa.png"
-          }
-        },
-        "chapecoense": {
-          "name": "Chapecoense",
-          "league": "brasileirao",
-          "kits": {
-            "away": "https://i.imgur.com/QKUvAeS.png",
-            "gk_away": "https://i.imgur.com/LugFNc3.png",
-            "gk_home": "https://i.imgur.com/zzHwp1W.png",
-            "home": "https://i.imgur.com/Lyy0tk7.png",
-            "third": "https://i.imgur.com/C6CUyDk.png"
-          }
-        },
-        "chelsea": {
-          "name": "Chelsea",
-          "logo": "https://dlskits.com/wp-content/uploads/2022/01/DLS-Kits-New-Logo-200x80-1.png",
-          "league": "premier_league",
-          "is_popular": true,
-          "kits": {
-            "away": "https://i.imgur.com/QeBtm9p.png",
-            "gk_away": "https://i.imgur.com/OzzcO9K.png",
-            "gk_home": "https://i.imgur.com/2tgques.png",
-            "gk_third": "https://i.imgur.com/eVPO7C2.png",
-            "home": "https://i.imgur.com/IYOrvbW.png",
-            "third": "https://i.imgur.com/w5cNkfd.png"
-          }
-        },
-        "club_america": {
-          "name": "Club América",
-          "league": "liga_mx",
-          "kits": {
-            "away": "https://i.imgur.com/w7o5Y70.png",
-            "gk_away": "https://i.imgur.com/iiLAhxK.png",
-            "gk_home": "https://i.imgur.com/sZ5pVv4.png",
-            "gk_third": "https://i.imgur.com/98dksD8.png",
-            "home": "https://i.imgur.com/FoqZiwl.png"
-          }
-        },
-        "colombia": {
-          "name": "Colombia",
-          "logo": "https://r2.thesportsdb.com/images/media/team/badge/4ymyku1691180081.png",
-          "league": "international",
-          "is_popular": true,
-          "kits": {
-            "home": "https://img.dreamkitsapp.com/kits/colombia-home-2024-dls19.png"
-          }
-        },
-        "costa_rica": {
-          "name": "Costa Rica",
-          "league": "national_team",
-          "kits": {
-            "away": "https://i.imgur.com/ked34O7.png",
-            "gk_away": "https://i.imgur.com/kQOY5r7.png",
-            "gk_home": "https://i.imgur.com/djfcAEX.png",
-            "gk_third": "https://i.imgur.com/nrKHvZz.png",
-            "home": "https://i.imgur.com/XprT7dr.png"
-          }
-        },
-        "croatia": {
-          "name": "Croatia",
-          "league": "national_team",
-          "kits": {
-            "away": "https://i.imgur.com/copc6pH.png",
-            "gk_away": "https://i.imgur.com/bnSSYuA.png",
-            "gk_home": "https://i.imgur.com/tq1sQXs.png",
-            "gk_third": "https://i.imgur.com/p6fhQKg.png",
-            "home": "https://i.imgur.com/oYsmFZC.png"
-          }
-        },
-        "cruzeiro": {
-          "name": "Cruzeiro",
-          "league": "brasileirao",
-          "kits": {
-            "away": "https://i.imgur.com/RIwQaGA.png",
-            "gk_away": "https://i.imgur.com/K2nOwOv.png",
-            "gk_home": "https://i.imgur.com/JeLWPae.png",
-            "gk_third": "https://i.imgur.com/54e1GWt.png",
-            "home": "https://i.imgur.com/NV7H264.png",
-            "third": "https://i.imgur.com/T9xQKWm.png"
-          }
-        },
-        "damac_fc": {
-          "name": "Damac FC",
-          "league": "saudi_pro_league",
-          "is_popular": true,
-          "kits": {
-            "away": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhv9cXuY8SnsmMscbR0d6EsBuGDT88yLb-rn5bfLii1OY7IdQeMp7SJ8BSIzyg2tbapiUNI6HxIwWxhZ4rMKVKWYTDK9m3PbD6tePJ00i6eVkmdvSrY7m_j1f9_P_nKvS7ZnJWFc1F6xfJ5zW3sYgrVMnYb34uo05OlE3IHa1OMW9B5POaTEHfUB7oZEQs/s320/IMG_20231223_003841.png",
-            "gk_away": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiUG0mIDx7G88e8qpI-w_zDYqZP3KLjD5OUc1kR31TbaIMqGvX5WQLo0nzYTlw0qzDQItHcTDty8w7UPA6J-qOStCSKcxxzDdbazLmEUsNo0Vb5VydEcRQdMA5rfsYwFHaXTT635sy75oGMQYk1RWJ3w4pc9gWD57EOjGw0Cq1OrzeYSUoB45itDkplJOo/s320/IMG_20231223_103731.png",
-            "gk_home": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhxy-DffjB1cMxxdum3k-gjMiRevTrzi_cMUXcmMdsFnIuj_DFb_ajfMnBAOxq6KxfzKYOU7gxyRNggt3zqhiQjpOYza_iOuQFUNVWwxfWNlTrEC3O29SuNO_BmMuLsri6n5FSOmpz9zk8UmeaG5RdQIj-R8ENL6Av5uhu8Nm7RX8ayWHdbPtkiP76dZVg/s320/IMG_20231223_104641.png",
-            "gk_third": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiKQBc2gkMTCV3TF4FPRrNYLevkNWC2PZG3cY7dMQI4akN7zR3edyYyn8bJHLg-qwYM6EBvamiczGaphMVVrbiIqbl1aNB8W4qo1FOnvvwTt-HWV3OQwUKeLA7XS8kRnS6rT-6gOFoEPHiDOTzP6YtHpPVIMRYIlsCEeqow3YLIVAUredoT-cKbXuCso9I/s320/IMG_20231223_104035.png",
-            "home": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhxYAbzY-oihv9XOD9YgHTAMh65yTYOm7t_Jkvka8xmzDy8-eBqGLv0Y7EnAiIPwKkmkX2Dl2ApkaivFgXAAlrRliyQDtAg49RKwHhsFAi-IPi7RkhxJdROZ68ch_w7iyIUX-90zp5M6ldnGCaPFdJrMR2T3ix18DWq5NCZymcAPImPVunxhi9i4qDxKxU/s320/IMG_20231223_001904.png",
-            "third": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhQyP2kJoCgmrqJqDYBpWHnrfMrFRiwgpg3qiYMgYjcwWNR4JMGcjAPmbE4w5JooMqtKFtp6fB1GiV1rYoMyTayqtecR-yrg8omYmDIzaDqsNCZysmBr5HHoD4vCucPaWdkh-iaZGtDHQP5L3j2fJAvxJxqbIqBadqXEC7CRaMwlh2vL3jW11eu-g5HbVU/s320/IMG_20231223_102734.png"
-          }
-        },
-        "denmark": {
-          "name": "Denmark",
-          "league": "national_team",
-          "kits": {
-            "away": "https://i.imgur.com/cII05LL.png",
-            "gk_away": "https://i.imgur.com/ELAoq34.png",
-            "gk_home": "https://i.imgur.com/JGX0Z6G.png",
-            "gk_third": "https://i.imgur.com/Qo6IGOC.png",
-            "home": "https://i.imgur.com/08Fcb4x.png",
-            "third": "https://i.imgur.com/TgCGSHU.png"
-          }
-        },
-        "dortmand": {
-          "name": "Dortmand",
-          "league": "bundes_league",
-          "kits": {
-            "away": "https://i.imgur.com/Qzu0G0J.png",
-            "gk_away": "https://i.imgur.com/Wr9AOuQ.png",
-            "gk_home": "https://i.imgur.com/jNHfDYV.png",
-            "gk_third": "https://i.imgur.com/oKtc777.png",
-            "home": "https://i.imgur.com/ln0xve3.png",
-            "third": "https://i.imgur.com/4WMocyT.png"
-          }
-        },
-        "ecuador": {
-          "name": "Ecuador",
-          "league": "national_team",
-          "kits": {
-            "away": "https://i.imgur.com/ry00ME2.png",
-            "gk_away": "https://i.imgur.com/haeeEkv.png",
-            "gk_home": "https://i.imgur.com/hjsqP97.png",
-            "gk_third": "https://i.imgur.com/NHkGu2y.png",
-            "home": "https://i.imgur.com/jr1tHmC.png",
-            "third": "https://i.imgur.com/QMRfZ6D.png"
-          }
-        },
-        "england": {
-          "name": "England",
-          "logo": "https://dlskitsurl.com/wp-content/uploads/2026/03/premier-league-logo-png-transparent.png",
-          "league": "national_team",
-          "kits": {
-            "away": "https://i.imgur.com/KTjDrb7.png",
-            "gk_away": "https://i.imgur.com/GRk8eh8.png",
-            "gk_home": "https://i.imgur.com/l1kvLZJ.png",
-            "gk_third": "https://i.imgur.com/nPbU2X1.png",
-            "home": "https://i.imgur.com/qA6YZt5.png"
-          }
-        },
-        "fc_cincinnati": {
-          "name": "FC Cincinnati",
-          "league": "major_league_soccer",
-          "kits": {
-            "away": "https://i.imgur.com/OKlF6U8.png",
-            "gk_away": "https://i.imgur.com/yzwbbNf.png",
-            "gk_home": "https://i.imgur.com/XA4ooca.png",
-            "home": "https://i.imgur.com/y3S2MVd.png"
-          }
-        },
-        "fenerbahce": {
-          "name": "Fenerbahçe",
-          "league": "turkey_super_lig",
-          "kits": {
-            "away": "https://i.imgur.com/tGNxEcK.png",
-            "gk_away": "https://i.imgur.com/tJuw8Oj.png",
-            "gk_home": "https://i.imgur.com/AyXQOmc.png",
-            "gk_third": "https://i.imgur.com/xshC3Fb.png",
-            "home": "https://i.imgur.com/NJNmsJl.png",
-            "third": "https://i.imgur.com/PyYC35w.png"
-          }
-        },
-        "flamengo": {
-          "name": "Flamengo",
-          "logo": "https://img.dreamkitsapp.com/shields/flamengo-logo-2022.png",
-          "league": "brasileirao",
-          "kits": {
-            "away": "https://i.ibb.co/YRZ5yxQ/image.png",
-            "gk_away": "https://i.imgur.com/7t3S9JS.png",
-            "gk_home": "https://i.imgur.com/xvk3eqU.png",
-            "gk_third": "https://i.imgur.com/0vi819V.png",
-            "home": "https://i.ibb.co/vDWrdQn/home.png",
-            "third": "https://i.ibb.co/4sLnXBT/image.png"
-          }
-        },
-        "fluminense": {
-          "name": "Fluminense",
-          "league": "brasileirao",
-          "kits": {
-            "away": "https://i.imgur.com/WwzuRV9.png",
-            "gk_away": "https://i.imgur.com/LZZelWt.png",
-            "gk_home": "https://i.imgur.com/IZB9sX0.png",
-            "gk_third": "https://i.imgur.com/DTKZjts.png",
-            "home": "https://i.imgur.com/3gYRygY.png",
-            "third": "https://i.imgur.com/lW4GYdm.png"
-          }
-        },
-        "fortaleza_ec": {
-          "name": "Fortaleza EC",
-          "league": "brasileirao",
-          "kits": {
-            "away": "https://dlskits25.com/wp-content/uploads/2025/02/2-5.png",
-            "gk_away": "https://i.imgur.com/6BzwglC.png",
-            "gk_home": "https://dlskits25.com/wp-content/uploads/2025/02/4-1.png",
-            "gk_third": "https://i.imgur.com/zUSJcDk.png",
-            "home": "https://dlskits25.com/wp-content/uploads/2025/02/1-5.png"
-          }
-        },
-        "france": {
-          "name": "France",
-          "logo": "https://dlskitsurl.com/wp-content/uploads/2026/03/LIGUE-1-New-Logo-Vector.png",
-          "league": "national_team",
-          "is_popular": true,
-          "kits": {
-            "away": "https://i.imgur.com/aBJuoE6.png",
-            "gk_away": "https://i.imgur.com/gDtbjrc.png",
-            "gk_home": "https://i.imgur.com/DgsRhW2.png",
-            "gk_third": "https://i.imgur.com/qencjcy.png",
-            "home": "https://i.imgur.com/5zP7qQI.png",
-            "third": "https://imgur.com/a/y958yCX"
-          }
-        },
-        "galatasaray": {
-          "name": "Galatasaray",
-          "logo": "https://kitdls.net/wp-content/uploads/2023/09/Logo-KitDLS-Net.png",
-          "league": "turkey_super_lig",
-          "is_popular": true,
-          "kits": {
-            "away": "https://i.imgur.com/esAnEdy.png",
-            "gk_away": "https://i.imgur.com/8X4QXBm.png",
-            "gk_home": "https://i.imgur.com/1QxzTiL.png",
-            "gk_third": "https://i.ibb.co/Sy9j1Cg/gk-third-1-8.png",
-            "home": "https://i.imgur.com/aVV0S5f.png",
-            "third": "https://i.imgur.com/ibz1IzO.png"
-          }
-        },
-        "galaxy": {
-          "name": "Galaxy",
-          "league": "csf",
-          "kits": {
-            "away": "https://i.imgur.com/KHB9CkH.png",
-            "gk_away": "https://i.imgur.com/NxVlM2D.png",
-            "gk_home": "https://i.imgur.com/uouSSo8.png",
-            "gk_third": "https://i.imgur.com/2Nfx2jL.png",
-            "home": "https://i.imgur.com/Z9TMAso.png",
-            "third": "https://i.imgur.com/BQ2xbG2.png"
-          }
-        },
-        "germany": {
-          "name": "Germany",
-          "logo": "https://kitdls.net/wp-content/uploads/2023/09/Logo-KitDLS-Net.png",
-          "league": "national_team",
-          "kits": {
-            "away": "https://i.imgur.com/tZPqql2.png",
-            "gk_away": "https://i.imgur.com/C5XQYH9.png",
-            "gk_home": "https://i.imgur.com/gkcJkb1.png",
-            "gk_third": "https://i.imgur.com/PgDTqum.png",
-            "home": "https://i.imgur.com/zEV75Kz.png",
-            "third": "https://i.imgur.com/4P11KxE.png"
-          }
-        },
-        "ghana": {
-          "name": "Ghana",
-          "league": "national_team",
-          "kits": {
-            "away": "https://i.imgur.com/ngvfCTa.png",
-            "gk_away": "https://i.imgur.com/pN4uHGg.png",
-            "gk_home": "https://i.imgur.com/YLDyvcu.png",
-            "gk_third": "https://i.imgur.com/IIohcnf.png",
-            "home": "https://i.imgur.com/hoFwmMP.png",
-            "third": "https://i.ibb.co/9Vh0Qkm/p1.png"
-          }
-        },
-        "gimnasia": {
-          "name": "Gimnasia",
-          "league": "argentine_primera_division",
-          "kits": {
-            "away": "https://i.imgur.com/hJooKRK.png",
-            "gk_away": "https://i.imgur.com/rl8XTtm.png",
-            "gk_home": "https://i.imgur.com/QRic2n1.png",
-            "gk_third": "https://i.imgur.com/uCbwZ0H.png",
-            "home": "https://i.imgur.com/INe6YT8.png",
-            "third": "https://i.ibb.co/C62679q/Gimnasia-de-la-Plata-PLS-Kit-2022-third.png"
-          }
-        },
-        "gremio": {
-          "name": "Gremio",
-          "league": "brasileirao",
-          "kits": {
-            "away": "https://i.imgur.com/smwYHha.png",
-            "gk_away": "https://i.imgur.com/UqJeb2M.png",
-            "gk_home": "https://i.imgur.com/x2HqI2U.png",
-            "gk_third": "https://i.imgur.com/4C0OkVS.png",
-            "home": "https://i.imgur.com/jWluiSf.png",
-            "third": "https://i.imgur.com/NZuTo2r.png"
-          }
-        },
-        "huracan": {
-          "name": "Huracán",
-          "league": "argentine_primera_division",
-          "kits": {
-            "away": "https://i.imgur.com/6xcc7i0.png",
-            "gk_away": "https://i.imgur.com/9YlZEBp.png",
-            "gk_home": "https://i.imgur.com/S14z0Ry.png",
-            "gk_third": "https://i.imgur.com/CoWYTVb.png",
-            "home": "https://i.imgur.com/LnAv51B.png",
-            "third": "https://i.imgur.com/Hobm8va.png"
-          }
-        },
-        "hyderabad": {
-          "name": "Hyderabad",
-          "league": "indian_super_league",
-          "kits": {
-            "away": "https://i.imgur.com/m62PIKT.png",
-            "gk_home": "https://i.imgur.com/R3c8P84.png",
-            "home": "https://i.imgur.com/0DYnvDz.png",
-            "third": "https://i.imgur.com/YFv27x4.png"
-          }
-        },
-        "inter_miami_cf": {
-          "name": "Inter Miami CF",
-          "league": "major_league_soccer",
-          "kits": {
-            "away": "https://i.imahttps://kitdls.net/wp-content/uploads/2025/02/inter-miami-away-kit-25-26.pnggur.com/nie36p5.png",
-            "gk_away": "https://kitdls.net/wp-content/uploads/2025/02/inter-miami-gk-kit-2-25-26.png",
-            "gk_home": "https://kitdls.net/wp-content/uploads/2025/02/inter-miami-gk-kit-1-25-26.png",
-            "gk_third": "https://kitdls.net/wp-content/uploads/2025/02/inter-miami-gk-kit-3-25-26.png",
-            "home": "https://kitdls.net/wp-content/uploads/2025/02/inter-miami-home-kit-25-26.png",
-            "third": "https://kitdls.net/wp-content/uploads/2024/05/Inter-Miami-Third-Kit-2-2024-2025-DLS-24.png"
-          }
-        },
-        "inter_milan": {
-          "name": "Inter Milan",
-          "logo": "https://dlskits.com/wp-content/uploads/2022/01/DLS-Kits-New-Logo-200x80-1.png",
-          "league": "serie_a",
-          "is_popular": true,
-          "kits": {
-            "away": "https://i.imgur.com/0aruk6O.png",
-            "gk_away": "https://i.imgur.com/VTBhXBA.png",
-            "gk_home": "https://i.imgur.com/UqxFW5i.png",
-            "gk_third": "https://i.imgur.com/7nIHXTd.png",
-            "home": "https://i.imgur.com/KXdN9qf.png",
-            "third": "https://i.imgur.com/IgBTAZn.png"
-          }
-        },
-        "ir_iran": {
-          "name": "IR Iran",
-          "league": "national_team",
-          "kits": {
-            "away": "https://i.imgur.com/dSvbPwt.png",
-            "gk_away": "https://i.imgur.com/39Ubssg.png",
-            "gk_home": "https://i.imgur.com/Q1KPaHQ.png",
-            "gk_third": "https://i.imgur.com/WWsWtOS.png",
-            "home": "https://i.imgur.com/e7927BE.png",
-            "third": "https://i.imgur.com/ZjnAUIS.png"
-          }
-        },
-        "istanbul": {
-          "name": "İstanbul",
-          "league": "turkey_super_lig",
-          "kits": {
-            "away": "https://i.imgur.com/JKjSNuR.png",
-            "gk_away": "https://i.imgur.com/G7Fy34p.png",
-            "gk_home": "https://i.imgur.com/Sw6MFGO.png",
-            "home": "https://i.imgur.com/pvGOpda.png",
-            "third": "https://i.imgur.com/OX1FBL7.png"
-          }
-        },
-        "ittihad_tanger": {
-          "name": "Ittihad Tanger",
-          "league": "botola_pro_1",
-          "kits": {
-            "away": "https://i.imgur.com/PjjbnKD.png",
-            "gk_home": "https://e.top4top.io/p_1811dpvnu4.png",
-            "home": "https://i.imgur.com/AzjEWJ0.png"
-          }
-        },
-        "jamshedpur": {
-          "name": "Jamshedpur",
-          "league": "indian_super_league",
-          "kits": {
-            "away": "https://i.imgur.com/4A329qQ.png",
-            "gk_away": "https://i.imgur.com/tutQFG8.png",
-            "gk_home": "https://i.imgur.com/vz6RCoq.png",
-            "home": "https://i.imgur.com/iGi8WY1.png"
-          }
-        },
-        "japan": {
-          "name": "Japan",
-          "logo": "https://kitdls.net/wp-content/uploads/2023/09/Logo-KitDLS-Net.png",
-          "league": "national_team",
-          "kits": {
-            "away": "https://i.imgur.com/8ld4KrR.png",
-            "gk_away": "https://i.imgur.com/aJ1ULJr.png",
-            "gk_home": "https://i.imgur.com/2bpKnP2.png",
-            "gk_third": "https://i.imgur.com/aJ1ULJr.png",
-            "home": "https://i.imgur.com/G28YiU5.png",
-            "third": "https://i.imgur.com/8ld4KrR.png"
-          }
-        },
-        "juventus": {
-          "name": "Juventus",
-          "logo": "https://dlskits.com/wp-content/uploads/2025/10/dlskits.com-icon-showing-dream-league-soccer-kits-of-football-clubs-150x150.png",
-          "league": "serie_a",
-          "is_popular": true,
-          "kits": {
-            "away": "https://i.imgur.com/3X5FRjf.png",
-            "gk_away": "https://i.imgur.com/3DDjLna.png",
-            "gk_home": "https://i.imgur.com/UO2GKgy.png",
-            "gk_third": "https://i.imgur.com/eHxnXd0.png",
-            "home": "https://i.imgur.com/Bx3UjtB.png",
-            "third": "https://i.imgur.com/pTPWnQN.png"
-          }
-        },
-        "kaizer_chiefs": {
-          "name": "Kaizer Chiefs",
-          "league": "dstv_premiership",
-          "kits": {
-            "away": "https://i.imgur.com/axybnmL.png",
-            "gk_away": "https://i.imgur.com/1z7ughY.png",
-            "gk_home": "https://i.ibb.co/QQhssx5/image.png",
-            "gk_third": "https://i.imgur.com/W7ExFpD.png",
-            "home": "https://i.ibb.co/WHRK2rd/home.png"
-          }
-        },
-        "kashima_antlers": {
-          "name": "Kashima Antlers",
-          "league": "japan_league",
-          "kits": {
-            "away": "https://i.imgur.com/iYQrXv5.png",
-            "gk_away": "https://i.imgur.com/wFZVg1V.png",
-            "gk_home": "https://i.imgur.com/GrxOPrz.png",
-            "home": "https://i.imgur.com/nJs33hX.png"
-          }
-        },
-        "kawasaki_frontale": {
-          "name": "Kawasaki Frontale",
-          "league": "japan_league",
-          "kits": {
-            "away": "https://i.imgur.com/3LQoI8C.png",
-            "gk_away": "https://i.imgur.com/2viDdjG.png",
-            "gk_home": "https://i.imgur.com/Z7xDPDM.png",
-            "home": "https://i.imgur.com/cW679QX.png"
-          }
-        },
-        "kerala_blasters": {
-          "name": "Kerala Blasters",
-          "league": "indian_super_league",
-          "kits": {
-            "away": "https://i.imgur.com/o3kKbBR.png",
-            "gk_away": "https://i.imgur.com/C6SlSBU.png",
-            "gk_home": "https://i.imgur.com/eYxaIjf.png",
-            "home": "https://i.imgur.com/2GL5IIB.png",
-            "third": "https://i.imgur.com/w2ch5QF.png"
-          }
-        },
-        "konyaspor": {
-          "name": "Konyaspor",
-          "league": "turkey_super_lig",
-          "kits": {
-            "away": "https://i.imgur.com/rLPSFTr.png",
-            "gk_away": "https://i.imgur.com/NRwDzLw.png",
-            "gk_home": "https://i.imgur.com/QqS5OmB.png",
-            "gk_third": "Coming Soon",
-            "home": "https://i.imgur.com/WKACR6b.png",
-            "third": "https://i.imgur.com/bc35zJY.png"
-          }
-        },
-        "korea_republic": {
-          "name": "Korea Republic",
-          "league": "national_team",
-          "kits": {
-            "away": "https://i.imgur.com/XeuUacA.png",
-            "gk_away": "https://i.imgur.com/SYHmYxR.png",
-            "gk_home": "https://i.imgur.com/Sn0ovu5.png",
-            "gk_third": "https://i.imgur.com/adYJpyD.png",
-            "home": "https://i.imgur.com/u0BjzjO.png",
-            "third": "https://i.imgur.com/yY80S3h.png"
-          }
-        },
-        "liverpool": {
-          "name": "Liverpool",
-          "logo": "https://dlskits.com/wp-content/uploads/2025/10/dlskits.com-icon-showing-dream-league-soccer-kits-of-football-clubs-150x150.png",
-          "league": "premier_league",
-          "is_popular": true,
-          "kits": {
-            "away": "https://i.imgur.com/b9omgrm.png",
-            "gk_away": "https://i.imgur.com/uY2MRmR.png",
-            "gk_home": "https://i.imgur.com/OhomYcX.png",
-            "gk_third": "https://i.imgur.com/1BAQXGU.png",
-            "home": "https://i.imgur.com/7Z0O7f2.png",
-            "third": "https://i.imgur.com/fmeuszb.png"
-          }
-        },
-        "lorient": {
-          "name": "Lorient",
-          "league": "league_1_france",
-          "kits": {
-            "away": "https://imgur.com/GgjbtxM.png",
-            "gk_away": "https://imgur.com/RinrFIG.png",
-            "gk_home": "https://imgur.com/7DOpTPE.png",
-            "gk_third": "https://imgur.com/oNHKhVn.png",
-            "home": "https://i.imgur.com/j23GJV9.png",
-            "third": "https://i.imgur.com/JUrsotO.png"
-          }
-        },
-        "madura_united": {
-          "name": "Madura United",
-          "league": "liga_1_indonesia",
-          "kits": {
-            "away": "https://i.imgur.com/9JC3Pop.png",
-            "gk_away": "https://i.imgur.com/jG7pyWw.png",
-            "gk_home": "https://i.imgur.com/2hfuyoH.png",
-            "gk_third": "https://i.imgur.com/VCuAPwa.png",
-            "home": "https://i.imgur.com/M7grEKO.png",
-            "third": "https://i.imgur.com/UPrJQzy.png"
-          }
-        },
-        "mali": {
-          "name": "Mali",
-          "league": "national_team",
-          "kits": {
-            "away": "https://1.bp.blogspot.com/-2I5PMx4cqYM/XRIRpYFKufI/AAAAAAAAEmo/558Mc9RhuwcCxfw09gfq9OClpRBFB_xOQCLcBGAs/s1600/mali_2.png",
-            "gk_away": "https://1.bp.blogspot.com/-7y4kZsWyJgI/XRIRqzd3-ZI/AAAAAAAAEmw/3bq6faIgmdMDncW10VyJp-_BMv4q4XPLgCLcBGAs/s320/mali_4.png",
-            "gk_home": "https://1.bp.blogspot.com/-IoYvmbP7IJA/XRIRqMY-wzI/AAAAAAAAEms/WpCabij0ULkS6n7BkXsaHcelta4bXPhQgCLcBGAs/s320/mali_3.png",
-            "home": "https://1.bp.blogspot.com/-rS8eabbt6Mk/XRIRoeGzMLI/AAAAAAAAEmk/fge3WnqxxKgzufKzFipMIjv3GiOl1dvlACLcBGAs/s320/mali_1.png"
-          }
-        },
-        "mamelodi_sundowns": {
-          "name": "Mamelodi Sundowns",
-          "league": "dstv_premiership",
-          "kits": {
-            "away": "https://i.imgur.com/6cq0TwB.png",
-            "gk_away": "https://i.imgur.com/tYWBeqc.png",
-            "gk_home": "https://i.imgur.com/5ZCM0LM.png",
-            "gk_third": "https://i.imgur.com/EpWTExE.png",
-            "home": "https://i.imgur.com/xJgfUSv.png"
-          }
-        },
-        "manchester_city": {
-          "name": "Manchester City",
-          "logo": "https://dlskits.com/wp-content/uploads/2025/10/dlskits.com-icon-showing-dream-league-soccer-kits-of-football-clubs-150x150.png",
-          "league": "premier_league",
-          "is_popular": true,
-          "kits": {
-            "away": "https://i.imgur.com/JNESsZp.png",
-            "gk_away": "https://i.imgur.com/y0aqHiX.png",
-            "gk_home": "https://i.imgur.com/y8PzgVb.png",
-            "gk_third": "https://i.ibb.co/Lk1YZqd/Hassan360-Kit.png",
-            "home": "https://i.imgur.com/38wzN7k.png",
-            "third": "https://i.imgur.com/LJ53Kf2.png"
-          }
-        },
-        "manchester_united": {
-          "name": "Manchester United ",
-          "logo": "https://dlskits.com/wp-content/uploads/2022/01/DLS-Kits-New-Logo-200x80-1.png",
-          "league": "premier_league",
-          "is_popular": true,
-          "kits": {
-            "away": "https://i.imgur.com/QjVhO8z.png",
-            "gk_away": "https://i.imgur.com/jjoIDI0.png",
-            "gk_home": "https://i.imgur.com/Im7loRP.png",
-            "gk_third": "https://i.imgur.com/QPf7Cf1.png",
-            "home": "https://i.imgur.com/cqNyo6n.png",
-            "third": "https://i.imgur.com/7XFWuDl.png"
-          }
-        },
-        "marseille": {
-          "name": "Marseille",
-          "league": "league_1_france",
-          "kits": {
-            "away": "https://i.imgur.com/SPH9uei.png",
-            "gk_away": "https://i.imgur.com/MkEx7KO.png",
-            "gk_home": "https://i.imgur.com/dALYXS4.png",
-            "gk_third": "https://i.imgur.com/HZtnf3h.png",
-            "home": "https://i.imgur.com/gDbGEL1.png",
-            "third": "https://i.imgur.com/ChvqTDM.png"
-          }
-        },
-        "mexico": {
-          "name": "Mexico",
-          "logo": "https://kitdls.net/wp-content/uploads/2023/09/Logo-KitDLS-Net.png",
-          "league": "national_team",
-          "is_popular": true,
-          "kits": {
-            "away": "https://i.imgur.com/kmYEggV.png",
-            "gk_away": "https://i.imgur.com/ttEnZxv.png",
-            "gk_home": "https://i.imgur.com/le1u5VP.png",
-            "gk_third": "https://i.ibb.co/pW1n6J4/image.png",
-            "home": "https://i.imgur.com/jcwSXWy.png",
-            "third": "https://i.ibb.co/d4DWKPq/image.png"
-          }
-        },
-        "milan": {
-          "name": "Milan",
-          "league": "serie_a",
-          "is_popular": true,
-          "kits": {
-            "away": "https://i.imgur.com/ZFDbbcd.png",
-            "gk_away": "https://i.imgur.com/tcHEZup.png",
-            "gk_home": "https://i.imgur.com/yq1BjEE.png",
-            "gk_third": "https://i.imgur.com/GqpSTTg.png",
-            "home": "https://i.imgur.com/Tm8NnLF.png",
-            "third": "https://i.imgur.com/xojqfi2.png"
-          }
-        },
-        "mohun_bagan": {
-          "name": "Mohun Bagan",
-          "league": "indian_super_league",
-          "kits": {
-            "away": "https://i.imgur.com/dH8MUOr.png",
-            "gk_home": "https://i.imgur.com/S5xUppq.png",
-            "home": "https://i.imgur.com/fYqWTI0.png"
-          }
-        },
-        "monaco": {
-          "name": "Monaco",
-          "league": "league_1_france",
-          "kits": {
-            "away": "https://i.imgur.com/euLD5OM.png",
-            "gk_away": "https://i.imgur.com/N5Pv39F.png",
-            "gk_home": "https://i.imgur.com/sAVexIz.png",
-            "gk_third": "https://i.imgur.com/ZUjvnrq.png",
-            "home": "https://i.imgur.com/86ObyCH.png",
-            "third": "https://i.imgur.com/PRZZTnY.png"
-          }
-        },
-        "monterrey": {
-          "name": "Monterrey",
-          "league": "liga_mx",
-          "kits": {
-            "away": "https://i.imgur.com/RxO1YwL.png",
-            "gk_away": "https://i.imgur.com/68zfG1y.png",
-            "gk_home": "https://i.imgur.com/R6lkxQy.png",
-            "gk_third": "https://i.imgur.com/sNFIlCn.png",
-            "home": "https://i.imgur.com/Sgqv58P.png",
-            "third": "https://i.imgur.com/ndcXpf0.png"
-          }
-        },
-        "montreal": {
-          "name": "Montréal",
-          "league": "major_league_soccer",
-          "kits": {
-            "away": "https://i.imgur.com/ahHeHCB.png",
-            "gk_away": "https://i.imgur.com/A8lARU7.png",
-            "gk_home": "https://i.imgur.com/3awegU7.png",
-            "gk_third": "https://i.imgur.com/rpQcFXg.png",
-            "home": "https://i.imgur.com/o3SqL3J.png"
-          }
-        },
-        "morocco": {
-          "name": "Morocco",
-          "league": "national_team",
-          "kits": {
-            "away": "https://i.imgur.com/WfMDppu.png",
-            "gk_away": "https://i.imgur.com/BIN9C3I.png",
-            "gk_home": "https://i.imgur.com/JXcfMGp.png",
-            "gk_third": "https://i.imgur.com/BIN9C3I.png",
-            "home": "https://i.imgur.com/NXZSsoK.png",
-            "third": "https://i.ibb.co/Ykm2PMN/cm2.png"
-          }
-        },
-        "mumbai_city": {
-          "name": "Mumbai City",
-          "league": "indian_super_league",
-          "kits": {
-            "away": "https://i.imgur.com/3qnFEmW.png",
-            "gk_away": "URL: https://i.imgur.com/tHnw9yH.png",
-            "gk_home": "https://i.imgur.com/sWmToxd.png",
-            "home": "https://i.imgur.com/AeIuRTc.png"
-          }
-        },
-        "nashville": {
-          "name": "Nashville",
-          "league": "major_league_soccer",
-          "kits": {
-            "away": "https://i.imgur.com/gQKw8Hi.png",
-            "gk_away": "https://i.imgur.com/xHgHhIJ.png",
-            "gk_home": "https://i.imgur.com/B5aotna.png",
-            "gk_third": "https://i.imgur.com/FDYi4s0.png",
-            "home": "https://i.imgur.com/5qbVL2z.png"
-          }
-        },
-        "netherlands": {
-          "name": "Netherlands",
-          "league": "national_team",
-          "kits": {
-            "away": "https://i.imgur.com/Epn9YGt.png",
-            "gk_away": "https://i.imgur.com/9Ub2IPt.png",
-            "gk_home": "https://i.imgur.com/f9kHJg5.png",
-            "gk_third": "https://i.imgur.com/o8EzDCV.png",
-            "home": "https://i.imgur.com/6oOLsp4.png",
-            "third": "https://i.imgur.com/JAPtFQm.png"
-          }
-        },
-        "new_england_revolution": {
-          "name": "New England Revolution",
-          "league": "major_league_soccer",
-          "kits": {
-            "away": "https://i.imgur.com/7KcVVgs.png",
-            "gk_away": "https://i.imgur.com/XPpeUiZ.png",
-            "gk_home": "https://i.imgur.com/1wXiqsj.png",
-            "home": "https://i.imgur.com/ccV9AoN.png"
-          }
-        },
-        "new_york_city": {
-          "name": "New York City",
-          "league": "major_league_soccer",
-          "kits": {
-            "away": "https://i.imgur.com/CPDBSD3.png",
-            "gk_away": "https://i.imgur.com/6RmeMo2.png",
-            "gk_home": "https://i.imgur.com/WqYl0PB.png",
-            "gk_third": "https://i.imgur.com/EPgGpH8.png",
-            "home": "https://i.imgur.com/PpK7B1F.png"
-          }
-        },
-        "orlando": {
-          "name": "Orlando",
-          "league": "major_league_soccer",
-          "kits": {
-            "away": "https://i.imgur.com/XR2nJY2.png",
-            "gk_away": "https://i.imgur.com/JOb25tJ.png",
-            "gk_home": "https://i.imgur.com/ppP4ADc.png",
-            "home": "https://i.imgur.com/lVnXGd2.png"
-          }
-        },
-        "orlando_pirates_fc": {
-          "name": "Orlando Pirates FC",
-          "league": "dstv_premiership",
-          "kits": {
-            "away": "https://i.imgur.com/MmEInvU.png",
-            "gk_away": "https://i.imgur.com/8idI7St.png",
-            "gk_home": "https://i.imgur.com/3ZzhiAw.png",
-            "gk_third": "https://i.imgur.com/kOkyF0p.png",
-            "home": "https://i.imgur.com/cunueA1.png"
-          }
-        },
-        "pachuca": {
-          "name": "Pachuca",
-          "league": "liga_mx",
-          "kits": {
-            "away": "https://i.imgur.com/KyGuUAb.png",
-            "home": "https://i.imgur.com/EI72kIX.png"
-          }
-        },
-        "palmeras": {
-          "name": "Palmeras",
-          "league": "brasileirao",
-          "kits": {
-            "away": "https://i.imgur.com/pznDxo1.png",
-            "gk_away": "https://i.imgur.com/M5IFZLn.png",
-            "gk_home": "https://i.imgur.com/yJpuEU8.png",
-            "gk_third": "https://i.imgur.com/sN4EXDj.png",
-            "home": "https://i.imgur.com/t5AE8Kg.png",
-            "third": "https://i.imgur.com/KwsCE04.png"
-          }
-        },
-        "persija": {
-          "name": "Persija ",
-          "league": "liga_1_indonesia",
-          "kits": {
-            "away": "https://i.imgur.com/bTVMV9R.png",
-            "gk_away": "https://i.imgur.com/gVIJLKI.png",
-            "gk_home": "https://i.imgur.com/HbYQCwg.png",
-            "gk_third": "https://i.imgur.com/EczBI8Z.png",
-            "home": "https://i.imgur.com/5wq1Gti.png",
-            "third": "https://i.imgur.com/ypTiCN5.png"
-          }
-        },
-        "philadelphia": {
-          "name": "Philadelphia",
-          "league": "major_league_soccer",
-          "kits": {
-            "away": "https://i.imgur.com/Wv4dJLx.png",
-            "gk_away": "https://i.imgur.com/Nzb6dfU.png",
-            "gk_home": "https://i.imgur.com/e7UwDKc.png",
-            "home": "https://i.imgur.com/F8MUFfg.png"
-          }
-        },
-        "poland": {
-          "name": "Poland",
-          "league": "national_team",
-          "kits": {
-            "away": "https://i.imgur.com/TtOWxSO.png",
-            "gk_away": "https://i.imgur.com/XMXreD7.png",
-            "gk_home": "https://i.imgur.com/Hs3CZYC.png",
-            "gk_third": "https://i.imgur.com/qyiRBsC.png",
-            "home": "https://i.imgur.com/YOieg91.png",
-            "third": "https://i.imgur.com/PUjGF1z.png"
-          }
-        },
-        "porto": {
-          "name": "Porto",
-          "league": "others",
-          "kits": {
-            "away": "https://i.imgur.com/3f8uPIi.png",
-            "gk_away": "https://i.imgur.com/WXALigm.png",
-            "gk_home": "https://i.imgur.com/kFI3Lrs.png",
-            "gk_third": "https://i.imgur.com/iPAEx3H.png",
-            "home": "https://i.imgur.com/QHzPqry.png",
-            "third": "https://i.imgur.com/X6tsiog.png"
-          }
-        },
-        "portugal": {
-          "name": "Portugal",
-          "logo": "https://kitdls.net/wp-content/uploads/2023/09/Logo-KitDLS-Net.png",
-          "league": "national_team",
-          "is_popular": true,
-          "kits": {
-            "away": "https://i.imgur.com/bLsYmS1.png",
-            "gk_away": "https://i.imgur.com/rnCyBwG.png",
-            "gk_home": "https://i.imgur.com/bVYPkX1.png",
-            "gk_third": "https://i.imgur.com/zQg0AuO.png",
-            "home": "https://i.imgur.com/GxNMfS5.png"
-          }
-        },
-        "psg": {
-          "name": "PSG",
-          "league": "league_1_france",
-          "kits": {
-            "away": "https://i.imgur.com/QiyNH1b.png",
-            "gk_away": "https://i.imgur.com/TE3ICsE.png",
-            "gk_home": "https://i.imgur.com/cyAXIk5.png",
-            "gk_third": "https://i.imgur.com/ILTbXfb.png",
-            "home": "https://i.imgur.com/7eAiNKH.png",
-            "third": "https://i.imgur.com/Uj2KKXz.png"
-          }
-        },
-        "psm": {
-          "name": "PSM",
-          "league": "liga_1_indonesia",
-          "kits": {
-            "away": "https://i.imgur.com/A4ajHES.png",
-            "gk_away": "https://i.imgur.com/4Hp25Hx.png",
-            "gk_home": "https://i.imgur.com/fyS4mNR.png",
-            "home": "https://i.imgur.com/OUv75jd.png"
-          }
-        },
-        "pyramids": {
-          "name": "Pyramids",
-          "league": "egyptian_premier_league",
-          "kits": {
-            "away": "https://i.imgur.com/quZAAOe.png",
-            "gk_away": "https://i.imgur.com/uyCHTMw.png",
-            "gk_home": "https://i.imgur.com/J4DIlFy.png",
-            "gk_third": "https://i.imgur.com/Z9Y139a.png",
-            "home": "https://i.imgur.com/zlhqA6P.png"
-          }
-        },
-        "qatar": {
-          "name": "Qatar",
-          "league": "national_team",
-          "kits": {
-            "away": "https://i.imgur.com/RMpck2a.png",
-            "gk_away": "https://i.imgur.com/Xwv0jaw.png",
-            "gk_home": "https://i.imgur.com/7B1A90s.png",
-            "gk_third": "https://i.imgur.com/AsoLI4E.png",
-            "home": "https://i.imgur.com/68UYVAO.png",
-            "third": "https://i.imgur.com/AsoLI4E.png"
-          }
-        },
-        "racing_club": {
-          "name": "Racing Club",
-          "league": "argentine_primera_division",
-          "kits": {
-            "away": "https://i.imgur.com/DIzjmIK.png",
-            "gk_away": "https://i.imgur.com/ChO3ZWQ.png",
-            "gk_home": "https://i.imgur.com/aJBcyzN.png",
-            "gk_third": "https://i.imgur.com/jlLaNb2.png",
-            "home": "https://i.imgur.com/rcP4pBJ.png",
-            "third": "https://i.imgur.com/YdcTzgi.png"
-          }
-        },
-        "raja": {
-          "name": "Raja",
-          "league": "caf",
-          "kits": {
-            "away": "https://i.imgur.com/O84kwB2.png",
-            "gk_away": "https://i.imgur.com/1a0WNMv.png",
-            "gk_home": "https://i.imgur.com/lbaeX9y.png",
-            "home": "https://i.imgur.com/xNmEgwL.png"
-          }
-        },
-        "real_madrid": {
-          "name": "Real Madrid",
-          "logo": "https://dlskits.com/wp-content/uploads/2025/10/dlskits.com-icon-showing-dream-league-soccer-kits-of-football-clubs-150x150.png",
-          "league": "la_liga",
-          "is_popular": true,
-          "kits": {
-            "away": "https://i.imgur.com/y6l5zdj.png",
-            "gk_away": "https://i.imgur.com/2DyT4tS.png",
-            "gk_home": "https://i.imgur.com/hY8fiFp.png",
-            "gk_third": "https://i.imgur.com/omZ1CfB.png",
-            "home": "https://i.imgur.com/OabzUai.png",
-            "third": "https://i.imgur.com/yPnylHt.png"
-          }
-        },
-        "red_bulls": {
-          "name": "Red Bulls",
-          "league": "major_league_soccer",
-          "kits": {
-            "away": "https://i.imgur.com/gNiby9A.png",
-            "gk_away": "https://i.imgur.com/rBc4stc.png",
-            "gk_home": "https://i.imgur.com/vMGRk9q.png",
-            "gk_third": "https://i.imgur.com/OjRd6Vb.png",
-            "home": "https://i.imgur.com/TbbgVsr.png"
-          }
-        },
-        "river": {
-          "name": "River",
-          "league": "csf",
-          "kits": {
-            "away": "https://i.imgur.com/rDY0PqJ.png",
-            "gk_away": "https://i.imgur.com/hDLxhah.png",
-            "gk_home": "https://i.imgur.com/KXsHCo2.png",
-            "gk_third": "https://i.imgur.com/cjgIWNd.png",
-            "home": "https://i.imgur.com/dCMrJbb.png",
-            "third": "https://i.imgur.com/gfY12Xl.png"
-          }
-        },
-        "sanfrecce": {
-          "name": "Sanfrecce",
-          "league": "japan_league",
-          "kits": {
-            "away": "https://i.imgur.com/9FcgjIn.png",
-            "gk_away": "https://i.imgur.com/5T2E9Mx.png",
-            "gk_home": "https://i.imgur.com/Ip40Ucs.png",
-            "home": "https://i.imgur.com/7VDw05W.png"
-          }
-        },
-        "santos": {
-          "name": "Santos",
-          "league": "brasileirao",
-          "kits": {
-            "away": "https://i.imgur.com/ySnSKNW.png",
-            "gk_away": "https://i.imgur.com/ogtXjt5.png",
-            "gk_home": "https://i.imgur.com/0caHh5U.png",
-            "gk_third": "https://i.imgur.com/V7IURxX.png",
-            "home": "https://i.imgur.com/CiNcSVm.png",
-            "third": "https://i.imgur.com/StL1a05.png"
-          }
-        },
-        "santos_laguna": {
-          "name": "Santos Laguna ",
-          "league": "liga_mx",
-          "kits": {
-            "away": "https://i.imgur.com/RwnHVD5.png",
-            "gk_home": "https://i.imgur.com/OEn06Jo.png",
-            "home": "https://i.imgur.com/bt6YdQS.png"
-          }
-        },
-        "santoscsf": {
-          "name": "Santoscsf",
-          "league": "csf",
-          "kits": {
-            "away": "https://i.imgur.com/ySnSKNW.png",
-            "gk_away": "https://i.imgur.com/ogtXjt5.png",
-            "gk_home": "https://i.imgur.com/0caHh5U.png",
-            "gk_third": "https://i.imgur.com/V7IURxX.png",
-            "home": "https://i.imgur.com/CiNcSVm.png"
-          }
-        },
-        "sao_paulo": {
-          "name": "Sao Paulo",
-          "league": "brasileirao",
-          "kits": {
-            "away": "https://i.imgur.com/fmjJg0Y.png",
-            "home": "https://i.imgur.com/u9QIrAW.png"
-          }
-        },
-        "saudi_arabia": {
-          "name": "Saudi Arabia",
-          "league": "national_team",
-          "kits": {
-            "away": "https://i.imgur.com/eVy1wRV.png",
-            "gk_away": "https://i.imgur.com/srQNRzs.png",
-            "gk_home": "https://i.imgur.com/mhNMZJx.png",
-            "gk_third": "https://i.imgur.com/TOcePmL.png",
-            "home": "https://i.imgur.com/Ymt7fMy.png",
-            "third": "https://i.imgur.com/cjWZcrN.png"
-          }
-        },
-        "sc_internacional": {
-          "name": "SC Internacional",
-          "league": "brasileirao",
-          "kits": {
-            "away": "https://i.imgur.com/90oHpiQ.png",
-            "gk_away": "https://i.imgur.com/9Q767mN.png",
-            "gk_home": "https://i.imgur.com/E6t8PGU.png",
-            "gk_third": "https://i.imgur.com/SL53D8K.png",
-            "home": "https://i.imgur.com/KEejpou.png",
-            "third": "https://i.imgur.com/GsvcUxM.png"
-          }
-        },
-        "schalke": {
-          "name": "Schalke",
-          "league": "bundes_league",
-          "kits": {
-            "away": "https://imgur.com/oOpDjUO.png",
-            "gk_away": "https://i.imgur.com/P2S9Pqj.png",
-            "gk_home": "https://i.imgur.com/zIQvCda.png",
-            "gk_third": "https://i.imgur.com/ePkmFqs.png",
-            "home": "https://i.imgur.com/lnolrAb.png",
-            "third": "https://imgur.com/RmWxcwf.png"
-          }
-        },
-        "senegal": {
-          "name": "Senegal",
-          "league": "national_team",
-          "kits": {
-            "away": "https://i.imgur.com/IJhGsGg.png",
-            "gk_away": "https://i.imgur.com/TOls3W9.png",
-            "gk_home": "https://i.imgur.com/b1cWLnH.png",
-            "gk_third": "https://i.imgur.com/L7UBt8Z.png",
-            "home": "https://i.imgur.com/oXbQ0Sp.png",
-            "third": "https://i.ibb.co/4VSWgy5/p2.png"
-          }
-        },
-        "serbia": {
-          "name": "Serbia",
-          "league": "national_team",
-          "kits": {
-            "away": "https://i.imgur.com/4mQKabx.png",
-            "gk_away": "https://i.imgur.com/0gnvsWO.png",
-            "gk_home": "https://i.imgur.com/eCdUnwZ.png",
-            "gk_third": "https://i.imgur.com/h2ntfHf.png",
-            "home": "https://i.imgur.com/F5NbYM1.png",
-            "third": "https://i.imgur.com/cgLuSQj.png"
-          }
-        },
-        "spain": {
-          "name": "Spain",
-          "logo": "https://kitdls.net/wp-content/uploads/2023/09/Logo-KitDLS-Net.png",
-          "league": "national_team",
-          "kits": {
-            "away": "https://i.imgur.com/ugW6TBT.png",
-            "gk_away": "https://i.imgur.com/JWj6IRL.png",
-            "gk_home": "https://i.imgur.com/164kDWQ.png",
-            "gk_third": "https://i.imgur.com/ZuYLjYl.png",
-            "home": "https://i.imgur.com/1Le3Hnp.png"
-          }
-        },
-        "sport": {
-          "name": "Sport",
-          "league": "brasileirao",
-          "kits": {
-            "away": "https://i.imgur.com/d2fJMQs.png",
-            "gk_away": "https://i.imgur.com/D4QySml.png",
-            "gk_home": "https://i.imgur.com/7IQsARb.png",
-            "gk_third": "https://i.imgur.com/X7BxTNK.png",
-            "home": "https://i.imgur.com/sKNpXf2.png"
-          }
-        },
-        "switzerland": {
-          "name": "Switzerland",
-          "league": "national_team",
-          "kits": {
-            "away": "https://i.imgur.com/lvqX4wx.png",
-            "gk_away": "https://i.imgur.com/CYL5zY5.png",
-            "gk_home": "https://i.imgur.com/W2yTBbj.png",
-            "gk_third": "https://i.imgur.com/tqwYT8w.png",
-            "home": "https://i.imgur.com/kOFp1jO.png"
-          }
-        },
-        "taraji": {
-          "name": "Taraji",
-          "league": "caf",
-          "kits": {
-            "away": "https://i.imgur.com/irYlR9Q.png",
-            "gk_away": "https://i.imgur.com/U8Dc2el.png",
-            "gk_home": "https://i.imgur.com/YmTaYGx.png",
-            "home": "https://i.imgur.com/dZ6a2oc.png"
-          }
-        },
-        "tigres_uanl": {
-          "name": "Tigres UANL",
-          "league": "liga_mx",
-          "kits": {
-            "away": "https://i.imgur.com/Oo4w2Wz.png",
-            "gk_away": "https://i.imgur.com/8Yj9UAb.png",
-            "gk_home": "https://i.imgur.com/VY3Wn4c.png",
-            "gk_third": "https://i.imgur.com/LZ2XVRo.png",
-            "home": "https://i.imgur.com/Z0T2RoI.png"
-          }
-        },
-        "tottenham": {
-          "name": "Tottenham",
-          "league": "premier_league",
-          "is_popular": true,
-          "kits": {
-            "away": "https://i.imgur.com/kqReLvP.png",
-            "gk_away": "https://i.imgur.com/58cp7EW.png",
-            "gk_home": "https://i.imgur.com/of0o4pO.png",
-            "gk_third": "https://i.imgur.com/h3eB1HU.png",
-            "home": "https://i.imgur.com/jljuBWW.png",
-            "third": "https://i.imgur.com/lWLktPp.png"
-          }
-        },
-        "tunisia": {
-          "name": "Tunisia",
-          "league": "national_team",
-          "kits": {
-            "away": "https://i.imgur.com/b48BNxD.png",
-            "gk_away": "https://i.imgur.com/uLfJmrg.png",
-            "gk_home": "https://i.imgur.com/bTSmZIq.png",
-            "gk_third": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiUCFwqxVmKlXv20lO2vvc5c8xM6n5EpBTYVBMxWujdvbYj2dPt1kn50ridD8E9vGqDXKqy918DrPKMRgUR4PKzVldhfbv-jvfCcmd0jIOxLtutQATanKTtZtkj2-Wc4SROI4R6ZigBbm41utCyOFkRSqCI_CHwjjMoN-mCxMsJLoyzVmSwKKJ3Bxbu-Q/s512/T%C3%BAnez%20Qatar%202022%20Portero%20Local.png",
-            "home": "https://i.imgur.com/S70KQPY.png",
-            "third": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh_x6FwKLdyW8Mvx02Oa3PnuqURvHMfGnfSvkq4Z7JDwbW4bim1U9YVk2c5IzeWkgM-GxyCZKsGrux0CPcUffO5o70Cud74iNC7aJw6jzjRYPGSSRnX15skTlwP9uu_DwXP5KbC_WXd7tvw0fH6Exp0dPahqP15AOg5mCYeOyQtnk0qGtlw2ZlvrG70hA/s512/T%C3%BAnez%20Qatar%202022%20Alternativo.png"
-          }
-        },
-        "uniforme_local_junior_512x512": {
-          "name": "Uniforme Local Junior 512x512",
-          "league": "unknown",
-          "kits": {
-            "home": "https://img.dreamkitsapp.com/kits/junior-home-2024-dls24.png"
-          }
-        },
-        "uniformes": {
-          "name": "Uniformes",
-          "logo": "https://img.dreamkitsapp.com/icon.png",
-          "league": "unknown",
-          "kits": {
-            "home": "https://img.dreamkitsapp.com/kits/san-lorenzo-home-2024-dls19.png"
-          }
-        },
-        "uruguay": {
-          "name": "Uruguay",
-          "league": "national_team",
-          "kits": {
-            "away": "https://i.postimg.cc/Kjnz7f9p/Away.png",
-            "gk_away": "https://i.postimg.cc/zGPJg4zX/Gk-Away.png",
-            "gk_home": "https://i.postimg.cc/9frQgC87/Gk-Home.png",
-            "gk_third": "https://i.postimg.cc/Yqd75Tmf/Gk-Third.png",
-            "home": "https://i.postimg.cc/vHFx1gPS/Home.png",
-            "third": "https://i.postimg.cc/vHFx1gPS/Home.png"
-          }
-        },
-        "usa": {
-          "name": "USA",
-          "league": "national_team",
-          "kits": {
-            "away": "https://i.imgur.com/SZkmkif.png",
-            "gk_away": "https://i.imgur.com/OA2tHUM.png",
-            "gk_home": "https://i.imgur.com/TzkQBRD.png",
-            "home": "https://i.imgur.com/eFpZCLt.png"
-          }
-        },
-        "vasco": {
-          "name": "Vasco",
-          "league": "others",
-          "kits": {
-            "away": "https://i.imgur.com/Sth6Pf3.png",
-            "gk_away": "https://i.imgur.com/nbvwOb3.png",
-            "gk_home": "https://i.imgur.com/xAlQq9b.png",
-            "gk_third": "https://i.imgur.com/T7U6cOr.png",
-            "home": "https://i.imgur.com/QiYS99B.png",
-            "third": "https://i.imgur.com/PihvBti.png"
-          }
-        },
-        "vitoria": {
-          "name": "Vitoria",
-          "league": "brasileirao",
-          "kits": {
-            "away": "https://i.imgur.com/N52MV9W.png",
-            "gk_away": "https://i.imgur.com/pzp260o.png",
-            "gk_home": "https://i.imgur.com/b9Iy8Db.png",
-            "gk_third": "https://i.imgur.com/XtWjKCQ.png",
-            "home": "https://i.imgur.com/3PVMKWK.png",
-            "third": "https://i.imgur.com/gZtw9XM.png"
-          }
-        },
-        "wales": {
-          "name": "Wales",
-          "league": "national_team",
-          "kits": {
-            "away": "https://i.imgur.com/6G3LSbv.png",
-            "gk_away": "https://i.imgur.com/1OCQ1k9.png",
-            "gk_home": "https://i.imgur.com/nIl2Tq6.png",
-            "gk_third": "https://i.imgur.com/Ob4rchX.png",
-            "home": "https://i.imgur.com/qsvV6rZ.png",
-            "third": "https://i.imgur.com/sZhE5c5.png"
-          }
-        },
-        "yokohama": {
-          "name": "Yokohama",
-          "league": "japan_league",
-          "kits": {
-            "away": "https://i.imgur.com/SHO1Joq.png",
-            "gk_away": "https://i.imgur.com/FfOkHF6.png",
-            "gk_home": "https://i.imgur.com/ALbLmzX.png",
-            "home": "https://i.imgur.com/FguSILh.png"
-          }
-        },
-        "zamalek": {
-          "name": "Zamalek",
-          "league": "egyptian_premier_league",
-          "kits": {
-            "away": "https://i.imgur.com/dG7ks9O.png",
-            "gk_away": "https://i.imgur.com/WrI3a7O.png",
-            "gk_home": "https://i.imgur.com/RxD772U.png",
-            "home": "https://i.imgur.com/m4TT4g7.png"
-          }
+  "teams": {
+    "ac_milan": {
+      "name": "AC Milan",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/wvspur1448806617.png",
+      "league": "serie_a",
+      "is_popular": true,
+      "seasons": {
+        "2024": {
+          "away": "https://kitdls.net/wp-content/uploads/2024/03/AC-Milan-Away-Kit-2-2024-2025-DLS-24.png",
+          "gk_home": "https://kitdls.net/wp-content/uploads/2024/08/AC-Milan-GK-Kit-2-2024-2025-DLS-24.png",
+          "home": "https://kitdls.net/wp-content/uploads/2024/03/AC-Milan-Home-Kit-2024-2025-DLS-24.png",
+          "third": "https://kitdls.net/wp-content/uploads/2024/03/AC-Milan-Third-Kit-2024-2025-DLS-24.png"
+        },
+        "2025": {
+          "away": "https://kitdls.net/wp-content/uploads/2025/03/AC-Milan-Away-Kit-25-26-DLS-25.png",
+          "home": "https://kitdls.net/wp-content/uploads/2025/03/AC-Milan-Home-Kit-25-26-DLS-25.png",
+          "third": "https://kitdls.net/wp-content/uploads/2025/03/AC-Milan-Third-Kit-25-26-DLS-25.png",
+          "unknown": "https://i.imgur.com/kute7Yr.png"
+        },
+        "2026": {
+          "unknown": "https://i.imgur.com/UEOAue6.png"
         }
       }
     },
-    "2025": {
-      "teams": {
-        "adidas_al_nassr_fc": {
-          "name": "Adidas AL Nassr FC",
-          "logo": "https://dlskits.com/wp-content/uploads/2025/10/dlskits.com-icon-showing-dream-league-soccer-kits-of-football-clubs-150x150.png",
-          "league": "unknown",
-          "kits": {
-            "unknown": "https://i.imgur.com/knGVT1h.png"
-          }
-        },
-        "flamengo": {
-          "name": "Flamengo",
-          "logo": "https://i.imgur.com/qEZSsUi.png",
-          "league": "brasileirao",
-          "kits": {
-            "home": "https://img.dreamkitsapp.com/kits/flamengo-home-2025-dls25.png"
-          }
-        },
-        "juventus": {
-          "name": "Juventus",
-          "logo": "https://r2.thesportsdb.com/images/media/team/badge/uxf0gr1742983727.png",
-          "league": "serie_a",
-          "is_popular": true,
-          "kits": {
-            "unknown": "https://i.imgur.com/iHKS59s.png"
-          }
-        },
-        "liverpool": {
-          "name": "Liverpool",
-          "logo": "https://r2.thesportsdb.com/images/media/team/badge/kfaher1737969724.png",
-          "league": "premier_league",
-          "is_popular": true,
-          "kits": {
-            "unknown": "https://i.imgur.com/FcDUbd4.png"
-          }
-        },
-        "manchester_city": {
-          "name": "Manchester City",
-          "logo": "https://r2.thesportsdb.com/images/media/team/badge/vwpvry1467462651.png",
-          "league": "premier_league",
-          "is_popular": true,
-          "kits": {
-            "unknown": "https://i.imgur.com/GIQcx8p.png"
-          }
-        },
-        "manchester_united": {
-          "name": "Manchester United",
-          "logo": "https://r2.thesportsdb.com/images/media/team/badge/xzqdr11517660252.png",
-          "league": "premier_league",
-          "is_popular": true,
-          "kits": {
-            "unknown": "https://i.imgur.com/bYHlKLS.png"
-          }
-        },
-        "real_madrid": {
-          "name": "Real Madrid",
-          "logo": "https://r2.thesportsdb.com/images/media/team/badge/vwvwrw1473502969.png",
-          "league": "la_liga",
-          "is_popular": true,
-          "kits": {
-            "home": "https://img.dreamkitsapp.com/kits/real-madrid-home-fifa-club-world-cup-2025-dls19.png",
-            "unknown": "https://i.imgur.com/Bw6OxrW.png"
-          }
+    "adidas_al_nassr_fc": {
+      "name": "Adidas AL Nassr FC",
+      "logo": "https://dlskits.com/wp-content/uploads/2025/10/dlskits.com-icon-showing-dream-league-soccer-kits-of-football-clubs-150x150.png",
+      "league": "unknown",
+      "seasons": {
+        "2024": {
+          "unknown": "https://i.imgur.com/knGVT1h.png"
         }
       }
     },
-    "2026": {
-      "teams": {
-        "ac_milan": {
-          "name": "AC Milan",
-          "logo": "https://r2.thesportsdb.com/images/media/team/badge/wvspur1448806617.png",
-          "league": "serie_a",
-          "is_popular": true,
-          "kits": {
-            "unknown": "https://i.imgur.com/kute7Yr.png"
-          }
+    "ahly": {
+      "name": "Ahly",
+      "league": "caf",
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/0A24e6p.png",
+          "gk_away": "https://i.imgur.com/NNgX4RT.png",
+          "gk_home": "https://i.imgur.com/BGYAm1R.png",
+          "gk_third": "https://i.imgur.com/MtgBydX.png",
+          "home": "https://i.imgur.com/A359qmo.png",
+          "third": "https://i.imgur.com/Xs6FQjS.png"
+        }
+      }
+    },
+    "ajax": {
+      "name": "Ajax",
+      "logo": "https://dlskits.com/wp-content/uploads/2022/01/DLS-Kits-New-Logo-200x80-1.png",
+      "league": "others",
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/cglFnTu.png",
+          "gk_away": "https://i.imgur.com/j7M7g77.png",
+          "gk_home": "https://i.imgur.com/hX6hXZb.png",
+          "gk_third": "https://i.imgur.com/mpAgXIM.png",
+          "home": "https://i.imgur.com/cXS3zFK.png",
+          "third": "https://i.imgur.com/ykrNbgx.png"
         },
-        "ajax": {
-          "name": "Ajax",
-          "logo": "https://r2.thesportsdb.com/images/media/team/badge/zg9tii1755495289.png",
-          "league": "eredivisie",
-          "kits": {
-            "unknown": "https://i.imgur.com/c3bBTDg.png"
-          }
+        "2025": {
+          "unknown": "https://i.imgur.com/c3bBTDg.png"
+        }
+      }
+    },
+    "al_ahli_saudi_fc": {
+      "name": "Al-Ahli Saudi FC",
+      "league": "saudi_pro_league",
+      "is_popular": true,
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/1Ao1T4r.png",
+          "gk_away": "https://i.imgur.com/TOOXEyf.png",
+          "gk_home": "https://i.imgur.com/mYHDfBJ.png",
+          "home": "https://i.imgur.com/XnMvhFp.png"
+        }
+      }
+    },
+    "al_hilal_sfc": {
+      "name": "Al Hilal SFC",
+      "league": "saudi_pro_league",
+      "is_popular": true,
+      "seasons": {
+        "2024": {
+          "away": "https://imdk.top/VvTTpzT.png",
+          "gk_away": "https://imdk.top/BGTMC8t.png",
+          "gk_home": "https://imdk.top/lTE98tt.png",
+          "gk_third": "https://i.imgur.com/Edylwh6.png",
+          "home": "https://imdk.top/qHswVcf.png",
+          "third": "https://i.imgur.com/7PsxrNj.png"
+        }
+      }
+    },
+    "al_ittihad_club": {
+      "name": "Al Ittihad Club",
+      "league": "saudi_pro_league",
+      "is_popular": true,
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/6RWENJ6.png",
+          "gk_away": "https://i.imgur.com/TOdhwjh.png",
+          "gk_home": "https://i.imgur.com/csVoC3U.png",
+          "home": "https://i.imgur.com/AI37y9g.png",
+          "third": "https://i.imgur.com/Gum8LsD.png"
+        }
+      }
+    },
+    "al_nassr": {
+      "name": "AL Nassr",
+      "logo": "https://kitdls.net/wp-content/uploads/2023/09/Logo-KitDLS-Net.png",
+      "league": "unknown",
+      "is_popular": true,
+      "seasons": {
+        "2024": {
+          "away": "https://kitdls.net/wp-content/uploads/2024/05/Al-Nassr-Away-Kit-V2-2024-2025-DLS-24.png",
+          "gk_away": "https://kitdls.net/wp-content/uploads/2024/05/Al-Nassr-GK-Away-Kit-2024-2025-DLS-24.png",
+          "gk_home": "https://kitdls.net/wp-content/uploads/2024/05/Al-Nassr-GK-Home-Kit-2024-2025-DLS-24.png",
+          "gk_third": "https://kitdls.net/wp-content/uploads/2024/05/Al-Nassr-GK-Third-Kit-2024-2025-DLS-24.png",
+          "home": "https://kitdls.net/wp-content/uploads/2024/05/Al-Nassr-Home-Kit-V2-2024-2025-DLS-24.png",
+          "third": "https://kitdls.net/wp-content/uploads/2024/03/Al-Nassr-Third-Kit-2024-2025-DLS-24.png"
         },
-        "al_nassr": {
-          "name": "AL Nassr",
-          "logo": "https://kitdls.net/wp-content/uploads/2023/09/Logo-KitDLS-Net.png",
-          "league": "unknown",
-          "is_popular": true,
-          "kits": {
-            "unknown": "https://i.imgur.com/byJYzEX.png"
-          }
+        "2025": {
+          "away": "https://kitdls.net/wp-content/uploads/2025/02/Al-Nassr-Away-25-26-DLS-25.png",
+          "home": "https://kitdls.net/wp-content/uploads/2025/02/Al-Nassr-Home-25-26-DLS-25.png",
+          "third": "https://kitdls.net/wp-content/uploads/2025/02/Al-Nassr-Third-25-26-DLS-25.png",
+          "unknown": "https://dlskiturl.com/wp-content/uploads/2025/10/dls-kits-150x150.png"
         },
-        "argentina": {
-          "name": "Argentina",
-          "logo": "https://r2.thesportsdb.com/images/media/team/badge/1c8m0g1687707876.png",
-          "league": "international",
-          "is_popular": true,
-          "kits": {
-            "away": "https://i.ibb.co/1Jr6hNDT/argetina-away-world-cup-2026.png"
-          }
+        "2026": {
+          "unknown": "https://i.imgur.com/byJYzEX.png"
+        }
+      }
+    },
+    "al_nassr_fc": {
+      "name": "Al Nassr FC",
+      "league": "saudi_pro_league",
+      "is_popular": true,
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/KhLQFaX.png",
+          "gk_away": "https://i.imgur.com/cHKai4i.png",
+          "gk_home": "https://i.imgur.com/nhehFf8.png",
+          "gk_third": "https://i.imgur.com/zXztbJ6.png",
+          "home": "https://i.imgur.com/rj0QXv7.png",
+          "third": "https://i.imgur.com/Wn1IN1O.png"
+        }
+      }
+    },
+    "al_shabab_fc": {
+      "name": "Al Shabab FC",
+      "league": "saudi_pro_league",
+      "is_popular": true,
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/2eMBqwi.png",
+          "gk_away": "https://i.imgur.com/J4PcMSY.png",
+          "gk_home": "https://i.imgur.com/2wauru0.png",
+          "home": "https://i.imgur.com/AOf5dBz.png"
+        }
+      }
+    },
+    "al_taawoun_fc": {
+      "name": "Al Taawoun FC",
+      "league": "saudi_pro_league",
+      "is_popular": true,
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/A5IgpzE.png",
+          "gk_away": "https://i.imgur.com/uA8wKPw.png",
+          "gk_home": "https://i.imgur.com/gsljviY.png",
+          "home": "https://i.imgur.com/JoYOLAz.png"
+        }
+      }
+    },
+    "america_mineiro": {
+      "name": "América Mineiro",
+      "league": "brasileirao",
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/nEs3LAB.png",
+          "gk_away": "https://i.imgur.com/b0Fb9RC.png",
+          "gk_home": "https://i.imgur.com/ZHbrktF.png",
+          "gk_third": "https://i.imgur.com/oDydEg6.png",
+          "home": "https://i.imgur.com/pHRWFk4.png",
+          "third": "https://i.imgur.com/I8USd76.png"
+        }
+      }
+    },
+    "apk": {
+      "name": "Apk",
+      "league": "unknown",
+      "seasons": {
+        "2025": {
+          "unknown": "https://dlskiturl.com/wp-content/uploads/2025/10/dls-kits-150x150.png"
         },
-        "arsenal": {
-          "name": "Arsenal",
-          "logo": "https://r2.thesportsdb.com/images/media/team/badge/uyhbfe1612467038.png",
-          "league": "premier_league",
-          "is_popular": true,
-          "kits": {
-            "unknown": "https://i.imgur.com/XGWvWxe.png"
-          }
+        "2026": {
+          "unknown": "https://dlskitsurl.com/wp-content/uploads/2026/04/jnsds.png"
+        }
+      }
+    },
+    "argentina": {
+      "name": "Argentina",
+      "logo": "https://kitdls.net/wp-content/uploads/2023/09/Logo-KitDLS-Net.png",
+      "league": "national_team",
+      "is_popular": true,
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/VsFW3Sx.png",
+          "gk_away": "https://i.imgur.com/CY9H02V.png",
+          "gk_home": "https://i.imgur.com/90wb1Ce.png",
+          "gk_third": "https://i.imgur.com/05SNbHX.png",
+          "home": "https://i.imgur.com/GPRTcD9.png",
+          "third": "https://i.ibb.co/D1Hczgc/argentina-adidas-world-cup-2022-third.png"
         },
-        "atletico_de_madrid": {
-          "name": "Atletico DE Madrid",
-          "logo": "https://dlskits.com/wp-content/uploads/2022/01/DLS-Kits-New-Logo-200x80-1.png",
-          "league": "unknown",
-          "kits": {
-            "unknown": "https://i.imgur.com/r2Xdj1D.png"
-          }
+        "2025": {
+          "home": "https://kitdls.net/wp-content/uploads/2025/03/Argentina-Home-Kit-2026-DLS.png",
+          "unknown": "https://dlskiturl.com/wp-content/uploads/2025/10/dls-kits-150x150.png"
         },
-        "barcelona": {
-          "name": "Barcelona",
-          "logo": "https://r2.thesportsdb.com/images/media/team/badge/wq9sir1639406443.png",
-          "league": "la_liga",
-          "is_popular": true,
-          "kits": {
-            "home": "https://img.dreamkitsapp.com/kits/barcelona-home-laliga-ea-sports-2025-2026-dls25.png",
-            "unknown": "https://i.imgur.com/Wbbtsm4.png"
-          }
+        "2026": {
+          "away": "https://i.ibb.co/1Jr6hNDT/argetina-away-world-cup-2026.png",
+          "gk_home": "https://kitdls.net/wp-content/uploads/2026/01/Argentina-GK-Kit-2026-DLS.png",
+          "home": "https://kitdls.net/wp-content/uploads/2026/01/Argentina-Home-Kit-2026-DLS-2.png",
+          "unknown": "https://i.imgur.com/8s8QMcZ.png"
+        }
+      }
+    },
+    "arsenal": {
+      "name": "Arsenal",
+      "logo": "https://kitdls.net/wp-content/uploads/2023/09/Logo-KitDLS-Net.png",
+      "league": "premier_league",
+      "is_popular": true,
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/zCNOpvS.png",
+          "gk_away": "https://i.imgur.com/aLzdrtG.png",
+          "gk_home": "https://i.imgur.com/NIjeT5u.png",
+          "gk_third": "https://i.imgur.com/YscZc1F.png",
+          "home": "https://i.imgur.com/SXXo1bC.png",
+          "third": "https://i.imgur.com/ZrpkWQC.png"
         },
-        "bayer_leverkusen": {
-          "name": "Bayer Leverkusen",
-          "logo": "https://i.ibb.co/dsyb6qbh/leverkusen-logo.png",
-          "league": "unknown",
-          "is_popular": true,
-          "kits": {
-            "away": "https://i.ibb.co/S7JWP3tK/leverkusen-away.png",
-            "gk_away": "https://i.ibb.co/hRMhFGmG/leverkusen-gk-away.png",
-            "gk_home": "https://i.ibb.co/bjWtDscm/leverkusen-gk-home.png",
-            "gk_third": "https://i.ibb.co/mV8Txtq1/leverkusen-gk-third.png",
-            "home": "https://i.ibb.co/35V18tVM/leverkusen-home.png",
-            "third": "https://i.ibb.co/wZnzqmpf/leverkusen-third.png"
-          }
+        "2025": {
+          "away": "https://kitdls.net/wp-content/uploads/2025/02/Arsenal-Away-Kit-25-26-DLS-25.png",
+          "home": "https://kitdls.net/wp-content/uploads/2025/02/Arsenal-Home-Kit-25-26-DLS-25.png",
+          "third": "https://kitdls.net/wp-content/uploads/2025/02/Arsenal-Third-Kit-25-26-DLS-25.png",
+          "unknown": "https://dlskiturl.com/wp-content/uploads/2025/10/dls-kits-150x150.png"
         },
-        "bayern_munich": {
-          "name": "Bayern Munich",
-          "logo": "https://r2.thesportsdb.com/images/media/team/badge/01ogkh1716960412.png",
-          "league": "bundesliga",
-          "is_popular": true,
-          "kits": {
-            "unknown": "https://i.imgur.com/q1icKra.png"
-          }
+        "2026": {
+          "unknown": "https://i.imgur.com/XGWvWxe.png"
+        }
+      }
+    },
+    "aston_villa": {
+      "name": "Aston Villa",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/jykrpv1717309891.png",
+      "league": "premier_league",
+      "is_popular": true,
+      "seasons": {
+        "2026": {
+          "home": "https://dlskitsurl.com/wp-content/uploads/2026/03/Aston-Villa-DLS-Kit-25-26-Home.png"
+        }
+      }
+    },
+    "athletico_mineiro": {
+      "name": "Athletico Mineiro",
+      "league": "brasileirao",
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/h7RpbVB.png",
+          "gk_away": "https://i.imgur.com/4GLJgF4.png",
+          "gk_home": "https://i.imgur.com/2BRs0Wl.png",
+          "gk_third": "https://i.imgur.com/TL5e8E6.png",
+          "home": "https://i.imgur.com/w3Xbp2O.png",
+          "third": "https://i.imgur.com/RASABq1.png"
+        }
+      }
+    },
+    "atletico_de_madrid": {
+      "name": "Atletico DE Madrid",
+      "logo": "https://dlskits.com/wp-content/uploads/2022/01/DLS-Kits-New-Logo-200x80-1.png",
+      "league": "unknown",
+      "seasons": {
+        "2025": {
+          "unknown": "https://i.imgur.com/r2Xdj1D.png"
+        }
+      }
+    },
+    "atletico_madrid": {
+      "name": "Atletico Madrid",
+      "logo": "https://dlskits.com/wp-content/uploads/2025/10/dlskits.com-icon-showing-dream-league-soccer-kits-of-football-clubs-150x150.png",
+      "league": "la_liga",
+      "is_popular": true,
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/PeZU8dB.png",
+          "gk_away": "https://i.imgur.com/1tABBRY.png",
+          "gk_home": "https://i.imgur.com/Xqa4adv.png",
+          "gk_third": "https://i.imgur.com/YC3AjtU.png",
+          "home": "https://i.imgur.com/R5KZjYk.png"
+        }
+      }
+    },
+    "atletico_tucuman": {
+      "name": "Atlético Tucumán",
+      "league": "argentine_primera_division",
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/XtRrp8b.png",
+          "gk_away": "https://i.imgur.com/YppZp4i.png",
+          "gk_home": "https://i.imgur.com/Y8Rawe6.png",
+          "home": "https://i.imgur.com/MNGIiJX.png",
+          "third": "https://i.imgur.com/2WtWZDH.png"
+        }
+      }
+    },
+    "australia": {
+      "name": "Australia",
+      "league": "national_team",
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/FdyxwQa.png",
+          "gk_away": "https://i.imgur.com/8G0mzuj.png",
+          "gk_home": "https://i.imgur.com/vu8aYKq.png",
+          "gk_third": "https://i.imgur.com/hxioFC1.png",
+          "home": "https://i.imgur.com/2tdFBT3.png",
+          "third": "https://i.imgur.com/TQxH2HQ.png"
+        }
+      }
+    },
+    "bahia": {
+      "name": "Bahia",
+      "league": "brasileirao",
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/AnWU5aN.png",
+          "gk_away": "https://i.imgur.com/CFemNE8.png",
+          "gk_home": "https://i.imgur.com/uERSRsy.png",
+          "gk_third": "https://i.imgur.com/4GPuqnU.png",
+          "home": "https://i.imgur.com/I1ORcSj.png",
+          "third": "https://i.imgur.com/QL4U0MM.png"
+        }
+      }
+    },
+    "bali_united": {
+      "name": "Bali United",
+      "league": "liga_1_indonesia",
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/d9rxLK4.png",
+          "gk_away": "https://i.imgur.com/LOjQAv8.png",
+          "gk_home": "https://i.imgur.com/YdATtKE.png",
+          "home": "https://i.imgur.com/PUw69f4.png",
+          "third": "https://i.imgur.com/VlYXZd2.png"
+        }
+      }
+    },
+    "barcelona": {
+      "name": "Barcelona",
+      "logo": "https://dlskits.com/wp-content/uploads/2025/10/dlskits.com-icon-showing-dream-league-soccer-kits-of-football-clubs-150x150.png",
+      "league": "la_liga",
+      "is_popular": true,
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/InA5Xjo.png",
+          "gk_away": "https://i.imgur.com/KotODTI.png",
+          "gk_home": "https://i.imgur.com/ZAosYIJ.png",
+          "gk_third": "https://i.imgur.com/uNF0m7M.png",
+          "home": "https://i.imgur.com/VWoWKvv.png",
+          "third": "https://i.imgur.com/bA5fsTD.png",
+          "unknown": "https://i.imgur.com/ft8Jh4o.png"
         },
-        "brentford": {
-          "name": "Brentford",
-          "logo": "https://r2.thesportsdb.com/images/media/team/badge/grv1aw1546453779.png",
-          "league": "premier_league",
-          "is_popular": true,
-          "kits": {
-            "unknown": "https://i.imgur.com/bkJEMYC.png"
-          }
+        "2025": {
+          "away": "https://kitdls.net/wp-content/uploads/2025/05/Barcelona-Away-Kit-25-26-DLS-25.png",
+          "gk_home": "https://kitdls.net/wp-content/uploads/2025/03/Barcelona-gK-Kit-2011-DLS-25.png",
+          "home": "https://dlskitsurl.com/wp-content/uploads/2025/10/Home-1.png",
+          "third": "https://kitdls.net/wp-content/uploads/2025/05/Barcelona-Third-Kit-25-26-DLS-25.png",
+          "unknown": "https://i.imgur.com/Wbbtsm4.png"
         },
-        "chelsea": {
-          "name": "Chelsea",
-          "logo": "https://r2.thesportsdb.com/images/media/team/badge/yvwvtu1448813215.png",
-          "league": "premier_league",
-          "is_popular": true,
-          "kits": {
-            "unknown": "https://i.imgur.com/0IfUJGM.png"
-          }
+        "2026": {
+          "unknown": "https://img.dreamkitsapp.com/shields/featured/barcelona.png"
+        }
+      }
+    },
+    "bayern_munich": {
+      "name": "Bayern Munich",
+      "logo": "https://dlskits.com/wp-content/uploads/2022/01/DLS-Kits-New-Logo-200x80-1.png",
+      "league": "bundes_league",
+      "is_popular": true,
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/jWn15eY.png",
+          "gk_away": "https://i.imgur.com/a87Ve5v.png",
+          "gk_home": "https://i.imgur.com/PyhVeym.png",
+          "gk_third": "https://i.imgur.com/SaBG8Wl.png",
+          "home": "https://i.imgur.com/YOStiAD.png",
+          "third": "https://i.imgur.com/B0892pB.png"
         },
-        "crystal_palace": {
-          "name": "Crystal Palace",
-          "logo": "https://r2.thesportsdb.com/images/media/team/badge/ia6i3m1656014992.png",
-          "league": "premier_league",
-          "is_popular": true,
-          "kits": {
-            "unknown": "https://i.imgur.com/jDL4n8B.png"
-          }
+        "2025": {
+          "away": "https://kitdls.net/wp-content/uploads/2025/03/Bayern-Munich-Away-Kit-25-26-DLS-25.png",
+          "gk_home": "https://kitdls.net/wp-content/uploads/2025/02/Bayern-Munich-125th-Anniversary-GK-Kit-DLS-25.png",
+          "home": "https://kitdls.net/wp-content/uploads/2025/03/Bayern-Munich-Home-Kit-25-26-DLS-25.png",
+          "third": "https://kitdls.net/wp-content/uploads/2025/03/Bayern-Munich-Third-Kit-25-26-DLS-25.png",
+          "unknown": "https://i.imgur.com/q1icKra.png"
         },
-        "dream": {
-          "name": "Dream",
-          "league": "unknown",
-          "kits": {
-            "unknown": "https://img.dreamkitsapp.com/dream-kits-2026.png"
-          }
+        "2026": {
+          "unknown": "https://dlskitsurl.com/wp-content/uploads/2026/03/FC-Bayern-Munich-DLS-Kit-2025-26.png"
+        }
+      }
+    },
+    "belgium": {
+      "name": "Belgium",
+      "league": "national_team",
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/z67Qqp5.png",
+          "gk_away": "https://i.imgur.com/IDBtUQ4.png",
+          "gk_home": "https://i.imgur.com/QIVJaHz.png",
+          "gk_third": "https://i.imgur.com/kUoplPb.png",
+          "home": "https://i.imgur.com/pqgg54C.png",
+          "third": "https://i.imgur.com/V4SmB4o.png"
+        }
+      }
+    },
+    "besiktas": {
+      "name": "Beşiktaş",
+      "league": "turkey_super_lig",
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/j7DpT2A.png",
+          "gk_away": "https://i.imgur.com/1PKDOGL.png",
+          "gk_home": "https://i.imgur.com/VqNcuQx.png",
+          "gk_third": "https://i.imgur.com/iD8qeja.png",
+          "home": "https://i.imgur.com/i478Y1Z.png",
+          "third": "https://i.imgur.com/EyViZb0.png"
+        }
+      }
+    },
+    "boca_juniors": {
+      "name": "Boca Juniors",
+      "league": "csf",
+      "is_popular": true,
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/LXNUWGB.png",
+          "gk_away": "https://i.imgur.com/gXwgZ65.png",
+          "gk_home": "https://i.imgur.com/GnAgUEh.png",
+          "gk_third": "https://i.imgur.com/Sh41mvn.png",
+          "home": "https://i.imgur.com/jIddy6l.png",
+          "third": "https://i.imgur.com/Osbm5Jb.png"
+        }
+      }
+    },
+    "borneo": {
+      "name": "Borneo",
+      "league": "liga_1_indonesia",
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/Cxxku5o.png",
+          "gk_away": "https://i.imgur.com/KCh06br.png",
+          "gk_home": "https://i.imgur.com/efCD5kr.png",
+          "home": "https://i.imgur.com/jZn2Bxd.png"
+        }
+      }
+    },
+    "borussia_dortmund": {
+      "name": "Borussia Dortmund",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/tqo8ge1716960353.png",
+      "league": "bundesliga",
+      "is_popular": true,
+      "seasons": {
+        "2024": {
+          "away": "https://kitdls.net/wp-content/uploads/2024/03/Borussia-Dortmund-Away-Kit-V2-2024-2025-DLS24.png",
+          "gk_away": "https://kitdls.net/wp-content/uploads/2024/03/Borussia-Dortmund-GK-Away-Kit-2024-2025-DLS24.png",
+          "gk_home": "https://kitdls.net/wp-content/uploads/2024/03/Borussia-Dortmund-GK-Home-Kit-2024-2025-DLS24.png",
+          "home": "https://kitdls.net/wp-content/uploads/2024/03/Borussia-Dortmund-Home-Kit-2024-2025-DLS24.png",
+          "third": "https://kitdls.net/wp-content/uploads/2024/03/Borussia-Dortmund-Third-Kit-2024-2025-DLS24.png"
         },
-        "english": {
-          "name": "English",
-          "league": "unknown",
-          "kits": {
-            "unknown": "https://img.dreamkitsapp.com/flags/en.png"
-          }
+        "2025": {
+          "away": "https://kitdls.net/wp-content/uploads/2025/02/Borussia-Dortmund-Away-Kit-25-26-DLS-25.png",
+          "home": "https://kitdls.net/wp-content/uploads/2025/02/Borussia-Dortmund-Home-Kit-25-26-DLS-25.png",
+          "third": "https://kitdls.net/wp-content/uploads/2025/02/Borussia-Dortmund-Third-Kit-25-26-DLS-25.png",
+          "unknown": "https://kitdls.net/wp-content/uploads/2025/02/Borussia-Dortmund-GK1-Kit-25-26-DLS-25.png"
+        }
+      }
+    },
+    "botafogo": {
+      "name": "Botafogo",
+      "league": "brasileirao",
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/sOa5ymR.png",
+          "gk_away": "https://i.imgur.com/CE9fyJt.png",
+          "gk_home": "https://i.imgur.com/fwHAENf.png",
+          "gk_third": "https://i.imgur.com/mFf7Sp7.png",
+          "home": "https://i.imgur.com/WKKqrBe.png",
+          "third": "https://i.imgur.com/am9muZV.png"
+        }
+      }
+    },
+    "brazil": {
+      "name": "Brazil",
+      "logo": "https://kitdls.net/wp-content/uploads/2023/09/Logo-KitDLS-Net.png",
+      "league": "national_team",
+      "is_popular": true,
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/rgUnoQy.png",
+          "gk_away": "https://i.imgur.com/2PvH2uK.png",
+          "gk_home": "https://i.imgur.com/M2DrmEF.png",
+          "gk_third": "https://i.imgur.com/bzDKhh4.png",
+          "home": "https://i.imgur.com/XuEf40y.png",
+          "third": "https://i.imgur.com/zr6YSDM.png"
         },
-        "espanol": {
-          "name": "Espanol",
-          "league": "unknown",
-          "kits": {
-            "unknown": "https://img.dreamkitsapp.com/flags/es.png"
-          }
+        "2025": {
+          "away": "https://kitdls.net/wp-content/uploads/2025/02/Brazil-Away-Kit-2026-World-Cup-DLS.png",
+          "gk_home": "https://kitdls.net/wp-content/uploads/2025/02/Brazil-GK-Kit-2026-World-Cup-DLS.png",
+          "home": "https://kitdls.net/wp-content/uploads/2025/02/Brazil-Home-Kit-2026-World-Cup-DLS.png",
+          "unknown": "https://dlskiturl.com/wp-content/uploads/2025/10/dls-kits-150x150.png"
+        }
+      }
+    },
+    "brentford": {
+      "name": "Brentford",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/grv1aw1546453779.png",
+      "league": "premier_league",
+      "is_popular": true,
+      "seasons": {
+        "2025": {
+          "unknown": "https://i.imgur.com/bkJEMYC.png"
+        }
+      }
+    },
+    "ca_paranaense": {
+      "name": "CA Paranaense",
+      "league": "brasileirao",
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/9OH7fNS.png",
+          "gk_away": "https://i.imgur.com/cIp7mPW.png",
+          "gk_home": "https://i.imgur.com/Hdt5rLa.png",
+          "gk_third": "https://i.imgur.com/XUDoAit.png",
+          "home": "https://i.imgur.com/gG2ITc9.png",
+          "third": "https://i.imgur.com/ywWZHWb.png"
+        }
+      }
+    },
+    "cameroon": {
+      "name": "Cameroon",
+      "league": "national_team",
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/bSNmlD1.png",
+          "gk_away": "https://i.imgur.com/hX2MRmj.png",
+          "gk_home": "https://i.imgur.com/guVbCXM.png",
+          "gk_third": "https://i.imgur.com/soIHasg.png",
+          "home": "https://i.imgur.com/VDepohD.png",
+          "third": "https://i.imgur.com/UeSlk1Z.png"
+        }
+      }
+    },
+    "canada": {
+      "name": "Canada",
+      "league": "national_team",
+      "seasons": {
+        "2024": {
+          "away": "https://ia.imgur.com/RxSarvd.png",
+          "gk_away": "https://i.imgur.com/IfkoLv2.png",
+          "gk_home": "https://i.imgur.com/4vfOInD.png",
+          "gk_third": "https://i.imgur.com/SUcKOj2.png",
+          "home": "https://i.imgur.com/acBcj3E.png",
+          "third": "https://i.imgur.com/AIba6uc.png"
+        }
+      }
+    },
+    "ceara": {
+      "name": "Ceara",
+      "league": "brasileirao",
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/j8RXOGY.png",
+          "gk_away": "https://i.imgur.com/zVeEVRh.png",
+          "gk_home": "https://i.imgur.com/p6VyVoX.png",
+          "gk_third": "https://i.imgur.com/GU5oden.png",
+          "home": "https://i.imgur.com/ITYkxHE.png",
+          "third": "https://i.imgur.com/jTzclig.png"
+        }
+      }
+    },
+    "cerezo": {
+      "name": "Cerezo",
+      "league": "japan_league",
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/TgjS9Pc.png",
+          "gk_away": "https://i.imgur.com/t9LbtjW.png",
+          "gk_home": "https://i.imgur.com/5QHGwRG.png",
+          "home": "https://i.imgur.com/XGt9Uqa.png"
+        }
+      }
+    },
+    "chapecoense": {
+      "name": "Chapecoense",
+      "league": "brasileirao",
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/QKUvAeS.png",
+          "gk_away": "https://i.imgur.com/LugFNc3.png",
+          "gk_home": "https://i.imgur.com/zzHwp1W.png",
+          "home": "https://i.imgur.com/Lyy0tk7.png",
+          "third": "https://i.imgur.com/C6CUyDk.png"
+        }
+      }
+    },
+    "chelsea": {
+      "name": "Chelsea",
+      "logo": "https://dlskits.com/wp-content/uploads/2022/01/DLS-Kits-New-Logo-200x80-1.png",
+      "league": "premier_league",
+      "is_popular": true,
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/QeBtm9p.png",
+          "gk_away": "https://i.imgur.com/OzzcO9K.png",
+          "gk_home": "https://i.imgur.com/2tgques.png",
+          "gk_third": "https://i.imgur.com/eVPO7C2.png",
+          "home": "https://i.imgur.com/IYOrvbW.png",
+          "third": "https://i.imgur.com/w5cNkfd.png",
+          "unknown": "https://kitdls.net/wp-content/uploads/2024/03/Kit-Chelsea-GK1-2023-2024-DLS-24.png"
         },
-        "francais": {
-          "name": "Francais",
-          "league": "unknown",
-          "kits": {
-            "unknown": "https://img.dreamkitsapp.com/flags/fr.png"
-          }
+        "2025": {
+          "away": "https://kitdls.net/wp-content/uploads/2025/02/Chelsea-Away-Kit-25-26-DLS-25.png",
+          "home": "https://kitdls.net/wp-content/uploads/2025/02/Chelsea-Home-Kit-25-26-DLS-25.png",
+          "third": "https://kitdls.net/wp-content/uploads/2025/02/Chelsea-Third-Kit-25-26-DLS-25.png",
+          "unknown": "https://i.imgur.com/0IfUJGM.png"
         },
-        "inter_milan": {
-          "name": "Inter Milan",
-          "logo": "https://r2.thesportsdb.com/images/media/team/badge/ryhu6d1617113103.png",
-          "league": "serie_a",
-          "is_popular": true,
-          "kits": {
-            "home": "https://img.dreamkitsapp.com/kits/inter-milan-home-serie-a-2025-2026-dls25.png",
-            "unknown": "https://i.imgur.com/XGYWOP7.png"
-          }
+        "2026": {
+          "third": "https://i.imgur.com/32OvM5w.png",
+          "unknown": "https://i.imgur.com/TAiJxVn.png"
+        }
+      }
+    },
+    "club_america": {
+      "name": "Club América",
+      "league": "liga_mx",
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/w7o5Y70.png",
+          "gk_away": "https://i.imgur.com/iiLAhxK.png",
+          "gk_home": "https://i.imgur.com/sZ5pVv4.png",
+          "gk_third": "https://i.imgur.com/98dksD8.png",
+          "home": "https://i.imgur.com/FoqZiwl.png"
+        }
+      }
+    },
+    "colombia": {
+      "name": "Colombia",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/4ymyku1691180081.png",
+      "league": "international",
+      "is_popular": true,
+      "seasons": {
+        "2024": {
+          "away": "https://kitdls.net/wp-content/uploads/2024/10/Colombia-Away-Kit-2024-2025-DLS-24.png",
+          "home": "https://kitdls.net/wp-content/uploads/2024/01/Colombia-Home-Kit-2026-DLS-26.png",
+          "unknown": "https://kitdls.net/wp-content/uploads/2024/01/Colombia-GK1-Kit-2026-DLS-26.png"
+        }
+      }
+    },
+    "costa_rica": {
+      "name": "Costa Rica",
+      "league": "national_team",
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/ked34O7.png",
+          "gk_away": "https://i.imgur.com/kQOY5r7.png",
+          "gk_home": "https://i.imgur.com/djfcAEX.png",
+          "gk_third": "https://i.imgur.com/nrKHvZz.png",
+          "home": "https://i.imgur.com/XprT7dr.png"
+        }
+      }
+    },
+    "croatia": {
+      "name": "Croatia",
+      "league": "national_team",
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/copc6pH.png",
+          "gk_away": "https://i.imgur.com/bnSSYuA.png",
+          "gk_home": "https://i.imgur.com/tq1sQXs.png",
+          "gk_third": "https://i.imgur.com/p6fhQKg.png",
+          "home": "https://i.imgur.com/oYsmFZC.png"
+        }
+      }
+    },
+    "cruzeiro": {
+      "name": "Cruzeiro",
+      "league": "brasileirao",
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/RIwQaGA.png",
+          "gk_away": "https://i.imgur.com/K2nOwOv.png",
+          "gk_home": "https://i.imgur.com/JeLWPae.png",
+          "gk_third": "https://i.imgur.com/54e1GWt.png",
+          "home": "https://i.imgur.com/NV7H264.png",
+          "third": "https://i.imgur.com/T9xQKWm.png"
+        }
+      }
+    },
+    "crystal_palace": {
+      "name": "Crystal Palace",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/ia6i3m1656014992.png",
+      "league": "premier_league",
+      "is_popular": true,
+      "seasons": {
+        "2025": {
+          "unknown": "https://i.imgur.com/jDL4n8B.png"
+        }
+      }
+    },
+    "damac_fc": {
+      "name": "Damac FC",
+      "league": "saudi_pro_league",
+      "is_popular": true,
+      "seasons": {
+        "2024": {
+          "away": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhv9cXuY8SnsmMscbR0d6EsBuGDT88yLb-rn5bfLii1OY7IdQeMp7SJ8BSIzyg2tbapiUNI6HxIwWxhZ4rMKVKWYTDK9m3PbD6tePJ00i6eVkmdvSrY7m_j1f9_P_nKvS7ZnJWFc1F6xfJ5zW3sYgrVMnYb34uo05OlE3IHa1OMW9B5POaTEHfUB7oZEQs/s320/IMG_20231223_003841.png",
+          "gk_away": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiUG0mIDx7G88e8qpI-w_zDYqZP3KLjD5OUc1kR31TbaIMqGvX5WQLo0nzYTlw0qzDQItHcTDty8w7UPA6J-qOStCSKcxxzDdbazLmEUsNo0Vb5VydEcRQdMA5rfsYwFHaXTT635sy75oGMQYk1RWJ3w4pc9gWD57EOjGw0Cq1OrzeYSUoB45itDkplJOo/s320/IMG_20231223_103731.png",
+          "gk_home": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhxy-DffjB1cMxxdum3k-gjMiRevTrzi_cMUXcmMdsFnIuj_DFb_ajfMnBAOxq6KxfzKYOU7gxyRNggt3zqhiQjpOYza_iOuQFUNVWwxfWNlTrEC3O29SuNO_BmMuLsri6n5FSOmpz9zk8UmeaG5RdQIj-R8ENL6Av5uhu8Nm7RX8ayWHdbPtkiP76dZVg/s320/IMG_20231223_104641.png",
+          "gk_third": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiKQBc2gkMTCV3TF4FPRrNYLevkNWC2PZG3cY7dMQI4akN7zR3edyYyn8bJHLg-qwYM6EBvamiczGaphMVVrbiIqbl1aNB8W4qo1FOnvvwTt-HWV3OQwUKeLA7XS8kRnS6rT-6gOFoEPHiDOTzP6YtHpPVIMRYIlsCEeqow3YLIVAUredoT-cKbXuCso9I/s320/IMG_20231223_104035.png",
+          "home": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhxYAbzY-oihv9XOD9YgHTAMh65yTYOm7t_Jkvka8xmzDy8-eBqGLv0Y7EnAiIPwKkmkX2Dl2ApkaivFgXAAlrRliyQDtAg49RKwHhsFAi-IPi7RkhxJdROZ68ch_w7iyIUX-90zp5M6ldnGCaPFdJrMR2T3ix18DWq5NCZymcAPImPVunxhi9i4qDxKxU/s320/IMG_20231223_001904.png",
+          "third": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhQyP2kJoCgmrqJqDYBpWHnrfMrFRiwgpg3qiYMgYjcwWNR4JMGcjAPmbE4w5JooMqtKFtp6fB1GiV1rYoMyTayqtecR-yrg8omYmDIzaDqsNCZysmBr5HHoD4vCucPaWdkh-iaZGtDHQP5L3j2fJAvxJxqbIqBadqXEC7CRaMwlh2vL3jW11eu-g5HbVU/s320/IMG_20231223_102734.png"
+        }
+      }
+    },
+    "denmark": {
+      "name": "Denmark",
+      "league": "national_team",
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/cII05LL.png",
+          "gk_away": "https://i.imgur.com/ELAoq34.png",
+          "gk_home": "https://i.imgur.com/JGX0Z6G.png",
+          "gk_third": "https://i.imgur.com/Qo6IGOC.png",
+          "home": "https://i.imgur.com/08Fcb4x.png",
+          "third": "https://i.imgur.com/TgCGSHU.png"
+        }
+      }
+    },
+    "dortmand": {
+      "name": "Dortmand",
+      "league": "bundes_league",
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/Qzu0G0J.png",
+          "gk_away": "https://i.imgur.com/Wr9AOuQ.png",
+          "gk_home": "https://i.imgur.com/jNHfDYV.png",
+          "gk_third": "https://i.imgur.com/oKtc777.png",
+          "home": "https://i.imgur.com/ln0xve3.png",
+          "third": "https://i.imgur.com/4WMocyT.png"
+        }
+      }
+    },
+    "dream": {
+      "name": "Dream",
+      "league": "unknown",
+      "seasons": {
+        "2025": {
+          "unknown": "https://img.dreamkitsapp.com/dream-kits-b.png"
         },
-        "juventus": {
-          "name": "Juventus",
-          "logo": "https://r2.thesportsdb.com/images/media/team/badge/uxf0gr1742983727.png",
-          "league": "serie_a",
-          "is_popular": true,
-          "kits": {
-            "unknown": "https://i.imgur.com/CBkA2rn.png"
-          }
+        "2026": {
+          "unknown": "https://img.dreamkitsapp.com/dream-kits-2026.png"
+        }
+      }
+    },
+    "ecuador": {
+      "name": "Ecuador",
+      "league": "national_team",
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/ry00ME2.png",
+          "gk_away": "https://i.imgur.com/haeeEkv.png",
+          "gk_home": "https://i.imgur.com/hjsqP97.png",
+          "gk_third": "https://i.imgur.com/NHkGu2y.png",
+          "home": "https://i.imgur.com/jr1tHmC.png",
+          "third": "https://i.imgur.com/QMRfZ6D.png"
+        }
+      }
+    },
+    "england": {
+      "name": "England",
+      "logo": "https://dlskitsurl.com/wp-content/uploads/2026/03/premier-league-logo-png-transparent.png",
+      "league": "national_team",
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/KTjDrb7.png",
+          "gk_away": "https://i.imgur.com/GRk8eh8.png",
+          "gk_home": "https://i.imgur.com/l1kvLZJ.png",
+          "gk_third": "https://i.imgur.com/nPbU2X1.png",
+          "home": "https://i.imgur.com/qA6YZt5.png"
         },
-        "langue_english_espanol_portugues": {
-          "name": "Langue English Espanol Portugues",
-          "league": "unknown",
-          "kits": {
-            "unknown": "https://img.dreamkitsapp.com/flags/fr.png"
-          }
+        "2026": {
+          "away": "https://kitdls.net/wp-content/uploads/2026/02/England-Away-Kit-2026-DLS.png",
+          "gk_home": "https://kitdls.net/wp-content/uploads/2026/02/England-GK-Kit-2026-DLS.png",
+          "home": "https://kitdls.net/wp-content/uploads/2026/02/England-Home-1-Kit-2026-DLS.png"
+        }
+      }
+    },
+    "english": {
+      "name": "English",
+      "league": "unknown",
+      "seasons": {
+        "2025": {
+          "unknown": "https://img.dreamkitsapp.com/flags/en.png"
+        }
+      }
+    },
+    "equipement_domicile_k_benhavn_512x512": {
+      "name": "Equipement Domicile København 512x512",
+      "league": "unknown",
+      "seasons": {
+        "2025": {
+          "home": "https://img.dreamkitsapp.com/kits/kbenhavn-home-superliga-2025-2026-dls25.png"
+        }
+      }
+    },
+    "espanol": {
+      "name": "Espanol",
+      "league": "unknown",
+      "seasons": {
+        "2025": {
+          "unknown": "https://img.dreamkitsapp.com/flags/es.png"
+        }
+      }
+    },
+    "fc_cincinnati": {
+      "name": "FC Cincinnati",
+      "league": "major_league_soccer",
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/OKlF6U8.png",
+          "gk_away": "https://i.imgur.com/yzwbbNf.png",
+          "gk_home": "https://i.imgur.com/XA4ooca.png",
+          "home": "https://i.imgur.com/y3S2MVd.png"
+        }
+      }
+    },
+    "fenerbahce": {
+      "name": "Fenerbahçe",
+      "league": "turkey_super_lig",
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/tGNxEcK.png",
+          "gk_away": "https://i.imgur.com/tJuw8Oj.png",
+          "gk_home": "https://i.imgur.com/AyXQOmc.png",
+          "gk_third": "https://i.imgur.com/xshC3Fb.png",
+          "home": "https://i.imgur.com/NJNmsJl.png",
+          "third": "https://i.imgur.com/PyYC35w.png"
+        }
+      }
+    },
+    "flamengo": {
+      "name": "Flamengo",
+      "logo": "https://img.dreamkitsapp.com/shields/flamengo-logo-2022.png",
+      "league": "brasileirao",
+      "seasons": {
+        "2024": {
+          "away": "https://i.ibb.co/YRZ5yxQ/image.png",
+          "gk_away": "https://i.imgur.com/7t3S9JS.png",
+          "gk_home": "https://i.imgur.com/xvk3eqU.png",
+          "gk_third": "https://i.imgur.com/0vi819V.png",
+          "home": "https://i.ibb.co/vDWrdQn/home.png",
+          "third": "https://i.ibb.co/4sLnXBT/image.png"
         },
-        "leeds_united": {
-          "name": "Leeds United",
-          "logo": "https://r2.thesportsdb.com/images/media/team/badge/jcgrml1756649030.png",
-          "league": "premier_league",
-          "is_popular": true,
-          "kits": {
-            "unknown": "https://i.imgur.com/3PQGo1W.png"
-          }
+        "2025": {
+          "home": "https://img.dreamkitsapp.com/kits/flamengo-home-2025-dls25.png"
+        }
+      }
+    },
+    "fluminense": {
+      "name": "Fluminense",
+      "league": "brasileirao",
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/WwzuRV9.png",
+          "gk_away": "https://i.imgur.com/LZZelWt.png",
+          "gk_home": "https://i.imgur.com/IZB9sX0.png",
+          "gk_third": "https://i.imgur.com/DTKZjts.png",
+          "home": "https://i.imgur.com/3gYRygY.png",
+          "third": "https://i.imgur.com/lW4GYdm.png"
+        }
+      }
+    },
+    "fortaleza_ec": {
+      "name": "Fortaleza EC",
+      "league": "brasileirao",
+      "seasons": {
+        "2024": {
+          "away": "https://dlskits25.com/wp-content/uploads/2025/02/2-5.png",
+          "gk_away": "https://i.imgur.com/6BzwglC.png",
+          "gk_home": "https://dlskits25.com/wp-content/uploads/2025/02/4-1.png",
+          "gk_third": "https://i.imgur.com/zUSJcDk.png",
+          "home": "https://dlskits25.com/wp-content/uploads/2025/02/1-5.png"
+        }
+      }
+    },
+    "francais": {
+      "name": "Francais",
+      "league": "unknown",
+      "seasons": {
+        "2025": {
+          "unknown": "https://img.dreamkitsapp.com/flags/fr.png"
+        }
+      }
+    },
+    "france": {
+      "name": "France",
+      "logo": "https://dlskitsurl.com/wp-content/uploads/2026/03/LIGUE-1-New-Logo-Vector.png",
+      "league": "national_team",
+      "is_popular": true,
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/aBJuoE6.png",
+          "gk_away": "https://i.imgur.com/gDtbjrc.png",
+          "gk_home": "https://i.imgur.com/DgsRhW2.png",
+          "gk_third": "https://i.imgur.com/qencjcy.png",
+          "home": "https://i.imgur.com/5zP7qQI.png",
+          "third": "https://imgur.com/a/y958yCX"
         },
-        "lenguaje_english_portugues_francais": {
-          "name": "Lenguaje English Portugues Francais",
-          "league": "unknown",
-          "kits": {
-            "unknown": "https://img.dreamkitsapp.com/flags/es.png"
-          }
+        "2025": {
+          "gk_home": "https://kitdls.net/wp-content/uploads/2025/02/France-GK-Kit-2026-DLS.png",
+          "home": "https://kitdls.net/wp-content/uploads/2025/02/France-Home-Kit-2026-DLS.png"
         },
-        "linguagem_english_espanol_francais": {
-          "name": "Linguagem English Espanol Francais",
-          "league": "unknown",
-          "kits": {
-            "unknown": "https://img.dreamkitsapp.com/flags/pt.png"
-          }
+        "2026": {
+          "away": "https://kitdls.net/wp-content/uploads/2026/02/France-Away-Kit-2026-DLS.png"
+        }
+      }
+    },
+    "freiburg": {
+      "name": "Freiburg",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/urwtup1473453288.png",
+      "league": "bundesliga",
+      "is_popular": true,
+      "seasons": {
+        "2025": {
+          "home": "https://img.dreamkitsapp.com/kits/sc-freiburg-home-bundesliga-2025-2026-dls25.png"
+        }
+      }
+    },
+    "galatasaray": {
+      "name": "Galatasaray",
+      "logo": "https://kitdls.net/wp-content/uploads/2023/09/Logo-KitDLS-Net.png",
+      "league": "turkey_super_lig",
+      "is_popular": true,
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/esAnEdy.png",
+          "gk_away": "https://i.imgur.com/8X4QXBm.png",
+          "gk_home": "https://i.imgur.com/1QxzTiL.png",
+          "gk_third": "https://i.ibb.co/Sy9j1Cg/gk-third-1-8.png",
+          "home": "https://i.imgur.com/aVV0S5f.png",
+          "third": "https://i.imgur.com/ibz1IzO.png"
         },
-        "liverpool": {
-          "name": "Liverpool",
-          "logo": "https://r2.thesportsdb.com/images/media/team/badge/kfaher1737969724.png",
-          "league": "premier_league",
-          "is_popular": true,
-          "kits": {
-            "home": "https://img.dreamkitsapp.com/kits/liverpool-home-premier-league-2025-2026-dls25.png",
-            "unknown": "https://i.imgur.com/OLtgdbp.png"
-          }
+        "2025": {
+          "away": "https://kitdls.net/wp-content/uploads/2025/02/Galatasaray-Away-Kits-25-26-DLS.png",
+          "home": "https://kitdls.net/wp-content/uploads/2025/02/Galatasaray-Home-Kits-25-26-DLS.png",
+          "third": "https://kitdls.net/wp-content/uploads/2025/02/Galatasaray-Third-Kits-25-26-DLS.png",
+          "unknown": "https://kitdls.net/wp-content/uploads/2025/02/Galatasaray-GK1-Kits-25-26-DLS.png"
+        }
+      }
+    },
+    "galaxy": {
+      "name": "Galaxy",
+      "league": "csf",
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/KHB9CkH.png",
+          "gk_away": "https://i.imgur.com/NxVlM2D.png",
+          "gk_home": "https://i.imgur.com/uouSSo8.png",
+          "gk_third": "https://i.imgur.com/2Nfx2jL.png",
+          "home": "https://i.imgur.com/Z9TMAso.png",
+          "third": "https://i.imgur.com/BQ2xbG2.png"
+        }
+      }
+    },
+    "germany": {
+      "name": "Germany",
+      "logo": "https://kitdls.net/wp-content/uploads/2023/09/Logo-KitDLS-Net.png",
+      "league": "national_team",
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/tZPqql2.png",
+          "gk_away": "https://i.imgur.com/C5XQYH9.png",
+          "gk_home": "https://i.imgur.com/gkcJkb1.png",
+          "gk_third": "https://i.imgur.com/PgDTqum.png",
+          "home": "https://i.imgur.com/zEV75Kz.png",
+          "third": "https://i.imgur.com/4P11KxE.png"
+        }
+      }
+    },
+    "ghana": {
+      "name": "Ghana",
+      "league": "national_team",
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/ngvfCTa.png",
+          "gk_away": "https://i.imgur.com/pN4uHGg.png",
+          "gk_home": "https://i.imgur.com/YLDyvcu.png",
+          "gk_third": "https://i.imgur.com/IIohcnf.png",
+          "home": "https://i.imgur.com/hoFwmMP.png",
+          "third": "https://i.ibb.co/9Vh0Qkm/p1.png"
+        }
+      }
+    },
+    "gimnasia": {
+      "name": "Gimnasia",
+      "logo": "https://kitdls.net/wp-content/uploads/2023/09/Logo-KitDLS-Net.png",
+      "league": "argentine_primera_division",
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/hJooKRK.png",
+          "gk_away": "https://i.imgur.com/rl8XTtm.png",
+          "gk_home": "https://i.imgur.com/QRic2n1.png",
+          "gk_third": "https://i.imgur.com/uCbwZ0H.png",
+          "home": "https://i.imgur.com/INe6YT8.png",
+          "third": "https://i.ibb.co/C62679q/Gimnasia-de-la-Plata-PLS-Kit-2022-third.png"
+        }
+      }
+    },
+    "gremio": {
+      "name": "Gremio",
+      "league": "brasileirao",
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/smwYHha.png",
+          "gk_away": "https://i.imgur.com/UqJeb2M.png",
+          "gk_home": "https://i.imgur.com/x2HqI2U.png",
+          "gk_third": "https://i.imgur.com/4C0OkVS.png",
+          "home": "https://i.imgur.com/jWluiSf.png",
+          "third": "https://i.imgur.com/NZuTo2r.png"
+        }
+      }
+    },
+    "huracan": {
+      "name": "Huracán",
+      "league": "argentine_primera_division",
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/6xcc7i0.png",
+          "gk_away": "https://i.imgur.com/9YlZEBp.png",
+          "gk_home": "https://i.imgur.com/S14z0Ry.png",
+          "gk_third": "https://i.imgur.com/CoWYTVb.png",
+          "home": "https://i.imgur.com/LnAv51B.png",
+          "third": "https://i.imgur.com/Hobm8va.png"
+        }
+      }
+    },
+    "hyderabad": {
+      "name": "Hyderabad",
+      "league": "indian_super_league",
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/m62PIKT.png",
+          "gk_home": "https://i.imgur.com/R3c8P84.png",
+          "home": "https://i.imgur.com/0DYnvDz.png",
+          "third": "https://i.imgur.com/YFv27x4.png"
+        }
+      }
+    },
+    "indonesia": {
+      "name": "Indonesia",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/hkg0st1656933330.png",
+      "league": "international",
+      "is_popular": true,
+      "seasons": {
+        "2024": {
+          "away": "https://kitdls.net/wp-content/uploads/2024/10/Indonesia-Away-Kit-2025-2026-DLS-25.png",
+          "home": "https://kitdls.net/wp-content/uploads/2024/10/Indonesia-Home-Kit-2025-2026-DLS-25.png",
+          "unknown": "https://kitdls.net/wp-content/uploads/2024/10/Indonesia-GK2-Kit-2025-2026-DLS-25.png"
         },
-        "manchester_city": {
-          "name": "Manchester City",
-          "logo": "https://r2.thesportsdb.com/images/media/team/badge/vwpvry1467462651.png",
-          "league": "premier_league",
-          "is_popular": true,
-          "kits": {
-            "home": "https://img.dreamkitsapp.com/kits/manchester-city-home-premier-league-2025-2026-dls25.png",
-            "unknown": "https://i.imgur.com/biiWcFw.png"
-          }
+        "2026": {
+          "away": "https://kitdls.net/wp-content/uploads/2026/01/Indonesia-Away-1-Kit-2026-27-DLS.png",
+          "home": "https://kitdls.net/wp-content/uploads/2026/01/Indonesia-Home-1-Kit-2026-27-DLS.png",
+          "unknown": "https://kitdls.net/wp-content/uploads/2026/01/Indonesia-GK1-Kit-2026-27-DLS.png"
+        }
+      }
+    },
+    "inter_miami": {
+      "name": "Inter Miami",
+      "logo": "https://kitdls.net/wp-content/uploads/2023/09/Logo-KitDLS-Net.png",
+      "league": "unknown",
+      "is_popular": true,
+      "seasons": {
+        "2024": {
+          "gk_home": "https://kitdls.net/wp-content/uploads/2024/02/Inter-Miami-GK-Kit-2024-2025-DLS-24-1.png",
+          "third": "https://kitdls.net/wp-content/uploads/2024/05/Inter-Miami-Third-Kit-2-2024-2025-DLS-24.png",
+          "unknown": "https://kitdls.net/wp-content/uploads/2024/02/kit-inter-miami-2024-2025-san-nha.png"
         },
-        "manchester_united": {
-          "name": "Manchester United",
-          "logo": "https://r2.thesportsdb.com/images/media/team/badge/xzqdr11517660252.png",
-          "league": "premier_league",
-          "is_popular": true,
-          "kits": {
-            "unknown": "https://i.imgur.com/dBMwcv5.png"
-          }
+        "2025": {
+          "away": "https://kitdls.net/wp-content/uploads/2025/02/inter-miami-away-kit-25-26.png",
+          "gk_home": "https://kitdls.net/wp-content/uploads/2025/02/inter-miami-gk-kit-1-25-26.png",
+          "home": "https://kitdls.net/wp-content/uploads/2025/02/inter-miami-home-kit-25-26.png"
         },
-        "paris_saint_germain": {
-          "name": "Paris SG",
-          "logo": "https://r2.thesportsdb.com/images/media/team/badge/rwqrrq1473504808.png",
-          "league": "ligue_1",
-          "is_popular": true,
-          "kits": {
-            "unknown": "https://img.dreamkitsapp.com/shields/featured/paris-saint-germain.png"
-          }
+        "2026": {
+          "unknown": "https://dlskitsurl.com/wp-content/uploads/2026/03/Inter-Miami-DLS-Kit-25-26.png"
+        }
+      }
+    },
+    "inter_miami_cf": {
+      "name": "Inter Miami CF",
+      "league": "major_league_soccer",
+      "seasons": {
+        "2024": {
+          "away": "https://i.imahttps://kitdls.net/wp-content/uploads/2025/02/inter-miami-away-kit-25-26.pnggur.com/nie36p5.png",
+          "gk_away": "https://kitdls.net/wp-content/uploads/2025/02/inter-miami-gk-kit-2-25-26.png",
+          "gk_home": "https://kitdls.net/wp-content/uploads/2025/02/inter-miami-gk-kit-1-25-26.png",
+          "gk_third": "https://kitdls.net/wp-content/uploads/2025/02/inter-miami-gk-kit-3-25-26.png",
+          "home": "https://kitdls.net/wp-content/uploads/2025/02/inter-miami-home-kit-25-26.png",
+          "third": "https://kitdls.net/wp-content/uploads/2024/05/Inter-Miami-Third-Kit-2-2024-2025-DLS-24.png"
+        }
+      }
+    },
+    "inter_milan": {
+      "name": "Inter Milan",
+      "logo": "https://dlskits.com/wp-content/uploads/2022/01/DLS-Kits-New-Logo-200x80-1.png",
+      "league": "serie_a",
+      "is_popular": true,
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/0aruk6O.png",
+          "gk_away": "https://i.imgur.com/VTBhXBA.png",
+          "gk_home": "https://i.imgur.com/UqxFW5i.png",
+          "gk_third": "https://i.imgur.com/7nIHXTd.png",
+          "home": "https://i.imgur.com/KXdN9qf.png",
+          "third": "https://i.imgur.com/IgBTAZn.png"
         },
-        "portugues": {
-          "name": "Portugues",
-          "league": "unknown",
-          "kits": {
-            "unknown": "https://img.dreamkitsapp.com/flags/pt.png"
-          }
+        "2025": {
+          "unknown": "https://dlskits.com/wp-content/uploads/2025/08/Inter-Milan-2025-26-Dream-League-Soccer-Kits-For-DLS-25.png"
+        }
+      }
+    },
+    "ir_iran": {
+      "name": "IR Iran",
+      "league": "national_team",
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/dSvbPwt.png",
+          "gk_away": "https://i.imgur.com/39Ubssg.png",
+          "gk_home": "https://i.imgur.com/Q1KPaHQ.png",
+          "gk_third": "https://i.imgur.com/WWsWtOS.png",
+          "home": "https://i.imgur.com/e7927BE.png",
+          "third": "https://i.imgur.com/ZjnAUIS.png"
+        }
+      }
+    },
+    "istanbul": {
+      "name": "İstanbul",
+      "league": "turkey_super_lig",
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/JKjSNuR.png",
+          "gk_away": "https://i.imgur.com/G7Fy34p.png",
+          "gk_home": "https://i.imgur.com/Sw6MFGO.png",
+          "home": "https://i.imgur.com/pvGOpda.png",
+          "third": "https://i.imgur.com/OX1FBL7.png"
+        }
+      }
+    },
+    "ittihad_tanger": {
+      "name": "Ittihad Tanger",
+      "league": "botola_pro_1",
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/PjjbnKD.png",
+          "gk_home": "https://e.top4top.io/p_1811dpvnu4.png",
+          "home": "https://i.imgur.com/AzjEWJ0.png"
+        }
+      }
+    },
+    "jamshedpur": {
+      "name": "Jamshedpur",
+      "league": "indian_super_league",
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/4A329qQ.png",
+          "gk_away": "https://i.imgur.com/tutQFG8.png",
+          "gk_home": "https://i.imgur.com/vz6RCoq.png",
+          "home": "https://i.imgur.com/iGi8WY1.png"
+        }
+      }
+    },
+    "japan": {
+      "name": "Japan",
+      "logo": "https://kitdls.net/wp-content/uploads/2023/09/Logo-KitDLS-Net.png",
+      "league": "national_team",
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/8ld4KrR.png",
+          "gk_away": "https://i.imgur.com/aJ1ULJr.png",
+          "gk_home": "https://i.imgur.com/2bpKnP2.png",
+          "gk_third": "https://i.imgur.com/aJ1ULJr.png",
+          "home": "https://i.imgur.com/G28YiU5.png",
+          "third": "https://i.imgur.com/8ld4KrR.png"
+        }
+      }
+    },
+    "juventus": {
+      "name": "Juventus",
+      "logo": "https://dlskits.com/wp-content/uploads/2022/01/DLS-Kits-New-Logo-200x80-1.png",
+      "league": "serie_a",
+      "is_popular": true,
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/3X5FRjf.png",
+          "gk_away": "https://i.imgur.com/3DDjLna.png",
+          "gk_home": "https://i.imgur.com/UO2GKgy.png",
+          "gk_third": "https://i.imgur.com/eHxnXd0.png",
+          "home": "https://i.imgur.com/Bx3UjtB.png",
+          "third": "https://i.imgur.com/pTPWnQN.png",
+          "unknown": "https://i.imgur.com/iHKS59s.png"
         },
-        "real_madrid": {
-          "name": "Real Madrid",
-          "logo": "https://r2.thesportsdb.com/images/media/team/badge/vwvwrw1473502969.png",
-          "league": "la_liga",
-          "is_popular": true,
-          "kits": {
-            "home": "https://img.dreamkitsapp.com/kits/real-madrid-home-laliga-ea-sports-2025-2026-dls25.png",
-            "unknown": "https://i.imgur.com/GLAzjTo.png"
-          }
+        "2025": {
+          "away": "https://kitdls.net/wp-content/uploads/2025/05/Juventus-Away-Kit-V2-25-26-DLS-25.png",
+          "gk_home": "https://kitdls.net/wp-content/uploads/2025/02/Juventus-GK-Kit-25-26-DLS-25.png",
+          "home": "https://kitdls.net/wp-content/uploads/2025/05/Juventus-Home-Kit-V2-25-26-DLS-25.png",
+          "third": "https://kitdls.net/wp-content/uploads/2025/08/Juventus-Third-25-26-DLS-25.png",
+          "unknown": "https://i.imgur.com/CBkA2rn.png"
+        }
+      }
+    },
+    "kaizer_chiefs": {
+      "name": "Kaizer Chiefs",
+      "league": "dstv_premiership",
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/axybnmL.png",
+          "gk_away": "https://i.imgur.com/1z7ughY.png",
+          "gk_home": "https://i.ibb.co/QQhssx5/image.png",
+          "gk_third": "https://i.imgur.com/W7ExFpD.png",
+          "home": "https://i.ibb.co/WHRK2rd/home.png"
+        }
+      }
+    },
+    "kashima_antlers": {
+      "name": "Kashima Antlers",
+      "league": "japan_league",
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/iYQrXv5.png",
+          "gk_away": "https://i.imgur.com/wFZVg1V.png",
+          "gk_home": "https://i.imgur.com/GrxOPrz.png",
+          "home": "https://i.imgur.com/nJs33hX.png"
+        }
+      }
+    },
+    "kawasaki_frontale": {
+      "name": "Kawasaki Frontale",
+      "league": "japan_league",
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/3LQoI8C.png",
+          "gk_away": "https://i.imgur.com/2viDdjG.png",
+          "gk_home": "https://i.imgur.com/Z7xDPDM.png",
+          "home": "https://i.imgur.com/cW679QX.png"
+        }
+      }
+    },
+    "kerala_blasters": {
+      "name": "Kerala Blasters",
+      "league": "indian_super_league",
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/o3kKbBR.png",
+          "gk_away": "https://i.imgur.com/C6SlSBU.png",
+          "gk_home": "https://i.imgur.com/eYxaIjf.png",
+          "home": "https://i.imgur.com/2GL5IIB.png",
+          "third": "https://i.imgur.com/w2ch5QF.png"
+        }
+      }
+    },
+    "konyaspor": {
+      "name": "Konyaspor",
+      "league": "turkey_super_lig",
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/rLPSFTr.png",
+          "gk_away": "https://i.imgur.com/NRwDzLw.png",
+          "gk_home": "https://i.imgur.com/QqS5OmB.png",
+          "gk_third": "Coming Soon",
+          "home": "https://i.imgur.com/WKACR6b.png",
+          "third": "https://i.imgur.com/bc35zJY.png"
+        }
+      }
+    },
+    "korea_republic": {
+      "name": "Korea Republic",
+      "league": "national_team",
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/XeuUacA.png",
+          "gk_away": "https://i.imgur.com/SYHmYxR.png",
+          "gk_home": "https://i.imgur.com/Sn0ovu5.png",
+          "gk_third": "https://i.imgur.com/adYJpyD.png",
+          "home": "https://i.imgur.com/u0BjzjO.png",
+          "third": "https://i.imgur.com/yY80S3h.png"
+        }
+      }
+    },
+    "langue_english_espanol_portugues": {
+      "name": "Langue English Espanol Portugues",
+      "league": "unknown",
+      "seasons": {
+        "2025": {
+          "unknown": "https://img.dreamkitsapp.com/flags/fr.png"
+        }
+      }
+    },
+    "leeds_united": {
+      "name": "Leeds United",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/jcgrml1756649030.png",
+      "league": "premier_league",
+      "is_popular": true,
+      "seasons": {
+        "2025": {
+          "unknown": "https://i.imgur.com/3PQGo1W.png"
+        }
+      }
+    },
+    "lenguaje_english_portugues_francais": {
+      "name": "Lenguaje English Portugues Francais",
+      "league": "unknown",
+      "seasons": {
+        "2025": {
+          "unknown": "https://img.dreamkitsapp.com/flags/es.png"
+        }
+      }
+    },
+    "linguagem_english_espanol_francais": {
+      "name": "Linguagem English Espanol Francais",
+      "league": "unknown",
+      "seasons": {
+        "2025": {
+          "unknown": "https://img.dreamkitsapp.com/flags/pt.png"
+        }
+      }
+    },
+    "liverpool": {
+      "name": "Liverpool",
+      "logo": "https://dlskits.com/wp-content/uploads/2025/10/dlskits.com-icon-showing-dream-league-soccer-kits-of-football-clubs-150x150.png",
+      "league": "premier_league",
+      "is_popular": true,
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/b9omgrm.png",
+          "gk_away": "https://i.imgur.com/uY2MRmR.png",
+          "gk_home": "https://i.imgur.com/OhomYcX.png",
+          "gk_third": "https://i.imgur.com/1BAQXGU.png",
+          "home": "https://i.imgur.com/7Z0O7f2.png",
+          "third": "https://i.imgur.com/fmeuszb.png",
+          "unknown": "https://i.imgur.com/FcDUbd4.png"
         },
-        "sporting_cristal": {
-          "name": "Sporting Cristal",
-          "logo": "https://dlskits.com/wp-content/uploads/2025/10/dlskits.com-icon-showing-dream-league-soccer-kits-of-football-clubs-150x150.png",
-          "league": "unknown",
-          "kits": {
-            "unknown": "https://i.imgur.com/a8HhvJ5.png"
-          }
+        "2025": {
+          "away": "https://kitdls.net/wp-content/uploads/2025/02/Liverpool-Away-Kit-25-26-DLS-25.png",
+          "gk_home": "https://kitdls.net/wp-content/uploads/2025/02/Liverpool-GK-Kit-25-26-DLS-25.png",
+          "home": "https://dlskitsurl.com/wp-content/uploads/2025/11/liverpool-dls-kit-25-26-Home.png",
+          "third": "https://kitdls.net/wp-content/uploads/2025/02/Liverpool-Third-Kit-25-26-DLS-25.png",
+          "unknown": "https://i.imgur.com/OLtgdbp.png"
         },
-        "tottenham_premier": {
-          "name": "Tottenham Premier",
-          "logo": "https://dlskits.com/wp-content/uploads/2022/01/DLS-Kits-New-Logo-200x80-1.png",
-          "league": "unknown",
-          "kits": {
-            "unknown": "https://i.imgur.com/3fUx8tj.png"
-          }
+        "2026": {
+          "unknown": "https://img.dreamkitsapp.com/shields/featured/liverpool.png"
+        }
+      }
+    },
+    "lorient": {
+      "name": "Lorient",
+      "league": "league_1_france",
+      "seasons": {
+        "2024": {
+          "away": "https://imgur.com/GgjbtxM.png",
+          "gk_away": "https://imgur.com/RinrFIG.png",
+          "gk_home": "https://imgur.com/7DOpTPE.png",
+          "gk_third": "https://imgur.com/oNHKhVn.png",
+          "home": "https://i.imgur.com/j23GJV9.png",
+          "third": "https://i.imgur.com/JUrsotO.png"
+        }
+      }
+    },
+    "madura_united": {
+      "name": "Madura United",
+      "league": "liga_1_indonesia",
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/9JC3Pop.png",
+          "gk_away": "https://i.imgur.com/jG7pyWw.png",
+          "gk_home": "https://i.imgur.com/2hfuyoH.png",
+          "gk_third": "https://i.imgur.com/VCuAPwa.png",
+          "home": "https://i.imgur.com/M7grEKO.png",
+          "third": "https://i.imgur.com/UPrJQzy.png"
+        }
+      }
+    },
+    "mali": {
+      "name": "Mali",
+      "league": "national_team",
+      "seasons": {
+        "2024": {
+          "away": "https://1.bp.blogspot.com/-2I5PMx4cqYM/XRIRpYFKufI/AAAAAAAAEmo/558Mc9RhuwcCxfw09gfq9OClpRBFB_xOQCLcBGAs/s1600/mali_2.png",
+          "gk_away": "https://1.bp.blogspot.com/-7y4kZsWyJgI/XRIRqzd3-ZI/AAAAAAAAEmw/3bq6faIgmdMDncW10VyJp-_BMv4q4XPLgCLcBGAs/s320/mali_4.png",
+          "gk_home": "https://1.bp.blogspot.com/-IoYvmbP7IJA/XRIRqMY-wzI/AAAAAAAAEms/WpCabij0ULkS6n7BkXsaHcelta4bXPhQgCLcBGAs/s320/mali_3.png",
+          "home": "https://1.bp.blogspot.com/-rS8eabbt6Mk/XRIRoeGzMLI/AAAAAAAAEmk/fge3WnqxxKgzufKzFipMIjv3GiOl1dvlACLcBGAs/s320/mali_1.png"
+        }
+      }
+    },
+    "mamelodi_sundowns": {
+      "name": "Mamelodi Sundowns",
+      "league": "dstv_premiership",
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/6cq0TwB.png",
+          "gk_away": "https://i.imgur.com/tYWBeqc.png",
+          "gk_home": "https://i.imgur.com/5ZCM0LM.png",
+          "gk_third": "https://i.imgur.com/EpWTExE.png",
+          "home": "https://i.imgur.com/xJgfUSv.png"
+        }
+      }
+    },
+    "manchester_city": {
+      "name": "Manchester City",
+      "logo": "https://dlskits.com/wp-content/uploads/2025/10/dlskits.com-icon-showing-dream-league-soccer-kits-of-football-clubs-150x150.png",
+      "league": "premier_league",
+      "is_popular": true,
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/JNESsZp.png",
+          "gk_away": "https://i.imgur.com/y0aqHiX.png",
+          "gk_home": "https://i.imgur.com/y8PzgVb.png",
+          "gk_third": "https://i.ibb.co/Lk1YZqd/Hassan360-Kit.png",
+          "home": "https://i.imgur.com/38wzN7k.png",
+          "third": "https://i.imgur.com/LJ53Kf2.png",
+          "unknown": "https://i.imgur.com/GIQcx8p.png"
+        },
+        "2025": {
+          "away": "https://kitdls.net/wp-content/uploads/2025/10/Manchester-City-Away-Kit-25-26-DLS-25.png",
+          "gk_home": "https://kitdls.net/wp-content/uploads/2025/02/MC-GK-Kit-1-DLS-25.png",
+          "home": "https://img.dreamkitsapp.com/kits/manchester-city-home-premier-league-2025-2026-dls25.png",
+          "third": "https://kitdls.net/wp-content/uploads/2025/10/Manchester-City-Third-Kit-25-26-DLS-25.png",
+          "unknown": "https://i.imgur.com/biiWcFw.png"
+        },
+        "2026": {
+          "unknown": "https://dlskitsurl.com/wp-content/uploads/2026/03/Manchester-City-DLS-Kit-25-26-Profile.png"
+        }
+      }
+    },
+    "manchester_united": {
+      "name": "Manchester United ",
+      "logo": "https://dlskits.com/wp-content/uploads/2025/10/dlskits.com-icon-showing-dream-league-soccer-kits-of-football-clubs-150x150.png",
+      "league": "premier_league",
+      "is_popular": true,
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/QjVhO8z.png",
+          "gk_away": "https://i.imgur.com/jjoIDI0.png",
+          "gk_home": "https://i.imgur.com/Im7loRP.png",
+          "gk_third": "https://i.imgur.com/QPf7Cf1.png",
+          "home": "https://i.imgur.com/cqNyo6n.png",
+          "third": "https://i.imgur.com/7XFWuDl.png",
+          "unknown": "https://i.imgur.com/bYHlKLS.png"
+        },
+        "2025": {
+          "away": "https://kitdls.net/wp-content/uploads/2025/03/Manchester-United-Away-Kit-25-26-DLS-25.png",
+          "gk_third": "https://kitdls.net/wp-content/uploads/2025/02/DLS-24-MU-GK-Third-Kit-2024-2025.png",
+          "home": "https://kitdls.net/wp-content/uploads/2025/03/Manchester-United-Home-Kit-25-26-DLS-25.png",
+          "third": "https://kitdls.net/wp-content/uploads/2025/08/Manchester-United-Third-Kit-25-26-DLS-25.png",
+          "unknown": "https://i.imgur.com/dBMwcv5.png"
+        },
+        "2026": {
+          "home": "https://dlskitsurl.com/wp-content/uploads/2026/03/3.png",
+          "unknown": "https://img.dreamkitsapp.com/shields/featured/manchester-united.png"
+        }
+      }
+    },
+    "marseille": {
+      "name": "Marseille",
+      "league": "league_1_france",
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/SPH9uei.png",
+          "gk_away": "https://i.imgur.com/MkEx7KO.png",
+          "gk_home": "https://i.imgur.com/dALYXS4.png",
+          "gk_third": "https://i.imgur.com/HZtnf3h.png",
+          "home": "https://i.imgur.com/gDbGEL1.png",
+          "third": "https://i.imgur.com/ChvqTDM.png"
+        }
+      }
+    },
+    "mexico": {
+      "name": "Mexico",
+      "logo": "https://kitdls.net/wp-content/uploads/2023/09/Logo-KitDLS-Net.png",
+      "league": "national_team",
+      "is_popular": true,
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/kmYEggV.png",
+          "gk_away": "https://i.imgur.com/ttEnZxv.png",
+          "gk_home": "https://i.imgur.com/le1u5VP.png",
+          "gk_third": "https://i.ibb.co/pW1n6J4/image.png",
+          "home": "https://i.imgur.com/jcwSXWy.png",
+          "third": "https://i.ibb.co/d4DWKPq/image.png"
+        },
+        "2025": {
+          "away": "https://kitdls.net/wp-content/uploads/2025/03/Mexico-Away-Kit-25-DLS-25.png",
+          "gk_home": "https://kitdls.net/wp-content/uploads/2025/03/Mexico-GK-Kit-2026-DLS.png",
+          "home": "https://kitdls.net/wp-content/uploads/2025/03/Mexico-Home-Kit-2026-DLS.png",
+          "unknown": "https://kitdls.net/wp-content/uploads/2025/03/Mexico-GK1-Kit-25-DLS-25.png"
+        },
+        "2026": {
+          "away": "https://kitdls.net/wp-content/uploads/2026/02/Mexico-Away-Kit-2026-DLS.png",
+          "third": "https://kitdls.net/wp-content/uploads/2026/02/Mexico-Third-Kit-2026-DLS.png",
+          "unknown": "https://i.imgur.com/llOzgG2.png"
+        }
+      }
+    },
+    "milan": {
+      "name": "Milan",
+      "league": "serie_a",
+      "is_popular": true,
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/ZFDbbcd.png",
+          "gk_away": "https://i.imgur.com/tcHEZup.png",
+          "gk_home": "https://i.imgur.com/yq1BjEE.png",
+          "gk_third": "https://i.imgur.com/GqpSTTg.png",
+          "home": "https://i.imgur.com/Tm8NnLF.png",
+          "third": "https://i.imgur.com/xojqfi2.png"
+        }
+      }
+    },
+    "mohun_bagan": {
+      "name": "Mohun Bagan",
+      "league": "indian_super_league",
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/dH8MUOr.png",
+          "gk_home": "https://i.imgur.com/S5xUppq.png",
+          "home": "https://i.imgur.com/fYqWTI0.png"
+        }
+      }
+    },
+    "monaco": {
+      "name": "Monaco",
+      "league": "league_1_france",
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/euLD5OM.png",
+          "gk_away": "https://i.imgur.com/N5Pv39F.png",
+          "gk_home": "https://i.imgur.com/sAVexIz.png",
+          "gk_third": "https://i.imgur.com/ZUjvnrq.png",
+          "home": "https://i.imgur.com/86ObyCH.png",
+          "third": "https://i.imgur.com/PRZZTnY.png"
+        }
+      }
+    },
+    "monterrey": {
+      "name": "Monterrey",
+      "league": "liga_mx",
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/RxO1YwL.png",
+          "gk_away": "https://i.imgur.com/68zfG1y.png",
+          "gk_home": "https://i.imgur.com/R6lkxQy.png",
+          "gk_third": "https://i.imgur.com/sNFIlCn.png",
+          "home": "https://i.imgur.com/Sgqv58P.png",
+          "third": "https://i.imgur.com/ndcXpf0.png"
+        }
+      }
+    },
+    "montreal": {
+      "name": "Montréal",
+      "league": "major_league_soccer",
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/ahHeHCB.png",
+          "gk_away": "https://i.imgur.com/A8lARU7.png",
+          "gk_home": "https://i.imgur.com/3awegU7.png",
+          "gk_third": "https://i.imgur.com/rpQcFXg.png",
+          "home": "https://i.imgur.com/o3SqL3J.png"
+        }
+      }
+    },
+    "morocco": {
+      "name": "Morocco",
+      "league": "national_team",
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/WfMDppu.png",
+          "gk_away": "https://i.imgur.com/BIN9C3I.png",
+          "gk_home": "https://i.imgur.com/JXcfMGp.png",
+          "gk_third": "https://i.imgur.com/BIN9C3I.png",
+          "home": "https://i.imgur.com/NXZSsoK.png",
+          "third": "https://i.ibb.co/Ykm2PMN/cm2.png"
+        }
+      }
+    },
+    "mumbai_city": {
+      "name": "Mumbai City",
+      "league": "indian_super_league",
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/3qnFEmW.png",
+          "gk_away": "URL: https://i.imgur.com/tHnw9yH.png",
+          "gk_home": "https://i.imgur.com/sWmToxd.png",
+          "home": "https://i.imgur.com/AeIuRTc.png"
+        }
+      }
+    },
+    "nashville": {
+      "name": "Nashville",
+      "league": "major_league_soccer",
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/gQKw8Hi.png",
+          "gk_away": "https://i.imgur.com/xHgHhIJ.png",
+          "gk_home": "https://i.imgur.com/B5aotna.png",
+          "gk_third": "https://i.imgur.com/FDYi4s0.png",
+          "home": "https://i.imgur.com/5qbVL2z.png"
+        }
+      }
+    },
+    "netherlands": {
+      "name": "Netherlands",
+      "league": "national_team",
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/Epn9YGt.png",
+          "gk_away": "https://i.imgur.com/9Ub2IPt.png",
+          "gk_home": "https://i.imgur.com/f9kHJg5.png",
+          "gk_third": "https://i.imgur.com/o8EzDCV.png",
+          "home": "https://i.imgur.com/6oOLsp4.png",
+          "third": "https://i.imgur.com/JAPtFQm.png"
+        }
+      }
+    },
+    "new_england_revolution": {
+      "name": "New England Revolution",
+      "league": "major_league_soccer",
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/7KcVVgs.png",
+          "gk_away": "https://i.imgur.com/XPpeUiZ.png",
+          "gk_home": "https://i.imgur.com/1wXiqsj.png",
+          "home": "https://i.imgur.com/ccV9AoN.png"
+        }
+      }
+    },
+    "new_york_city": {
+      "name": "New York City",
+      "league": "major_league_soccer",
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/CPDBSD3.png",
+          "gk_away": "https://i.imgur.com/6RmeMo2.png",
+          "gk_home": "https://i.imgur.com/WqYl0PB.png",
+          "gk_third": "https://i.imgur.com/EPgGpH8.png",
+          "home": "https://i.imgur.com/PpK7B1F.png"
+        }
+      }
+    },
+    "orlando": {
+      "name": "Orlando",
+      "league": "major_league_soccer",
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/XR2nJY2.png",
+          "gk_away": "https://i.imgur.com/JOb25tJ.png",
+          "gk_home": "https://i.imgur.com/ppP4ADc.png",
+          "home": "https://i.imgur.com/lVnXGd2.png"
+        }
+      }
+    },
+    "orlando_pirates_fc": {
+      "name": "Orlando Pirates FC",
+      "league": "dstv_premiership",
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/MmEInvU.png",
+          "gk_away": "https://i.imgur.com/8idI7St.png",
+          "gk_home": "https://i.imgur.com/3ZzhiAw.png",
+          "gk_third": "https://i.imgur.com/kOkyF0p.png",
+          "home": "https://i.imgur.com/cunueA1.png"
+        }
+      }
+    },
+    "pachuca": {
+      "name": "Pachuca",
+      "league": "liga_mx",
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/KyGuUAb.png",
+          "home": "https://i.imgur.com/EI72kIX.png"
+        }
+      }
+    },
+    "palmeras": {
+      "name": "Palmeras",
+      "league": "brasileirao",
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/pznDxo1.png",
+          "gk_away": "https://i.imgur.com/M5IFZLn.png",
+          "gk_home": "https://i.imgur.com/yJpuEU8.png",
+          "gk_third": "https://i.imgur.com/sN4EXDj.png",
+          "home": "https://i.imgur.com/t5AE8Kg.png",
+          "third": "https://i.imgur.com/KwsCE04.png"
+        }
+      }
+    },
+    "paris_saint_germain": {
+      "name": "Paris SG",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/rwqrrq1473504808.png",
+      "league": "ligue_1",
+      "is_popular": true,
+      "seasons": {
+        "2025": {
+          "home": "https://img.dreamkitsapp.com/kits/paris-saint-germain-home-ligue-1-2025-2026-dls25.png"
+        },
+        "2026": {
+          "unknown": "https://i.imgur.com/PhZHjgt.png"
+        }
+      }
+    },
+    "persija": {
+      "name": "Persija ",
+      "league": "liga_1_indonesia",
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/bTVMV9R.png",
+          "gk_away": "https://i.imgur.com/gVIJLKI.png",
+          "gk_home": "https://i.imgur.com/HbYQCwg.png",
+          "gk_third": "https://i.imgur.com/EczBI8Z.png",
+          "home": "https://i.imgur.com/5wq1Gti.png",
+          "third": "https://i.imgur.com/ypTiCN5.png"
+        }
+      }
+    },
+    "philadelphia": {
+      "name": "Philadelphia",
+      "league": "major_league_soccer",
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/Wv4dJLx.png",
+          "gk_away": "https://i.imgur.com/Nzb6dfU.png",
+          "gk_home": "https://i.imgur.com/e7UwDKc.png",
+          "home": "https://i.imgur.com/F8MUFfg.png"
+        }
+      }
+    },
+    "poland": {
+      "name": "Poland",
+      "league": "national_team",
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/TtOWxSO.png",
+          "gk_away": "https://i.imgur.com/XMXreD7.png",
+          "gk_home": "https://i.imgur.com/Hs3CZYC.png",
+          "gk_third": "https://i.imgur.com/qyiRBsC.png",
+          "home": "https://i.imgur.com/YOieg91.png",
+          "third": "https://i.imgur.com/PUjGF1z.png"
+        }
+      }
+    },
+    "porto": {
+      "name": "Porto",
+      "league": "others",
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/3f8uPIi.png",
+          "gk_away": "https://i.imgur.com/WXALigm.png",
+          "gk_home": "https://i.imgur.com/kFI3Lrs.png",
+          "gk_third": "https://i.imgur.com/iPAEx3H.png",
+          "home": "https://i.imgur.com/QHzPqry.png",
+          "third": "https://i.imgur.com/X6tsiog.png"
+        }
+      }
+    },
+    "portugal": {
+      "name": "Portugal",
+      "logo": "https://kitdls.net/wp-content/uploads/2023/09/Logo-KitDLS-Net.png",
+      "league": "national_team",
+      "is_popular": true,
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/bLsYmS1.png",
+          "gk_away": "https://i.imgur.com/rnCyBwG.png",
+          "gk_home": "https://i.imgur.com/bVYPkX1.png",
+          "gk_third": "https://i.imgur.com/zQg0AuO.png",
+          "home": "https://i.imgur.com/GxNMfS5.png",
+          "unknown": "https://kitdls.net/wp-content/uploads/2024/08/Kit-Portugal-Ronaldo-CR7-900-Goals.png"
+        },
+        "2025": {
+          "away": "https://kitdls.net/wp-content/uploads/2025/03/Portugal-Away-Kits-2026-DLS.png",
+          "home": "https://kitdls.net/wp-content/uploads/2025/03/Portugal-Home-Kits-2026-DLS.png",
+          "third": "https://kitdls.net/wp-content/uploads/2025/03/Portugal-Third-Kits-2026-DLS.png",
+          "unknown": "https://kitdls.net/wp-content/uploads/2025/03/Portugal-GK1-Kits-2026-DLS.png"
+        }
+      }
+    },
+    "portugues": {
+      "name": "Portugues",
+      "league": "unknown",
+      "seasons": {
+        "2025": {
+          "unknown": "https://img.dreamkitsapp.com/flags/pt.png"
+        }
+      }
+    },
+    "psg": {
+      "name": "PSG",
+      "league": "league_1_france",
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/QiyNH1b.png",
+          "gk_away": "https://i.imgur.com/TE3ICsE.png",
+          "gk_home": "https://i.imgur.com/cyAXIk5.png",
+          "gk_third": "https://i.imgur.com/ILTbXfb.png",
+          "home": "https://i.imgur.com/7eAiNKH.png",
+          "third": "https://i.imgur.com/Uj2KKXz.png"
+        }
+      }
+    },
+    "psm": {
+      "name": "PSM",
+      "league": "liga_1_indonesia",
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/A4ajHES.png",
+          "gk_away": "https://i.imgur.com/4Hp25Hx.png",
+          "gk_home": "https://i.imgur.com/fyS4mNR.png",
+          "home": "https://i.imgur.com/OUv75jd.png"
+        }
+      }
+    },
+    "pyramids": {
+      "name": "Pyramids",
+      "league": "egyptian_premier_league",
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/quZAAOe.png",
+          "gk_away": "https://i.imgur.com/uyCHTMw.png",
+          "gk_home": "https://i.imgur.com/J4DIlFy.png",
+          "gk_third": "https://i.imgur.com/Z9Y139a.png",
+          "home": "https://i.imgur.com/zlhqA6P.png"
+        }
+      }
+    },
+    "qatar": {
+      "name": "Qatar",
+      "league": "national_team",
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/RMpck2a.png",
+          "gk_away": "https://i.imgur.com/Xwv0jaw.png",
+          "gk_home": "https://i.imgur.com/7B1A90s.png",
+          "gk_third": "https://i.imgur.com/AsoLI4E.png",
+          "home": "https://i.imgur.com/68UYVAO.png",
+          "third": "https://i.imgur.com/AsoLI4E.png"
+        }
+      }
+    },
+    "racing_club": {
+      "name": "Racing Club",
+      "league": "argentine_primera_division",
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/DIzjmIK.png",
+          "gk_away": "https://i.imgur.com/ChO3ZWQ.png",
+          "gk_home": "https://i.imgur.com/aJBcyzN.png",
+          "gk_third": "https://i.imgur.com/jlLaNb2.png",
+          "home": "https://i.imgur.com/rcP4pBJ.png",
+          "third": "https://i.imgur.com/YdcTzgi.png"
+        }
+      }
+    },
+    "raja": {
+      "name": "Raja",
+      "league": "caf",
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/O84kwB2.png",
+          "gk_away": "https://i.imgur.com/1a0WNMv.png",
+          "gk_home": "https://i.imgur.com/lbaeX9y.png",
+          "home": "https://i.imgur.com/xNmEgwL.png"
+        }
+      }
+    },
+    "real_madird": {
+      "name": "Real Madird",
+      "logo": "https://kitdls.net/wp-content/uploads/2023/09/Logo-KitDLS-Net.png",
+      "league": "unknown",
+      "seasons": {
+        "2024": {
+          "gk_home": "https://kitdls.net/wp-content/uploads/2024/09/DLS-24-Real-Madrid-GK-Kit-2024-2025.png",
+          "home": "https://kitdls.net/wp-content/uploads/2024/02/DLS-24-Real-Madrid-Home-2-Kit-2024-2025.png",
+          "third": "https://kitdls.net/wp-content/uploads/2024/02/DLS-24-Real-Madrid-Third-Kit-2024-2025.png",
+          "unknown": "https://kitdls.net/wp-content/uploads/2024/05/Kit-Real-Madrid-2024-2025-CR7.png"
+        },
+        "2025": {
+          "away": "https://kitdls.net/wp-content/uploads/2025/05/Real-Madrid-Away-Kit-2025-26-DLS-25.png",
+          "home": "https://kitdls.net/wp-content/uploads/2025/05/Real-Madrid-Home-Kit-2025-26-DLS-25.png",
+          "third": "https://kitdls.net/wp-content/uploads/2025/05/Real-Madrid-Third-Kit-25-26-DLS-25.png",
+          "unknown": "https://kitdls.net/wp-content/uploads/2025/05/Real-Madrid-GK1-Kit-2025-26-DLS-25.png"
+        }
+      }
+    },
+    "real_madrid": {
+      "name": "Real Madrid",
+      "logo": "https://dlskits.com/wp-content/uploads/2025/10/dlskits.com-icon-showing-dream-league-soccer-kits-of-football-clubs-150x150.png",
+      "league": "la_liga",
+      "is_popular": true,
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/y6l5zdj.png",
+          "gk_away": "https://i.imgur.com/2DyT4tS.png",
+          "gk_home": "https://i.imgur.com/hY8fiFp.png",
+          "gk_third": "https://i.imgur.com/omZ1CfB.png",
+          "home": "https://i.imgur.com/OabzUai.png",
+          "third": "https://i.imgur.com/yPnylHt.png",
+          "unknown": "https://i.imgur.com/Bw6OxrW.png"
+        },
+        "2025": {
+          "home": "https://img.dreamkitsapp.com/kits/real-madrid-home-laliga-ea-sports-2025-2026-dls25.png",
+          "unknown": "https://i.imgur.com/GLAzjTo.png"
+        },
+        "2026": {
+          "unknown": "https://img.dreamkitsapp.com/shields/featured/real-madrid.png"
+        }
+      }
+    },
+    "red_bulls": {
+      "name": "Red Bulls",
+      "league": "major_league_soccer",
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/gNiby9A.png",
+          "gk_away": "https://i.imgur.com/rBc4stc.png",
+          "gk_home": "https://i.imgur.com/vMGRk9q.png",
+          "gk_third": "https://i.imgur.com/OjRd6Vb.png",
+          "home": "https://i.imgur.com/TbbgVsr.png"
+        }
+      }
+    },
+    "river": {
+      "name": "River",
+      "league": "csf",
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/rDY0PqJ.png",
+          "gk_away": "https://i.imgur.com/hDLxhah.png",
+          "gk_home": "https://i.imgur.com/KXsHCo2.png",
+          "gk_third": "https://i.imgur.com/cjgIWNd.png",
+          "home": "https://i.imgur.com/dCMrJbb.png",
+          "third": "https://i.imgur.com/gfY12Xl.png"
+        }
+      }
+    },
+    "sanfrecce": {
+      "name": "Sanfrecce",
+      "league": "japan_league",
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/9FcgjIn.png",
+          "gk_away": "https://i.imgur.com/5T2E9Mx.png",
+          "gk_home": "https://i.imgur.com/Ip40Ucs.png",
+          "home": "https://i.imgur.com/7VDw05W.png"
+        }
+      }
+    },
+    "santos": {
+      "name": "Santos",
+      "league": "brasileirao",
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/ySnSKNW.png",
+          "gk_away": "https://i.imgur.com/ogtXjt5.png",
+          "gk_home": "https://i.imgur.com/0caHh5U.png",
+          "gk_third": "https://i.imgur.com/V7IURxX.png",
+          "home": "https://i.imgur.com/CiNcSVm.png",
+          "third": "https://i.imgur.com/StL1a05.png"
+        }
+      }
+    },
+    "santos_fc": {
+      "name": "Santos FC",
+      "logo": "https://kitdls.net/wp-content/uploads/2023/09/Logo-KitDLS-Net.png",
+      "league": "unknown",
+      "seasons": {
+        "2025": {
+          "away": "https://kitdls.net/wp-content/uploads/2025/03/Santos-FC-Away-Kit-2025-26-DLS-25.png",
+          "gk_home": "https://kitdls.net/wp-content/uploads/2025/03/Santos-FC-GK-Kit-2025-26-DLS-25.png",
+          "home": "https://kitdls.net/wp-content/uploads/2025/03/Santos-FC-Home-Kit-2025-26-DLS-25.png"
+        }
+      }
+    },
+    "santos_laguna": {
+      "name": "Santos Laguna ",
+      "league": "liga_mx",
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/RwnHVD5.png",
+          "gk_home": "https://i.imgur.com/OEn06Jo.png",
+          "home": "https://i.imgur.com/bt6YdQS.png"
+        }
+      }
+    },
+    "santoscsf": {
+      "name": "Santoscsf",
+      "league": "csf",
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/ySnSKNW.png",
+          "gk_away": "https://i.imgur.com/ogtXjt5.png",
+          "gk_home": "https://i.imgur.com/0caHh5U.png",
+          "gk_third": "https://i.imgur.com/V7IURxX.png",
+          "home": "https://i.imgur.com/CiNcSVm.png"
+        }
+      }
+    },
+    "sao_paulo": {
+      "name": "Sao Paulo",
+      "league": "brasileirao",
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/fmjJg0Y.png",
+          "home": "https://i.imgur.com/u9QIrAW.png"
+        }
+      }
+    },
+    "saudi_arabia": {
+      "name": "Saudi Arabia",
+      "league": "national_team",
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/eVy1wRV.png",
+          "gk_away": "https://i.imgur.com/srQNRzs.png",
+          "gk_home": "https://i.imgur.com/mhNMZJx.png",
+          "gk_third": "https://i.imgur.com/TOcePmL.png",
+          "home": "https://i.imgur.com/Ymt7fMy.png",
+          "third": "https://i.imgur.com/cjWZcrN.png"
+        }
+      }
+    },
+    "sc_internacional": {
+      "name": "SC Internacional",
+      "league": "brasileirao",
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/90oHpiQ.png",
+          "gk_away": "https://i.imgur.com/9Q767mN.png",
+          "gk_home": "https://i.imgur.com/E6t8PGU.png",
+          "gk_third": "https://i.imgur.com/SL53D8K.png",
+          "home": "https://i.imgur.com/KEejpou.png",
+          "third": "https://i.imgur.com/GsvcUxM.png"
+        }
+      }
+    },
+    "schalke": {
+      "name": "Schalke",
+      "league": "bundes_league",
+      "seasons": {
+        "2024": {
+          "away": "https://imgur.com/oOpDjUO.png",
+          "gk_away": "https://i.imgur.com/P2S9Pqj.png",
+          "gk_home": "https://i.imgur.com/zIQvCda.png",
+          "gk_third": "https://i.imgur.com/ePkmFqs.png",
+          "home": "https://i.imgur.com/lnolrAb.png",
+          "third": "https://imgur.com/RmWxcwf.png"
+        }
+      }
+    },
+    "senegal": {
+      "name": "Senegal",
+      "league": "national_team",
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/IJhGsGg.png",
+          "gk_away": "https://i.imgur.com/TOls3W9.png",
+          "gk_home": "https://i.imgur.com/b1cWLnH.png",
+          "gk_third": "https://i.imgur.com/L7UBt8Z.png",
+          "home": "https://i.imgur.com/oXbQ0Sp.png",
+          "third": "https://i.ibb.co/4VSWgy5/p2.png"
+        }
+      }
+    },
+    "serbia": {
+      "name": "Serbia",
+      "league": "national_team",
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/4mQKabx.png",
+          "gk_away": "https://i.imgur.com/0gnvsWO.png",
+          "gk_home": "https://i.imgur.com/eCdUnwZ.png",
+          "gk_third": "https://i.imgur.com/h2ntfHf.png",
+          "home": "https://i.imgur.com/F5NbYM1.png",
+          "third": "https://i.imgur.com/cgLuSQj.png"
+        }
+      }
+    },
+    "spain": {
+      "name": "Spain",
+      "logo": "https://kitdls.net/wp-content/uploads/2023/09/Logo-KitDLS-Net.png",
+      "league": "national_team",
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/ugW6TBT.png",
+          "gk_away": "https://i.imgur.com/JWj6IRL.png",
+          "gk_home": "https://i.imgur.com/164kDWQ.png",
+          "gk_third": "https://i.imgur.com/ZuYLjYl.png",
+          "home": "https://i.imgur.com/1Le3Hnp.png"
+        }
+      }
+    },
+    "sport": {
+      "name": "Sport",
+      "league": "brasileirao",
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/d2fJMQs.png",
+          "gk_away": "https://i.imgur.com/D4QySml.png",
+          "gk_home": "https://i.imgur.com/7IQsARb.png",
+          "gk_third": "https://i.imgur.com/X7BxTNK.png",
+          "home": "https://i.imgur.com/sKNpXf2.png"
+        }
+      }
+    },
+    "sporting_cristal": {
+      "name": "Sporting Cristal",
+      "logo": "https://dlskits.com/wp-content/uploads/2025/10/dlskits.com-icon-showing-dream-league-soccer-kits-of-football-clubs-150x150.png",
+      "league": "unknown",
+      "seasons": {
+        "2025": {
+          "unknown": "https://i.imgur.com/a8HhvJ5.png"
+        }
+      }
+    },
+    "switzerland": {
+      "name": "Switzerland",
+      "league": "national_team",
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/lvqX4wx.png",
+          "gk_away": "https://i.imgur.com/CYL5zY5.png",
+          "gk_home": "https://i.imgur.com/W2yTBbj.png",
+          "gk_third": "https://i.imgur.com/tqwYT8w.png",
+          "home": "https://i.imgur.com/kOFp1jO.png"
+        }
+      }
+    },
+    "taraji": {
+      "name": "Taraji",
+      "league": "caf",
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/irYlR9Q.png",
+          "gk_away": "https://i.imgur.com/U8Dc2el.png",
+          "gk_home": "https://i.imgur.com/YmTaYGx.png",
+          "home": "https://i.imgur.com/dZ6a2oc.png"
+        }
+      }
+    },
+    "tigres_uanl": {
+      "name": "Tigres UANL",
+      "league": "liga_mx",
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/Oo4w2Wz.png",
+          "gk_away": "https://i.imgur.com/8Yj9UAb.png",
+          "gk_home": "https://i.imgur.com/VY3Wn4c.png",
+          "gk_third": "https://i.imgur.com/LZ2XVRo.png",
+          "home": "https://i.imgur.com/Z0T2RoI.png"
+        }
+      }
+    },
+    "tottenham": {
+      "name": "Tottenham",
+      "league": "premier_league",
+      "is_popular": true,
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/kqReLvP.png",
+          "gk_away": "https://i.imgur.com/58cp7EW.png",
+          "gk_home": "https://i.imgur.com/of0o4pO.png",
+          "gk_third": "https://i.imgur.com/h3eB1HU.png",
+          "home": "https://i.imgur.com/jljuBWW.png",
+          "third": "https://i.imgur.com/lWLktPp.png"
+        }
+      }
+    },
+    "tottenham_premier": {
+      "name": "Tottenham Premier",
+      "logo": "https://dlskits.com/wp-content/uploads/2022/01/DLS-Kits-New-Logo-200x80-1.png",
+      "league": "unknown",
+      "seasons": {
+        "2025": {
+          "unknown": "https://i.imgur.com/3fUx8tj.png"
+        }
+      }
+    },
+    "tunisia": {
+      "name": "Tunisia",
+      "league": "national_team",
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/b48BNxD.png",
+          "gk_away": "https://i.imgur.com/uLfJmrg.png",
+          "gk_home": "https://i.imgur.com/bTSmZIq.png",
+          "gk_third": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiUCFwqxVmKlXv20lO2vvc5c8xM6n5EpBTYVBMxWujdvbYj2dPt1kn50ridD8E9vGqDXKqy918DrPKMRgUR4PKzVldhfbv-jvfCcmd0jIOxLtutQATanKTtZtkj2-Wc4SROI4R6ZigBbm41utCyOFkRSqCI_CHwjjMoN-mCxMsJLoyzVmSwKKJ3Bxbu-Q/s512/T%C3%BAnez%20Qatar%202022%20Portero%20Local.png",
+          "home": "https://i.imgur.com/S70KQPY.png",
+          "third": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh_x6FwKLdyW8Mvx02Oa3PnuqURvHMfGnfSvkq4Z7JDwbW4bim1U9YVk2c5IzeWkgM-GxyCZKsGrux0CPcUffO5o70Cud74iNC7aJw6jzjRYPGSSRnX15skTlwP9uu_DwXP5KbC_WXd7tvw0fH6Exp0dPahqP15AOg5mCYeOyQtnk0qGtlw2ZlvrG70hA/s512/T%C3%BAnez%20Qatar%202022%20Alternativo.png"
+        }
+      }
+    },
+    "uruguay": {
+      "name": "Uruguay",
+      "league": "national_team",
+      "seasons": {
+        "2024": {
+          "away": "https://i.postimg.cc/Kjnz7f9p/Away.png",
+          "gk_away": "https://i.postimg.cc/zGPJg4zX/Gk-Away.png",
+          "gk_home": "https://i.postimg.cc/9frQgC87/Gk-Home.png",
+          "gk_third": "https://i.postimg.cc/Yqd75Tmf/Gk-Third.png",
+          "home": "https://i.postimg.cc/vHFx1gPS/Home.png",
+          "third": "https://i.postimg.cc/vHFx1gPS/Home.png"
+        }
+      }
+    },
+    "usa": {
+      "name": "USA",
+      "league": "national_team",
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/SZkmkif.png",
+          "gk_away": "https://i.imgur.com/OA2tHUM.png",
+          "gk_home": "https://i.imgur.com/TzkQBRD.png",
+          "home": "https://i.imgur.com/eFpZCLt.png"
+        }
+      }
+    },
+    "vasco": {
+      "name": "Vasco",
+      "league": "others",
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/Sth6Pf3.png",
+          "gk_away": "https://i.imgur.com/nbvwOb3.png",
+          "gk_home": "https://i.imgur.com/xAlQq9b.png",
+          "gk_third": "https://i.imgur.com/T7U6cOr.png",
+          "home": "https://i.imgur.com/QiYS99B.png",
+          "third": "https://i.imgur.com/PihvBti.png"
+        }
+      }
+    },
+    "vi_t_nam": {
+      "name": "Việt Nam",
+      "logo": "https://kitdls.net/wp-content/uploads/2023/09/Logo-KitDLS-Net.png",
+      "league": "unknown",
+      "seasons": {
+        "2024": {
+          "away": "https://kitdls.net/wp-content/uploads/2024/12/Viet-Nam-Away-Kit-2025-DLS-25.png",
+          "gk_home": "https://kitdls.net/wp-content/uploads/2024/12/Viet-Nam-GK-Kit-2025-DLS-25.png",
+          "home": "https://kitdls.net/wp-content/uploads/2024/12/Viet-Nam-Home-Kit-2025-DLS-25.png"
+        },
+        "2026": {
+          "away": "https://kitdls.net/wp-content/uploads/2026/01/Viet-nam-away-kit-tet-2026-dls.png",
+          "home": "https://kitdls.net/wp-content/uploads/2026/01/Viet-nam-home-kit-tet-2026-dls.png"
+        }
+      }
+    },
+    "vitoria": {
+      "name": "Vitoria",
+      "league": "brasileirao",
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/N52MV9W.png",
+          "gk_away": "https://i.imgur.com/pzp260o.png",
+          "gk_home": "https://i.imgur.com/b9Iy8Db.png",
+          "gk_third": "https://i.imgur.com/XtWjKCQ.png",
+          "home": "https://i.imgur.com/3PVMKWK.png",
+          "third": "https://i.imgur.com/gZtw9XM.png"
+        }
+      }
+    },
+    "wales": {
+      "name": "Wales",
+      "league": "national_team",
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/6G3LSbv.png",
+          "gk_away": "https://i.imgur.com/1OCQ1k9.png",
+          "gk_home": "https://i.imgur.com/nIl2Tq6.png",
+          "gk_third": "https://i.imgur.com/Ob4rchX.png",
+          "home": "https://i.imgur.com/qsvV6rZ.png",
+          "third": "https://i.imgur.com/sZhE5c5.png"
+        }
+      }
+    },
+    "west_ham_united": {
+      "name": "West Ham United",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/yutyxs1467459956.png",
+      "league": "premier_league",
+      "is_popular": true,
+      "seasons": {
+        "2026": {
+          "home": "https://dlskitsurl.com/wp-content/uploads/2026/03/West-Ham-United-DLS-Kit-2025-26-Home.png"
+        }
+      }
+    },
+    "wolves": {
+      "name": "Wolverhampton Wanderers",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/u9qr031621593327.png",
+      "league": "premier_league",
+      "is_popular": true,
+      "seasons": {
+        "2026": {
+          "home": "https://dlskitsurl.com/wp-content/uploads/2026/03/WOLVES-DLS-Kit-25-26-Home-1.png"
+        }
+      }
+    },
+    "yokohama": {
+      "name": "Yokohama",
+      "league": "japan_league",
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/SHO1Joq.png",
+          "gk_away": "https://i.imgur.com/FfOkHF6.png",
+          "gk_home": "https://i.imgur.com/ALbLmzX.png",
+          "home": "https://i.imgur.com/FguSILh.png"
+        }
+      }
+    },
+    "zamalek": {
+      "name": "Zamalek",
+      "league": "egyptian_premier_league",
+      "seasons": {
+        "2024": {
+          "away": "https://i.imgur.com/dG7ks9O.png",
+          "gk_away": "https://i.imgur.com/WrI3a7O.png",
+          "gk_home": "https://i.imgur.com/RxD772U.png",
+          "home": "https://i.imgur.com/m4TT4g7.png"
         }
       }
     }
