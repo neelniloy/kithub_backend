@@ -136,7 +136,7 @@ func scrape(ctx context.Context, deepSearch bool) error {
 		Version:     1,
 		LastUpdated: time.Now().UTC().Format(time.DateOnly),
 		Leagues:     make(map[string]models.League),
-		Seasons:     make(map[string]models.Season),
+		Teams:       make(map[string]models.Team),
 	}
 
 	// Initialize leagues
@@ -152,7 +152,7 @@ func scrape(ctx context.Context, deepSearch bool) error {
 	var parsedRecords []models.KitRecord
 	var parsedLogos []models.LogoRecord
 
-	// IMPORT EXISTING KITS FROM FIRESTORE (into 2024 season)
+	// IMPORT EXISTING KITS FROM FIRESTORE (into 2024 season by default)
 	if _, err := os.Stat(firestorePath); err == nil {
 		data, _ := os.ReadFile(firestorePath)
 		var fTeams []metadata.FirestoreTeam
@@ -164,7 +164,7 @@ func scrape(ctx context.Context, deepSearch bool) error {
 						parsedRecords = append(parsedRecords, models.KitRecord{
 							TeamID:   teamID,
 							TeamName: ft.Name,
-							Season:   "2024", // Default for existing data
+							Season:   "2024", // Default for existing data (2024-25 season)
 							KitType:  kType,
 							URL:      url,
 							Source:   "firestore",
@@ -213,11 +213,17 @@ func scrape(ctx context.Context, deepSearch bool) error {
 	}
 
 	kitCount := 0
-	teamsWithKits := make(map[string]bool)
-	for _, s := range catalog.Seasons {
-		for teamID, t := range s.Teams {
-			kitCount += len(t.Kits)
-			teamsWithKits[teamID] = true
+	teamsWithKits := 0
+	for _, t := range catalog.Teams {
+		hasKits := false
+		for _, s := range t.Seasons {
+			if len(s) > 0 {
+				kitCount += len(s)
+				hasKits = true
+			}
+		}
+		if hasKits {
+			teamsWithKits++
 		}
 	}
 
@@ -257,8 +263,8 @@ func scrape(ctx context.Context, deepSearch bool) error {
 	teamsData, _ := json.MarshalIndent(newTeamsFile, "", "  ")
 	os.WriteFile(filepath.Join("data", "teams.json"), teamsData, 0644)
 
-	fmt.Printf("Generated kits.json with %d leagues, %d teams with kits, %d kit URLs\n", len(catalog.Leagues), len(teamsWithKits), kitCount)
-	fmt.Printf("Coverage: %d/%d teams in master list have kit data (%.1f%%)\n", len(teamsWithKits), len(store.Teams), float64(len(teamsWithKits))/float64(len(store.Teams))*100)
+	fmt.Printf("Generated kits.json with %d leagues, %d teams with kits, %d kit URLs\n", len(catalog.Leagues), teamsWithKits, kitCount)
+	fmt.Printf("Coverage: %d/%d teams in master list have kit data (%.1f%%)\n", teamsWithKits, len(store.Teams), float64(teamsWithKits)/float64(len(store.Teams))*100)
 	return nil
 }
 
