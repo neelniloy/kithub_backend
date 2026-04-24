@@ -17,26 +17,13 @@ func ExtractSeason(text string) string {
 			continue
 		}
 
-		year, err := strconv.Atoi(match[1])
-		if err != nil {
-			continue
+		// Use the START year as the season identifier (e.g. 2024-25 -> 2024)
+		// This matches the user's expectation where 2025 means the 2025-26 season.
+		year := match[1]
+		if len(year) == 2 {
+			year = "20" + year
 		}
-
-		// Use the end year as the season identifier (e.g. 2024-25 -> 2025)
-		shortYear, ok := parseSeasonEndYear(match[2])
-		if !ok {
-			continue
-		}
-
-		// Normalize to 4 digit year
-		if shortYear < 100 {
-			fullYear := 2000 + shortYear
-			if fullYear < year { // Handle century crossover if necessary, though unlikely here
-				fullYear += 100
-			}
-			return strconv.Itoa(fullYear)
-		}
-		return strconv.Itoa(shortYear)
+		return year
 	}
 
 	for _, match := range shortSeasonRangeRE.FindAllStringSubmatch(text, -1) {
@@ -44,11 +31,8 @@ func ExtractSeason(text string) string {
 			continue
 		}
 
-		endYear, err := strconv.Atoi(match[2])
-		if err != nil {
-			continue
-		}
-		return strconv.Itoa(2000 + endYear)
+		startYear := match[1]
+		return "20" + startYear
 	}
 
 	if match := seasonYearRE.FindStringSubmatch(text); len(match) == 2 {
