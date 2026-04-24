@@ -100,7 +100,9 @@ func scrape(ctx context.Context, deepSearch bool) error {
 		{Name: "sakibpro.com", BaseURL: "https://sakibpro.com/"},
 		{Name: "kuchalana.com", BaseURL: "https://www.kuchalana.com/", SearchParam: "q"},
 		{Name: "dlsguide.com", BaseURL: "https://dlsguide.com/"},
-		{Name: "dlskits.club", BaseURL: "https://dlskits.club/"},
+		{Name: "DLSKits.club", BaseURL: "https://dlskits.club/"},
+		{Name: "DLSKitsHub", BaseURL: "https://dlskitshub.com/"},
+		{Name: "DLSKitsHub-2026", BaseURL: "https://dlskitshub.com/category/dream-league-soccer-kits-2026/"},
 	}
 
 	httpClient := scraper.NewHTTPClient(20 * time.Second)
