@@ -3,7 +3,6 @@ package parser
 import (
 	"net/url"
 	"regexp"
-	"strconv"
 	"strings"
 
 	"github.com/PuerkitoBio/goquery"
@@ -84,12 +83,11 @@ func ParseArticle(page scraper.ArticlePage, matcher *metadata.Matcher) ([]models
 		if season == "" {
 			season = articleSeason
 		}
-
-		// Filter: Skip kits older than 3 seasons (pre-2021)
-		if isOldSeason(season, 2021) {
-			return
+		// Default to 2025 if still empty (most likely current season)
+		if season == "" {
+			season = "2025"
 		}
-		
+
 		kitType := utils.DetectKitType(kitURL)
 		if kitType == "unknown" {
 			kitType = utils.DetectKitType(contextText)
@@ -192,22 +190,7 @@ func surroundingText(s *goquery.Selection) string {
 	return strings.Join(parts, " ")
 }
 
-func isOldSeason(season string, minYear int) bool {
-	if season == "" {
-		return false // Assume current if unknown
-	}
-	// Extract the first 4-digit year found in the season string
-	re := regexp.MustCompile(`\d{4}`)
-	match := re.FindString(season)
-	if match == "" {
-		return false
-	}
-	year, err := strconv.Atoi(match)
-	if err != nil {
-		return false
-	}
-	return year < minYear
-}
+
 
 func looksLikeLogoAsset(kitURL, _ string) bool {
 	assetText := strings.ToLower(kitURL)

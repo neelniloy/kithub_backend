@@ -73,6 +73,18 @@ func scrape(ctx context.Context, deepSearch bool) error {
 			return err
 		}
 	}
+
+	// ALWAYS merge Firestore teams to ensure full coverage (211+ teams)
+	firestorePath := filepath.Join("temp", "_Team.json")
+	if _, err := os.Stat(firestorePath); err == nil {
+		log.Printf("merging existing teams from %s...", firestorePath)
+		if err := store.MergeFirestore(firestorePath); err != nil {
+			log.Printf("Warning: failed to merge firestore teams: %v", err)
+		} else {
+			log.Printf("Metadata store now has %d teams", len(store.Teams))
+		}
+	}
+
 	matcher := metadata.NewMatcher(store)
 
 	sources := []scraper.Source{
@@ -97,27 +109,37 @@ func scrape(ctx context.Context, deepSearch bool) error {
 	})
 
 	var pages []scraper.ArticlePage
-	if deepSearch {
-		teamNames := make([]string, 0, len(store.Teams))
-		for _, t := range store.Teams {
-			teamNames = append(teamNames, t.Name)
-		}
-		pages, err = collector.Search(ctx, sources, teamNames)
-	} else {
-		pages, err = collector.Collect(ctx, sources)
+	// HYBRID MODE: Always do general discovery AND targeted search for best results
+	log.Printf("starting general discovery (latest posts)...")
+	generalPages, genErr := collector.Collect(ctx, sources)
+	if genErr != nil {
+		log.Printf("general discovery partial error: %v", genErr)
 	}
-	if err != nil {
-		log.Printf("completed with source errors: %v", err)
+	pages = append(pages, generalPages...)
+
+	log.Printf("starting targeted team-wise scraping for %d known teams...", len(store.Teams))
+	teamNames := make([]string, 0, len(store.Teams))
+	for _, t := range store.Teams {
+		teamNames = append(teamNames, t.Name)
+	}
+	searchPages, searchErr := collector.Search(ctx, sources, teamNames)
+	if searchErr != nil {
+		log.Printf("targeted search partial error: %v", searchErr)
+	}
+	pages = append(pages, searchPages...)
+	
+	if genErr != nil || searchErr != nil {
+		log.Printf("completed with some source errors")
 	}
 
 	catalog := models.Catalog{
 		Version:     1,
 		LastUpdated: time.Now().UTC().Format(time.DateOnly),
 		Leagues:     make(map[string]models.League),
-		Teams:       make(map[string]models.Team),
+		Seasons:     make(map[string]models.Season),
 	}
 
-	// Initialize catalog
+	// Initialize leagues
 	for _, l := range store.Leagues {
 		catalog.Leagues[l.ID] = models.League{
 			ID:        l.ID,
@@ -126,27 +148,48 @@ func scrape(ctx context.Context, deepSearch bool) error {
 			IsPopular: l.IsPopular,
 		}
 	}
-	for teamID, t := range store.Teams {
-		catalog.Teams[teamID] = models.Team{
-			Name:      t.Name,
-			Logo:      t.Logo,
-			League:    t.League,
-			IsPopular: t.IsPopular,
-			Seasons:   make(map[string]map[string]string),
-		}
-	}
 
 	var parsedRecords []models.KitRecord
 	var parsedLogos []models.LogoRecord
 
-	log.Printf("parsing %d pages...", len(pages))
+	// IMPORT EXISTING KITS FROM FIRESTORE (into 2024 season)
+	if _, err := os.Stat(firestorePath); err == nil {
+		data, _ := os.ReadFile(firestorePath)
+		var fTeams []metadata.FirestoreTeam
+		if err := json.Unmarshal(data, &fTeams); err == nil {
+			for _, ft := range fTeams {
+				teamID := metadata.Slug(ft.Name)
+				add := func(kType, url string) {
+					if url != "" {
+						parsedRecords = append(parsedRecords, models.KitRecord{
+							TeamID:   teamID,
+							TeamName: ft.Name,
+							Season:   "2024", // Default for existing data
+							KitType:  kType,
+							URL:      url,
+							Source:   "firestore",
+							League:   models.League{ID: metadata.Slug(ft.League), Name: ft.League},
+						})
+					}
+				}
+				add("home", ft.Home)
+				add("away", ft.Away)
+				add("third", ft.Third)
+				add("gk_home", ft.GKHome)
+				add("gk_away", ft.GKAway)
+				add("gk_third", ft.GKThird)
+			}
+		}
+	}
+
+	log.Printf("parsing %d scraped pages...", len(pages))
 	for _, page := range pages {
 		records, logos := parser.ParseArticle(page, matcher)
 		parsedRecords = append(parsedRecords, records...)
 		parsedLogos = append(parsedLogos, logos...)
 	}
 
-	// EXTREME MODE: Skip validation for speed
+	// Add kits to catalog
 	log.Printf("found %d potential kits; saving...", len(parsedRecords))
 	for _, record := range parsedRecords {
 		utils.AddKitRecord(&catalog, record)
@@ -170,9 +213,11 @@ func scrape(ctx context.Context, deepSearch bool) error {
 	}
 
 	kitCount := 0
-	for _, t := range catalog.Teams {
-		for _, s := range t.Seasons {
-			kitCount += len(s)
+	teamsWithKits := make(map[string]bool)
+	for _, s := range catalog.Seasons {
+		for teamID, t := range s.Teams {
+			kitCount += len(t.Kits)
+			teamsWithKits[teamID] = true
 		}
 	}
 
@@ -199,7 +244,8 @@ func scrape(ctx context.Context, deepSearch bool) error {
 		LastUpdated: time.Now().UTC().Format(time.RFC3339),
 		Teams:       make(map[string]metadata.Team),
 	}
-	for id, t := range catalog.Teams {
+	// Use store.Teams as base to preserve all teams
+	for id, t := range store.Teams {
 		newTeamsFile.Teams[id] = metadata.Team{
 			ID:        id,
 			Name:      t.Name,
@@ -211,27 +257,12 @@ func scrape(ctx context.Context, deepSearch bool) error {
 	teamsData, _ := json.MarshalIndent(newTeamsFile, "", "  ")
 	os.WriteFile(filepath.Join("data", "teams.json"), teamsData, 0644)
 
-	fmt.Printf("Generated kits.json with %d leagues, %d teams, %d kit URLs\n", len(catalog.Leagues), len(catalog.Teams), kitCount)
-	
-	teamsWithKits := 0
-	for _, team := range catalog.Teams {
-		if len(team.Seasons) > 0 {
-			teamsWithKits++
-		}
-	}
-	fmt.Printf("Coverage: %d/%d teams have kit data (%.1f%%)\n", teamsWithKits, len(catalog.Teams), float64(teamsWithKits)/float64(len(catalog.Teams))*100)
+	fmt.Printf("Generated kits.json with %d leagues, %d teams with kits, %d kit URLs\n", len(catalog.Leagues), len(teamsWithKits), kitCount)
+	fmt.Printf("Coverage: %d/%d teams in master list have kit data (%.1f%%)\n", len(teamsWithKits), len(store.Teams), float64(len(teamsWithKits))/float64(len(store.Teams))*100)
 	return nil
 }
 
-func countTeamLogos(catalog models.Catalog) int {
-	count := 0
-	for _, team := range catalog.Teams {
-		if team.Logo != "" {
-			count++
-		}
-	}
-	return count
-}
+
 
 func validateKitURLs(ctx context.Context, client *scraper.HTTPClient, records []models.KitRecord, maxConcurrency int) []models.KitRecord {
 	if maxConcurrency <= 0 {

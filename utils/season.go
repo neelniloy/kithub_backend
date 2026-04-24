@@ -1,7 +1,6 @@
 package utils
 
 import (
-	"fmt"
 	"regexp"
 	"strconv"
 )
@@ -23,13 +22,21 @@ func ExtractSeason(text string) string {
 			continue
 		}
 
-		expectedShortYear := (year + 1) % 100
+		// Use the end year as the season identifier (e.g. 2024-25 -> 2025)
 		shortYear, ok := parseSeasonEndYear(match[2])
-		if !ok || shortYear != expectedShortYear {
+		if !ok {
 			continue
 		}
 
-		return fmt.Sprintf("%d-%02d", year, shortYear)
+		// Normalize to 4 digit year
+		if shortYear < 100 {
+			fullYear := 2000 + shortYear
+			if fullYear < year { // Handle century crossover if necessary, though unlikely here
+				fullYear += 100
+			}
+			return strconv.Itoa(fullYear)
+		}
+		return strconv.Itoa(shortYear)
 	}
 
 	for _, match := range shortSeasonRangeRE.FindAllStringSubmatch(text, -1) {
@@ -37,30 +44,23 @@ func ExtractSeason(text string) string {
 			continue
 		}
 
-		startYear, err := strconv.Atoi(match[1])
-		if err != nil {
-			continue
-		}
 		endYear, err := strconv.Atoi(match[2])
 		if err != nil {
 			continue
 		}
-		if endYear != startYear+1 {
-			continue
-		}
-
-		return fmt.Sprintf("20%02d-%02d", startYear, endYear)
+		return strconv.Itoa(2000 + endYear)
 	}
 
 	if match := seasonYearRE.FindStringSubmatch(text); len(match) == 2 {
-		year, err := strconv.Atoi(match[1])
-		if err != nil {
-			return ""
-		}
-		return fmt.Sprintf("%d-%02d", year, (year+1)%100)
+		return match[1]
 	}
 
 	return ""
+}
+
+func IsValidSeason(season string) bool {
+	// Only allow 2024, 2025, 2026
+	return season == "2024" || season == "2025" || season == "2026"
 }
 
 func parseSeasonEndYear(value string) (int, bool) {

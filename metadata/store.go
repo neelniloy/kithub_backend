@@ -30,6 +30,60 @@ func Save(dir string, store Store) error {
 	return nil
 }
 
+type FirestoreTeam struct {
+	ID        string `json:"teamId"`
+	Name      string `json:"teamName"`
+	Logo      string `json:"teamLogo"`
+	League    string `json:"league"`
+	Home      string `json:"homeKit"`
+	Away      string `json:"awayKit"`
+	Third     string `json:"thirdKit"`
+	GKHome    string `json:"goalHome"`
+	GKAway    string `json:"goalAway"`
+	GKThird   string `json:"goalThird"`
+	Trending  bool   `json:"trending"`
+}
+
+func (s *Store) MergeFirestore(path string) error {
+	data, err := os.ReadFile(path)
+	if err != nil {
+		return err
+	}
+
+	var fTeams []FirestoreTeam
+	if err := json.Unmarshal(data, &fTeams); err != nil {
+		return err
+	}
+
+	for _, ft := range fTeams {
+		if ft.Name == "" {
+			continue
+		}
+
+		teamID := Slug(ft.Name)
+		leagueID := Slug(ft.League)
+
+		if _, exists := s.Leagues[leagueID]; !exists && ft.League != "" {
+			s.Leagues[leagueID] = League{
+				ID:   leagueID,
+				Name: ft.League,
+			}
+		}
+
+		if _, exists := s.Teams[teamID]; !exists {
+			s.Teams[teamID] = Team{
+				ID:        teamID,
+				Name:      ft.Name,
+				Logo:      ft.Logo,
+				League:    leagueID,
+				IsPopular: ft.Trending,
+				Source:    "firestore",
+			}
+		}
+	}
+	return nil
+}
+
 func Load(dir string) (Store, error) {
 	store := Store{
 		Leagues: make(map[string]League),

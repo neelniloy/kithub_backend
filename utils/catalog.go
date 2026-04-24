@@ -7,6 +7,16 @@ func AddKitRecord(catalog *models.Catalog, record models.KitRecord) {
 		return
 	}
 
+	// Filter for only valid seasons (2024, 2025, 2026)
+	if !IsValidSeason(record.Season) {
+		// If it's "Imported", we'll default it to 2024 if it's not already in a better season
+		if record.Season == "Imported" {
+			record.Season = "2024"
+		} else {
+			return
+		}
+	}
+
 	league := record.League
 	if league.Logo == "" {
 		league.Logo = leagueLogos[league.ID]
@@ -14,52 +24,60 @@ func AddKitRecord(catalog *models.Catalog, record models.KitRecord) {
 	league.IsPopular = league.IsPopular || isPopularLeague(league.ID)
 	catalog.Leagues[league.ID] = league
 
-	team, ok := catalog.Teams[record.TeamID]
+	if catalog.Seasons == nil {
+		catalog.Seasons = make(map[string]models.Season)
+	}
+
+	season, ok := catalog.Seasons[record.Season]
+	if !ok {
+		season = models.Season{
+			Teams: make(map[string]models.TeamKits),
+		}
+	}
+
+	team, ok := season.Teams[record.TeamID]
 	if !ok {
 		logo := record.TeamLogo
 		if teamLogos[record.TeamID] != "" {
 			logo = teamLogos[record.TeamID]
 		}
-		team = models.Team{
+		team = models.TeamKits{
 			Name:      record.TeamName,
 			Logo:      logo,
 			League:    league.ID,
 			IsPopular: record.TeamPopular || isPopularTeam(record.TeamID) || league.IsPopular,
-			Seasons:   make(map[string]map[string]string),
+			Kits:      make(map[string]string),
 		}
 	}
 
-	if team.Seasons == nil {
-		team.Seasons = make(map[string]map[string]string)
-	}
-	if team.Seasons[record.Season] == nil {
-		team.Seasons[record.Season] = make(map[string]string)
+	if team.Kits == nil {
+		team.Kits = make(map[string]string)
 	}
 
-	if _, exists := team.Seasons[record.Season][record.KitType]; !exists {
-		team.Seasons[record.Season][record.KitType] = record.URL
+	if _, exists := team.Kits[record.KitType]; !exists {
+		team.Kits[record.KitType] = record.URL
 	}
 
-	catalog.Teams[record.TeamID] = team
+	season.Teams[record.TeamID] = team
+	catalog.Seasons[record.Season] = season
 }
 
 func ApplyTeamLogos(catalog *models.Catalog, logos map[string]string) {
-	for teamID, scrapedLogo := range logos {
-		team, ok := catalog.Teams[teamID]
-		if !ok {
-			continue
-		}
+	for seasonID, season := range catalog.Seasons {
+		for teamID, team := range season.Teams {
+			if team.Logo != "" {
+				continue
+			}
 
-		if team.Logo != "" {
-			continue
+			if scrapedLogo, ok := logos[teamID]; ok && scrapedLogo != "" {
+				if predefinedLogo := teamLogos[teamID]; predefinedLogo != "" {
+					team.Logo = predefinedLogo
+				} else {
+					team.Logo = scrapedLogo
+				}
+				season.Teams[teamID] = team
+			}
 		}
-
-		if predefinedLogo := teamLogos[teamID]; predefinedLogo != "" {
-			team.Logo = predefinedLogo
-		} else {
-			team.Logo = scrapedLogo
-		}
-
-		catalog.Teams[teamID] = team
+		catalog.Seasons[seasonID] = season
 	}
 }

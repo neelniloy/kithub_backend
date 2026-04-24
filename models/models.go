@@ -4,7 +4,11 @@ type Catalog struct {
 	Version     int               `json:"version"`
 	LastUpdated string            `json:"last_updated"`
 	Leagues     map[string]League `json:"leagues"`
-	Teams       map[string]Team   `json:"teams"`
+	Seasons     map[string]Season `json:"seasons"`
+}
+
+type Season struct {
+	Teams map[string]TeamKits `json:"teams"`
 }
 
 type League struct {
@@ -12,6 +16,14 @@ type League struct {
 	Name      string `json:"name"`
 	Logo      string `json:"logo,omitempty"`
 	IsPopular bool   `json:"is_popular,omitempty"`
+}
+
+type TeamKits struct {
+	Name      string            `json:"name"`
+	Logo      string            `json:"logo,omitempty"`
+	League    string            `json:"league"`
+	IsPopular bool              `json:"is_popular,omitempty"`
+	Kits      map[string]string `json:"kits"`
 }
 
 type Team struct {
