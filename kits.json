@@ -312,6 +312,9 @@
           "gk_away": "https://i.imgur.com/uA8wKPw.png",
           "gk_home": "https://i.imgur.com/gsljviY.png",
           "home": "https://i.imgur.com/JoYOLAz.png"
+        },
+        "2025": {
+          "unknown": "https://img.dreamkitsapp.com/flags/pt.png"
         }
       }
     },
@@ -984,6 +987,9 @@
           "gk_third": "https://i.imgur.com/SUcKOj2.png",
           "home": "https://i.imgur.com/acBcj3E.png",
           "third": "https://i.imgur.com/AIba6uc.png"
+        },
+        "2026": {
+          "home": "https://img.dreamkitsapp.com/kits/canada-home-fifa-world-cup-2026-dls26.png"
         }
       }
     },
@@ -1518,12 +1524,12 @@
         }
       }
     },
-    "equipement_domicile_panama_512x512": {
-      "name": "Equipement Domicile Panama 512x512",
+    "equipement_domicile_peru_512x512": {
+      "name": "Equipement Domicile Peru 512x512",
       "league": "unknown",
       "seasons": {
         "2024": {
-          "home": "https://img.dreamkitsapp.com/kits/panama-home-2024-dls19.png"
+          "home": "https://img.dreamkitsapp.com/kits/peru-home-2024-dls24.png"
         }
       }
     },
@@ -1643,17 +1649,6 @@
         }
       }
     },
-    "fc_heidenheim": {
-      "name": "FC Heidenheim",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/lbj7g01608236988.png",
-      "league": "bundesliga",
-      "is_popular": true,
-      "seasons": {
-        "2024": {
-          "home": "https://img.dreamkitsapp.com/kits/fc-heidenheim-home-2025-dls19.png"
-        }
-      }
-    },
     "fc_koln": {
       "name": "FC Köln",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/2j1sc91566049407.png",
@@ -1668,16 +1663,6 @@
           "home": "https://dlskitshub.com/wp-content/uploads/Dream-League-Soccer-DLS-512%C3%97512-FC-Koln-Home-Kits-300x300.png",
           "third": "https://dlskitshub.com/wp-content/uploads/Dream-League-Soccer-DLS-512%C3%97512-FC-Koln-Third-Kits.png",
           "unknown": "https://imgur.com/75pb0fF.png"
-        }
-      }
-    },
-    "fc_nordsj_lland": {
-      "name": "FC Nordsjælland",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/p2hof41579460164.png",
-      "league": "danish_superliga",
-      "seasons": {
-        "2025": {
-          "unknown": "https://img.dreamkitsapp.com/flags/pt.png"
         }
       }
     },
@@ -2142,9 +2127,6 @@
           "gk_home": "https://i.imgur.com/R3c8P84.png",
           "home": "https://i.imgur.com/0DYnvDz.png",
           "third": "https://i.imgur.com/YFv27x4.png"
-        },
-        "2025": {
-          "unknown": "https://img.dreamkitsapp.com/flags/pt.png"
         }
       }
     },
@@ -2310,7 +2292,7 @@
         "2025": {
           "away": "https://kitdls.net/wp-content/uploads/2025/05/Juventus-Away-Kit-V2-25-26-DLS-25.png",
           "gk_home": "https://kitdls.net/wp-content/uploads/2025/02/Juventus-GK-Kit-25-26-DLS-25.png",
-          "home": "https://kitdls.net/wp-content/uploads/2025/05/Juventus-Home-Kit-V2-25-26-DLS-25.png",
+          "home": "https://img.dreamkitsapp.com/kits/juventus-home-serie-a-2025-2026-dls25.png",
           "third": "https://kitdls.net/wp-content/uploads/2025/08/Juventus-Third-25-26-DLS-25.png",
           "unknown": "https://i.imgur.com/CBkA2rn.png"
         },
@@ -2733,7 +2715,7 @@
     },
     "manchester_city": {
       "name": "Manchester City",
-      "logo": "https://dlskits.com/wp-content/uploads/2025/10/dlskits.com-icon-showing-dream-league-soccer-kits-of-football-clubs-150x150.png",
+      "logo": "https://dlskits.com/wp-content/uploads/2022/01/DLS-Kits-New-Logo-200x80-1.png",
       "league": "premier_league",
       "is_popular": true,
       "seasons": {
@@ -3799,6 +3781,16 @@
         }
       }
     },
+    "selkirk": {
+      "name": "Selkirk",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/uc4hka1641776959.png",
+      "league": "scottish_premiership",
+      "seasons": {
+        "2025": {
+          "unknown": "https://img.dreamkitsapp.com/flags/pt.png"
+        }
+      }
+    },
     "senegal": {
       "name": "Senegal",
       "logo": "https://kitdls.net/wp-content/uploads/2023/09/Logo-KitDLS-Net.png",
@@ -4174,13 +4166,12 @@
         }
       }
     },
-    "uniformes": {
-      "name": "Uniformes",
-      "logo": "https://img.dreamkitsapp.com/icon.png",
+    "uncategorized": {
+      "name": "Uncategorized",
       "league": "unknown",
       "seasons": {
         "2025": {
-          "home": "https://img.dreamkitsapp.com/kits/millonarios-fc-home-2025-dls25.png"
+          "unknown": "https://img.dreamkitsapp.com/flags/pt.png"
         }
       }
     },
