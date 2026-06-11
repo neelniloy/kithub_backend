@@ -1076,9 +1076,6 @@
           "gk_home": "https://i.imgur.com/zzHwp1W.png",
           "home": "https://i.imgur.com/Lyy0tk7.png",
           "third": "https://i.imgur.com/C6CUyDk.png"
-        },
-        "2025": {
-          "unknown": "https://img.dreamkitsapp.com/flags/pt.png"
         }
       }
     },
@@ -1099,7 +1096,7 @@
     },
     "chelsea": {
       "name": "Chelsea",
-      "logo": "https://dlskitshub.com/wp-content/uploads/2019/12/Chelsea-Logo-PNG-DLS-300x300.png",
+      "logo": "https://dlskits.com/wp-content/uploads/2022/01/DLS-Kits-New-Logo-200x80-1.png",
       "league": "premier_league",
       "is_popular": true,
       "seasons": {
@@ -1114,9 +1111,9 @@
         },
         "2025": {
           "away": "https://kitdls.net/wp-content/uploads/2025/02/Chelsea-Away-Kit-25-26-DLS-25.png",
-          "home": "https://img.dreamkitsapp.com/kits/chelsea-home-fifa-club-world-cup-2025-dls19.png",
+          "home": "https://kitdls.net/wp-content/uploads/2025/02/Chelsea-Home-Kit-25-26-DLS-25.png",
           "third": "https://kitdls.net/wp-content/uploads/2025/02/Chelsea-Third-Kit-25-26-DLS-25.png",
-          "unknown": "https://kitdls.net/wp-content/uploads/2025/05/Chelsea-GK1-Kit-25-26-DLS-25.png"
+          "unknown": "https://i.imgur.com/0IfUJGM.png"
         },
         "2026": {
           "away": "https://dlskitshub.com/wp-content/uploads/Dream-League-Soccer-DLS-512%C3%97512-Sparta-Rotterdam-Away-Kits-145x100.png",
@@ -1376,9 +1373,6 @@
       "league": "la_liga",
       "is_popular": true,
       "seasons": {
-        "2025": {
-          "unknown": "https://img.dreamkitsapp.com/flags/pt.png"
-        },
         "2026": {
           "away": "https://dlskitshub.com/wp-content/uploads/Dream-League-Soccer-DLS-512%C3%97512-Deportivo-Alaves-Away-Kits-300x300.png",
           "gk_away": "https://dlskitshub.com/wp-content/uploads/Dream-League-Soccer-DLS-512%C3%97512-Deportivo-Alaves-GoalKeeper-Away-Kits.png",
@@ -1387,6 +1381,16 @@
           "home": "https://dlskitshub.com/wp-content/uploads/Dream-League-Soccer-DLS-512%C3%97512-Deportivo-Alaves-Home-Kits-300x300.png",
           "third": "https://dlskitshub.com/wp-content/uploads/Dream-League-Soccer-DLS-512%C3%97512-Deportivo-Alaves-Third-Kits-300x300.png",
           "unknown": "https://i.imgur.com/eI8S5m5.png"
+        }
+      }
+    },
+    "derby_county": {
+      "name": "Derby County",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/jioo4z1557155744.png",
+      "league": "championship",
+      "seasons": {
+        "2025": {
+          "unknown": "https://img.dreamkitsapp.com/flags/pt.png"
         }
       }
     },
@@ -1498,7 +1502,7 @@
     },
     "england": {
       "name": "England",
-      "logo": "https://kitdls.net/wp-content/uploads/2023/09/Logo-KitDLS-Net.png",
+      "logo": "https://dlskitsurl.com/wp-content/uploads/2026/03/premier-league-logo-png-transparent.png",
       "league": "national_team",
       "seasons": {
         "2024": {
@@ -1507,6 +1511,9 @@
           "gk_home": "https://i.imgur.com/l1kvLZJ.png",
           "gk_third": "https://i.imgur.com/nPbU2X1.png",
           "home": "https://i.imgur.com/qA6YZt5.png"
+        },
+        "2025": {
+          "unknown": "https://img.dreamkitsapp.com/flags/pt.png"
         },
         "2026": {
           "away": "https://kitdls.net/wp-content/uploads/2026/02/England-Away-Kit-2026-DLS.png",
@@ -1522,6 +1529,15 @@
       "seasons": {
         "2025": {
           "unknown": "https://img.dreamkitsapp.com/flags/en.png"
+        }
+      }
+    },
+    "equipamento_titular_emelec_512x512": {
+      "name": "Equipamento Titular Emelec 512x512",
+      "league": "unknown",
+      "seasons": {
+        "2024": {
+          "home": "https://img.dreamkitsapp.com/kits/emelec-home-2024-dls24.png"
         }
       }
     },
@@ -2287,7 +2303,7 @@
         "2025": {
           "away": "https://kitdls.net/wp-content/uploads/2025/05/Juventus-Away-Kit-V2-25-26-DLS-25.png",
           "gk_home": "https://kitdls.net/wp-content/uploads/2025/02/Juventus-GK-Kit-25-26-DLS-25.png",
-          "home": "https://kitdls.net/wp-content/uploads/2025/05/Juventus-Home-Kit-V2-25-26-DLS-25.png",
+          "home": "https://img.dreamkitsapp.com/kits/juventus-home-serie-a-2025-2026-dls25.png",
           "third": "https://kitdls.net/wp-content/uploads/2025/08/Juventus-Third-25-26-DLS-25.png",
           "unknown": "https://i.imgur.com/CBkA2rn.png"
         },
@@ -2357,9 +2373,6 @@
           "gk_home": "https://i.imgur.com/eYxaIjf.png",
           "home": "https://i.imgur.com/2GL5IIB.png",
           "third": "https://i.imgur.com/w2ch5QF.png"
-        },
-        "2025": {
-          "unknown": "https://img.dreamkitsapp.com/flags/pt.png"
         }
       }
     },
@@ -2388,6 +2401,9 @@
           "gk_third": "https://i.imgur.com/adYJpyD.png",
           "home": "https://i.imgur.com/u0BjzjO.png",
           "third": "https://i.imgur.com/yY80S3h.png"
+        },
+        "2025": {
+          "unknown": "https://img.dreamkitsapp.com/flags/pt.png"
         }
       }
     },
@@ -2862,6 +2878,9 @@
           "home": "https://i.imgur.com/86ObyCH.png",
           "third": "https://i.imgur.com/PRZZTnY.png"
         },
+        "2025": {
+          "home": "https://img.dreamkitsapp.com/kits/as-monaco-home-ligue-1-2025-2026-dls25.png"
+        },
         "2026": {
           "away": "https://dlskitshub.com/wp-content/uploads/Dream-League-Soccer-DLS-512%C3%97512-Sparta-Rotterdam-Away-Kits-145x100.png",
           "home": "https://dlskitshub.com/wp-content/uploads/Dream-League-Soccer-DLS-512%C3%97512-Caracas-FC-Home-Kits-145x100.png",
@@ -3108,9 +3127,6 @@
       "league": "premier_league",
       "is_popular": true,
       "seasons": {
-        "2025": {
-          "home": "https://img.dreamkitsapp.com/kits/nottingham-forest-fc-home-premier-league-2025-2026-dls25.png"
-        },
         "2026": {
           "away": "https://dlskitshub.com/wp-content/uploads/Dream-League-Soccer-DLS-512%C3%97512-Nottingham-Forest-Away-Kits-300x300.png",
           "gk_away": "https://dlskitshub.com/wp-content/uploads/Dream-League-Soccer-DLS-512%C3%97512-Nottingham-Forest-GoalKeeper-Away-Kits-300x300.png",
@@ -3340,8 +3356,7 @@
           "away": "https://dlskitshub.com/wp-content/uploads/Dream-League-Soccer-DLS-512%C3%97512-Fulham-FC-Away-Kits-375x195.png",
           "gk_away": "https://dlskitshub.com/wp-content/uploads/Dream-League-Soccer-DLS-512%C3%97512-Cardiff-City-FC-GoalKeeper-Away-Kits-375x195.png",
           "home": "https://dlskitshub.com/wp-content/uploads/Dream-League-Soccer-DLS-512%C3%97512-Nottingham-Forest-Home-Kits-375x195.png",
-          "third": "https://dlskitshub.com/wp-content/uploads/Dream-League-Soccer-DLS-512%C3%97512-Leeds-United-Third-Kits-375x195.png",
-          "unknown": "https://i.imgur.com/0IfUJGM.png"
+          "third": "https://dlskitshub.com/wp-content/uploads/Dream-League-Soccer-DLS-512%C3%97512-Leeds-United-Third-Kits-375x195.png"
         }
       }
     },
@@ -3380,16 +3395,6 @@
           "gk_away": "https://i.imgur.com/4Hp25Hx.png",
           "gk_home": "https://i.imgur.com/fyS4mNR.png",
           "home": "https://i.imgur.com/OUv75jd.png"
-        }
-      }
-    },
-    "psv_eindhoven": {
-      "name": "PSV Eindhoven",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/xfsz6i1721297428.png",
-      "league": "eredivisie",
-      "seasons": {
-        "2024": {
-          "home": "https://img.dreamkitsapp.com/kits/psv-eindhoven-home-2025-dls.png"
         }
       }
     },
@@ -4168,16 +4173,6 @@
           "home": "https://dlskitshub.com/wp-content/uploads/Dream-League-Soccer-DLS-512%C3%97512-Udinese-Calcio-Home-Kits-300x300.png",
           "third": "https://dlskitshub.com/wp-content/uploads/Dream-League-Soccer-DLS-512%C3%97512-Udinese-Calcio-Third-Kits-300x300.png",
           "unknown": "https://i.imgur.com/FjovIfz.png"
-        }
-      }
-    },
-    "uniformes": {
-      "name": "Uniformes",
-      "logo": "https://img.dreamkitsapp.com/icon.png",
-      "league": "unknown",
-      "seasons": {
-        "2026": {
-          "home": "https://img.dreamkitsapp.com/kits/united-states-home-fifa-world-cup-2026-dls26.png"
         }
       }
     },
