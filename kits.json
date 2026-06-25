@@ -798,7 +798,7 @@
         },
         "2025": {
           "away": "https://kitdls.net/wp-content/uploads/2025/02/Borussia-Dortmund-Away-Kit-25-26-DLS-25.png",
-          "home": "https://img.dreamkitsapp.com/kits/borussia-dortmund-home-bundesliga-2025-2026-dls19.png",
+          "home": "https://kitdls.net/wp-content/uploads/2025/02/Borussia-Dortmund-Home-Kit-25-26-DLS-25.png",
           "third": "https://kitdls.net/wp-content/uploads/2025/02/Borussia-Dortmund-Third-Kit-25-26-DLS-25.png",
           "unknown": "https://kitdls.net/wp-content/uploads/2025/02/Borussia-Dortmund-GK1-Kit-25-26-DLS-25.png"
         },
@@ -897,6 +897,16 @@
           "home": "https://dlskitshub.com/wp-content/uploads/Dream-League-Soccer-DLS-512%C3%97512-Brighton-FC-Home-Kits-300x300.png",
           "third": "https://dlskitshub.com/wp-content/uploads/Dream-League-Soccer-DLS-512%C3%97512-Brighton-FC-Third-Kit-300x300.png",
           "unknown": "https://i.imgur.com/R2APYVv.png"
+        }
+      }
+    },
+    "bundesliga": {
+      "name": "Bundesliga",
+      "logo": "https://kitdls.net/wp-content/uploads/2023/09/Logo-KitDLS-Net.png",
+      "league": "unknown",
+      "seasons": {
+        "2025": {
+          "unknown": "https://img.dreamkitsapp.com/flags/pt.png"
         }
       }
     },
@@ -1458,9 +1468,6 @@
       "league": "bundesliga",
       "is_popular": true,
       "seasons": {
-        "2024": {
-          "home": "https://img.dreamkitsapp.com/kits/eintracht-frankfurt-home-2025-dls.png"
-        },
         "2026": {
           "away": "https://dlskitshub.com/wp-content/uploads/Dream-League-Soccer-DLS-512%C3%97512-Eintracht-Frankfurt-Away-Kits-300x300.png",
           "gk_away": "https://dlskitshub.com/wp-content/uploads/Dream-League-Soccer-DLS-512%C3%97512-Eintracht-Frankfurt-GoalKeeper-Away-Kits.png",
@@ -1507,7 +1514,7 @@
     },
     "england": {
       "name": "England",
-      "logo": "https://kitdls.net/wp-content/uploads/2023/09/Logo-KitDLS-Net.png",
+      "logo": "https://dlskitsurl.com/wp-content/uploads/2026/03/premier-league-logo-png-transparent.png",
       "league": "national_team",
       "seasons": {
         "2024": {
@@ -1531,6 +1538,24 @@
       "seasons": {
         "2025": {
           "unknown": "https://img.dreamkitsapp.com/flags/en.png"
+        }
+      }
+    },
+    "equipement_domicile_austria_512x512": {
+      "name": "Equipement Domicile Austria 512x512",
+      "league": "unknown",
+      "seasons": {
+        "2026": {
+          "home": "https://img.dreamkitsapp.com/kits/austria-home-fifa-world-cup-2026-dls26.png"
+        }
+      }
+    },
+    "equipement_domicile_paraguay_512x512": {
+      "name": "Equipement Domicile Paraguay 512x512",
+      "league": "unknown",
+      "seasons": {
+        "2026": {
+          "home": "https://img.dreamkitsapp.com/kits/paraguay-home-fifa-world-cup-2026-dls26.png"
         }
       }
     },
@@ -1941,6 +1966,9 @@
           "gk_third": "https://i.imgur.com/IIohcnf.png",
           "home": "https://i.imgur.com/hoFwmMP.png",
           "third": "https://i.ibb.co/9Vh0Qkm/p1.png"
+        },
+        "2026": {
+          "home": "https://img.dreamkitsapp.com/kits/ghana-home-fifa-world-cup-2026-dls26.png"
         }
       }
     },
@@ -2537,6 +2565,9 @@
       "league": "ligue_1",
       "is_popular": true,
       "seasons": {
+        "2025": {
+          "home": "https://img.dreamkitsapp.com/kits/lille-olympique-sporting-club-home-ligue-1-2025-2026-dls25.png"
+        },
         "2026": {
           "away": "https://dlskitshub.com/wp-content/uploads/Dream-League-Soccer-DLS-512%C3%97512-Lille-LOSC-FC-Away-Kits-300x300.png",
           "gk_away": "https://dlskitshub.com/wp-content/uploads/Dream-League-Soccer-DLS-512%C3%97512-Lille-LOSC-FC-GoalKeeper-Away-Kits-300x300.png",
@@ -2806,9 +2837,6 @@
       "league": "ligue_1",
       "is_popular": true,
       "seasons": {
-        "2025": {
-          "unknown": "https://img.dreamkitsapp.com/flags/pt.png"
-        },
         "2026": {
           "away": "https://dlskitshub.com/wp-content/uploads/Dream-League-Soccer-DLS-512%C3%97512-FC-Metz-Away-Kits-300x300.png",
           "gk_away": "https://dlskitshub.com/wp-content/uploads/Dream-League-Soccer-DLS-512%C3%97512-FC-Metz-GoalKeeper-Away-Kits.png",
@@ -3072,9 +3100,6 @@
       "league": "ligue_1",
       "is_popular": true,
       "seasons": {
-        "2025": {
-          "home": "https://img.dreamkitsapp.com/kits/ogc-nice-home-ligue-1-2025-2026-dls25.png"
-        },
         "2026": {
           "away": "https://dlskitshub.com/wp-content/uploads/Dream-League-Soccer-DLS-512%C3%97512-OGC-Nice-Away-Kits-300x300.png",
           "gk_away": "https://dlskitshub.com/wp-content/uploads/Dream-League-Soccer-DLS-512%C3%97512-OGC-Nice-GoalKeeper-Away-Kits-300x300.png",
@@ -3496,7 +3521,7 @@
     },
     "real_madrid": {
       "name": "Real Madrid",
-      "logo": "https://dlskits.com/wp-content/uploads/2025/10/dlskits.com-icon-showing-dream-league-soccer-kits-of-football-clubs-150x150.png",
+      "logo": "https://dlskits.com/wp-content/uploads/2022/01/DLS-Kits-New-Logo-200x80-1.png",
       "league": "la_liga",
       "is_popular": true,
       "seasons": {
@@ -3528,9 +3553,6 @@
       "league": "la_liga",
       "is_popular": true,
       "seasons": {
-        "2025": {
-          "home": "https://img.dreamkitsapp.com/kits/real-sociedad-home-laliga-ea-sports-2025-2026-dls25.png"
-        },
         "2026": {
           "away": "https://dlskitshub.com/wp-content/uploads/Dream-League-Soccer-DLS-512%C3%97512-Real-Sociedad-Away-Kits-300x300.png",
           "gk_away": "https://dlskitshub.com/wp-content/uploads/Dream-League-Soccer-DLS-512%C3%97512-Real-Sociedad-GoalKeeper-Away-Kits-300x300.png",
@@ -4270,6 +4292,16 @@
           "gk_third": "https://i.imgur.com/T7U6cOr.png",
           "home": "https://i.imgur.com/QiYS99B.png",
           "third": "https://i.imgur.com/PihvBti.png"
+        }
+      }
+    },
+    "vejle": {
+      "name": "Vejle",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/fhlqev1532855346.png",
+      "league": "danish_superliga",
+      "seasons": {
+        "2025": {
+          "unknown": "https://img.dreamkitsapp.com/flags/pt.png"
         }
       }
     },
