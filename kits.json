@@ -283,7 +283,7 @@
         },
         "2025": {
           "away": "https://kitdls.net/wp-content/uploads/2025/02/Al-Nassr-Away-25-26-DLS-25.png",
-          "home": "https://img.dreamkitsapp.com/kits/al-nassr-home-saudi-pro-league-2025-2026-dls25.png",
+          "home": "https://kitdls.net/wp-content/uploads/2025/02/Al-Nassr-Home-25-26-DLS-25.png",
           "third": "https://kitdls.net/wp-content/uploads/2025/02/Al-Nassr-Third-25-26-DLS-25.png",
           "unknown": "https://dlskitsurl.com/wp-content/uploads/2025/11/1.png"
         }
@@ -469,9 +469,6 @@
       "league": "serie_a",
       "is_popular": true,
       "seasons": {
-        "2025": {
-          "unknown": "https://img.dreamkitsapp.com/flags/pt.png"
-        },
         "2026": {
           "away": "https://dlskitshub.com/wp-content/uploads/Dream-League-Soccer-DLS-512%C3%97512-Atalanta-Away-Kits-300x300.png",
           "gk_away": "https://dlskitshub.com/wp-content/uploads/Dream-League-Soccer-DLS-512%C3%97512-Atalanta-GoalKeeper-Away-Kits-300x300.png",
@@ -489,9 +486,6 @@
       "league": "la_liga",
       "is_popular": true,
       "seasons": {
-        "2025": {
-          "unknown": "https://img.dreamkitsapp.com/flags/pt.png"
-        },
         "2026": {
           "away": "https://dlskitshub.com/wp-content/uploads/Dream-League-Soccer-DLS-512%C3%97512-Sparta-Rotterdam-Away-Kits-145x100.png",
           "home": "https://dlskitshub.com/wp-content/uploads/Dream-League-Soccer-DLS-512%C3%97512-Caracas-FC-Home-Kits-145x100.png",
@@ -1309,6 +1303,9 @@
           "gk_third": "https://i.imgur.com/54e1GWt.png",
           "home": "https://i.imgur.com/NV7H264.png",
           "third": "https://i.imgur.com/T9xQKWm.png"
+        },
+        "2025": {
+          "home": "https://img.dreamkitsapp.com/kits/cruzeiro-esporte-clube-home-brasileirao-2025-dls25.png"
         }
       }
     },
@@ -1991,6 +1988,9 @@
           "home": "https://i.imgur.com/jWluiSf.png",
           "third": "https://i.imgur.com/NZuTo2r.png"
         },
+        "2025": {
+          "unknown": "https://img.dreamkitsapp.com/flags/pt.png"
+        },
         "2026": {
           "away": "https://dlskitshub.com/wp-content/uploads/Dream-League-Soccer-DLS-512%C3%97512-Gremio-Away-Kits-300x300.png",
           "gk_away": "https://dlskitshub.com/wp-content/uploads/Dream-League-Soccer-DLS-512%C3%97512-Gremio-GoalKeeper-Away-Kits-300x300.png",
@@ -2193,6 +2193,7 @@
           "third": "https://i.imgur.com/IgBTAZn.png"
         },
         "2025": {
+          "home": "https://img.dreamkitsapp.com/kits/inter-milan-home-serie-a-2025-2026-dls19.png",
           "unknown": "https://dlskits.com/wp-content/uploads/2025/08/Inter-Milan-2025-26-Dream-League-Soccer-Kits-For-DLS-25.png"
         },
         "2026": {
@@ -2792,9 +2793,6 @@
           "home": "https://i.imgur.com/gDbGEL1.png",
           "third": "https://i.imgur.com/ChvqTDM.png"
         },
-        "2025": {
-          "unknown": "https://img.dreamkitsapp.com/flags/pt.png"
-        },
         "2026": {
           "away": "https://dlskitshub.com/wp-content/uploads/Dream-League-Soccer-DLS-512%C3%97512-Olympique-Marseille-Away-Kits-300x300.png",
           "gk_away": "https://dlskitshub.com/wp-content/uploads/Dream-League-Soccer-DLS-512%C3%97512-Olympique-Marseille-GoalKeeper-Away-Kits-300x300.png",
@@ -3075,6 +3073,9 @@
       "league": "ligue_1",
       "is_popular": true,
       "seasons": {
+        "2025": {
+          "home": "https://img.dreamkitsapp.com/kits/ogc-nice-home-ligue-1-2025-2026-dls25.png"
+        },
         "2026": {
           "away": "https://dlskitshub.com/wp-content/uploads/Dream-League-Soccer-DLS-512%C3%97512-OGC-Nice-Away-Kits-300x300.png",
           "gk_away": "https://dlskitshub.com/wp-content/uploads/Dream-League-Soccer-DLS-512%C3%97512-OGC-Nice-GoalKeeper-Away-Kits-300x300.png",
@@ -3230,16 +3231,6 @@
           "home": "https://dlskitshub.com/wp-content/uploads/Dream-League-Soccer-DLS-512%C3%97512-Parma-Calcio-Home-Kits.png",
           "third": "https://dlskitshub.com/wp-content/uploads/Dream-League-Soccer-DLS-512%C3%97512-Parma-Calcio-Third-Kits-300x300.png",
           "unknown": "https://i.imgur.com/ZNB9K80.png"
-        }
-      }
-    },
-    "pec_zwolle": {
-      "name": "PEC Zwolle",
-      "logo": "https://r2.thesportsdb.com/images/media/team/badge/qpvqwy1473534822.png",
-      "league": "eredivisie",
-      "seasons": {
-        "2024": {
-          "home": "https://img.dreamkitsapp.com/kits/pec-zwolle-home-2025-dls19.png"
         }
       }
     },
@@ -3497,9 +3488,6 @@
       "league": "bundesliga",
       "is_popular": true,
       "seasons": {
-        "2024": {
-          "home": "https://img.dreamkitsapp.com/kits/rb-leipzig-home-2025-dls25.png"
-        },
         "2026": {
           "away": "https://dlskitshub.com/wp-content/uploads/Dream-League-Soccer-DLS-512%C3%97512-Sparta-Rotterdam-Away-Kits-145x100.png",
           "home": "https://dlskitshub.com/wp-content/uploads/Dream-League-Soccer-DLS-512%C3%97512-Caracas-FC-Home-Kits-145x100.png",
@@ -4061,6 +4049,15 @@
         }
       }
     },
+    "top_mobile_games_android": {
+      "name": "Top Mobile Games Android",
+      "league": "unknown",
+      "seasons": {
+        "2025": {
+          "unknown": "https://img.dreamkitsapp.com/flags/pt.png"
+        }
+      }
+    },
     "torino": {
       "name": "Torino",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/xxprty1448806802.png",
@@ -4195,6 +4192,16 @@
           "home": "https://dlskitshub.com/wp-content/uploads/Dream-League-Soccer-DLS-512%C3%97512-Udinese-Calcio-Home-Kits-300x300.png",
           "third": "https://dlskitshub.com/wp-content/uploads/Dream-League-Soccer-DLS-512%C3%97512-Udinese-Calcio-Third-Kits-300x300.png",
           "unknown": "https://i.imgur.com/FjovIfz.png"
+        }
+      }
+    },
+    "uniformes": {
+      "name": "Uniformes",
+      "logo": "https://img.dreamkitsapp.com/icon.png",
+      "league": "unknown",
+      "seasons": {
+        "2024": {
+          "home": "https://img.dreamkitsapp.com/kits/cruz-azul-home-2025-dls.png"
         }
       }
     },
