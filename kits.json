@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_updated": "2026-07-24",
+  "last_updated": "2026-07-25",
   "leagues": {
     "argentine_primera_division": {
       "id": "argentine_primera_division",
@@ -251,9 +251,6 @@
           "home": "https://imdk.top/qHswVcf.png",
           "third": "https://i.imgur.com/7PsxrNj.png",
           "unknown": "https://sakibpro.com/wp-content/uploads/2024/04/Al-Hilal-GK.png"
-        },
-        "2026": {
-          "unknown": "https://img.dreamkitsapp.com/flags/pt.png"
         }
       }
     },
@@ -386,7 +383,7 @@
           "gk_third": "https://i.imgur.com/05SNbHX.png",
           "home": "https://i.imgur.com/GPRTcD9.png",
           "third": "https://i.ibb.co/D1Hczgc/argentina-adidas-world-cup-2022-third.png",
-          "unknown": "https://sakibpro.com/wp-content/uploads/2024/04/ARG-T-24-GFXPELON.png"
+          "unknown": "https://sakibpro.com/wp-content/uploads/2024/08/LAFAD.png"
         },
         "2025": {
           "away": "https://sakibpro.com/wp-content/uploads/2025/10/argentina-adidas-world-cup-2022-kits-dls25-away.png",
@@ -412,9 +409,6 @@
       "seasons": {
         "2024": {
           "unknown": "https://sakibpro.com/wp-content/uploads/2024/03/jQNoP5o1.png"
-        },
-        "2025": {
-          "home": "https://img.dreamkitsapp.com/kits/paris-saint-germain-home-fifa-club-world-cup-2025-dls19.png"
         },
         "2026": {
           "unknown": "https://img.dreamkitsapp.com/shields/featured/paris-saint-germain.png"
@@ -647,7 +641,7 @@
           "unknown": "https://sakibpro.com/wp-content/uploads/2025/09/r8BATuG-11.png"
         },
         "2026": {
-          "unknown": "https://i.imgur.com/r8BATuG.png"
+          "unknown": "https://sakibpro.com/wp-content/plugins/td-composer/legacy/Newspaper/assets/images/no-thumb/td_696x0.png"
         }
       }
     },
@@ -885,6 +879,16 @@
           "gk_third": "https://i.imgur.com/mFf7Sp7.png",
           "home": "https://i.imgur.com/WKKqrBe.png",
           "third": "https://i.imgur.com/am9muZV.png"
+        }
+      }
+    },
+    "braga": {
+      "name": "Braga",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/8g4aod1678717261.png",
+      "league": "primeira_liga",
+      "seasons": {
+        "2024": {
+          "home": "https://img.dreamkitsapp.com/kits/sporting-braga-home-2025-dls.png"
         }
       }
     },
@@ -1612,7 +1616,7 @@
     },
     "england": {
       "name": "England",
-      "logo": "https://dlskitsurl.com/wp-content/uploads/2026/03/premier-league-logo-png-transparent.png",
+      "logo": "https://kitdls.net/wp-content/uploads/2023/09/Logo-KitDLS-Net.png",
       "league": "national_team",
       "seasons": {
         "2024": {
@@ -2167,6 +2171,9 @@
       "seasons": {
         "2024": {
           "home": "https://sakibpro.com/wp-content/uploads/2024/08/Girona-Home-Kit-2024-2025-DLS-24.png"
+        },
+        "2025": {
+          "home": "https://img.dreamkitsapp.com/kits/girona-fc-home-laliga-ea-sports-2025-2026-dls25.png"
         }
       }
     },
@@ -2538,7 +2545,7 @@
     },
     "juventus": {
       "name": "Juventus",
-      "logo": "https://dlskits.com/wp-content/uploads/2022/01/DLS-Kits-New-Logo-200x80-1.png",
+      "logo": "https://dlskits.com/wp-content/uploads/2025/10/dlskits.com-icon-showing-dream-league-soccer-kits-of-football-clubs-150x150.png",
       "league": "serie_a",
       "is_popular": true,
       "seasons": {
@@ -3643,6 +3650,16 @@
         }
       }
     },
+    "portsmouth": {
+      "name": "Portsmouth",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/j13pfe1601726274.png",
+      "league": "championship",
+      "seasons": {
+        "2024": {
+          "home": "https://img.dreamkitsapp.com/kits/portsmouth-home-2025-dls19.png"
+        }
+      }
+    },
     "portugal": {
       "name": "Portugal",
       "logo": "https://kitdls.net/wp-content/uploads/2023/09/Logo-KitDLS-Net.png",
@@ -3944,6 +3961,16 @@
         }
       }
     },
+    "rio_ave": {
+      "name": "Rio Ave",
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/ngbklq1628851239.png",
+      "league": "primeira_liga",
+      "seasons": {
+        "2026": {
+          "unknown": "https://img.dreamkitsapp.com/flags/pt.png"
+        }
+      }
+    },
     "river": {
       "name": "River",
       "league": "csf",
@@ -4125,9 +4152,6 @@
           "gk_third": "https://i.imgur.com/TOcePmL.png",
           "home": "https://i.imgur.com/Ymt7fMy.png",
           "third": "https://i.imgur.com/cjWZcrN.png"
-        },
-        "2026": {
-          "unknown": "https://img.dreamkitsapp.com/flags/pt.png"
         }
       }
     },
@@ -4258,6 +4282,7 @@
       "is_popular": true,
       "seasons": {
         "2024": {
+          "home": "https://img.dreamkitsapp.com/kits/sevilla-home-2025-dls-classic.png",
           "unknown": "https://sakibpro.com/wp-content/uploads/2024/08/Kit-Sevilla-CF-2023-2024-san-nha-DLS-2023.png"
         },
         "2026": {
@@ -4687,15 +4712,6 @@
         }
       }
     },
-    "uniforme_local_zealand_512x512": {
-      "name": "Uniforme Local Zealand 512x512",
-      "league": "unknown",
-      "seasons": {
-        "2026": {
-          "home": "https://img.dreamkitsapp.com/kits/new-zealand-home-fifa-world-cup-2026-dls26.png"
-        }
-      }
-    },
     "union_berlin": {
       "name": "Union Berlin",
       "logo": "https://r2.thesportsdb.com/images/media/team/badge/q0o5001599679795.png",
@@ -4887,6 +4903,9 @@
           "gk_third": "https://i.imgur.com/XtWjKCQ.png",
           "home": "https://i.imgur.com/3PVMKWK.png",
           "third": "https://i.imgur.com/gZtw9XM.png"
+        },
+        "2026": {
+          "unknown": "https://img.dreamkitsapp.com/flags/pt.png"
         }
       }
     },
